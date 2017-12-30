@@ -1,0 +1,100 @@
+/* ============================================================================
+ * GLOBAL
+ * ============================================================================
+ */
+
+body {
+    background-color: #0f1c3b;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7b8292;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400
+}
+
+/* ============================================================================
+ * LAYOUT
+ * ============================================================================
+ */
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block
+}
+
+/* ============================================================================
+ * NAVIGATION BAR
+ * ============================================================================
+ */
+
+/* ============================================================================
+ * FOOTER
+ * ============================================================================
+ */
+
+/* ============================================================================
+ * HERO
+ * ============================================================================
+ */
+
+.hero-quick-link-block {
+    position: relative;
+    overflow: hidden;
+    width: 193px;
+    height: 180px;
+    margin-left: 10px;
+    padding-top: 50px;
+    border-bottom-width: 0;
+    border-radius: 15px;
+    background-image: -webkit-linear-gradient(315deg, #ffe49a, #ec6d9a);
+    background-image: linear-gradient(135deg, #ffe49a, #ec6d9a);
+    box-shadow: 7px 7px 70px 0 rgba(0, 0, 0, .2);
+    -webkit-transition: box-shadow .2s ease, -webkit-transform .2s ease;
+    transition: box-shadow .2s ease, -webkit-transform .2s ease;
+    transition: transform .2s ease, box-shadow .2s ease;
+    transition: transform .2s ease, box-shadow .2s ease, -webkit-transform .2s ease;
+    text-align: center;
+    text-decoration: none
+    /*transition: transform 0.2s ease 0s, box-shadow 0.2s ease 0s, -webkit-transform 0.2s ease 0s;*/
+}
+
+.hero-quick-link-block:hover {
+    z-index: 10;
+    box-shadow: 7px 7px 70px 0 rgba(0, 0, 0, .5);
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15)
+}
+
+.hero-quick-link-title {
+    position: relative;
+    z-index: 10;
+    color: rgba(0, 0, 0, .3);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+.hero-quick-link-title.subtitle {
+    display: block;
+    width: 160px;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-transform: none
+}
+
+.small-background-icon {
+    position: absolute;
+    right: -80px;
+    bottom: 0;
+    z-index: 1;
+    height: 100%;
+    opacity: .1
+}

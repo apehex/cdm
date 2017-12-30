@@ -1,3 +1,10 @@
+HTML
+----
+
+mettre les liens
+
+w--current dans la navbar pour la page ouverte
+
 Pages
 -----
 
@@ -18,7 +25,12 @@ classer par intervention ?
 masquer un maximum de texte tant que l'utilisateur ne montre pas d'intérêt :
 - clients : réalisations
 - formation : seulement les logos / liens / date ? / ...
-- information de contact APRES avoir visualisé une mission
+- information de contact APRES avoir visualisé une mission : coordonnées / demande de devis
+
+SIMPLIFIER les images :
+- mettre des logos
+- retirer les graphiques bidons et génériques / parlent pas au visiteur à moins de connaître le domaine...
+- pas de photos trop chargée
 
 Façade google
 -------------
@@ -71,8 +83,17 @@ Site actuel
 -----------
 
 Intérêt de préciser les instruments ?
+
 Utilité des images ?
+
+Interventions groupées par type, pourquoi ?
+Est-ce que les visiteurs viennent en se disant je veux me faire former ??
+
+Possibilité de clicker sur la bannière.
+Ajouter les interactions habituelles
+
 Activités principale ? La plus profitable ? Priorité / 
+
 Ne pas isoler les réalisations et parcours du reste :
 - ça n'a pas d'intérêt en soi
 - confirme l'expertise / missions
