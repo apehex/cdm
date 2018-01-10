@@ -11,7 +11,7 @@
     <meta name="twitter:card" content="">
     <meta property="og:title" content="">
     <meta property="og:description" content="">
-    <script type="text/javascript" src="./ai_files/webfont.js"></script>
+    <script type="text/javascript" src="./files/webfont.js"></script>
     <script type="text/javascript">
         WebFont.load({
             google: {
@@ -27,31 +27,30 @@
             n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
         }(window, document);
     </script>
-    <link rel="shortcut icon" type="image/x-icon" href="./ai_files/logo.svg">
-    <link rel="apple-touch-icon" href="./ai_files/logo.svg">
-    <link rel="stylesheet" type="text/css" href="./ai_files/main.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 991px)" href="./ai_files/medium.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 767px)" href="./ai_files/small.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 479px)" href="./ai_files/tiny.css">
-    <link rel="stylesheet" type="text/css" href="./ai_files/webfont.css">
-    <!-- <link rel="stylesheet" type="text/css" href="./ai_files/cropbar.css" id="style-1-cropbar-clipper">
-    <link rel="stylesheet" type="text/css" href="./ai_files/intercom.css" id="intercom-stylesheet"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="./files/logo.svg">
+    <link rel="apple-touch-icon" href="./files/logo.svg">
+    <link rel="stylesheet" type="text/css" href="./files/main.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 991px)" href="./files/medium.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 767px)" href="./files/small.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 479px)" href="./files/tiny.css">
+    <link rel="stylesheet" type="text/css" href="./files/webfont.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./files/cropbar.css" id="style-1-cropbar-clipper">
+    <link rel="stylesheet" type="text/css" href="./files/intercom.css" id="intercom-stylesheet"> -->
 </head>
 
 <body>
     <div class="demo-popup" data-ix="hide-popup" style="opacity: 0; display: none;">{% include 'popup.html' %}</div>
     <div class="navbar w-nav" data-animation="over-right" data-collapse="medium" data-doc-height="1" data-duration="400" data-no-scroll="1">{% include 'navbar.html' %}</div>
     <div class="website-wrapper">
-        <div class="hero-video w-background-video" data-poster-url="./ai_files/hero.jpg" data-wf-ignore="data-wf-ignore">{% include 'hero.html' %}</div>
+        <div class="hero-video w-background-video" data-poster-url="./files/hero.jpg" data-wf-ignore="data-wf-ignore">{% include 'hero.html' %}</div>
         <div class="hero-quick-links-wrapper w-hidden-main w-hidden-medium">{% include 'quick_links.html' %}</div>
         <div class="dark section" id="industrie">{% include 'section_industrie.html' %}</div>
         <div class="dark section" id="expertise">{% include 'section_expertise.html' %}</div>
-        <div class="dark section" id="energies">{% include 'section_energies.html' %}</div>
         <div class="section with-video" id="contact">{% include 'section_contact.html' %}</div>
         <div class="footer">{% include 'footer.html' %}</div>
     </div>
-    <script src="./ai_files/jquery.min.js" type="text/javascript"></script>
-    <script src="./ai_files/animate.js" type="text/javascript"></script>
+    <script src="./files/jquery.min.js" type="text/javascript"></script>
+    <script src="./files/animate.js" type="text/javascript"></script>
     <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
 
