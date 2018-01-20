@@ -2,7 +2,7 @@ import codecs
 import os
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-TEMPLATE_FOLDER = './inspirations/ai/'
+TEMPLATE_FOLDER = '../prototyes/ai/'
 TEMPLATE_FILE = 'home.tpl'
 OUTPUT_FILE = os.path.join(TEMPLATE_FOLDER, TEMPLATE_FILE + '.html')
 

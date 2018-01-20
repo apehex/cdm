@@ -1,0 +1,24 @@
+1996 - 1998	 	PHILIPS ELECTRONIQUE INDUSTRIELLE, ), 190 p., 250MF, division EMT (constructeur machines de câblage automatique de circuits électroniques). Directeur Technique Support Client sur site.
+
+Mission : Avec une équipe de 11 Ingénieurs et Tech. Sup. dans le cadre d’un contrat de service auprès de Philips Electronique Grand Public :
+		
+1)  Assurer le transfert de compétence fournisseurs / utilisateurs (production et maintenance) par la formation, le support technique 24h/24, l’amélioration de la productivité et le conseil en maintenance préventive.
+		2) Superviser l’installation des nouvelles lignes de production. 
+3) Rendre compte de la performance des équipements (200 machines) et du personnel (500 Opérateurs, Régleurs et Agents Process) auprès des Responsables Production et Maintenance du site.
+		
+		Principales Réalisations :
+
+    • Installation des lignes de production (insertion automatique) opérationnelle en une semaine avec un rendement de 75%.
+    • Amélioration de la productivité des lignes de 50% (au démarrage) à 82% de la production théorique pleine capacité.
+    • Amélioration de la fiabilité des équipements entraînant la réduction du down time machines de 15% à 7%. La stratégie d’amélioration des équipements est basée sur des méthodes d’analyse fonction de l’observabilité des événements.
+    • Amélioration de l’ergonomie des détoureuses de circuits électroniques Grohmann. La modification permet un redémarrage immédiat après intervention de l’opérateur au lieu d’une procédure de redémarrage de 5’ (=> gain de production de 0h30 /j / ligne  1900 mobiles / mois en plus).
+    • Développement en interne d’une GMAO opérationnelle en 3 mois fournissant les données de base au rapport mensuel d’activité et permettant une gestion en temps réel de celle ci.
+    • Réalisation d’une étude technique de capabilité des systèmes d’alimentation en composants des machines de pose Philips (FCM, 65 000 comp./h). Celle ci met en évidence l’influence de la maintenance préventive des chargeurs et spécifie les méthodes de traitement des données afin d’opter pour une maintenance conditionnelle.
+    • Réalisation d’une étude technique des systèmes d’alimentation  en composants des machines de pose Philips (FCM ). Cette étude démontre l’influence de l’hygrométrie de l’atelier sur les effets ESD pour les composants 0402 (1mmX0,5mm).
+    • J’ai déterminé la cause première de pollution générée par les fours de refusions 	(ruissellement de vapeurs grasses issues du flux incorporé à la pâte à braser) et spécifié les méthodes et les paramètres de réglages optimaux pour s’en affranchir. La cause n’a pu être confirmée par analyse chimique  et spectrométrique que 4 mois plus tard.
+    • J’ai réalisé une étude de rentabilité sur l’opportunité d’installer un réseau de vide général usine. J’ai ainsi préconisé le développement d’une maintenance préventive systématique accrue face à un retour d’investissement du système envisagé par le client d’environ 12 ans. La rentabilité préalablement établie était très optimiste et découlait d’une étude menée par le fournisseur potentiel du réseau de vide.
+    • Soutien technique à un membre de l’équipe support en lui montrant la manière de conduire un diagnostic sur défaillance en moins de 1h et permettant d’obtenir la satisfaction du client malgré 2h30 d’arrêt de production. J’ai apporté ce soutien 1 mois après ma prise de fonction malgré ma méconnaissance totale de ce type d’équipement (sérigraphie MPM). 
+    • Soutien technique aux ingénieurs de l’équipe face à un dysfonctionnement non élucidé avec l’aide du constructeur des machines de sérigraphie (MPM) après 3 jours de recherches. Acquisition des connaissances nécessaires auprès des spécialistes et diagnostic de la cause en 3/4h qui était un capteur de pression ???? mauvais réglage ???? panne aléatoire.
+    • Transfert de compétences vers le client réalisé en 1 an au lieu de 3 initialement prévus.
+			
+		Résultat :	Transfert de compétences réalisé en 1 an et demi au lieu de 3 initialement prévus.

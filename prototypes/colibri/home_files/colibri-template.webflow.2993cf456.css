@@ -670,8 +670,8 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(270deg, rgba(25, 77, 119, .5), rgba(25, 77, 119, .5)), url("http://uploads.webflow.com/59a3ba84fdd0390001e12581/59a3ba84fdd0390001e125a9_davide-cantelli-240809.jpg");
-  background-image: linear-gradient(180deg, rgba(25, 77, 119, .5), rgba(25, 77, 119, .5)), url("http://uploads.webflow.com/59a3ba84fdd0390001e12581/59a3ba84fdd0390001e125a9_davide-cantelli-240809.jpg");
+  background-image: -webkit-linear-gradient(270deg, rgba(25, 77, 119, .5), rgba(25, 77, 119, .5)), url("./heros_1.jpg");
+  background-image: linear-gradient(180deg, rgba(25, 77, 119, .5), rgba(25, 77, 119, .5)), url("./heros_1.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -1624,6 +1624,10 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+
+.social-icons img {
+  max-height: 24px;
 }
 
 .social-icons.footer-icons {
@@ -2595,8 +2599,8 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url("http://uploads.webflow.com/59a3ba84fdd0390001e12581/59a92d48622d450001e47377_alesia-kazantceva-283291.jpg");
-  background-image: linear-gradient(180deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url("http://uploads.webflow.com/59a3ba84fdd0390001e12581/59a92d48622d450001e47377_alesia-kazantceva-283291.jpg");
+  background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url("./heros_2.jpg");
+  background-image: linear-gradient(180deg, rgba(34, 71, 101, .7), rgba(34, 71, 101, .7)), url("./heros_2.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
