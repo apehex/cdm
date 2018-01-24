@@ -32,13 +32,14 @@ Héros
 - Réalisations
   - Titre
   - Résultats
+- Bouton appel
 
 Faits
 =====
 
 Chiffrer :
 - ton expérience
-- 
+- ta 
 
 Missions
 ========
