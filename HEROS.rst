@@ -72,25 +72,25 @@ EX 3 : MMP
 Catégorie
 =========
 
-Efficience industrielle
+Assistance à projet
 
 Projecteur
 ==========
 
-
+?
 
 Titre
 =====
 
-Restructuration industrielle
+- Restructuration industrielle (sauvetage ?)
+- Réorganisation de la maintenance (à l'échelle européenne ?)
 
 Description
 ===========
 
-le site à effectif constant est passé de 32M€ à 52M€ de CA.
-Les travaux de portant le site de 7000 à 11000m² couverts se sont déroulés dans la continuité d’activité de production sans réduction de celle-ci
-
-L'entreprise perdait de l'argent depuis 10 ans. racheté par les autrichiens en 2005, plan de restructuration (passé de 250 personnes à 180 environ) et tous les agents de maintenance ont refusé les nouvelles conditions de travail, donc tous licenciés et plus de maintenance dans l'usine, remplacée par sous traitance complète de cette fonction, sous traitant ui a largement abusé de la situation.
+- redressement de la fonction maintenance
+- activité maintenue pendant les travaux d'extension
+- CA passe de 32M€ à 52M€
 
 ************
 EX 4 : Areva
