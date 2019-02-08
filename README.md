@@ -9,7 +9,7 @@
 <p align="center">
   Making companies more resilient.
   <br>
-  <a href="https://apehex.github.io/projects"><strong>Learn more about CDM »</strong></a>
+  <a href="https://apehex.github.io/cdm"><strong>Learn more about CDM »</strong></a>
   <br>
   <br>
   <a href="https://apehex.github.io/cdm/consulting">Consulting</a>
