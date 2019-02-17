@@ -30,15 +30,20 @@ pinterest_url:
 slack_url:
 twitter_url:
 
+# Collections
+collections:
+  missions:
+    output: false
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
 
-# Collections
-collections:
-  missions:
-    output: false
+# Publication settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+author: apehex
 
 # Exclude from processing.
