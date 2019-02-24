@@ -6,9 +6,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   I make companies more resilient to industrial risks.
   And when it comes down to it, I assess the primary causes of incidents
   and make sure your companies grows from it.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-author: apehex
+
+# Contact information
 street_address: 27 rue de la Laye 
 city: Laduz-Valravillon
 state: Yonne
@@ -32,7 +31,9 @@ twitter_url:
 
 # Collections
 collections:
-  missions:
+  about:
+    output: false
+  achievements:
     output: false
 
 # Build settings
