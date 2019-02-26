@@ -24,14 +24,21 @@ assurer service continu (maintenance)
 
 # Achievements
 
-![AREVA][areva-logo] bla...
+{% for achievement in site.achievements %}
+<li>
+    <h2>{{ achievement.title }}</h2>
+    <h2>{{ achievement.category }}</h2>
+    <p>{{ achievement.content | markdownify }}</p>
+</li>
+{% endfor %}
 
+# They trust us
+
+![AED][aed-logo]
+![Areva][areva-logo]
+![Benning][benning-logo]
 ![MMP][mmp-logo]
-- Restructuration industrielle : pilotage extension de l’usine principale de 9000m² à 13700m² (tout en augmentant la production de 27%) et réorganisation dont transfert entre sites et acquisitions (investissement de 7,5M€ - coordination OPC de 20 corps d’Etat).Tenue du budget et des délais industriels.
-- Travaux spécifiques : Détection incendie et essais tunel déchets, clim bureaux, clim ateliers et humidification, KBA105, transfert des Bobst de Seignelay à Monéteau, Air comprimé, préparation à la vente de Seignelay, Identification et traitement des effractions Seignelay + vols Monéteau, optimisation des contrats d’énergies EDF, conception schéma directeur manutention Monéteau, expertises bris machine UV x 2, expertise crash barres de pinces Bobst, Planéta, UV, mise au point des programmes de maintenance préventive sur ensemble du parc machine.
-- Conception et mise au point d’un retourneur de caisses américaines autosynchrone et sécurisé. Coût final 10% de l’offre du concepteur de la transitique automatisée (DÜCKER) et temps de cycle inférieur de 35% au système proposé (économie usine de 120k€, réduction des risques de TMS au poste).
-- Expertise crach train de chaîne KOMORI, mise en évidence d’un acte de malveillance. Coût 210k€.
-- Diagnostic BOBST, résolution casse répétée abat feuille en lieu et place du constructeur machine sur SP 130ER1.
+![Sealed Air][sealed-air-logo]
 
 # Certifications
 
@@ -49,8 +56,11 @@ assurer service continu (maintenance)
 
 ![CNEFIC][cnefic-logo] Experts certifié dans le Génie frigorifique, le Génie climatique, le domaine des pompes à chaleur, les transports frigorifiques et l’isolation.
 
+[aed-logo]: /assets/images/aed.png
 [areva-logo]: /assets/images/areva.png
+[benning-logo]: /assets/images/benning.png
 [mmp-logo]: /assets/images/mmp.png
+[sealed-air-logo]: /assets/images/sealed-air.png
 
 [cie-logo]: /assets/images/cie.png
 [cnefic-logo]: /assets/images/cnefic.png
