@@ -31,10 +31,8 @@ twitter_url:
 
 # Collections
 collections:
-  about:
-    output: false
   achievements:
-    output: false
+    output: true
 
 # Build settings
 markdown: kramdown
