@@ -1,5 +1,5 @@
 ---
-layout: expertizing
+layout: home_yin
 title: CDM - Expert Asssessment
 ---
 

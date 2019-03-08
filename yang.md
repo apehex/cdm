@@ -1,5 +1,5 @@
 ---
-layout: consulting
+layout: home_yang
 title: CDM - Consulting
 ---
 
