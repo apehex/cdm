@@ -1,6 +1,6 @@
 ---
 title: Prévention d'un incendie imminent
-missions:[Audit, Project Ownership]
+missions: [Audit, Project Ownership]
 domains: [Dependability, Electronic Engineering]
 ---
 - mise en évidence de risques élevés dans l'installation d'un méthaniseur
