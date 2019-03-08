@@ -1,12 +1,5 @@
 # Site settings
 title: CDM
-subtitle_consulting: Supporting Industries from Decision to Operations
-description_consulting: >-
-  Bla
-subtitle_expertizing: Outgrowing Incidents and Risks
-description_expertizing: >-
-  When it comes down to it, I assess the primary causes of incidents
-  and make sure you grow from it.
 
 # Contact information
 street_address: 27 rue de la Laye 
@@ -33,6 +26,14 @@ twitter_url:
 collections:
   achievements:
     output: true
+  yang:
+    output: true
+    subtitle: Supporting Industries from Decision to Operations
+    description: -
+  yin:
+    output: true
+    subtitle: Outgrowing Incidents and Risks
+    description: When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.
 
 # Build settings
 markdown: kramdown
