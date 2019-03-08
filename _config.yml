@@ -29,7 +29,7 @@ collections:
   yang:
     output: true
     subtitle: Supporting Industries from Decision to Operations
-    description: -
+    description:
   yin:
     output: true
     subtitle: Outgrowing Incidents and Risks
