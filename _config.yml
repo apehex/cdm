@@ -1,11 +1,12 @@
 # Site settings
 title: CDM
-subtitle: Making companies more resilient
-email: contact@c-dm.com
-description: >- # this means to ignore newlines until "baseurl:"
-  I make companies more resilient to industrial risks.
-  And when it comes down to it, I assess the primary causes of incidents
-  and make sure your companies grows from it.
+subtitle_consulting: Supporting Industries from Decision to Operations
+description_consulting: >-
+  Bla
+subtitle_expertizing: Outgrowing Incidents and Risks
+description_expertizing: >-
+  When it comes down to it, I assess the primary causes of incidents
+  and make sure you grow from it.
 
 # Contact information
 street_address: 27 rue de la Laye 
@@ -14,10 +15,9 @@ state: Yonne
 zip_code: 89110
 country: France
 phone: (33) 633-695-568
+email: contact@c-dm.com
 
 # Social settings
-twitter_username:
-github_username: moodule
 500px_url:
 facebook_url:
 github_url: https://github.com/moodule

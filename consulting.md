@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Industries - Consulting
+layout: consulting
+title: CDM - Consulting
 ---
 
 # Audit RAR

@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Renewable Energies - Expert Assessment
+layout: expertizing
+title: CDM - Expert Asssessment
 ---
 
 L’Expertise concerne tous les acteurs (PME, PMI, Tertiaire, Administration, Collectivités Territoriales, Particuliers) et selon le type de celles-ci, des sujets associés, par exemple : Défaillances, bris de machine, Litiges liés aux ENR (dont Pompes à Chaleur, Chaudières bois et granulés, Photovoltaïque, Usine de Méthanisation, Station de traitement de l’eau potable).

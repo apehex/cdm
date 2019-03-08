@@ -1,14 +1,4 @@
 ---
 layout: default
-title: CDM - Making companies more resilient
+title: CDM - A Holistic Take on your Business
 ---
-
-# Services
-
-Consulting
-
-Expert Assessment
-
-# Domains
-
-l’électrotechnique, la Thermique, la Mécanique et l’Automatique.
