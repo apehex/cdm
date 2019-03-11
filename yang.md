@@ -1,9 +1,8 @@
 ---
 layout: home_yang
-title: CDM - Consulting
+title: CDM - Supporting companies from decision to operations
 ---
-
-# Audit RAR
+# Audit RAR
 
 # Project Support
 
