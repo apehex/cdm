@@ -2,7 +2,13 @@
 layout: home
 title: CDM - A Holistic Take on your Business
 ---
-<ul>
-  <li><a href="{{ 'yang.html' | absolute_url }}">Consulting</a></li>
-  <li><a href="{{ 'yin.html' | absolute_url }}">Expert Assessment</a></li>
-</ul>
+
+<!-- WHOLE SCREEN NAV -->
+{% include navigation.html %}
+
+<!-- BG -->
+<main class="page-content" aria-label="Content">
+  <div class="wrapper">
+    <div id="bg"></div>
+  </div>
+</main>
