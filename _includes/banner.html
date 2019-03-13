@@ -2,9 +2,12 @@
   <section id="banner">
     <div class="content">
       <header>
-        <h1>Hi, I’m CDM</h1>
-        <p>I make companies resilient to industrial risks</p>
-        <p>I'm an expert in the field of renewable energies</p>
+        <h1>Hi, I’m Denis Mougeolle</h1>
+        {% if page.side == "yang" %}
+        <p>I support companies from decision to operations</p>
+        {% elif page.side == "yin"}
+        <p>I help people and companies to outgrow incidents and litigation</p>
+        {% endif %}
       </header>
       <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
       <ul class="actions">
