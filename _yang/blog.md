@@ -1,4 +1,4 @@
 ---
-layout: page_yang
+layout: page
 title: Publications
 ---

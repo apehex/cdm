@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: landing
 title: CDM - A Holistic Take on your Business
 ---
 

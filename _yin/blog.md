@@ -1,4 +1,4 @@
 ---
-layout: page_yin
+layout: page
 title: Publications
 ---
