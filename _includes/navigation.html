@@ -3,13 +3,7 @@
   <header class="major">
     <h2>Menu</h2>
   </header>
-{% if not page.collection %}
-  <ul>
-    <li><a href="{{ '_yang/index.html' | absolute_url }}">Consulting - Supporting companies from decision to operations</a></li>
-    <li><a href="{{ '_yin/index.html' | absolute_url }}">Expert Assessment - Outgrowing incidents and litigation</a></li>
-    <li><a href="{{ '_yang/blog' | absolute_url }}">Publications</a></li>
-  </ul>
-{% elsif page.collection == "yang" %}
+{% if page.collection == "yang" %}
   <ul>
     <li><a href="{{ '' | absolute_url }}">Home</a></li>
     <li>
@@ -66,6 +60,12 @@
       </ul>
     </li>
     <li><a href="{{ '' | absolute_url }}">Publications</a></li>
+  </ul>
+{% else %}
+  <ul>
+    <li><a href="{{ 'yang' | absolute_url }}">Consulting - Supporting companies from decision to operations</a></li>
+    <li><a href="{{ 'yin' | absolute_url }}">Expert Assessment - Outgrowing incidents and litigation</a></li>
+    <li><a href="{{ 'blog' | absolute_url }}">Publications</a></li>
   </ul>
 {% endif %}
 </nav>
