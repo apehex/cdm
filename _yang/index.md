@@ -1,5 +1,5 @@
 ---
-layout: home_yang
+layout: home
 title: CDM - Supporting companies from decision to operations
 ---
 # Audit RAR

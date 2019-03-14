@@ -1,5 +1,5 @@
 ---
-layout: page_yin
+layout: page
 title: About CDM
 permalink: /about/
 ---

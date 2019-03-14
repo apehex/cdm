@@ -1,5 +1,5 @@
 ---
-layout: home_yin
+layout: home
 title: CDM - Outgrowing incidents and litigation
 ---
 
