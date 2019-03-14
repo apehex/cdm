@@ -5,17 +5,23 @@
 
   <body>
 
-    <!-- WHOLE SCREEN NAV -->
-    {% include navigation.html %}
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-    <!-- BG -->
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
 
-    {%- include footer.html -%}
+                {{ content }}
+
+            </div>
+        </div>
+
+        {% include sidebar.html %}
+
+    </div>
+
+    {%- include scripts.html -%}
 
   </body>
 
