@@ -1,8 +1,22 @@
----
-layout: default
----
-<div class="home">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {{ content }}
+  {%- include head.html -%}
 
-</div>
+  <body>
+
+    <!-- WHOLE SCREEN NAV -->
+    {% include navigation.html %}
+
+    <!-- BG -->
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
