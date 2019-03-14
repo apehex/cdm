@@ -1,6 +1,7 @@
 ---
 layout: home
-title: CDM - Supporting companies from decision to operations
+title: CDM
+subtitle: Supporting companies from decision to operations
 ---
 # Audit RAR
 
