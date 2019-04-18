@@ -2,7 +2,7 @@
 title: CDM
 
 # Contact information
-street_address: 27 rue de la Laye 
+street_address: 27 rue de la Laye
 city: Laduz-Valravillon
 state: Yonne
 zip_code: 89110
@@ -11,21 +11,15 @@ phone: (33) 633-695-568
 email: contact@c-dm.com
 
 # Social settings
-500px_url:
-facebook_url:
 github_url: https://github.com/moodule
 gitlab_url:
-googleplus_url:
-instagram_url:
 linkedin_url: https://fr.linkedin.com/in/denis-mougeolle-05843858
-pinterest_url:
-slack_url:
 twitter_url:
 
 # Collections
 collections:
   achievements:
-    output: true
+    output: false
   yang:
     output: true
     subtitle: Supporting Industries from Decision to Operations
@@ -43,7 +37,8 @@ plugins:
 
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://moodule.github.io/cdm" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty
 author: apehex
 
 # Exclude from processing.
