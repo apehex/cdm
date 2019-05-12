@@ -2,69 +2,104 @@
 layout: page
 title: About CDM
 ---
-# Profile
+<section>
+    <header class="major">
+        <h2>About me</h2>
+    </header>
+    <span class="image right"><img src="{{ 'assets/images/portrait.jpg' | relative_url }}" alt="" /></span>
+    <p>Ingénieur conseil à la tête du cabinet éponyme CDM, je suis spécialisé en Gestion des Risques et Efficience Industrielle.</p>
+    <p>Mon parcours s'est articulé autour des activités de maintenance ; pour amener les industries au plus près du service continu, j'ai progressivement intégré toutes les facettes de la production :
+    <ul>
+        <li>la <strong>direction technique</strong> à force d'adapter, intégrer les parcs machines</li>
+        <li>la <strong>gestion de projet</strong> en alignant les équipes sur les objectifs</li>
+        <li>la <strong>stratégie</strong> en anticipant, réglant la production</li>
+        <li>l'<strong>expertise</strong> par l'analyse des dysfonctionnements, l'arbitrage des différents</li>
+    </ul></p>
+    <p>Fort de 40 ans d’expérience professionnelle, 11 ans dans la Marine, 20 ans dans l’industrie et les services, 9 ans dans le Conseil, j'ai maintenant développé une approche holistique.</p>
+    <p>Par ailleurs je suis Expert Indépendant.</p>
+</section>
 
-Ingénieur Conseil à la tête du Cabinet éponyme CDM, je suis spécialisé en Gestion des Risques et Efficience Industrielle.
-
-Par ailleurs je suis Expert Indépendant.
-
-40 ans d’expérience professionnelle, 11 ans dans la Marine, 20 ans dans l’industrie et les services, 9 ans dans le Conseil.
-
-Mon parcours s'est structuré autour des activités de maintenance.
-=> expertise
-=> gestion de projet
-=> direction technique
-
-assurer service continu (maintenance)
-=> analyser les dysfonctionnements: expertise
-=> adapter, améliorer la technique: direction technique
-=> pallier les déficiences organisationnelles: gestion de projet
-=> anticiper, planfier: stratégie
-
-# Achievements
-
-{% for achievement in site.achievements %}
-<li>
+<section>
+    <header class="major">
+        <h2>Achievements</h2>
+    </header>
+    {% for achievement in site.achievements %}
     <h2>{{ achievement.title }}</h2>
-    <h2>{{ achievement.category }}</h2>
+    <!-- <h2>{{ achievement.category }}</h2> -->
     <p>{{ achievement.content | markdownify }}</p>
-</li>
-{% endfor %}
+    {% endfor %}
+</section>
 
-# They trust us
+<section>
+    <header class="major">
+        <h2>They trust me</h2>
+    </header>
+    <div class="box alt">
+        <div class="row gtr-50 gtr-uniform">
+            <div class="col-4"><span class="image fit"><img src="{{ '/assets/images/aed.png' | absolute_url }}" alt="" /></span></div>
+            <div class="col-4"><span class="image fit"><img src="{{ '/assets/images/areva.png' | absolute_url }}" alt="" /></span></div>
+            <div class="col-4"><span class="image fit"><img src="{{ '/assets/images/benning.png' | absolute_url }}" alt="" /></span></div>
+            <!-- Break -->
+            <div class="col-4"><span class="image fit"><img src="{{ '/assets/images/mmp.png' | absolute_url }}" alt="" /></span></div>
+            <div class="col-4"><span class="image fit"><img src="{{ '/assets/images/sealed-air.png' | absolute_url }}" alt="" /></span></div>
+        </div>
+    </div>
+</section>
 
-![AED][aed-logo]
-![Areva][areva-logo]
-![Benning][benning-logo]
-![MMP][mmp-logo]
-![Sealed Air][sealed-air-logo]
-
-# Certifications
-
-![ENSEM][ensem-logo] Diplôme d'Ingénieur
-
-![EISTI][eisti-logo] Mastère Spécialisé en Gestion des Risques sur les territoires.
-
-![IEAM][ieam-logo] MBA en Gestion et Management Stratégique d’Entreprise.
-
-![IFG][ifg-logo] 
-
-![UB][ub-logo] capacité en Droit.
-
-![CIE][cie-logo]
-
-![CNEFIC][cnefic-logo] Experts certifié dans le Génie frigorifique, le Génie climatique, le domaine des pompes à chaleur, les transports frigorifiques et l’isolation.
-
-[aed-logo]: /assets/images/aed.png
-[areva-logo]: /assets/images/areva.png
-[benning-logo]: /assets/images/benning.png
-[mmp-logo]: /assets/images/mmp.png
-[sealed-air-logo]: /assets/images/sealed-air.png
-
-[cie-logo]: /assets/images/cie.png
-[cnefic-logo]: /assets/images/cnefic.png
-[eisti-logo]: /assets/images/eisti.png
-[ensem-logo]: /assets/images/ensem.png
-[ieam-logo]: /assets/images/ieam.png
-[ifg-logo]: /assets/images/ifg.png
-[ub-logo]: /assets/images/ub.png
+<section>
+    <header class="major">
+        <h2>Certifications</h2>
+    </header>
+    <div class="features">
+        <article>
+            <span class="icon"><img src="{{ '/assets/images/ensem.png' | absolute_url }}" alt="" /></span>
+            <div class="content">
+                <h3>ENSEM</h3>
+                <p>Diplôme d'ingénieur</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-paper-plane"></span>
+            <div class="content">
+                <h3>EISTI</h3>
+                <p>Mastère Spécialisé en Gestion des Risques sur les territoires</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-rocket"></span>
+            <div class="content">
+                <h3>IEAM</h3>
+                <p>MBA en Gestion et Management Stratégique d’Entreprise</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-signal"></span>
+            <div class="content">
+                <h3>IFG</h3>
+                <p>?</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-signal"></span>
+            <div class="content">
+                <h3>UB</h3>
+                <p>Capacité en droit</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-signal"></span>
+            <div class="content">
+                <h3>CIE</h3>
+                <p>?</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-signal"></span>
+            <div class="content">
+                <h3>CNEFIC</h3>
+                <p>Experts certifié dans le Génie frigorifique, le Génie climatique, le domaine des pompes à chaleur, les transports frigorifiques et l’isolation</p>
+            </div>
+        </article>
+    </div>
+</section>
+>>>>>>> Stashed changes
