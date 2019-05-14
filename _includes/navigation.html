@@ -5,67 +5,66 @@
   </header>
 {% if page.collection == "yang" %}
   <ul>
-    <li><a href="{{ '' | absolute_url }}">Home</a></li>
+    <li><a href="{{ '/' | absolute_url }}">Home</a></li>
     <li>
       <span class="opener">Your Needs</span>
       <ul>
-        <li><a href="{{ 'yang/' | absolute_url }}">Feasibility Study</a></li>
-        <li><a href="{{ 'yang/' | absolute_url }}">Project Support</a></li>
-        <li><a href="{{ 'yang/' | absolute_url }}">Deployment Support</a></li>
-        <li><a href="{{ 'yang/' | absolute_url }}">Operation Support</a></li>
+        <li><a href="{{ '/yang/your-needs#feasibility-study' | absolute_url }}">Feasibility Study</a></li>
+        <li><a href="{{ '/yang/your-needs#project-support' | absolute_url }}">Project Support</a></li>
+        <li><a href="{{ '/yang/your-needs#deployment-support' | absolute_url }}">Deployment Support</a></li>
+        <li><a href="{{ '/yang/your-needs#operation-support' | absolute_url }}">Operation Support</a></li>
       </ul>
     </li>
     <li>
       <span class="opener">My Services</span>
       <ul>
-        <li><a href="{{ 'yang/' | absolute_url }}">Efficiency</a></li>
-        <li><a href="{{ 'yang/' | absolute_url }}">Dependability</a></li>
-        <li><a href="{{ 'yang/' | absolute_url }}">Risk Management</a></li>
-      </ul>
+        <li><a href="{{ '/yang/my-services#efficiency' | absolute_url }}">Efficiency</a></li>
+        <li><a href="{{ '/yang/my-services#dependability' | absolute_url }}">Dependability</a></li>
+        <li><a href="{{ '/yang/my-services#risk-management' | absolute_url }}">Risk Management</a></li>
     </li>
     <li>
       <span class="opener">About CDM</span>
       <ul>
-        <li><a href="{{ 'yang/about' | absolute_url }}">Achievements</a></li>
-        <li><a href="{{ 'yang/about' | absolute_url }}">Certifications</a></li>
+        <li><a href="{{ '/yang/about#achievements' | absolute_url }}">Achievements</a></li>
+        <li><a href="{{ '/yang/about#certifications' | absolute_url }}">Certifications</a></li>
       </ul>
     </li>
-    <li><a href="{{ 'yang/blog' | absolute_url }}">Publications</a></li>
+    <li><a href="{{ '/yang/blog' | absolute_url }}">Blog</a></li>
   </ul>
 {% elsif page.collection == "yin" %}
   <ul>
-    <li><a href="{{ '' | absolute_url }}">Home</a></li>
+    <li><a href="{{ '/' | absolute_url }}">Home</a></li>
     <li>
       <span class="opener">Your Problems</span>
       <ul>
-        <li><a href="{{ 'yin/' | absolute_url }}">Equipment Failure</a></li>
-        <li><a href="{{ 'yin/' | absolute_url }}">Equipment under Performing</a></li>
-        <li><a href="{{ 'yin/' | absolute_url }}">Disorder</a></li>
-        <li><a href="{{ 'yin/' | absolute_url }}">Litigation</a></li>
+        <li><a href="{{ '/yin/your-needs#equipment-failure' | absolute_url }}">Equipment Failure</a></li>
+        <li><a href="{{ '/yin/your-needs#under-performance' | absolute_url }}">Under Performance</a></li>
+        <li><a href="{{ '/yin/your-needs#disorder' | absolute_url }}">Disorder</a></li>
+        <li><a href="{{ '/yin/your-needs#litigation' | absolute_url }}">Litigation</a></li>
       </ul>
     </li>
     <li>
       <span class="opener">My Services</span>
       <ul>
-        <li><a href="{{ 'yin/' | absolute_url }}">Mitigation</a></li>
-        <li><a href="{{ 'yin/' | absolute_url }}">Palliative Solutions</a></li>
-        <li><a href="{{ 'yin/' | absolute_url }}">Expert Assessment</a></li>
+        <li><a href="{{ '/yin/my-services#mitigation' | absolute_url }}">Mitigation</a></li>
+        <li><a href="{{ '/yin/my-services#palliative-solutions' | absolute_url }}">Palliative Solutions</a></li>
+        <li><a href="{{ '/yin/my-services#expert-assessment' | absolute_url }}">Expert Assessment</a></li>
       </ul>
     </li>
     <li>
       <span class="opener">About CDM</span>
       <ul>
-        <li><a href="{{ 'yin/about' | absolute_url }}">Achievements</a></li>
-        <li><a href="{{ 'yin/about' | absolute_url }}">Certifications</a></li>
+        <li><a href="{{ '/yin/about#achievements' | absolute_url }}">Achievements</a></li>
+        <li><a href="{{ '/yin/about#certifications' | absolute_url }}">Certifications</a></li>
       </ul>
     </li>
-    <li><a href="{{ 'yin/blog' | absolute_url }}">Publications</a></li>
+    <li><a href="{{ '/yin/blog' | absolute_url }}">Blog</a></li>
   </ul>
 {% else %}
   <ul>
-    <li><a href="{{ 'yang' | absolute_url }}">Consulting</a></li>
-    <li><a href="{{ 'yin' | absolute_url }}">Expert Assessment</a></li>
-    <li><a href="{{ 'blog' | absolute_url }}">Publications</a></li>
+    <li><a href="{{ '/yang' | absolute_url }}">Consulting</a></li>
+    <li><a href="{{ '/yin' | absolute_url }}">Expert Assessment</a></li>
+    <li><a href="{{ '/blog' | absolute_url }}">Blog</a></li>
   </ul>
 {% endif %}
 </nav>

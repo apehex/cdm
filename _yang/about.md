@@ -1,6 +1,8 @@
 ---
 layout: page
-title: About CDM
+title: CDM
+subtitle: Supporting companies from decision to operations
+permalink: /yang/about
 ---
 <section>
     <header class="major">
@@ -102,4 +104,3 @@ title: About CDM
         </article>
     </div>
 </section>
->>>>>>> Stashed changes
