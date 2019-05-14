@@ -2,6 +2,7 @@
 layout: home
 title: CDM
 subtitle: Outgrowing incidents and litigation
+permalink: /yin
 ---
 <section>
     <header class="major">

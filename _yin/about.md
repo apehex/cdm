@@ -1,6 +1,8 @@
 ---
 layout: page
-title: About CDM
+title: CDM
+subtitle: Outgrowing incidents and litigation
+permalink: /yin/about
 ---
 <section>
     <header class="major">

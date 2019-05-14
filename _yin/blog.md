@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Publications
+title: CDM
+subtitle: Outgrowing incidents and litigation
+permalink: /yin/blog
 ---
 {%- if site.posts.size > 0 -%}
 <section>
