@@ -5,7 +5,7 @@ subtitle: Supporting companies from decision to operations
 ---
 <section>
     <header class="major">
-        <h2>Do You have a Project to</h2>
+        <h2>What Stage is your Projectt on ?</h2>
     </header>
     <div class="features">
         <article>
@@ -18,21 +18,14 @@ subtitle: Supporting companies from decision to operations
         <article>
             <span class="icon fa-paper-plane"></span>
             <div class="content">
-                <h3>Project Support</h3>
-                <p>Proin aliquam facilisis ante interdum congue.</p>
-            </div>
-        </article>
-        <article>
-            <span class="icon fa-paper-plane"></span>
-            <div class="content">
-                <h3>Deployment Support</h3>
+                <h3>Deployment</h3>
                 <p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris.</p>
             </div>
         </article>
         <article>
             <span class="icon fa-paper-plane"></span>
             <div class="content">
-                <h3>Operation Support</h3>
+                <h3>Operation</h3>
                 <p>Ut magna finibus nisi nec lacinia.</p>
             </div>
         </article>
@@ -41,7 +34,7 @@ subtitle: Supporting companies from decision to operations
 
 <section>
     <header class="major">
-        <h2>I Can Assist You with</h2>
+        <h2>I Can Improve the</h2>
     </header>
     <div class="features">
         <article>
