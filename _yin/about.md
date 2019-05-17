@@ -8,7 +8,7 @@ title: About CDM
     </header>
     <span class="image right"><img src="{{ 'assets/images/portrait.jpg' | absolute_url }}" alt="" /></span>
     <p>Ingénieur conseil à la tête du cabinet éponyme CDM, je suis spécialisé en Gestion des Risques et Efficience Industrielle.</p>
-    <p>Mon parcours s'est articulé autour des activités de maintenance ; pour amener les industries au plus près du service continu, j'ai progressivement intégré toutes les facettes de la production :
+    <p>Mon parcours s'est articulé autour des activités de maintenance. Pour amener les industries au plus près du service continu, j'ai progressivement intégré toutes les facettes de la production :
     <ul>
         <li>la <strong>direction technique</strong> à force d'adapter, intégrer les parcs machines</li>
         <li>la <strong>gestion de projet</strong> en alignant les équipes sur les objectifs</li>
