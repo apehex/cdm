@@ -2,6 +2,7 @@
 layout: home
 title: CDM
 subtitle: Supporting companies from decision to operations
+permalink: /yang
 ---
 <section>
     <header class="major">
