@@ -19,7 +19,7 @@ title: About CDM
     <p>Par ailleurs je suis Expert Indépendant.</p>
 </section>
 
-<section>
+<section id="achievements">
     <header class="major">
         <h2>Achievements</h2>
     </header>
@@ -46,7 +46,7 @@ title: About CDM
     </div>
 </section>
 
-<section>
+<section id="certifications">
     <header class="major">
         <h2>Certifications</h2>
     </header>

@@ -4,7 +4,7 @@ title: CDM
 subtitle: Outgrowing incidents and litigation
 permalink: /yin/my-services
 ---
-<section>
+<section id="expert-assessment">
     <header class="major">
         <h2>Expert Assessment</h2>
     </header>
@@ -17,7 +17,7 @@ permalink: /yin/my-services
     </ul>
 </section>
 
-<section>
+<section id="mitigation">
     <header class="major">
         <h2>Mitigation</h2>
     </header>
@@ -50,14 +50,14 @@ permalink: /yin/my-services
     </ul>
 </section>
 
-<section>
+<section id="palliative-solutions">
     <header class="major">
         <h2>Palliative Solutions</h2>
     </header>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
 </section>
 
-<section>
+<section id="expertise">
     <header class="major">
         <h2>I'm an Expert in</h2>
     </header>
