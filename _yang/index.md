@@ -5,7 +5,7 @@ subtitle: Supporting companies from decision to operations
 ---
 <section>
     <header class="major">
-        <h2>What Stage is your Projectt on ?</h2>
+        <h2>What Stage is your Project on ?</h2>
     </header>
     <div class="features">
         <article>
