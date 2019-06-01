@@ -5,7 +5,7 @@
       <h1>Hi, I’m Denis Mougeolle</h1>
       {% if page.collection == "yang" %}
       <p>I support companies from decision to operations</p>
-      {% elsif page.collection == "yin"}
+      {% elsif page.collection == "yin" %}
       <p>I help people and companies to outgrow incidents and litigation</p>
       {% endif %}
     </header>
@@ -15,6 +15,6 @@
     </ul>
   </div>
   <span class="image object">
-    <img src="assets/images/pic10.jpg" alt="" />
+    <img src="{{ 'assets/images/portrait.jpg' | absolute_url }}" alt="" />
   </span>
 </section>
