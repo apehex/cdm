@@ -23,15 +23,74 @@ collections:
   yang:
     output: true
     subtitle: Supporting Industries from Decision to Operations
-    description:
+    description: 
+    menu:
+      - title: Home
+        url: /
+      - title: Your Situation
+        url: /yang/your-needs
+        menu:
+          - title: Feasibility Study
+            url: /yang/your-needs#feasibility-study
+          - title: Project Support
+            url: /yang/your-needs#project-support
+          - title: Deployment Support
+            url: /yang/your-needs#deployment-support
+          - title: Operation Support
+            url: /yang/your-needs#operation-support
+      - title: My Services
+        url: /yang/my-services
+        menu:
+          - title: Efficiency
+            url: /yang/my-services#efficiency
+          - title: Dependability
+            url: /yang/my-services#dependability
+          - title: Risk Management
+            url: /yang/my-services#risk-management
+      - title: Blog
+        url: /yang/blog
   yin:
     output: true
     subtitle: Outgrowing Incidents and Risks
     description: When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.
+    menu:
+      - title: Home
+        url: /
+      - title: Your Situation
+        url: /yin/your-needs
+        menu:
+          - title: Equipment Failure
+            url: /yin/your-needs#equipment-failure
+          - title: Under Performance
+            url: /yin/your-needs#under-performance
+          - title: Disorder
+            url: /yin/your-needs#disorder
+          - title: Litigation
+            url: /yin/your-needs#litigation
+      - title: My Services
+        url: /yin/my-services
+        menu:
+          - title: Expert Assessment
+            url: /yin/my-services#expert-assessment
+          - title: Mitigation
+            url: /yin/my-services#mitigation
+          - title: Palliative Solutions
+            url: /yin/my-services#palliative-solutions
+      - title: Blog
+        url: /yin/blog
+
+# Navigation menu
+menu:
+  - title: Consulting
+    url: /yang
+  - title: Expert Assessment
+    url: /yin
+  - title: Blog
+    url: /yang/blog
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-consulting
 plugins:
   - jekyll-feed
 
