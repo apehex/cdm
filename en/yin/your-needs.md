@@ -1,8 +1,5 @@
 ---
-layout: page
-title: CDM
-subtitle: Outgrowing incidents and litigation
-permalink: /yin/your-needs
+lang-ref: yin-your-needs
 ---
 <section id="equipment-failure">
     <header class="major">

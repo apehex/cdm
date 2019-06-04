@@ -1,8 +1,5 @@
 ---
-layout: home
-title: CDM
-subtitle: Outgrowing incidents and litigation
-permalink: /yin
+lang-ref: yin-home
 ---
 <section>
     <header class="major">

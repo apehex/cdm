@@ -88,6 +88,49 @@ menu:
   - title: Blog
     url: /yang/blog
 
+# Default settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      menu: "default"
+      layout: "page"
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+  -
+    scope:
+      path: "en/yang"
+    values:
+      title: "CDM"
+      subtitle: "Supporting companies from decision to operations"
+  -
+    scope:
+      path: "en/yin"
+    values:
+      title: "CDM"
+      subtitle: "Outgrowing incidents and litigation"
+  -
+    scope:
+      path: "fr"
+    values:
+      lang: "fr"
+  -
+    scope:
+      path: "fr/yang"
+    values:
+      title: "CDM"
+      subtitle: "Accompagner de la décision à l'exploitation"
+  -
+    scope:
+      path: "fr/yin"
+    values:
+      title: "CDM"
+      subtitle: "Dépasser les incidents"
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-consulting

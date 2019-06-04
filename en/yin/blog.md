@@ -1,8 +1,5 @@
 ---
-layout: page
-title: CDM
-subtitle: Outgrowing incidents and litigation
-permalink: /yin/blog
+lang-ref: yin-blog
 ---
 {%- if site.posts.size > 0 -%}
 <section>

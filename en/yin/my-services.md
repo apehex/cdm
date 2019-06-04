@@ -1,8 +1,5 @@
 ---
-layout: page
-title: CDM
-subtitle: Outgrowing incidents and litigation
-permalink: /yin/my-services
+lang-ref: yin-my-services
 ---
 <section id="expert-assessment">
     <header class="major">
