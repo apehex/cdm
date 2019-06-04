@@ -1,0 +1,69 @@
+# Navigation menu
+menu:
+  default:
+    en:
+      - title: Consulting
+        url: /en/yang
+      - title: Expert Assessment
+        url: /en/yin
+      - title: Blog
+        url: /en/yang/blog
+    fr:
+      - title: Conseil
+        url: /fr/yang
+      - title: Expertise
+        url: /fr/yin
+      - title: Blog
+        url: /fr/blog
+  yang:
+    en:
+      - title: Home
+        url: /
+      - title: Your Situation
+        url: /en/yang/your-needs
+        menu:
+          - title: Feasibility Study
+            url: /en/yang/your-needs#feasibility-study
+          - title: Project Support
+            url: /en/yang/your-needs#project-support
+          - title: Deployment Support
+            url: /en/yang/your-needs#deployment-support
+          - title: Operation Support
+            url: /en/yang/your-needs#operation-support
+      - title: My Services
+        url: /en/yang/my-services
+        menu:
+          - title: Efficiency
+            url: /en/yang/my-services#efficiency
+          - title: Dependability
+            url: /en/yang/my-services#dependability
+          - title: Risk Management
+            url: /en/yang/my-services#risk-management
+      - title: Blog
+        url: /en/yang/blog
+  yin:
+    en:
+      - title: Home
+        url: /
+      - title: Your Situation
+        url: /en/yin/your-needs
+        menu:
+          - title: Equipment Failure
+            url: /en/yin/your-needs#equipment-failure
+          - title: Under Performance
+            url: /en/yin/your-needs#under-performance
+          - title: Disorder
+            url: /en/yin/your-needs#disorder
+          - title: Litigation
+            url: /en/yin/your-needs#litigation
+      - title: My Services
+        url: /en/yin/my-services
+        menu:
+          - title: Expert Assessment
+            url: /en/yin/my-services#expert-assessment
+          - title: Mitigation
+            url: /en/yin/my-services#mitigation
+          - title: Palliative Solutions
+            url: /en/yin/my-services#palliative-solutions
+      - title: Blog
+        url: /en/yin/blog
