@@ -20,6 +20,9 @@ twitter_url:
 collections:
   achievements:
     output: false
+  redirects:
+    output: true
+    permalink: /:path/
   yang:
     output: true
   yin:
@@ -33,6 +36,11 @@ defaults:
     values:
       menu: "default"
       layout: "page"
+  -
+    scope:
+      type: "redirects"
+    values:
+      layout: "redirect"
   -
     scope:
       path: "en"
