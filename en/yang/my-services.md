@@ -1,8 +1,5 @@
 ---
-layout: page
-title: CDM
-subtitle: Supporting companies from decision to operations
-permalink: /yang/my-services
+lang-ref: yang-my-services
 ---
 <section id="efficiency">
     <header class="major">

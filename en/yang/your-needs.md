@@ -1,8 +1,5 @@
 ---
-layout: page
-title: CDM
-subtitle: Supporting companies from decision to operations
-permalink: /yang/your-needs
+lang-ref: yang-your-needs
 ---
 <section id="feasibility-study">
     <header class="major">

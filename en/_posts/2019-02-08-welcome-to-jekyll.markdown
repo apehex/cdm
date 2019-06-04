@@ -1,5 +1,6 @@
 ---
 layout: post
+lang-ref: post-welcome-to-jekyll
 title:  "Welcome to Jekyll!"
 date:   2019-02-08 13:33:42 +0100
 summary: How-to add a new post

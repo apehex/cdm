@@ -1,8 +1,5 @@
 ---
-layout: page
-title: CDM
-subtitle: Supporting companies from decision to operations
-permalink: /yang/about
+lang-ref: yang-about
 ---
 <section>
     <header class="major">
