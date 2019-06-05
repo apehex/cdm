@@ -18,7 +18,7 @@ menu:
   yang:
     en:
       - title: Home
-        url: /
+        url: /en
       - title: Your Situation
         url: /en/yang/your-needs
         menu:
@@ -39,12 +39,21 @@ menu:
             url: /en/yang/my-services#dependability
           - title: Risk Management
             url: /en/yang/my-services#risk-management
+      - title: About
+        url: /en/yang/about
       - title: Blog
         url: /en/yang/blog
+    fr:
+      - title: Accueil
+        url: /fr
+      - title: &Agrave Propos
+        url: /fr/yang/a-propos
+      - title: Blog
+        url: /fr/yang/blog
   yin:
     en:
       - title: Home
-        url: /
+        url: /en
       - title: Your Situation
         url: /en/yin/your-needs
         menu:
@@ -65,5 +74,7 @@ menu:
             url: /en/yin/my-services#mitigation
           - title: Palliative Solutions
             url: /en/yin/my-services#palliative-solutions
+      - title: About
+        url: /en/yin/about
       - title: Blog
         url: /en/yin/blog
