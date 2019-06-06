@@ -5,7 +5,7 @@ lang-ref: yang-about
     <header class="major">
         <h2>About me</h2>
     </header>
-    <span class="image right"><img src="{{ 'assets/images/portrait.jpg' | absolute_url }}" alt="" /></span>
+    <span class="image right"><img src="{{ 'assets/images/hero/portrait.jpg' | absolute_url }}" alt="" /></span>
     <p>Ingénieur conseil à la tête du cabinet éponyme CDM, je suis spécialisé en Gestion des Risques et Efficience Industrielle.</p>
     <p>Mon parcours s'est articulé autour des activités de maintenance. Pour amener les industries au plus près du service continu, j'ai progressivement intégré toutes les facettes de la production :
     <ul>

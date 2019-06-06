@@ -5,7 +5,7 @@ lang-ref: yang-about
     <header class="major">
         <h2>&Agrave; propos de Moi</h2>
     </header>
-    <span class="image right"><img src="{{ 'assets/images/heros/portrait.jpg' | absolute_url }}" alt="" /></span>
+    <span class="image right"><img src="{{ 'assets/images/hero/portrait.jpg' | absolute_url }}" alt="" /></span>
     <p><strong>Ingénieur Conseil</strong>, je suis spécialisé en <strong>Gestion des Risques</strong> et <strong>Efficience Industrielle</strong> ; par ailleurs je suis <strong>Expert Indépendant</strong>.</p>
     <p>J’ai donc deux <strong>activités complémentaires</strong> : le Conseil et l’Expertise.</p>
     <p>Le Conseil prend forme à travers <strong>trois types de missions orientées</strong> :<br />
