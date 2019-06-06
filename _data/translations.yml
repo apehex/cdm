@@ -35,8 +35,12 @@ menu:
         menu:
           - title: Efficiency
             url: /en/yang/my-services#efficiency
+          - title: Maintenance
+            url: /en/yang/my-services#maintenance
           - title: Dependability
             url: /en/yang/my-services#dependability
+          - title: Maîtrise d'Ouvrage
+            url: /en/yang/my-services#contracting-authority
           - title: Risk Management
             url: /en/yang/my-services#risk-management
       - title: About
@@ -46,7 +50,31 @@ menu:
     fr:
       - title: Accueil
         url: /fr
-      - title: &Agrave Propos
+      - title: Votre Situation
+        url: /fr/yang/votre-situation
+        menu:
+          - title: Etude de Faisabilité
+            url: /fr/yang/votre-situation#etude-de-faisabilite
+          - title: Stratégie
+            url: /fr/yang/votre-situation#strategie
+          - title: Déploiement & Démantèlement
+            url: /fr/yang/votre-situation#deploiement-et-demantelement
+          - title: Exploitation
+            url: /fr/yang/votre-situation#exploitation
+      - title: Mes Services
+        url: /fr/yang/mes-services
+        menu:
+          - title: Efficience
+            url: /fr/yang/mes-services#efficience
+          - title: Maintenance
+            url: /fr/yang/mes-services#maintenance
+          - title: Sûreté de Fontionnement
+            url: /fr/yang/mes-services#surete-de-fonctionnement
+          - title: Pilotage
+            url: /fr/yang/mes-services#pilotage
+          - title: Gestion des Risques
+            url: /fr/yang/mes-services#gestion-des-risques
+      - title: A Propos
         url: /fr/yang/a-propos
       - title: Blog
         url: /fr/yang/blog
@@ -78,3 +106,30 @@ menu:
         url: /en/yin/about
       - title: Blog
         url: /en/yin/blog
+    fr:
+      - title: Accueil
+        url: /fr
+      - title: Votre Situation
+        url: /fr/yin/votre-situation
+        menu:
+          - title: Constat
+            url: /fr/yin/votre-situation#constat
+          - title: Réclamation
+            url: /fr/yin/votre-situation#reclamation
+          - title: Mise en Demeure
+            url: /fr/yin/votre-situation#mise-en-demeure
+          - title: Action en Justice
+            url: /fr/yin/votre-situation#action-en-justice
+      - title: Mes Services
+        url: /fr/yin/mes-services
+        menu:
+          - title: Expertise Officieuse
+            url: /fr/yin/mes-services#expertise-officieuse
+          - title: Expertise Amiable
+            url: /fr/yin/mes-services#expertise-amiable
+          - title: Sureté de Fonctionnement
+            url: /fr/yin/mes-services#surete-de-fonctionnement
+      - title: A Propos
+        url: /fr/yin/a-propos
+      - title: Blog
+        url: /fr/yin/blog

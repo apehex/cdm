@@ -1,23 +1,21 @@
 ---
-lang-ref: yang-about
+lang-ref: yin-about
 ---
 <section>
     <header class="major">
-        <h2>&Agrave; propos de Moi</h2>
+        <h2>About me</h2>
     </header>
     <span class="image right"><img src="{{ 'assets/images/heros/portrait.jpg' | absolute_url }}" alt="" /></span>
-    <p><strong>Ingénieur Conseil</strong>, je suis spécialisé en <strong>Gestion des Risques</strong> et <strong>Efficience Industrielle</strong> ; par ailleurs je suis <strong>Expert Indépendant</strong>.</p>
-    <p>J’ai donc deux <strong>activités complémentaires</strong> : le Conseil et l’Expertise.</p>
-    <p>Le Conseil prend forme à travers <strong>trois types de missions orientées</strong> :<br />
-        - l’Audit RAR (Ressources-Activités-Résultats)<br />
-        - l’Assistance à projet<br />
-        - la Sûreté de Fonctionnement, à destination des PME et des ETI.</p>
+    <p><strong>Ingénieur conseil</strong>, je suis spécialisé en <strong>Gestion des Risques</strong> et <strong>Efficience Industrielle</strong> ; par ailleurs, je suis <strong>Expert Indépendant</strong>.</p>
+    <p>J’ai donc <strong>deux activités complémentaires</strong> : le Conseil et l’Expertise.</p>
+    <p>L’Expertise <strong>concerne tous les acteurs</strong> (PME, Tertiaire, Administration, Collectivités Territoriales, Particuliers) et selon le type de ceux-ci, des sujets associés, par exemple : défaillances, bris de machine, litiges…</p>
     <p>Une diversité, une complémentarité et une cohérence de compétences de bout en bout issues de 40 ans d’expérience dans six domaines technologiques différents associée à une formation progressive depuis l’Ecole des Mousses / Marine à Bac+6 (Ingénieur, MBA, Droit, Risk Management).</p>
+    <p>Mes 40 années d’activité possède une colonne vertébrale qui est la maintenance au sens de la Sûreté de Fonctionnement. Cette fonction dans sa dimension corrective est le propre de l’expertise au sens large ; en effet celle-ci consiste à déterminer un dommage, identifier les causes premières, prendre des mesures conservatoires et palliatives, quantifier et planifier la résolution des désordres par des travaux de reprise adaptés, améliorer les processus et les équipements pour réduire les occurrences ou la gravité de tels événements.</p>
 </section>
 
 <section id="achievements">
     <header class="major">
-        <h2>Réalisations Clefs</h2>
+        <h2>Réalisations Majeures</h2>
     </header>
     {% for achievement in site.achievements %}
     <h2>{{ achievement.title }}</h2>
