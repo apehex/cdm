@@ -89,8 +89,8 @@ plugins:
   - jekyll-feed
 
 # Publication settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://moodule.github.io/cdm" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/cdm" # the subpath of your site, e.g. /blog
+url: "https://moodule.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: apehex
 
 # Exclude from processing.
