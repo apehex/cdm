@@ -51,52 +51,59 @@ lang-ref: yang-about
     </header>
     <div class="features">
         <article>
-            <span class="icon"><img src="{{ '/assets/images/ensem.png' | absolute_url }}" alt="" /></span>
+            <span class="icon ensem"></span>
             <div class="content">
                 <h3>ENSEM</h3>
                 <p>Diplôme d'ingénieur</p>
             </div>
         </article>
         <article>
-            <span class="icon fa-paper-plane"></span>
+            <span class="icon eisti"></span>
             <div class="content">
                 <h3>EISTI</h3>
                 <p>Mastère Spécialisé en Gestion des Risques sur les territoires</p>
             </div>
         </article>
         <article>
-            <span class="icon fa-rocket"></span>
+            <span class="icon ieam"></span>
             <div class="content">
                 <h3>IEAM</h3>
-                <p>MBA en Gestion et Management Stratégique d’Entreprise</p>
-            </div>
-        </article>
-        <article>
-            <span class="icon fa-signal"></span>
-            <div class="content">
-                <h3>IFG</h3>
                 <p>?</p>
             </div>
         </article>
         <article>
-            <span class="icon fa-signal"></span>
+            <span class="icon ifg"></span>
+            <div class="content">
+                <h3>IFG</h3>
+                <p>MBA en Gestion et Management Stratégique d’Entreprise</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon ub"></span>
             <div class="content">
                 <h3>UB</h3>
                 <p>Capacité en droit</p>
             </div>
         </article>
         <article>
-            <span class="icon fa-signal"></span>
+            <span class="icon cie"></span>
             <div class="content">
-                <h3>CIE</h3>
-                <p>?</p>
+                <h3>CIECAP</h3>
+                <p>Membre de la Compagnie des Ingénieurs Experts près de la Cour d'Appel de Paris</p>
             </div>
         </article>
         <article>
-            <span class="icon fa-signal"></span>
+            <span class="icon cnefic"></span>
             <div class="content">
                 <h3>CNEFIC</h3>
                 <p>Experts certifié dans le Génie frigorifique, le Génie climatique, le domaine des pompes à chaleur, les transports frigorifiques et l’isolation</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon marine"></span>
+            <div class="content">
+                <h3>Marine Nationale</h3>
+                <p>Diplôme d'électricien</p>
             </div>
         </article>
     </div>
