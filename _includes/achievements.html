@@ -1,0 +1,23 @@
+{% if page.lang=="en" %}
+<section id="achievements">
+    <header class="major">
+        <h2>Achievements</h2>
+    </header>
+    {% for achievement in site.achievements %}
+    <h2>{{ achievement.title }}</h2>
+    <!-- <h2>{{ achievement.category }}</h2> -->
+    <p>{{ achievement.content | markdownify }}</p>
+    {% endfor %}
+</section>
+{% elsif page.lang=="fr" %}
+<section id="achievements">
+    <header class="major">
+        <h2>Réalisations Clefs</h2>
+    </header>
+    {% for achievement in site.achievements %}
+    <h2>{{ achievement.title }}</h2>
+    <!-- <h2>{{ achievement.category }}</h2> -->
+    <p>{{ achievement.content | markdownify }}</p>
+    {% endfor %}
+</section>
+{% endif %}
