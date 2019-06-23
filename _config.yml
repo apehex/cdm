@@ -22,7 +22,6 @@ collections:
     output: false
   redirects:
     output: true
-    permalink: /:path/
   yang:
     output: true
   yin:
@@ -41,7 +40,8 @@ defaults:
       type: "redirects"
     values:
       layout: "redirect"
-      lang: x-default
+      lang: "x-default"
+      permalink: /:path/
   -
     scope:
       path: "en"
