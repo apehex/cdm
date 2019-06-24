@@ -1,23 +1,27 @@
-{% if page.lang=="en" %}
 <section id="achievements">
     <header class="major">
+        {% if page.lang=="en" %}
         <h2>Achievements</h2>
-    </header>
-    {% for achievement in site.achievements %}
-    <h2>{{ achievement.title }}</h2>
-    <!-- <h2>{{ achievement.category }}</h2> -->
-    <p>{{ achievement.content | markdownify }}</p>
-    {% endfor %}
-</section>
-{% elsif page.lang=="fr" %}
-<section id="achievements">
-    <header class="major">
+        {% elsif page.lang=="fr" %}
         <h2>Réalisations Clefs</h2>
+        {% endif %}
     </header>
-    {% for achievement in site.achievements %}
-    <h2>{{ achievement.title }}</h2>
-    <!-- <h2>{{ achievement.category }}</h2> -->
-    <p>{{ achievement.content | markdownify }}</p>
-    {% endfor %}
+    <div class="box alt">
+        <div class="row gtr-50 gtr-uniform">
+        {% for achievement in site.achievements %}
+            <div class="col-3">
+                <article>
+                    <a href="{{ achievement.url | absolute_url }}" class="image">
+                        <img src="{{ achievement.image | absolute_url }}" alt="" width="200" height="200" />
+                    </a>
+                    <h3>{{ achievement.title }}</h3>
+                    <p>{{ achievement.summary }}</p>
+                    <ul class="actions">
+                        <li><a href="#" class="button">More</a></li>
+                    </ul>
+                </article>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
 </section>
-{% endif %}
