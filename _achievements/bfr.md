@@ -1,7 +1,7 @@
 ---
 image: /assets/images/clients/bfr_icon.png
-title: Audit d'efficience & rationalisation du SAV
-summary: Augmentation du CA de 15 à 21 M€.
+title: Rationalisation du SAV
+summary: L'intégration des services est considérablement améliorée et le CA passe de 15 à 21 M€.
 missions: [Audit, Project Ownership]
 domains: [Dependability, Electronic Engineering]
 ---
