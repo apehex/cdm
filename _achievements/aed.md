@@ -1,7 +1,7 @@
 ---
 image: /assets/images/clients/aed_icon.png
-title: Prévention d'un incendie imminent
-summary: Le risque est levé tout en permettant une augmentation de l'énergie produite de 17%
+title: Prévention d'un incendie
+summary: Le risque imminent est levé tout en permettant une augmentation de l'énergie produite de 17%
 missions: [Audit, Project Ownership]
 domains: [Dependability, Electronic Engineering]
 ---
