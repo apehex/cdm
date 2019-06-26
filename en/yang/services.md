@@ -1,5 +1,5 @@
 ---
-lang-ref: yang-your-needs
+lang-ref: yang-services
 ---
 <section id="feasibility-study">
     <header class="major">

@@ -1,5 +1,5 @@
 ---
-lang-ref: yang-my-services
+lang-ref: yang-expertise
 ---
 <section id="efficiency">
     <header class="major">

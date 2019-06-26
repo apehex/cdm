@@ -1,5 +1,5 @@
 ---
-lang-ref: yin-my-services
+lang-ref: yin-expertise
 ---
 <section id="expert-assessment">
     <header class="major">

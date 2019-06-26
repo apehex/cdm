@@ -1,5 +1,5 @@
 ---
-lang-ref: yin-my-services
+lang-ref: yin-expertise
 ---
 <section id="expertise-officieuse">
     <header class="major">

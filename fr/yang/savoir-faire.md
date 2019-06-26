@@ -1,5 +1,5 @@
 ---
-lang-ref: yang-my-services
+lang-ref: yang-expertise
 ---
 <section id="efficience">
     <header class="major">
@@ -15,21 +15,6 @@ lang-ref: yang-my-services
         <li>Accompagnement dans l’exploitation des systèmes en termes d’efficience et de sûreté de fonctionnement</li>
     </ul>
 </section>
-
-<section id="pilotage">
-    <header class="major">
-        <h2>Pilotage</h2>
-    </header>
-    <ul>
-        <li>Faisabilité, implantation, schéma directeur d’organisation (phase APS)</li>
-        <li>Elaboration CDC applicable à la consultation d’entreprises ou élaboration de spécification de besoins (phase DCE)</li>
-        <li>Aide à l’évaluation des offres et à la mise au point des marchés</li>
-        <li>Assistance Maîtrise d’Ouvrage par surveillance des points clés du projet, définition des modalités de validation des jalons, audit d’avancement et comptes rendus d’étape (phase EXE)</li>
-        <li>Assistance à la recette et à la mise en service des installations</li>
-        <li>Gestion et mise en œuvre de projets</li>
-    </ul>
-</section>
-
 
 <section id="maintenance">
     <header class="major">
@@ -61,4 +46,12 @@ lang-ref: yang-my-services
     <ul>
         <li>Cartographie et analyse / réduction / gestion de risques par une approche combinée de     défenseur en profondeur et approche par les atteintes, concernant une granulométrie étendue micro/méso risques (santé sécurité au travail, risques d’entreprise, risques industriels, risques     projet, plan de continuité d’activité)</li>
         <li>Etudes spécifiques de Sûreté de Fonctionnement des systèmes sociotechniques telles AMDEC (Produit, Procédé, Moyen), APR, ADD, etc.</li>
+    </ul>
+</section>
+
+<section id="maitrise-ouvrage">
+    <header class="major">
+        <h2>Maîtrise d'Ouvrage</h2>
+    </header>
+    <p></p>
 </section>
