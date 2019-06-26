@@ -7,4 +7,8 @@ lang-ref: yin-about
 
 {% include clients.html %}
 
+{% include kpi.html %}
+
+{% include worldmap.html %}
+
 {% include certifications.html %}
