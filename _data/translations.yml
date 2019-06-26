@@ -127,3 +127,50 @@ menu:
         url: /fr/yin/a-propos
       - title: Blog
         url: /fr/yin/blog
+
+# Facts & KPI
+kpi:
+  -
+    en:
+      intro: We step in more than
+      fact: 10
+      outro: sectors
+      icon: solid fa-suitcase
+    fr:
+      intro: Nous intervenons dans plus de
+      fact: 10
+      outro: secteurs d'activité
+      icon: solid fa-suitcase
+  -
+    en:
+      intro: We've worked for more than
+      fact: 5
+      outro: years with our main clients
+      icon: solid fa-heart
+    fr:
+      intro: Nous collaborons depuis plus de
+      fact: 5
+      outro: années avec nos clients principaux
+      icon: solid fa-heart
+  -
+    en:
+      intro: Clients cash in before
+      fact: 1
+      outro: year after our intervention
+      icon: solid fa-bolt
+    fr:
+      intro: Nos clients rentabilisent dès la
+      fact: 1ère
+      outro: année suite à notre intervention
+      icon: solid fa-bolt
+  -
+    en:
+      intro: The gains exceed
+      fact: 1000%
+      outro: our mission fees
+      icon: solid fa-euro-sign
+    fr:
+      intro: Les gains sont supérieurs à
+      fact: 1000%
+      outro: les frais de mission
+      icon: solid fa-euro-sign
