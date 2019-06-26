@@ -1,5 +1,5 @@
 ---
-lang-ref: yin-your-needs
+lang-ref: yin-services
 ---
 <section id="constat">
     <header class="major">
