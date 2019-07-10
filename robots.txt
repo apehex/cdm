@@ -1,1 +1,0 @@
-Sitemap: https://moodule.github.io/cdm/sitemap.xml

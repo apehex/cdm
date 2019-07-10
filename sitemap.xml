@@ -1,103 +1,340 @@
+
+
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://moodule.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/</loc>
-<lastmod>2019-02-08T13:33:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/jekyll/update/2019/02/08/bienvenue/</loc>
-<lastmod>2019-02-08T13:33:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/blog/</loc>
-<lastmod>2019-06-07T12:16:09+02:00</lastmod>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/blog/</loc>
-<lastmod>2019-06-07T12:16:09+02:00</lastmod>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/yang/</loc>
-<lastmod>2019-06-07T12:16:09+02:00</lastmod>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/yang/about/</loc>
-<lastmod>2019-06-07T12:16:09+02:00</lastmod>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/yin/</loc>
-<lastmod>2019-06-07T12:16:09+02:00</lastmod>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/404/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/yang/a-propos/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/yin/a-propos/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/yang/about/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/yin/about/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/yang/blog/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/yin/blog/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/yang/blog/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/yin/blog/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/yang/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/yin/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/yang/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/yin/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/yang/mes-services/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/yin/mes-services/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/yang/my-services/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/yin/my-services/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/yang/votre-situation/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/fr/yin/votre-situation/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/yang/your-needs/</loc>
-</url>
-<url>
-<loc>https://moodule.github.io/cdm/en/yin/your-needs/</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/yang/about/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/about/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/a-propos/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/yin/about/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/about/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/a-propos/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/yang/blog/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/blog/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/blog/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/yin/blog/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/blog/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/blog/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/yang/expertise/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/expertise/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/savoir-faire/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/yin/expertise/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/expertise/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/savoir-faire/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/yang/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/yin/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/" />
+    
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moodule.github.io/cdm/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/yang/services/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/services/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/services/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/yin/services/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/services/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/services/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yang/a-propos/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/about/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/a-propos/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yin/a-propos/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/about/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/a-propos/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yang/blog/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/blog/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/blog/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yin/blog/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/blog/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/blog/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yang/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yin/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/" />
+    
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moodule.github.io/cdm/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yang/savoir-faire/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/expertise/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/savoir-faire/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yin/savoir-faire/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/expertise/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/savoir-faire/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yang/services/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/services/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/services/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yin/services/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/services/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/services/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/" />
+    
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moodule.github.io/cdm/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/jekyll/update/2019/02/08/bienvenue/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/jekyll/update/2019/02/08/bienvenue/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/jekyll/update/2019/02/08/bienvenue/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
 </urlset>
