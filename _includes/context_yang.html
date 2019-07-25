@@ -1,3 +1,4 @@
+{% if page.lang=="en" %}
 <section>
     <header class="major">
         <h2>What Stage is your Project on ?</h2>
@@ -26,3 +27,33 @@
         </article>
     </div>
 </section>
+{% elsif page.lang=="en" %}
+<section>
+    <header class="major">
+        <h2>What Stage is your Project on ?</h2>
+    </header>
+    <div class="features">
+        <article>
+            <span class="icon fa-signal"></span>
+            <div class="content">
+                <h3>Feasibility Study</h3>
+                <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu.</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-paper-plane"></span>
+            <div class="content">
+                <h3>Deployment</h3>
+                <p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris.</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-paper-plane"></span>
+            <div class="content">
+                <h3>Operation</h3>
+                <p>Ut magna finibus nisi nec lacinia.</p>
+            </div>
+        </article>
+    </div>
+</section>
+{% endif %}

@@ -5,9 +5,9 @@ lang-ref: yin-about
 
 {% include achievements.html %}
 
-{% include clients.html %}
-
 {% include kpi.html %}
+
+{% include clients.html %}
 
 {% include worldmap.html %}
 
