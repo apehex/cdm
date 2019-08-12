@@ -1773,7 +1773,6 @@ button,
       margin: 0;
       width: 100%;
       height: 20%;
-      display: block;
       text-align: center;
       font-size: 3rem;
       color: #6a6af5; }
@@ -1781,8 +1780,7 @@ button,
       position: relative;
       width: 100%;
       height: 20%;
-      margin: 0;
-      display: table; }
+      margin: 0; }
       .facts article .fact-intro p {
         margin: 0;
         display: table-cell;
@@ -1794,8 +1792,7 @@ button,
       position: relative;
       width: 100%;
       height: 20%;
-      margin: 0;
-      display: table; }
+      margin: 0; }
       .facts article .fact h3 {
         margin: 0;
         display: table-cell;
@@ -1807,8 +1804,7 @@ button,
       position: relative;
       width: 100%;
       height: 30%;
-      margin: 0;
-      display: table; }
+      margin: 0; }
       .facts article .fact-outro p {
         margin: 0;
         display: table-cell;
@@ -1816,15 +1812,31 @@ button,
         text-align: center;
         text-transform: lowercase;
         font-size: 1.5rem; }
+  .facts article .off {
+    display: none; }
+  .facts article .on.icon {
+    display: block; }
+  .facts article .on.fact-intro {
+    display: table; }
+  .facts article .on.fact {
+    display: table; }
+  .facts article .on.fact-outro {
+    display: table; }
   .facts article:hover {
     background-color: #6a6af5; }
-    .facts article:hover .icon {
+    .facts article:hover .on {
+      display: none; }
+    .facts article:hover .off.icon {
+      display: block;
       color: #ffd455; }
-    .facts article:hover .fact-intro p {
+    .facts article:hover .off.fact-intro {
+      display: table;
       color: #ffffff; }
-    .facts article:hover .fact h3 {
+    .facts article:hover .off.fact {
+      display: table;
       color: #ffffff; }
-    .facts article:hover .fact-outro p {
+    .facts article:hover .off.fact-outro {
+      display: table;
       color: #ffffff; }
   @media screen and (max-width: 736px) {
     .facts {
