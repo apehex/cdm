@@ -1,4 +1,4 @@
 ---
-forward_url: /en/yang/about
+forward_url: /fr/yang/about
 lang-ref: yang-about
 ---
