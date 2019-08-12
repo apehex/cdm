@@ -1,4 +1,4 @@
 ---
-forward_url: /en/yin
+forward_url: /fr/yin
 lang-ref: yin-home
 ---

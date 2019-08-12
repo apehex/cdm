@@ -2,5 +2,5 @@
 layout: redirect
 lang: x-default
 lang-ref: landing-page
-forward_url: /en/
+forward_url: /fr/
 ---

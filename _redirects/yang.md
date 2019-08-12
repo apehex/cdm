@@ -1,4 +1,4 @@
 ---
-forward_url: /en/yang
+forward_url: /fr/yang
 lang-ref: yang-home
 ---
