@@ -3,12 +3,14 @@ lang-ref: yang-about
 ---
 {% include profile.html %}
 
-{% include achievements.html %}
-
-{% include kpi.html %}
+{% include kpi.html style="background-color: rgba(100,100,255,0.1);" %}
 
 {% include clients.html %}
 
-{% include worldmap.html %}
+{% include certifications.html style="background-color: rgba(100,100,255,0.1);" %}
 
-{% include certifications.html %}
+{% include achievements.html %}
+
+{% include worldmap.html style="background-color: rgba(100,100,255,0.1);" %}
+
+{% include cta.html %}
