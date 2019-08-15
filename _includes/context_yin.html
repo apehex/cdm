@@ -1,33 +1,48 @@
 {% if page.lang=="en" %}
-<section>
+<section id="context" style="{{ include.style | default: '' }}">
     <header class="major">
         <h2>HAVING A PROBLEM ?</h2>
     </header>
-    <div class="facts">
-        <article>
-            <div class="fact-intro"><p>Under Performance</p></div>
-            <div class="fact-outro"><p>Find out</p></div>
-            <div class="fact"><h3>WHY</h3></div>
-            <span class="icon solid fa-chart-line"></span>
+    <div class="facts row">
+        <article class="col-2 col-4-medium col-12-small">
+            <div class="fact-intro on"><p>Under Performance</p></div>
+            <div class="fact on"><h3>?</h3></div>
+            <div class="fact-outro on"><p>&nbsp;</p></div>
+            <span class="icon solid fa-chart-line on"></span>
+            <div class="fact-intro off"><p>Find out</p></div>
+            <div class="fact off"><h3>WHY</h3></div>
+            <div class="fact-outro off"><p>you're losing money!</p></div>
+            <span class="icon solid fa-chart-line off"></span>
         </article>
-        <article>
-            <div class="fact-intro"><p>Equipment Failure</p></div>
-            <div class="fact-outro"><p>Get your money</p></div>
-            <div class="fact"><h3>BACK</h3></div>
-            <span class="icon solid fa-chart-line"></span>
+        <article class="col-2 col-4-medium col-12-small">
+            <div class="fact-intro on"><p>Equipment Failure</p></div>
+            <div class="fact on"><h3>?</h3></div>
+            <div class="fact-outro on"><p>&nbsp;</p></div>
+            <span class="icon solid fa-chart-line on"></span>
+            <div class="fact-intro off"><p>Get</p></div>
+            <div class="fact off"><h3>BACK</h3></div>
+            <div class="fact-outro off"><p>your money!</p></div>
+            <span class="icon solid fa-chart-line off"></span>
         </article>
-        <article>
-            <div class="fact-intro"><p>Disorder</p></div>
-            <div class="fact"><h3>THROUGH</h3></div>
-            <div class="fact-outro"><p>The crisis</p></div>
-            <span class="icon solid fa-chart-line"></span>
+        <article class="col-2 col-4-medium col-12-small">
+            <div class="fact-intro on"><p>Disorder</p></div>
+            <div class="fact on"><h3>?</h3></div>
+            <div class="fact-outro on"><p>&nbsp;</p></div>
+            <span class="icon solid fa-chart-line on"></span>
+            <div class="fact-intro off"><p>Go</p></div>
+            <div class="fact off"><h3>THROUGH</h3></div>
+            <div class="fact-outro off"><p>the crisis!</p></div>
+            <span class="icon solid fa-chart-line off"></span>
         </article>
-        <article>
-            <div class="fact-intro"><p>Litigation</p></div>
-            <div class="fact-outro"><p>Have a</p></div>
-            <div class="fact"><h3>FAIR</h3></div>
-            <div class="fact-outro"><p>trial</p></div>
-            <span class="icon solid fa-chart-line"></span>
+        <article class="col-2 col-4-medium col-12-small">
+            <div class="fact-intro on"><p>Litigation</p></div>
+            <div class="fact on"><h3>?</h3></div>
+            <div class="fact-outro on"><p>&nbsp;</p></div>
+            <span class="icon solid fa-chart-line on"></span>
+            <div class="fact-intro off"><p>Have a</p></div>
+            <div class="fact off"><h3>FAIR</h3></div>
+            <div class="fact-outro off"><p>trial!</p></div>
+            <span class="icon solid fa-chart-line off"></span>
         </article>
     </div>
 </section>
@@ -36,29 +51,29 @@
     <header class="major">
         <h2>Votre Situation</h2>
     </header>
-    <div class="features">
-        <article>
+    <div class="features row">
+        <article class="col-4 col-6-medium col-12-small">
             <span class="icon solid fa-chart-line"></span>
             <div class="content">
                 <h3>Le Constat</h3>
                 <p>Constat de sous-performances ou défaillances révélées mais d’origine et d’imputabilité inconnues ou incertaines, et/ou solutions non trouvées.</p>
             </div>
         </article>
-        <article>
+        <article class="col-4 col-6-medium col-12-small">
             <span class="icon fa-paper-plane"></span>
             <div class="content">
                 <h3>Réclamation Amiable</h3>
                 <p>vous avez identifié votre problème et avez réclamé à votre fournisseur sans issue probable.</p>
             </div>
         </article>
-        <article>
+        <article class="col-4 col-6-medium col-12-small">
             <span class="icon fa-paper-plane"></span>
             <div class="content">
                 <h3>Mise en Demeure</h3>
                 <p>Restée sans effet et vous voulez évaluer l’opportunité de poursuivre.</p>
             </div>
         </article>
-        <article>
+        <article class="col-4 col-6-medium col-12-small">
             <span class="icon fa-paper-plane"></span>
             <div class="content">
                 <h3>Assignation ou Expertise Judiciaire</h3>
