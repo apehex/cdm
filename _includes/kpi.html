@@ -5,16 +5,20 @@
         {% if page.lang=="en" %}
         <h2>CDM'S KPI</h2>
         {% elsif page.lang=="fr" %}
-        <h2>LES INDICATEURS DE PERFORMANCE DE CDM</h2>
+        <h2>CDM EN CHIFFRES</h2>
         {% endif %}
     </header>
-    <div class="facts">
+    <div class="facts row">
         {% for kpi in kpis %}
-        <article>
-            <div class="fact-intro"><p>{{ kpi[page.lang].intro }}</p></div>
-            <div class="fact"><h3>{{ kpi[page.lang].fact }}</h3></div>
-            <div class="fact-outro"><p>{{ kpi[page.lang].outro }}</p></div>
-            <span class="icon {{ kpi[page.lang].icon }}"></span>
+        <article class="col-2 col-4-medium col-12-small">
+            <div class="fact-intro on"><p>{{ kpi[page.lang].intro }}</p></div>
+            <div class="fact on"><h3>{{ kpi[page.lang].fact }}</h3></div>
+            <div class="fact-outro on"><p>{{ kpi[page.lang].outro }}</p></div>
+            <span class="icon {{ kpi[page.lang].icon }} on"></span>
+            <div class="fact-intro off"><p>{{ kpi[page.lang].intro }}</p></div>
+            <div class="fact off"><h3>{{ kpi[page.lang].fact }}</h3></div>
+            <div class="fact-outro off"><p>{{ kpi[page.lang].outro }}</p></div>
+            <span class="icon {{ kpi[page.lang].icon }} off"></span>
         </article>
         {% endfor %}
     </div>
