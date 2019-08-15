@@ -1,6 +1,6 @@
 {% assign kpis=site.data.translations.kpi %}
 
-<section id="kpi">
+<section id="kpi" style="{{ include.style | default: nil }}">
     <header class="major">
         {% if page.lang=="en" %}
         <h2>CDM'S KPI</h2>

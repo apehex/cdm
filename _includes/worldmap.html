@@ -1,4 +1,4 @@
-<section id='{% if page.lang=="en" %}worldmap{% elsif page.lang=="fr" %}mappemonde{% endif %}'>
+<section id='{% if page.lang=="en" %}worldmap{% elsif page.lang=="fr" %}mappemonde{% endif %}' style="{{ include.style | default: nil }}">
     {% if page.lang=="en" %}
     <header class="major">
         <h2>Achievements</h2>

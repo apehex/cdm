@@ -1,5 +1,5 @@
 {% if page.lang=="en" %}
-<section id="expertise">
+<section id="expertise" style="{{ include.style | default: nil }}">
     <header class="major">
         <h2>I'm an Independent Expert in</h2>
     </header>
@@ -44,7 +44,7 @@
     </div>
 </section>
 {% elsif page.lang=="fr" %}
-<section id="savoir-faire">
+<section id="savoir-faire" style="{{ include.style | default: nil }}">
     <header class="major">
         <h2>Je suis Expert Indépendant en</h2>
     </header>
