@@ -132,45 +132,56 @@ menu:
 kpi:
   -
     en:
-      intro: We step in more than
+      intro: More than
       fact: 10
-      outro: sectors
+      outro: years of activity
       icon: solid fa-suitcase
     fr:
-      intro: Nous intervenons dans plus de
+      intro: Plus de
       fact: 10
-      outro: secteurs d'activité
+      outro: ans d'activité
       icon: solid fa-suitcase
   -
     en:
-      intro: We've worked for more than
-      fact: 5
-      outro: years with our main clients
-      icon: solid fa-heart
+      intro: 65 expert-assessments with
+      fact: 85%
+      outro: out-of-court settlements
+      icon: solid fa-handshake
     fr:
-      intro: Nous collaborons depuis plus de
-      fact: 5
-      outro: années avec nos clients principaux
-      icon: solid fa-heart
+      intro: 65 expertises avec
+      fact: 85%
+      outro: d'issues amiables
+      icon: solid fa-handshake
   -
     en:
       intro: Clients cash in before
       fact: 1
-      outro: year after our intervention
+      outro: year after my intervention
       icon: solid fa-bolt
     fr:
-      intro: Nos clients rentabilisent dès la
+      intro: Rentabilité dès la
       fact: 1ère
-      outro: année suite à notre intervention
+      outro: année suite à mon intervention
       icon: solid fa-bolt
   -
     en:
       intro: The gains exceed
-      fact: 1000%
+      fact: 2000%
       outro: our mission fees
       icon: solid fa-euro-sign
     fr:
-      intro: Les gains sont supérieurs à
-      fact: 1000%
-      outro: les frais de mission
+      intro: Les gains dépassent
+      fact: 2000%
+      outro: fois les frais de mission
       icon: solid fa-euro-sign
+  -
+    en:
+      intro: I handled stakes higher than
+      fact: 10 M€
+      outro: with success
+      icon: solid fa-stream
+    fr:
+      intro: Des enjeux de plus de
+      fact: 10 M€
+      outro: gérés avec succès
+      icon: solid fa-stream
