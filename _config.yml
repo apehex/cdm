@@ -93,5 +93,6 @@ plugins:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://moodule.github.io/cdm" # the base hostname & protocol for your site, e.g. http://example.com
 author: apehex
+copyright_holder: 2018-2019 CDM
 
 # Exclude from processing.
