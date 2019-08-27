@@ -1,6 +1,6 @@
 ---
 lang-ref: yang-expertise
 ---
-{% include expertise_yang.html %}
+{% include expertise_yang.html class="inverted" %}
 
-{% include cta.html style="background-color: rgba(100,100,255,0.1);" %}
+{% include cta.html class="inverted" %}

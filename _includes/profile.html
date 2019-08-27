@@ -1,5 +1,5 @@
 {% if page.lang=="en" %}
-<section id="about" style="{{ include.style | default: nil }}">
+<section id="about"  class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>ABOUT ME</h2>
     </header>
@@ -20,7 +20,7 @@
     </p>
 </section>
 {% elsif page.lang=="fr" %}
-<section id="a-propos" style="{{ include.style | default: nil }}">
+<section id="a-propos"  class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>&Agrave; propos de Moi</h2>
     </header>

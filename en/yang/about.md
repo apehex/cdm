@@ -3,10 +3,10 @@ lang-ref: yang-about
 ---
 {% include profile.html %}
 
-{% include certifications.html style="background-color: rgba(100,100,255,0.1);" %}
+{% include certifications.html class="inverted" %}
 
 {% include achievements.html %}
 
-{% include worldmap.html style="background-color: rgba(100,100,255,0.1);" %}
+{% include worldmap.html class="inverted" %}
 
-{% include cta.html %}
+{% include cta.html class="inverted" %}
