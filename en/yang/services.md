@@ -1,6 +1,6 @@
 ---
 lang-ref: yang-services
 ---
-{% include services_yang.html %}
+{% include services_yang.html class="inverted" %}
 
-{% include cta.html style="background-color: rgba(100,100,255,0.1);" %}
+{% include cta.html class="inverted" %}
