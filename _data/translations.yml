@@ -24,10 +24,10 @@ menu:
         menu:
           - title: Strategy
             url: /en/yang/services/#strategy
-          - title: Project Support
-            url: /en/yang/services/#project-support
           - title: Deployment Support
             url: /en/yang/services/#deployment-support
+          - title: Reception Support
+            url: /en/yang/services/#reception-support
           - title: Operation Support
             url: /en/yang/services/#operation-support
       - title: Expertise
@@ -35,12 +35,12 @@ menu:
         menu:
           - title: Efficiency
             url: /en/yang/expertise/#efficiency
-          - title: Maintenance
-            url: /en/yang/expertise/#maintenance
           - title: Dependability
             url: /en/yang/expertise/#dependability
           - title: Risk Management
             url: /en/yang/expertise/#risk-management
+          - title: Maintenance
+            url: /en/yang/expertise/#maintenance
           - title: Contracting Authority
             url: /en/yang/expertise/#contracting-authority
       - title: About
@@ -55,10 +55,10 @@ menu:
         menu:
           - title: Stratégie
             url: /fr/yang/services/#strategie
-          - title: Gestion de Projet
-            url: /fr/yang/services/#gestion-de-projet
-          - title: Déploiement & Démantèlement
-            url: /fr/yang/services/#deploiement-et-demantelement
+          - title: Déploiement
+            url: /fr/yang/services/#deploiement
+          - title: Réception
+            url: /fr/yang/services/#reception
           - title: Exploitation
             url: /fr/yang/services/#exploitation
       - title: Savoir Faire
@@ -66,12 +66,12 @@ menu:
         menu:
           - title: Efficience
             url: /fr/yang/savoir-faire/#efficience
-          - title: Maintenance
-            url: /fr/yang/savoir-faire/#maintenance
           - title: Sûreté de Fontionnement
             url: /fr/yang/savoir-faire/#surete-de-fonctionnement
           - title: Gestion des Risques
             url: /fr/yang/savoir-faire/#gestion-des-risques
+          - title: Maintenance
+            url: /fr/yang/savoir-faire/#maintenance
           - title: Maîtrise d'Ouvrage
             url: /fr/yang/savoir-faire/#maitrise-ouvrage-moa
       - title: A Propos
