@@ -11,10 +11,24 @@ phone: (33) 633-695-568
 email: contact@c-dm.com
 
 # Social settings
-github_url: https://github.com/moodule
-gitlab_url:
-linkedin_url: https://fr.linkedin.com/in/denis-mougeolle-05843858
-twitter_url:
+github:
+  url: https://github.com/moodule
+  label: "@moodule"
+linkedin:
+  url: https://fr.linkedin.com/in/denis-mougeolle-05843858
+  label: "@cdm"
+
+# Optional elements
+logo:
+  url: /assets/images/logo.svg
+  alt: logo
+favicon:
+  url: /assets/images/favicon.ico
+  alt: favicon
+legal_terms:
+  url: /fr/legal-terms/
+privacy_policy:
+  url: /fr/privacy-policy/
 
 # Collections
 collections:
@@ -52,14 +66,14 @@ defaults:
       path: "en/yang"
     values:
       menu: "yang"
-      title: "CDM"
+      title: "Consulting"
       subtitle: "Supporting Companies from Decision to Operations"
   -
     scope:
       path: "en/yin"
     values:
       menu: "yin"
-      title: "CDM"
+      title: "Expert Assessment"
       subtitle: "Outgrowing Incidents and Litigation"
       description: When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.
   -
@@ -72,27 +86,27 @@ defaults:
       path: "fr/yang"
     values:
       menu: "yang"
-      title: "CDM"
+      title: "Conseil"
       subtitle: "Accompagner de la Décision à l'Exploitation"
   -
     scope:
       path: "fr/yin"
     values:
       menu: "yin"
-      title: "CDM"
+      title: "Expertise"
       subtitle: "Dépasser les Incidents"
 
 # Build settings
 permalink: pretty
 markdown: kramdown
 theme: jekyll-theme-consulting
-plugins:
-  - jekyll-feed
 
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://moodule.github.io/cdm" # the base hostname & protocol for your site, e.g. http://example.com
 author: apehex
-copyright_holder: 2018-2019 CDM
+copyright:
+  holder: 2018-2019 CDM
+  license: All rights reserved
 
 # Exclude from processing.
