@@ -1,12 +1,15 @@
 ---
 lang-ref: yang-services
+layout: page
+title: "Conseil en Stratégie et AMOA"
+header:
+    title: 'CDM'
+    subtitle: "Accompagner de la Décision à l'Exploitation"
+    style:
+        class:
+        image: '/assets/images/hero/yang/installation-mes.jpg'
 ---
-<section>
-	<blockquote>
-		Je peux vous aider, que votre problématique découle d’un manque de compétences en interne  ou d’un manque de disponibilité de celles-ci
-	</blockquote>
-</section>
 
 {% include services_yang.html %}
 
-{% include cta.html %}
+{% include cta.html class="inverted" %}

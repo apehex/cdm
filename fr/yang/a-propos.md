@@ -1,6 +1,15 @@
 ---
 lang-ref: yang-about
+layout: page
+title: "Ingénierie et Expertise Indépendante"
+header:
+    title: "CDM"
+    subtitle: "Accompagner de la Décision à l'Exploitation"
+    style:
+        class:
+        image: "/assets/images/hero/yang/installation-mes.jpg"
 ---
+
 {% include profile.html parent="yang" %}
 
 {% include kpi.html %}
@@ -9,4 +18,4 @@ lang-ref: yang-about
 
 {% include certifications.html %}
 
-{% include cta.html %}
+{% include cta.html class="inverted" %}

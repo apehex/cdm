@@ -1,6 +1,7 @@
 ---
 lang-ref: 'yang-home'
 layout: home
+title: 'Consulting Agency'
 header:
     title: 'CDM'
     subtitle: 'Supporting Companies from Decision to Operations'
@@ -8,8 +9,9 @@ header:
         class: 'inverted'
         image: '/assets/images/pillars-of-creation.jpg'
 banner:
-    title: 'Supporting Companies from Decision to Operations'
-    subtitle: 'Since 2008'
+    title: 'Consulting'
+    subtitle: ' '
+    description: "J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens à plusieurs niveaux :<br/>analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue."
     button:
         url: '#contact'
         label: 'Ask for Advice'
