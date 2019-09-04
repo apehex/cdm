@@ -1,12 +1,31 @@
 ---
 lang-ref: yin-about
+layout: home
+title: "The Compagny"
+header:
+    title: 'CDM'
+    subtitle: "Outgrowing Incidents"
+    style:
+        class: 'inverted'
+        image: '/assets/images/pillars-of-creation.jpg'
+banner:
+    title: "The Compagny"
+    subtitle: ' '
+    description: " "
+    button:
+        url: '#contact'
+        label: 'Ask for Advice'
+    style:
+        class: 'inverted'
+        image: '/assets/images/pillars-of-creation.jpg'
 ---
-{% include profile.html %}
 
-{% include achievements.html style="background-color: rgba(100,100,255,0.1);" %}
+{% include profile.html parent="yin" %}
 
-{% include worldmap.html %}
+{% include certifications.html class="inverted" %}
 
-{% include certifications.html style="background-color: rgba(100,100,255,0.1);" %}
+{% include achievements.html %}
 
-{% include cta.html %}
+{% include worldmap.html class="inverted" %}
+
+{% include cta.html class="inverted" %}
