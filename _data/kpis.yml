@@ -1,0 +1,56 @@
+# Facts & KPI
+-
+  en:
+    intro: More than
+    fact: 10
+    outro: years of activity
+    icon: solid fa-suitcase
+  fr:
+    intro: Plus de
+    fact: 10
+    outro: ans d'activité
+    icon: solid fa-suitcase
+-
+  en:
+    intro: 65 expert-assessments with
+    fact: 85%
+    outro: out-of-court settlements
+    icon: solid fa-handshake
+  fr:
+    intro: 65 expertises avec
+    fact: 85%
+    outro: d'issues amiables
+    icon: solid fa-handshake
+-
+  en:
+    intro: Clients cash in before
+    fact: 1
+    outro: year after my intervention
+    icon: solid fa-bolt
+  fr:
+    intro: Rentabilité dès la
+    fact: 1ère
+    outro: année suite à mon intervention
+    icon: solid fa-bolt
+-
+  en:
+    intro: The gains exceed
+    fact: 2000%
+    outro: our mission fees
+    icon: solid fa-euro-sign
+  fr:
+    intro: Les gains dépassent
+    fact: 2000%
+    outro: fois les frais de mission
+    icon: solid fa-euro-sign
+-
+  en:
+    intro: I handled stakes higher than
+    fact: 10 M€
+    outro: with success
+    icon: solid fa-stream
+  fr:
+    intro: Des enjeux de plus de
+    fact: 10 M€
+    outro: gérés avec succès
+    icon: solid fa-stream
