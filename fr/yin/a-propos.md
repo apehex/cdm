@@ -23,6 +23,8 @@ banner:
 
 {% include kpi.html %}
 
+{% include achievements.html tag="expert-assessment" %}
+
 {% include clients.html %}
 
 {% include certifications.html %}

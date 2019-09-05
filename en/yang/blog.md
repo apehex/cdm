@@ -19,6 +19,7 @@ banner:
         class: 'inverted'
         image: '/assets/images/pillars-of-creation.jpg'
 ---
+
 {% include thread.html %}
 
 {% include cta.html class="inverted" %}
