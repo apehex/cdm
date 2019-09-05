@@ -19,6 +19,9 @@ banner:
         class: 'inverted'
         image: '/assets/images/pillars-of-creation.jpg'
 ---
+
 {% include services_yang.html class="inverted" %}
+
+{% include achievements.html tag="consulting" %}
 
 {% include cta.html class="inverted" %}
