@@ -1,33 +1,10 @@
-{% if page.lang=="en" %}
-<section id="about"  class="{{ include.class | default: nil }}">
+<section id="{% if page.lang=='en' %}about{% elsif page.lang=='fr' %}a-propos{% endif %}" class="{{ include.class }}">
     <header class="major">
-        <h2>ABOUT ME</h2>
-    </header>
-    <span class="image right"><img src="{{ 'assets/images/hero/portrait.jpg' | absolute_url }}" alt="" /></span>
-    <p>Ingénieur conseil à la tête du cabinet éponyme CDM, je suis spécialisé en Gestion des Risques et Efficience Industrielle.</p>
-    <p>CDM est pour moi une recherche personnelle :
-        <ul>
-            <li>indépendance professionnelle</li>
-            <li>Envie d'agir, de faire en mettant à profit la construction méthodique de mes compétences</li>
-            <li>Faire ce que personne ou peu savent faire</li>
-            <li>Être confronté à la difficulté, résoudre des problèmes qui semblent insolubles, innover, créer</li>
-            <li>Assainir un certain nombre de secteurs d'activité</li>
-            <li>Transmettre un savoir, un savoir faire, créer la curiosité</li>
-            <li>Eduquer les individus au doute en commençant par le doute de soi même</li>
-            <li>Approcher la vie de façon globale et scientifique</li>
-            <li>La vision c'est la connaissance universelle au sens des grands scientifiques du siècle des lumières</li>
-        </ul>
-    </p>
-</section>
-{% elsif page.lang=="fr" %}
-<section id="a-propos"  class="{{ include.class | default: nil }}">
-    <header class="major">
-        <h2>&Agrave; propos de Moi</h2>
+        <h2>{% if page.lang=="en" %}ABOUT ME{% elsif page.lang=="fr" %}&Agrave; propos de Moi{% endif %}</h2>
     </header>
     <span class="image right"><img src="{{ 'assets/images/hero/portrait.jpg' | absolute_url }}" alt="" /></span>
     {% if include.parent contains "yang" %}
     <p><strong>Ingénieur Conseil</strong>, je suis spécialisé en <strong>Gestion des Risques</strong> et <strong>Efficience Industrielle</strong> ; par ailleurs je suis <strong>Expert Indépendant</strong>.</p>
-    <p>J’ai donc deux <strong>activités complémentaires</strong> : le Conseil et l’Expertise.</p>
     <p>Le Conseil prend forme à travers <strong>trois types de missions orientées</strong> :<br />
         - l’Audit RAR (Ressources-Activités-Résultats)<br />
         - l’Assistance à projet<br />
@@ -41,4 +18,3 @@
     <p>Une diversité, une complémentarité et une cohérence de compétences de bout en bout issues de 40 ans d’expérience dans six domaines technologiques différents associée à une formation progressive depuis l’Ecole des Mousses / Marine à Bac+6 (Ingénieur, MBA, Droit, Risk Management) complétée par une formation juridique (Capacité en Droit, DU d’Expertise Judiciaire).</p>
     {% endif %}
 </section>
-{% endif %}
