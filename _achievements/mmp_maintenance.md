@@ -1,9 +1,10 @@
 ---
 image: /assets/images/clients/mmp_icon.png
-title: MMP
+title: >-
+    Augmentation Uptime de 93% à 97,5% et du temps d’ouverture associée à une réduction de 30% des coûts directs de maintenance
 summary: >-
-    Croissance du CA malgré la coactivité d’un chantier de restructuration industrielle impactant 30% de la surface usine.
-tags: [consulting, project-support]
+    Réduction downtime de 6,52% à 2,54% tout en augmentant le temps d’ouverture de 6 machines de 25 000h à 32 000h et en réduisant les coûts directs de maintenance de 30%.
+tags: [consulting, maintenance]
 ---
 
 <ul>

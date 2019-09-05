@@ -9,6 +9,7 @@
     <div class="box alt">
         <div class="row gtr-50 gtr-uniform">
         {% for achievement in site.achievements %}
+        {% if achievement.tags contains include.tag %}
             <div class="col-3">
                 <article>
                     <a href="{{ achievement.url | absolute_url }}" class="image">
@@ -16,11 +17,13 @@
                     </a>
                     <h3>{{ achievement.title }}</h3>
                     <p>{{ achievement.summary }}</p>
+                    {{ achievement.content }}
                     <ul class="actions">
                         <li><a href="#" class="button">{% if page.lang=="en" %}More{% elsif page.lang=="fr" %}Plus{% endif %}</a></li>
                     </ul>
                 </article>
             </div>
+        {% endif %}
         {% endfor %}
         </div>
     </div>

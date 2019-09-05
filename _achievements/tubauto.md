@@ -1,8 +1,8 @@
 ---
-image: /assets/images/clients/aed_icon.png
-title: "Evitement incendie électrique imminent générateur 600kW"
+image:
+title: "Audit risques ligne de production en 2 jours / 82 points traités"
 summary: >-
-    Suppression d’un risque d’incendie électrique sur usine de méthanisation par expertise et obligation faite au fournisseur de reprendre à sa charge les désordres (30k€).
+    Audit sécurité d’une ligne de production supposée conforme à la Directive Machine et mise en évidence de 82 points d’écart ; proposition des solutions afférentes.
 tags: [consulting, risk-management]
 ---
 

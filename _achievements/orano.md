@@ -1,10 +1,11 @@
 ---
 image: /assets/images/clients/orano_icon.png
-title: Suivi d'exécution
-summary: Assuré la conformité des équipements livrées par les prestataires.
-missions: [Audit, Project Ownership]
-domains: [Dependability, Electronic Engineering]
+title: "Suivi d'exécution"
+summary: >-
+    Assuré la conformité des équipements livrées par les prestataires.
+tags: [consulting, project-support]
 ---
+
 <ul>
     <li>Conformité au dossier de définition initial des équipements livrés</li>
     <li>Dans le TEMPS IMPARTI par le contrat d’affaire.</li>
