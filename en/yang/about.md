@@ -24,8 +24,6 @@ banner:
 
 {% include certifications.html class="inverted" %}
 
-{% include achievements.html %}
-
-{% include worldmap.html class="inverted" %}
+{% include worldmap.html %}
 
 {% include cta.html class="inverted" %}
