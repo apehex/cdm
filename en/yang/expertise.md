@@ -19,6 +19,7 @@ banner:
         class: 'inverted'
         image: '/assets/images/pillars-of-creation.jpg'
 ---
+
 {% include expertise_yang.html class="inverted" %}
 
 {% include cta.html class="inverted" %}

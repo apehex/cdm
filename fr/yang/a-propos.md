@@ -14,6 +14,8 @@ header:
 
 {% include kpi.html %}
 
+{% include achievements.html tag="consulting" %}
+
 {% include clients.html %}
 
 {% include certifications.html %}

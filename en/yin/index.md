@@ -19,6 +19,7 @@ banner:
         class: 'inverted'
         image: '/assets/images/pillars-of-creation.jpg'
 ---
+
 {% include context_yin.html %}
 
 {% include kpi.html class="inverted" %}
