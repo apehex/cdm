@@ -19,7 +19,10 @@ banner:
         class: 'inverted'
         image: '/assets/images/pillars-of-creation.jpg'
 ---
+
 {% include profile.html parent="yin" %}
+
+{% include values.html %}
 
 {% include kpi.html %}
 

@@ -12,6 +12,8 @@ header:
 
 {% include profile.html parent="yang" %}
 
+{% include values.html %}
+
 {% include kpi.html %}
 
 {% include achievements.html tag="consulting" %}
