@@ -7,7 +7,7 @@ header:
     subtitle: "Dépasser les Incidents"
     style:
         class: 'inverted'
-        image: '/assets/images/pillars-of-creation.jpg'
+        image: '/assets/images/yin/station-ep.jpg'
 banner:
     title: "Le Cabinet"
     subtitle: ' '
@@ -17,7 +17,7 @@ banner:
         label: 'Ask for Advice'
     style:
         class: 'inverted'
-        image: '/assets/images/pillars-of-creation.jpg'
+        image: '/assets/images/yin/station-ep.jpg'
 ---
 
 {% include profile.html parent="yin" %}
