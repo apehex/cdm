@@ -19,16 +19,14 @@ linkedin:
   label: "@cdm"
 
 # Optional elements
-logo:
-  url: /assets/images/logo.svg
-  alt: logo
-favicon:
-  url: /assets/images/favicon.ico
-  alt: favicon
+logo: /assets/images/logo.png
+favicon: /assets/images/favicon.ico
 legal_terms:
-  url: /fr/legal-terms/
+  url: /en/legal-terms/
 privacy_policy:
-  url: /fr/privacy-policy/
+  url: /en/privacy-policy/
+  third_party:
+    hosting: github
 
 # Collections
 collections:
