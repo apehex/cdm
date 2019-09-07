@@ -7,7 +7,7 @@ header:
     subtitle: "Accompagner de la Décision à l'Exploitation"
     style:
         class:
-        image: "/assets/images/hero/yang/installation-mes.jpg"
+        image: "/assets/images/yang/installation-mes.jpg"
 ---
 
 {% include profile.html parent="yang" %}
