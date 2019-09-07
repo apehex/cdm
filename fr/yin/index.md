@@ -2,6 +2,8 @@
 lang-ref: yin-home
 layout: home
 title: "Cabinet d'Expertise"
+description: >-
+    J’accompagne les entreprises, syndics de copropriété, syndicats de copropriétaires, particuliers, de l’identification du désordre jusqu’à la solution interne ou externe (amiable / judiciaire) dans le cas où la responsabilité d’un tiers pourrait être recherchée.
 header:
     title: 'CDM'
     subtitle: "Dépasser les Incidents"
