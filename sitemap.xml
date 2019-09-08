@@ -62,7 +62,7 @@
     
     <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/expertise/" />
     
-    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/savoir-faire/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/competences/" />
     
     <changefreq>weekly</changefreq>
   </url>
@@ -75,7 +75,7 @@
     
     <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/expertise/" />
     
-    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/savoir-faire/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/competences/" />
     
     <changefreq>weekly</changefreq>
   </url>
@@ -117,6 +117,19 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/" />
     
     <xhtml:link rel="alternate" hreflang="x-default" href="https://moodule.github.io/cdm/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/en/privacy-policy/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/privacy-policy/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/politique-de-confidentialite/" />
     
     <changefreq>weekly</changefreq>
   </url>
@@ -203,6 +216,32 @@
   
   
   <url>
+    <loc>https://moodule.github.io/cdm/fr/yang/competences/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/expertise/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/competences/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moodule.github.io/cdm/fr/yin/competences/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/expertise/" />
+    
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/competences/" />
+    
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  
+  
+  
+  <url>
     <loc>https://moodule.github.io/cdm/fr/yang/</loc>
     
     <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/" />
@@ -244,24 +283,11 @@
   
   
   <url>
-    <loc>https://moodule.github.io/cdm/fr/yang/savoir-faire/</loc>
+    <loc>https://moodule.github.io/cdm/fr/politique-de-confidentialite/</loc>
     
-    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yang/expertise/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/privacy-policy/" />
     
-    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yang/savoir-faire/" />
-    
-    <changefreq>weekly</changefreq>
-  </url>
-  
-  
-  
-  
-  <url>
-    <loc>https://moodule.github.io/cdm/fr/yin/savoir-faire/</loc>
-    
-    <xhtml:link rel="alternate" hreflang="en" href="https://moodule.github.io/cdm/en/yin/expertise/" />
-    
-    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/yin/savoir-faire/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moodule.github.io/cdm/fr/politique-de-confidentialite/" />
     
     <changefreq>weekly</changefreq>
   </url>
