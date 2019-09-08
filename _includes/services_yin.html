@@ -11,7 +11,7 @@
     </ul>
 </section>
 
-<section id="mitigation">
+<section id="mitigation" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>MITIGATION</h2>
     </header>
@@ -44,7 +44,7 @@
     </ul>
 </section>
 
-<section id="palliative-solutions" class="{{ include.class | default: nil }}">
+<section id="palliative-solutions">
     <header class="major">
         <h2>PALLIATIVE SOLUTIONS</h2>
     </header>
@@ -58,44 +58,42 @@
     Résoudre avec les parties prenantes les difficultés rencontrées dans le cadre d’un litige.
 </section>
 {% elsif page.lang=="fr" %}
-<section id="expertise-officieuse">
+<section id="vos-besoins">
     <header class="major">
-        <h2>Expertise Officieuse</h2>
+        <h2>Vos Besoins</h2>
     </header>
-    <p>Formaliser le bien-fondé d’une réclamation ou d’un litige, évaluer l’opportunité de poursuivre, trouver les options de solution amiable.</p>
-    <ul>
-        <li>Définir le périmètre d’étude ou d’intervention par proposition d’une lettre de mission</li>
-        <li>Qualifier la situation initiale, constater la matérialité des désordres.</li>
-        <li>Effectuer des relevés, essais, toute action susceptible de conserver des preuves de la situation trouvée.</li>
-        <li>Identifier les obligations des parties et l’imputabilité des causes.</li>
-        <li>Déterminer les travaux de reprise des désordres requis, et les faire chiffrer.</li>
-        <li>Evaluer le préjudice subi.</li>
-        <li>Remise d’un rapport documenté permettant au demandeur de faire valoir ses droits par toute voie amiable ou judiciaire.</li>
-    </ul>
+    <div class="row">
+        <div class="col-6 col-12-small">
+            <ul class="actions stacked">
+                <li><a href="#" class="button fit icon solid">Qualifier une situation litigieuse</a></li>
+                <li><a href="#" class="button fit icon solid">Identifier des causes</a></li>
+                <li><a href="#" class="button fit icon solid">Chiffrer un préjudice</a></li>
+                <li><a href="#" class="button fit icon solid">Résoudre à l’amiable</a></li>
+                <li><a href="#" class="button primary fit icon solid">Assistance technique</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-12-small">
+            <h2 style="position: relative; top: 30%;">Assistance technique dans le cadre d’un désaccord<br>sur les performances d’un système livré<br>ou d’un litige technique avec un tiers</h2>
+        </div>
+    </div>
 </section>
-
-<section id="expertise-amiable">
+<section id="mes-competences" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>Expertise Amiable</h2>
+        <h2>Mes Compétences</h2>
     </header>
-    <p>Résoudre avec les parties prenantes les difficultés rencontrées dans le cadre d’un litige, fournir la base technique d’un protocole transactionnel.</p>
-    <ul>
-        <li>Définir le périmètre d’étude ou d’intervention par proposition d’une lettre de mission</li>
-        <li>Convoquer à une réunion contradictoire les parties dont la responsabilité est susceptible d’être recherchée.</li>
-        <li>Conduire la réunion, constater ensemble les désordres et discuter contradictoirement quant à l’ampleur, quant aux causes et quant à l’imputabilité de ceux-ci.</li>
-        <li>Proposer et rédiger éventuellement un protocole de résolution amiable.</li>
-        <li>Négocier, accompagner dans la négociation d’une solution amiable.</li>
-        <li>Traduire les échanges de la (les) réunion(s) par une note de synthèse.</li>
-        <li>Suivre l’exécution du plan d’action arrêté ou remettre un rapport définitif en l’absence de solution amiable.</li>
-        <li>Réceptionner la solution mise en œuvre et clôturer le protocole de résolution amiable si respect des engagements pris.</li>
-        <li>Organiser toute autre démarche requise par la situation (sollicitation de constat d’huissier, etc.).</li>
-    </ul>
-</section>
-
-<section id="surete-de-fonctionnement" class="{{ include.class | default: nil }}">
-    <header class="major">
-        <h2>Sureté de Fonctionnement</h2>
-    </header>
-    <p>Identifier les causes de défaillance et y apporter des solutions pérennes.</p>
+    <div class="row">
+        <div class="col-6 col-12-small">
+            <h2 style="position: relative; top: 30%;">Participation aux réunions d’expertise<br>Argumentaires techniques en demande ou en défense<br>Réponse technique aux dires adverses<br>Evaluation des travaux de reprise envisagés</h2>
+        </div>
+        <div class="col-6 col-12-small">
+            <ul class="actions stacked">
+                <li><a href="#" class="button fit icon solid">Rapport de constat</a></li>
+                <li><a href="#" class="button fit icon solid">Diagnostic fonctionnel</a></li>
+                <li><a href="#" class="button fit icon solid">Spécification de besoin</a></li>
+                <li><a href="#" class="button fit icon solid">Elaboration de solutions partagées</a></li>
+                <li><a href="#" class="button primary fit icon solid">Participation aux réunions d'expertise</a></li>
+            </ul>
+        </div>
+    </div>
 </section>
 {% endif %}
