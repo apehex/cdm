@@ -47,7 +47,7 @@
     </div>
 </section>
 {% elsif page.lang=="fr" %}
-<section class="{{ include.class | default: nil }}">
+<section id="contexte" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>Votre Situation</h2>
     </header>
@@ -56,28 +56,56 @@
             <span class="icon solid fa-exclamation"></span>
             <div class="content">
                 <h3>Le Constat</h3>
-                <p>Constat de sous-performances ou défaillances révélées mais d’origine et d’imputabilité inconnues ou incertaines, et/ou solutions non trouvées.</p>
+                <p>D'insatisfaction de vos attentes, de sous-performances ou défaillances révélées mais d'origine et d'imputabilité inconnues ou incertaines, et / ou solutions non trouvées.</p>
             </div>
         </article>
         <article>
             <span class="icon solid fa-undo"></span>
             <div class="content">
                 <h3>Réclamation Amiable</h3>
-                <p>Vous avez identifié votre problème et avez réclamé à votre fournisseur sans issue probable.</p>
+                <p>Vous avez cerné, identifié votre problème et avez réclamé à votre fournisseur sans issue probable.</p>
             </div>
         </article>
         <article>
             <span class="icon solid fa-stamp"></span>
             <div class="content">
                 <h3>Mise en Demeure</h3>
-                <p>Restée sans effet et vous voulez évaluer l’opportunité de poursuivre.</p>
+                <p>Restée sans effet et vous voulez avoir une idée de l'opportunité de poursuivre.</p>
             </div>
         </article>
         <article>
             <span class="icon solid fa-gavel"></span>
             <div class="content">
                 <h3>Assignation ou Expertise Judiciaire</h3>
-                <p>Vous avez besoin d’une assistance technique pour défendre vos intérêts.</p>
+                <p>Vous avez besoin d'une assistance technique pour défendre vos intérêts.</p>
+            </div>
+        </article>
+    </div>
+</section>
+<section id='services' class="{{ include.class | default: nil }}">
+    <header class="major">
+        <h2>Mes Services</h2>
+    </header>
+    <div class="features">
+        <article>
+            <span class="icon solid fa-search-dollar"></span>
+            <div class="content">
+                <h3>Expertise Officieuse</h3>
+                <p>Formaliser le bien-fondé d'une réclamation ou d'un litige, évaluer l'opportunité de poursuivre, trouver les options de solution amiable.</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon solid fa-handshake"></span>
+            <div class="content">
+                <h3>Expertise Amiable</h3>
+                <p>Résoudre avec les parties prenantes les difficultés rencontrées dans le cadre d'un litige, fournir la base technique d'un protocole transactionnel.</p>
+            </div>
+        </article>
+        <article>
+            <span class="icon solid fa-balance-scale"></span>
+            <div class="content">
+                <h3>Expertise Judiciaire</h3>
+                <p>Défendre votre point de vue, mettre en lumière les désordres, argumenter et chiffrer votre réclamation, combattre les arguments adverses.</p>
             </div>
         </article>
     </div>
