@@ -14,7 +14,7 @@ banner:
     title: "Mes Activités<br />de Conseil"
     subtitle: " "
     description: >-
-        <br /><br /><br /><br /><br /><br />J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens à plusieurs niveaux :<br/>analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, <br />gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.
+        J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens à plusieurs niveaux :<br/>analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, <br />gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.<br /><br /><br /><br /><br /><br />
     button:
         url: '#contact'
         label: 'Demandez Conseil'
