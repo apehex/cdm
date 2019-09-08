@@ -19,6 +19,7 @@ banner:
         class: 'inverted'
         image: '/assets/images/yin/station-ep.jpg'
 ---
+
 {% include expertise_yin.html %}
 
-{% include cta.html %}
+{% include cta.html class="inverted" %}
