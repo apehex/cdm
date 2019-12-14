@@ -18,17 +18,17 @@ yang:
   en:
     - title: Home
       url: /en/yang/
-    - title: Your Issues
-      url: /en/yang/your-issues/
+    - title: Your Situation
+      url: /en/yang/your-situation/
       menu:
         - title: Project
-          url: /en/yang/your-issues/#project
+          url: /en/yang/your-situation/#project
         - title: Deployment
-          url: /en/yang/your-issues/#deployment
+          url: /en/yang/your-situation/#deployment
         - title: Reception
-          url: /en/yang/your-issues/#reception
+          url: /en/yang/your-situation/#reception
         - title: Operation
-          url: /en/yang/your-issues/#operation
+          url: /en/yang/your-situation/#operation
     - title: My Expertise
       url: /en/yang/my-expertise/
       menu:
@@ -49,17 +49,17 @@ yang:
   fr:
     - title: Accueil
       url: /fr/yang/
-    - title: Vos Problématiques
-      url: /fr/yang/vos-problematiques/
+    - title: Votre Situation
+      url: /fr/yang/votre-situation/
       menu:
         - title: Projet
-          url: /fr/yang/vos-problematiques/#projet
+          url: /fr/yang/votre-situation/#projet
         - title: Déploiement
-          url: /fr/yang/vos-problematiques/#deploiement
+          url: /fr/yang/votre-situation/#deploiement
         - title: Réception
-          url: /fr/yang/vos-problematiques/#reception
+          url: /fr/yang/votre-situation/#reception
         - title: Exploitation
-          url: /fr/yang/vos-problematiques/#exploitation
+          url: /fr/yang/votre-situation/#exploitation
     - title: Mes Compétences
       url: /fr/yang/mes-competences/
       menu:
@@ -81,15 +81,15 @@ yin:
   en:
     - title: Home
       url: /en/yin/
-    - title: Your Issues
-      url: /en/yin/your-issues/
+    - title: Your Situation
+      url: /en/yin/your-situation/
       menu:
         - title: Expert Assessment
-          url: /en/yin/your-issues/#expert-assessment
+          url: /en/yin/your-situation/#expert-assessment
         - title: Mitigation
-          url: /en/yin/your-issues/#mitigation
+          url: /en/yin/your-situation/#mitigation
         - title: Palliative Solutions
-          url: /en/yin/your-issues/#palliative-solutions
+          url: /en/yin/your-situation/#palliative-solutions
     - title: My Expertise
       url: /en/yin/my-expertise/
       menu:
@@ -104,17 +104,17 @@ yin:
   fr:
     - title: Accueil
       url: /fr/yin/
-    - title: Vos Problématiques
-      url: /fr/yin/vos-problematiques/
+    - title: Votre Situation
+      url: /fr/yin/votre-situation/
       menu:
         - title: Expertise Officieuse
-          url: /fr/yin/vos-problematiques/#expertise-officieuse
+          url: /fr/yin/votre-situation/#expertise-officieuse
         - title: Expertise Amiable
-          url: /fr/yin/vos-problematiques/#expertise-amiable
+          url: /fr/yin/votre-situation/#expertise-amiable
         - title: Médiation
-          url: /fr/yin/vos-problematiques/#mediation
+          url: /fr/yin/votre-situation/#mediation
         - title: Solutions Palliative
-          url: /fr/yin/vos-problematiques/#solutions-palliatives
+          url: /fr/yin/votre-situation/#solutions-palliatives
     - title: Mes Compétences
       url: /fr/yin/mes-competences/
       menu:
