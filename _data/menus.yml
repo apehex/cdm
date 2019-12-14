@@ -18,30 +18,30 @@ yang:
   en:
     - title: Home
       url: /en/yang/
-    - title: Services
-      url: /en/yang/services/
+    - title: Your Issues
+      url: /en/yang/your-issues/
       menu:
-        - title: Strategy
-          url: /en/yang/services/#strategy
-        - title: Deployment Support
-          url: /en/yang/services/#deployment-support
-        - title: Reception Support
-          url: /en/yang/services/#reception-support
-        - title: Operation Support
-          url: /en/yang/services/#operation-support
-    - title: Expertise
-      url: /en/yang/expertise/
+        - title: Project
+          url: /en/yang/your-issues/#project
+        - title: Deployment
+          url: /en/yang/your-issues/#deployment
+        - title: Reception
+          url: /en/yang/your-issues/#reception
+        - title: Operation
+          url: /en/yang/your-issues/#operation
+    - title: My Expertise
+      url: /en/yang/my-expertise/
       menu:
         - title: Efficiency
-          url: /en/yang/expertise/#efficiency
+          url: /en/yang/my-expertise/#efficiency
         - title: Dependability
-          url: /en/yang/expertise/#dependability
+          url: /en/yang/my-expertise/#dependability
         - title: Risk Management
-          url: /en/yang/expertise/#risk-management
+          url: /en/yang/my-expertise/#risk-management
         - title: Maintenance
-          url: /en/yang/expertise/#maintenance
+          url: /en/yang/my-expertise/#maintenance
         - title: Contracting Authority
-          url: /en/yang/expertise/#contracting-authority
+          url: /en/yang/my-expertise/#contracting-authority
     - title: About
       url: /en/yang/about/
     - title: Blog
@@ -49,30 +49,30 @@ yang:
   fr:
     - title: Accueil
       url: /fr/yang/
-    - title: Services
-      url: /fr/yang/services/
+    - title: Vos Problématiques
+      url: /fr/yang/vos-problematiques/
       menu:
-        - title: Stratégie
-          url: /fr/yang/services/#strategie
+        - title: Projet
+          url: /fr/yang/vos-problematiques/#projet
         - title: Déploiement
-          url: /fr/yang/services/#deploiement
+          url: /fr/yang/vos-problematiques/#deploiement
         - title: Réception
-          url: /fr/yang/services/#reception
+          url: /fr/yang/vos-problematiques/#reception
         - title: Exploitation
-          url: /fr/yang/services/#exploitation
-    - title: Compétences
-      url: /fr/yang/competences/
+          url: /fr/yang/vos-problematiques/#exploitation
+    - title: Mes Compétences
+      url: /fr/yang/mes-competences/
       menu:
         - title: Efficience
-          url: /fr/yang/competences/#efficience
+          url: /fr/yang/mes-competences/#efficience
         - title: Sûreté de Fontionnement
-          url: /fr/yang/competences/#surete-de-fonctionnement
+          url: /fr/yang/mes-competences/#surete-de-fonctionnement
         - title: Gestion des Risques
-          url: /fr/yang/competences/#gestion-des-risques
+          url: /fr/yang/mes-competences/#gestion-des-risques
         - title: Maintenance
-          url: /fr/yang/competences/#maintenance
+          url: /fr/yang/mes-competences/#maintenance
         - title: Maîtrise d'Ouvrage
-          url: /fr/yang/competences/#maitrise-ouvrage-moa
+          url: /fr/yang/mes-competences/#maitrise-ouvrage-moa
     - title: A Propos
       url: /fr/yang/a-propos/
     - title: Blog
@@ -81,22 +81,22 @@ yin:
   en:
     - title: Home
       url: /en/yin/
-    - title: Services
-      url: /en/yin/services/
+    - title: Your Issues
+      url: /en/yin/your-issues/
       menu:
         - title: Expert Assessment
-          url: /en/yin/services/#expert-assessment
+          url: /en/yin/your-issues/#expert-assessment
         - title: Mitigation
-          url: /en/yin/services/#mitigation
+          url: /en/yin/your-issues/#mitigation
         - title: Palliative Solutions
-          url: /en/yin/services/#palliative-solutions
-    - title: Expertise
-      url: /en/yin/expertise/
+          url: /en/yin/your-issues/#palliative-solutions
+    - title: My Expertise
+      url: /en/yin/my-expertise/
       menu:
         - title: HVAC Engineering
-          url: /en/yin/expertise#hvac-engineering
+          url: /en/yin/my-expertise#hvac-engineering
         - title: Industrial Processes
-          url: /en/yin/expertise/#industrial-processes
+          url: /en/yin/my-expertise/#industrial-processes
     - title: About
       url: /en/yin/about/
     - title: Blog
@@ -104,24 +104,24 @@ yin:
   fr:
     - title: Accueil
       url: /fr/yin/
-    - title: Services
-      url: /fr/yin/services/
+    - title: Vos Problématiques
+      url: /fr/yin/vos-problematiques/
       menu:
         - title: Expertise Officieuse
-          url: /fr/yin/services/#expertise-officieuse
+          url: /fr/yin/vos-problematiques/#expertise-officieuse
         - title: Expertise Amiable
-          url: /fr/yin/services/#expertise-amiable
+          url: /fr/yin/vos-problematiques/#expertise-amiable
         - title: Médiation
-          url: /fr/yin/services/#mediation
+          url: /fr/yin/vos-problematiques/#mediation
         - title: Solutions Palliative
-          url: /fr/yin/services/#solutions-palliatives
-    - title: Compétences
-      url: /fr/yin/competences/
+          url: /fr/yin/vos-problematiques/#solutions-palliatives
+    - title: Mes Compétences
+      url: /fr/yin/mes-competences/
       menu:
         - title: Génie Climatique
-          url: /fr/yin/competences/#genie-climatique
+          url: /fr/yin/mes-competences/#genie-climatique
         - title: Procédés Industriels
-          url: /fr/yin/competences/#procedes-industriels
+          url: /fr/yin/mes-competences/#procedes-industriels
     - title: A Propos
       url: /fr/yin/a-propos/
     - title: Blog
