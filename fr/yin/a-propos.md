@@ -22,8 +22,6 @@ banner:
 
 {% include profile.html parent="yin" %}
 
-{% include values.html %}
-
 {% include kpi.html %}
 
 {% include achievements.html tag="expert-assessment" %}
