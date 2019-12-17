@@ -22,10 +22,8 @@ banner:
 
 {% include profile.html parent="yin" %}
 
-{% include values.html class="inverted" %}
+{% include certifications.html class="inverted" %}
 
-{% include certifications.html%}
-
-{% include worldmap.html class="inverted" %}
+{% include worldmap.html %}
 
 {% include cta.html class="inverted" %}
