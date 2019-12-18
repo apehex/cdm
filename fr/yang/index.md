@@ -8,21 +8,24 @@ header:
     title: 'CDM'
     subtitle: "Accompagner de la Décision à l'Exploitation"
     style:
-        class:
+        class: 'inverted'
         image: "/assets/images/yang/installation-mes.jpg"
 banner:
     title: "Mes Activités<br />de Conseil"
     subtitle: " "
-    description: >-
-        J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens à plusieurs niveaux :<br/>analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, <br />gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.<br /><br /><br /><br /><br /><br />
+    description: " "
     button:
         url: '#contact'
         label: 'Demandez Conseil'
     style:
-        class:
+        class: 'inverted'
         image: '/assets/images/yang/installation-mes.jpg'
 ---
 
 {% include context_yang.html %}
+
+{% include kpi.html class="inverted" %}
+
+{% include clients.html %}
 
 {% include cta.html class="inverted" %}

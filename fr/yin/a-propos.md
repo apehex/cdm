@@ -1,6 +1,6 @@
 ---
 lang-ref: yin-about
-layout: home
+layout: page
 title: "Le Cabinet"
 header:
     title: 'CDM'
@@ -8,26 +8,10 @@ header:
     style:
         class: 'inverted'
         image: '/assets/images/yin/station-ep.jpg'
-banner:
-    title: "Le Cabinet"
-    subtitle: ' '
-    description: "J’accompagne les entreprises, syndics de copropriété, syndicats de copropriétaires, particuliers, de l’identification du désordre jusqu’à la solution interne ou externe (amiable / judiciaire) dans le cas où la responsabilité d’un tiers pourrait être recherchée"
-    button:
-        url: '#contact'
-        label: 'Ask for Advice'
-    style:
-        class: 'inverted'
-        image: '/assets/images/yin/station-ep.jpg'
 ---
 
 {% include profile.html parent="yin" %}
 
-{% include kpi.html %}
-
-{% include achievements.html tag="expert-assessment" %}
-
-{% include clients.html %}
-
-{% include certifications.html %}
+{% include certifications.html class="inverted" %}
 
 {% include cta.html class="inverted" %}

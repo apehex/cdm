@@ -1,20 +1,10 @@
 ---
 lang-ref: yang-blog
-layout: home
+layout: page
 title: Recent Activity
 header:
     title: 'CDM'
     subtitle: 'Supporting Companies from Decision to Operations'
-    style:
-        class: 'inverted'
-        image: '/assets/images/pillars-of-creation.jpg'
-banner:
-    title: 'Recent Activity'
-    subtitle: ' '
-    description: ' '
-    button:
-        url: '#contact'
-        label: 'Ask for Advice'
     style:
         class: 'inverted'
         image: '/assets/images/pillars-of-creation.jpg'
