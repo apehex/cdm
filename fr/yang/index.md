@@ -9,7 +9,7 @@ header:
     subtitle: "Accompagner de la Décision à l'Exploitation"
     style:
         class: 'inverted'
-        image: "/assets/images/yang/installation-mes.jpg"
+        image: '/assets/images/yin/station-ep.jpg'
 banner:
     title: "Mes Activités<br />de Conseil"
     subtitle: " "
@@ -19,7 +19,7 @@ banner:
         label: 'Demandez Conseil'
     style:
         class: 'inverted'
-        image: '/assets/images/yang/installation-mes.jpg'
+        image: '/assets/images/yin/station-ep.jpg'
 ---
 
 {% include context_yang.html %}

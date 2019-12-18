@@ -7,7 +7,7 @@ header:
     subtitle: "Accompagner de la Décision à l'Exploitation"
     style:
         class:
-        image: '/assets/images/yang/installation-mes.jpg'
+        image: '/assets/images/yin/station-ep.jpg'
 ---
 
 {% include services_yang.html %}
