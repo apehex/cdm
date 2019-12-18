@@ -1,0 +1,53 @@
+<section id="targets" class="{{ include.class | default: nil }}">
+    <header class="major">
+        {%- if page.lang=="en" -%}
+        <h2>YOU ARE</h2>
+        {%- elsif page.lang=="fr" -%}
+        <h2>Vous &Ecirc;tes</h2>
+        {%- endif -%}
+    </header>
+    <div class="features">
+        <article>
+            <span class="icon solid fa-industry"></span>
+            <div class="content">
+                {%- if page.lang=="en" -%}
+                <h3>A Manufacturer</h3>
+                <p><ul>
+                    <li>Cardboard Processing</li>
+                    <li>Plastics Processing</li>
+                    <li>Metal Processing</li>
+                    <li>HVAC</li>
+                </ul></p>
+                {%- elsif page.lang=="fr" -%}
+                <h3>Un Industriel</h3>
+                <p><ul>
+                    <li>Génie Thermique</li>
+                    <li>Transformation des Métaux</li>
+                    <li>Transformation des Plastiques</li>
+                    <li>Transformation des Cartons</li>
+                </ul></p>
+                {%- endif -%}
+            </div>
+        </article>
+        <article>
+            <span class="icon solid fa-suitcase"></span>
+            <div class="content">
+                {%- if page.lang=="en" -%}
+                <h3>A Service</h3>
+                <p><ul>
+                    <li>After-Sales</li>
+                    <li>Engineering</li>
+                    <li>Maintenance</li>
+                </ul></p>
+                {%- elsif page.lang=="fr" -%}
+                <h3>Un Service</h3>
+                <p><ul>
+                    <li>Ingénierie</li>
+                    <li>Maintenance</li>
+                    <li>SAV</li>
+                </ul></p>
+                {%- endif -%}
+            </div>
+        </article>
+    </div>
+</section>
