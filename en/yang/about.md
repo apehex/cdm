@@ -1,20 +1,10 @@
 ---
 lang-ref: yang-about
-layout: home
+layout: page
 title: Independant Engineering and Expertise
 header:
     title: 'CDM'
     subtitle: 'Supporting Companies from Decision to Operations'
-    style:
-        class: 'inverted'
-        image: '/assets/images/pillars-of-creation.jpg'
-banner:
-    title: 'The Compagny'
-    subtitle: ' '
-    description: ' '
-    button:
-        url: '#contact'
-        label: 'Ask for Advice'
     style:
         class: 'inverted'
         image: '/assets/images/pillars-of-creation.jpg'
@@ -23,7 +13,5 @@ banner:
 {% include profile.html parent="yang" %}
 
 {% include certifications.html class="inverted" %}
-
-{% include worldmap.html %}
 
 {% include cta.html class="inverted" %}

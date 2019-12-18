@@ -6,18 +6,12 @@ header:
     title: "CDM"
     subtitle: "Accompagner de la Décision à l'Exploitation"
     style:
-        class:
+        class: inverted
         image: "/assets/images/yang/installation-mes.jpg"
 ---
 
 {% include profile.html parent="yang" %}
 
-{% include kpi.html %}
-
-{% include achievements.html tag="consulting" %}
-
-{% include clients.html %}
-
-{% include certifications.html %}
+{% include certifications.html class="inverted" %}
 
 {% include cta.html class="inverted" %}

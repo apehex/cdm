@@ -13,16 +13,19 @@ header:
 banner:
     title: "Cabinet d'Expertise"
     subtitle: ' '
-    description: >-
-        J’accompagne les entreprises, syndics de copropriété, syndicats de copropriétaires, particuliers, <br />de l’identification du désordre jusqu’à la solution interne ou externe (amiable / judiciaire) <br />dans le cas où la responsabilité d’un tiers pourrait être recherchée<br /><br /><br /><br /><br /><br />
+    description: " "
     button:
         url: '#contact'
-        label: 'Ask for Advice'
+        label: 'Demandez Conseil'
     style:
         class: 'inverted'
         image: '/assets/images/yin/station-ep.jpg'
 ---
 
 {% include context_yin.html %}
+
+{% include kpi.html class="inverted" %}
+
+{% include clients.html %}
 
 {% include cta.html class="inverted" %}

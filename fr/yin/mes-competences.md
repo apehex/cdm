@@ -1,6 +1,6 @@
 ---
 lang-ref: yin-expertise
-layout: home
+layout: page
 title: "Expertise ENR et Procédés Industriels"
 header:
     title: 'CDM'
@@ -8,18 +8,10 @@ header:
     style:
         class: 'inverted'
         image: '/assets/images/yin/station-ep.jpg'
-banner:
-    title: "Expertise ENR et Procédés Industriels"
-    subtitle: ' '
-    description: "J’accompagne les entreprises, syndics de copropriété, syndicats de copropriétaires, particuliers, de l’identification du désordre jusqu’à la solution interne ou externe (amiable / judiciaire) dans le cas où la responsabilité d’un tiers pourrait être recherchée"
-    button:
-        url: '#contact'
-        label: 'Ask for Advice'
-    style:
-        class: 'inverted'
-        image: '/assets/images/yin/station-ep.jpg'
 ---
 
 {% include expertise_yin.html %}
+
+{% include achievements.html %}
 
 {% include cta.html class="inverted" %}
