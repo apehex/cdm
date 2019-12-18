@@ -7,7 +7,7 @@ header:
     subtitle: 'Supporting Companies from Decision to Operations'
     style:
         class: 'inverted'
-        image: '/assets/images/pillars-of-creation.jpg'
+        image: '/assets/images/yin/station-ep.jpg'
 ---
 
 {% include thread.html %}

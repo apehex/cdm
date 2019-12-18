@@ -9,7 +9,7 @@ header:
     subtitle: 'Supporting Companies from Decision to Operations'
     style:
         class: 'inverted'
-        image: '/assets/images/pillars-of-creation.jpg'
+        image: '/assets/images/yin/station-ep.jpg'
 banner:
     title: 'Consulting'
     subtitle: ' '
@@ -19,7 +19,7 @@ banner:
         label: 'Ask for Advice'
     style:
         class: 'inverted'
-        image: '/assets/images/pillars-of-creation.jpg'
+        image: '/assets/images/yin/station-ep.jpg'
 ---
 
 {% include context_yang.html %}
