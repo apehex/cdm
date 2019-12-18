@@ -24,8 +24,10 @@ banner:
 
 {% include context_yang.html %}
 
-{% include kpi.html class="inverted" %}
+{% include targets_yang.html class="inverted" %}
 
-{% include clients.html %}
+{% include kpi.html%}
+
+{% include clients.html class="inverted" %}
 
 {% include cta.html class="inverted" %}

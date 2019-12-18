@@ -1,0 +1,59 @@
+<section id="targets" class="{{ include.class | default: nil }}">
+    <header class="major">
+        {%- if page.lang=="en" -%}
+        <h2>YOU ARE</h2>
+        {%- elsif page.lang=="fr" -%}
+        <h2>Vous &Ecirc;tes</h2>
+        {%- endif -%}
+    </header>
+    <div class="features">
+        <article>
+            <span class="icon solid fa-industry"></span>
+            <div class="content">
+                {%- if page.lang=="en" -%}
+                <h3>An Industry</h3>
+                <p></p>
+                {%- elsif page.lang=="fr" -%}
+                <h3>Un Industriel</h3>
+                <p></p>
+                {%- endif -%}
+            </div>
+        </article>
+        <article>
+            <span class="icon solid fa-building"></span>
+            <div class="content">
+                {%- if page.lang=="en" -%}
+                <h3>A Regional Government</h3>
+                <p></p>
+                {%- elsif page.lang=="fr" -%}
+                <h3>Une Collectivité Territoriale</h3>
+                <p></p>
+                {%- endif -%}
+            </div>
+        </article>
+        <article>
+            <span class="icon solid fa-user-injured"></span>
+            <div class="content">
+                {%- if page.lang=="en" -%}
+                <h3>Un Private Individual</h3>
+                <p></p>
+                {%- elsif page.lang=="fr" -%}
+                <h3>Un Particulier</h3>
+                <p></p>
+                {%- endif -%}
+            </div>
+        </article>
+        <article>
+            <span class="icon solid fa-exclamation"></span>
+            <div class="content">
+                {%- if page.lang=="en" -%}
+                <h3>Having a Problem!</h3>
+                <p></p>
+                {%- elsif page.lang=="fr" -%}
+                <h3>En Difficulté !</h3>
+                <p></p>
+                {%- endif -%}
+            </div>
+        </article>
+    </div>
+</section>
