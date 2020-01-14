@@ -9,7 +9,7 @@ header:
     subtitle: "Outgrowing Incidents"
     style:
         class: 'inverted'
-        image: '/assets/images/yin/station-ep.jpg'
+        image: '/assets/images/fullsize/yin/station-ep.jpg'
 banner:
     title: "Expert Assessment"
     subtitle: ' '
@@ -19,7 +19,7 @@ banner:
         label: 'Ask for Advice'
     style:
         class: 'inverted'
-        image: '/assets/images/yin/station-ep.jpg'
+        image: '/assets/images/fullsize/yin/station-ep.jpg'
 ---
 
 {% include context_yin.html %}

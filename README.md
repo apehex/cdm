@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://moodule.github.io/cdm">
-    <img src="./assets/images/logo/logo_4.png" alt="CDM logo" width="72" height="72">
+    <img src="./assets/images/fullsize/logo/logo_4.png" alt="CDM logo" width="72" height="72">
   </a>
 </p>
 

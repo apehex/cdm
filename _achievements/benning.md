@@ -1,5 +1,5 @@
 ---
-image: /assets/images/clients/orano_icon.png
+image: /assets/images/fullsize/clients/orano_icon.png
 title: "Benning Conversion d'Energie"
 summary: >-
     Respect des 192 contraintes d'un projet soumis aux hautes exigences du nucléaire.
