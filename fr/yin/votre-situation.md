@@ -7,7 +7,7 @@ header:
     subtitle: "Dépasser les Incidents"
     style:
         class: 'inverted'
-        image: '/assets/images/yin/station-ep.jpg'
+        image: '/assets/images/fullsize/yin/station-ep.jpg'
 ---
 
 {% include services_yin.html class="inverted" %}

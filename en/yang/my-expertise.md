@@ -7,7 +7,7 @@ header:
     subtitle: "Supporting Companies from Decision to Operations"
     style:
         class: "inverted"
-        image: '/assets/images/yin/station-ep.jpg'
+        image: '/assets/images/fullsize/yin/station-ep.jpg'
 ---
 
 {% include expertise_yang.html class="inverted" %}
