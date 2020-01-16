@@ -34,10 +34,6 @@ collections:
     output: false
   redirects:
     output: true
-  yang:
-    output: true
-  yin:
-    output: true
 
 # Default settings
 defaults:
