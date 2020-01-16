@@ -9,7 +9,7 @@ header:
     subtitle: "Dépasser les Incidents"
     style:
         class: 'inverted'
-        image: '/assets/images/content/yin/station-ep.jpg'
+        image: '/assets/images/content/yin/station-ep.webp'
 banner:
     title: "Cabinet d'Expertise"
     subtitle: ' '
@@ -19,7 +19,7 @@ banner:
         label: 'Demandez Conseil'
     style:
         class: 'inverted'
-        image: '/assets/images/content/yin/station-ep.jpg'
+        image: '/assets/images/content/yin/station-ep.webp'
 ---
 
 {% include context_yin.html %}

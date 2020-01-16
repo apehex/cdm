@@ -1,7 +1,7 @@
 ---
 image:
-    placeholder: /assets/images/placeholder/clients/bfr_icon.png
-    content: /assets/images/content/clients/bfr_icon.png
+    placeholder: /assets/images/placeholder/clients/bfr_icon.webp
+    content: /assets/images/content/clients/bfr_icon.webp
 title: "Réorganisation SAV"
 summary: >-
     Productivité service restaurée (+25%) conforme à la croissance des ressources mobilisées.

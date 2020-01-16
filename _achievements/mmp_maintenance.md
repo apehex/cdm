@@ -1,7 +1,7 @@
 ---
 image:
-    placeholder: /assets/images/placeholder/clients/mmp_icon.png
-    content: /assets/images/content/clients/mmp_icon.png
+    placeholder: /assets/images/placeholder/clients/mmp_icon.webp
+    content: /assets/images/content/clients/mmp_icon.webp
 title: >-
     Augmentation Uptime de 93% à 97,5% et du temps d’ouverture associée à une réduction de 30% des coûts directs de maintenance
 summary: >-

@@ -1,7 +1,7 @@
 ---
 image:
-    placeholder: /assets/images/placeholder/clients/benning_icon.png
-    content: /assets/images/content/clients/benning_icon.png
+    placeholder: /assets/images/placeholder/clients/benning_icon.webp
+    content: /assets/images/content/clients/benning_icon.webp
 title: "Benning Conversion d'Energie"
 summary: >-
     Respect des 192 contraintes d'un projet soumis aux hautes exigences du nucléaire.
