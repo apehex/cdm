@@ -1,5 +1,7 @@
 ---
 image:
+    placeholder: /assets/images/placeholder/clients/orano_icon.png
+    content: /assets/images/content/clients/orano_icon.png
 title: "Démonstration d’absence de responsabilité / explosions moyens de chauffage"
 summary: >-
     Démonstration des causes d’explosion de chaudière et exonération de responsabilité du maitre d’ouvrage en défense, par preuve rapportée de l’origine liée à la violation des sécurités du système.

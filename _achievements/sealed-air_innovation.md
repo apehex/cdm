@@ -1,5 +1,7 @@
 ---
-image: /assets/images/content/clients/sealed-air_icon.png
+image:
+    placeholder: /assets/images/placeholder/clients/sealed-air_icon.png
+    content: /assets/images/content/clients/sealed-air_icon.png
 title: Innovation Extrusion
 summary: >-
     Marge directe de 14% portée à 33% sur CA de 21M€, ROI < 3 mois.
