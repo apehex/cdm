@@ -13,7 +13,7 @@
             <div class="col-3">
                 <article>
                     <a href="{{ achievement.url | absolute_url }}" class="image">
-                        <img src="{{ achievement.image | absolute_url }}" alt="" width="200" height="200" />
+                        <img class="lazy-loading" src="{{ achievement.image.placeholder | absolute_url }}" data-src="{{ achievement.image.content | absolute_url }}" alt="" width="200" height="200" />
                     </a>
                     <h3>{{ achievement.title }}</h3>
                     <p>{{ achievement.summary }}</p>

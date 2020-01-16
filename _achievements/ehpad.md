@@ -1,5 +1,7 @@
 ---
 image:
+    placeholder: /assets/images/placeholder/clients/orano_icon.png
+    content: /assets/images/content/clients/orano_icon.png
 title: "Résolution du risque d’interruption  d’exploitation d’un EHPAD"
 summary: >-
     Suppression du risque d’interruption d’exploitation de l’établissement par indisponibilité réseaux ECS soumis à de nombreuses fuites récurrentes sur des réseaux étendus (2km de tuyauterie).
