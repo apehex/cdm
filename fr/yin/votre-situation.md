@@ -14,4 +14,4 @@ header:
 
 {% include achievements.html tag="expert-assessment" %}
 
-{% include cta.html class="inverted" %}
+{% include contact.html class="inverted" %}
