@@ -7,7 +7,7 @@ header:
     subtitle: "Accompagner de la Décision à l'Exploitation"
     style:
         class:
-        image: '/assets/images/fullsize/yin/station-ep.jpg'
+        image: '/assets/images/content/yin/station-ep.jpg'
 ---
 
 {% include thread.html %}
