@@ -4,7 +4,7 @@ lang-ref: post-welcome-to-jekyll
 title:  "Welcome to Jekyll!"
 date:   2019-02-08 13:33:42 +0100
 summary: How-to add a new post
-image: /assets/images/fullsize/hero/yin/corrosion.jpg
+image: /assets/images/content/hero/yin/corrosion.jpg
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
