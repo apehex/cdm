@@ -1,7 +1,7 @@
 ---
 image:
-    placeholder: /assets/images/placeholder/clients/orano_icon.png
-    content: /assets/images/content/clients/orano_icon.png
+    placeholder: /assets/images/placeholder/clients/orano_icon.webp
+    content: /assets/images/content/clients/orano_icon.webp
 title: "Suivi d'exécution"
 summary: >-
     Assuré la conformité des équipements livrées par les prestataires.

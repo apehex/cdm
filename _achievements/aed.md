@@ -1,7 +1,7 @@
 ---
 image:
-    placeholder: /assets/images/placeholder/clients/aed_icon.png
-    content: /assets/images/content/clients/aed_icon.png
+    placeholder: /assets/images/placeholder/clients/aed_icon.webp
+    content: /assets/images/content/clients/aed_icon.webp
 title: "Evitement incendie électrique imminent générateur 600kW"
 summary: >-
     Suppression d’un risque d’incendie électrique sur usine de méthanisation par expertise et obligation faite au fournisseur de reprendre à sa charge les désordres (30k€).

@@ -1,7 +1,7 @@
 ---
 image:
-    placeholder: /assets/images/placeholder/clients/mmp_icon.png
-    content: /assets/images/content/clients/mmp_icon.png
+    placeholder: /assets/images/placeholder/clients/mmp_icon.webp
+    content: /assets/images/content/clients/mmp_icon.webp
 title: MMP
 summary: >-
     Croissance du CA malgré la coactivité d’un chantier de restructuration industrielle impactant 30% de la surface usine.

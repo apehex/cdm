@@ -7,7 +7,7 @@ header:
     subtitle: "Outgrowing Incidents"
     style:
         class: 'inverted'
-        image: '/assets/images/content/yin/station-ep.jpg'
+        image: '/assets/images/content/yin/station-ep.webp'
 ---
 
 {% include expertise_yin.html %}
