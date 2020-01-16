@@ -12,4 +12,4 @@ header:
 
 {% include thread.html %}
 
-{% include cta.html class="inverted" %}
+{% include contact.html class="inverted" %}

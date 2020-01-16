@@ -14,4 +14,4 @@ header:
 
 {% include achievements.html %}
 
-{% include cta.html class="inverted" %}
+{% include contact.html class="inverted" %}

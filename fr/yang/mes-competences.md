@@ -12,4 +12,4 @@ header:
 
 {% include expertise_yang.html class="inverted" %}
 
-{% include cta.html class="inverted" %}
+{% include contact.html class="inverted" %}
