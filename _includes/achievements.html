@@ -3,7 +3,7 @@
         {% if page.lang=="en" %}
         <h2>ACHIEVEMENTS</h2>
         {% elsif page.lang=="fr" %}
-        <h2>Réalisations Clefs</h2>
+        <h2>R&Eacute;ALISATIONS CLEFS</h2>
         {% endif %}
     </header>
     <div class="box alt">
@@ -15,9 +15,9 @@
                     <a href="{{ achievement.url | absolute_url }}" class="image">
                         <img class="lazy-loading" src="{{ achievement.image.placeholder | absolute_url }}" data-src="{{ achievement.image.content | absolute_url }}" alt="" width="200" height="200" />
                     </a>
-                    <h3>{{ achievement.title }}</h3>
-                    <p>{{ achievement.summary }}</p>
-                    {{ achievement.content }}
+                    <h3>{{ achievement.title[page.lang] }}</h3>
+                    <p>{{ achievement.summary[page.lang] }}</p>
+                    <!-- {{ achievement.content }} -->
                     <ul class="actions">
                         <li><a href="#" class="button">{% if page.lang=="en" %}More{% elsif page.lang=="fr" %}Plus{% endif %}</a></li>
                     </ul>

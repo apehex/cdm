@@ -2,10 +2,14 @@
 image:
     placeholder: /assets/images/placeholder/clients/mmp_icon.webp
     content: /assets/images/content/clients/mmp_icon.webp
-title: >-
-    Augmentation Uptime de 93% à 97,5% et du temps d’ouverture associée à une réduction de 30% des coûts directs de maintenance
-summary: >-
-    Réduction downtime de 6,52% à 2,54% tout en augmentant le temps d’ouverture de 6 machines de 25 000h à 32 000h et en réduisant les coûts directs de maintenance de 30%.
+title:
+    en: 
+    fr: >-
+        Réduction de 30% des coûts directs de maintenance
+summary:
+    en: 
+    fr: >-
+        Réduction downtime de 6,52% à 2,54% tout en augmentant le temps d’ouverture de 6 machines de 25 000h à 32 000h et en réduisant les coûts directs de maintenance de 30%.
 tags: [consulting, maintenance]
 ---
 

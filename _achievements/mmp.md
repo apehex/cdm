@@ -2,9 +2,14 @@
 image:
     placeholder: /assets/images/placeholder/clients/mmp_icon.webp
     content: /assets/images/content/clients/mmp_icon.webp
-title: MMP
-summary: >-
-    Croissance du CA malgré la coactivité d’un chantier de restructuration industrielle impactant 30% de la surface usine.
+title:
+    en: 
+    fr: >-
+        Restructuration industrielle
+summary:
+    en: 
+    fr: >-
+        Croissance du CA malgré la coactivité d’un chantier impactant 30% de la surface usine.
 tags: [consulting, project-support]
 ---
 

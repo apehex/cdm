@@ -2,12 +2,16 @@
 image:
     placeholder: /assets/images/placeholder/clients/benning_icon.webp
     content: /assets/images/content/clients/benning_icon.webp
-title: "Benning Conversion d'Energie"
-summary: >-
-    Respect des 192 contraintes d'un projet soumis aux hautes exigences du nucléaire.
+title:
+    en: 
+    fr: >-
+        Benning Conversion d'Energie
+summary:
+    en: 
+    fr: >-
+        Respect des 192 contraintes d'un projet soumis aux hautes exigences du nucléaire.
 tags: [project-support, project-management, consulting]
 ---
-
 <ul>
 	<li>Domaine nucléaire</li>
 	<li>Conformité des réalisations au dossier de définition</li>
