@@ -2,9 +2,14 @@
 image:
     placeholder: /assets/images/placeholder/clients/orano_icon.webp
     content: /assets/images/content/clients/orano_icon.webp
-title: "Sauvegarde des garanties légales à une semaine près"
-summary: >-
-    Sauvegarde des garanties légales biennales d’un client qui encourait la forclusion une semaine après m’avoir sollicité.
+title:
+    en: 
+    fr: >-
+        Sauvegarde des garanties légales à une semaine près
+summary:
+    en: 
+    fr: >-
+        Sauvegarde des garanties légales biennales d’un client qui encourait la forclusion une semaine après m’avoir sollicité.
 tags: [expert-assessment]
 ---
 

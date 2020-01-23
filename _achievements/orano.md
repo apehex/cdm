@@ -2,9 +2,14 @@
 image:
     placeholder: /assets/images/placeholder/clients/orano_icon.webp
     content: /assets/images/content/clients/orano_icon.webp
-title: "Suivi d'exécution"
-summary: >-
-    Assuré la conformité des équipements livrées par les prestataires.
+title:
+    en: 
+    fr: >-
+        Suivi d'exécution
+summary:
+    en: 
+    fr: >-
+        Assuré la conformité des équipements livrées par les prestataires dans les temps impartis, malgré des défauts de conception.
 tags: [consulting, project-support]
 ---
 

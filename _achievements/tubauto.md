@@ -1,11 +1,17 @@
 ---
 image:
-title: "Audit risques ligne de production en 2 jours / 82 points traités"
-summary: >-
-    Audit sécurité d’une ligne de production supposée conforme à la Directive Machine et mise en évidence de 82 points d’écart ; proposition des solutions afférentes.
+    placeholder: /assets/images/placeholder/clients/tubauto_icon.jpg
+    content: /assets/images/content/clients/tubauto_icon.jpg
+title:
+    en: 
+    fr: >-
+        Audit des risques d'une ligne de production en 2 jours / 82 points traités"
+summary:
+    en: 
+    fr: >-
+        Audit sécurité d’une ligne de production supposée conforme à la Directive Machine et mise en évidence de 82 points d’écart ; proposition des solutions afférentes.
 tags: [consulting, risk-management]
 ---
-
 <ul>
     <li>mise en évidence de risques élevés dans l'installation d'un méthaniseur</li>
     <li>les travaux de mise à niveau sont réalisés en urgence et entièrement remboursés (25k€)</li>
