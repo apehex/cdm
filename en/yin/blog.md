@@ -1,13 +1,15 @@
 ---
 lang-ref: yin-blog
 layout: page
-title: "Recent Activity"
+title: >-
+    Recent Activity
 header:
-    title: 'CDM'
-    subtitle: "Outgrowing Incidents"
+    title: CDM
+    subtitle: >-
+        Outgrowing Incidents
     style:
-        class: 'inverted'
-        image: '/assets/images/content/yin/station-ep.webp'
+        class: inverted
+        image: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include thread.html %}

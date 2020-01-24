@@ -1,13 +1,15 @@
 ---
 lang-ref: yang-expertise
 layout: page
-title: "Efficiency, Maintenance, Dependability and Risk Management"
+title: >-
+    Efficiency, Maintenance, Dependability and Risk Management
 header:
-    title: 'CDM'
-    subtitle: "Supporting Companies from Decision to Operations"
+    title: CDM
+    subtitle: >-
+        Supporting Companies from Decision to Operations
     style:
-        class: "inverted"
-        image: '/assets/images/content/yin/station-ep.webp'
+        class: inverted
+        image: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include expertise_yang.html class="inverted" %}

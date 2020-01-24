@@ -1,17 +1,19 @@
 ---
 lang-ref: yang-about
 layout: page
-title: "Ingénierie et Expertise Indépendante"
+title: >-
+    Ingénierie et Expertise Indépendantes
 header:
-    title: "CDM"
-    subtitle: "Accompagner de la Décision à l'Exploitation"
+    title: CDM
+    subtitle: >-
+        Accompagner de la Décision à l'Exploitation
     style:
         class: inverted
-        image: '/assets/images/content/yin/station-ep.webp'
+        image: /assets/images/content/yin/station-ep.webp
 ---
 
-{% include profile.html parent="yang" %}
+{% include profile.html parent="yang" class="inverted" %}
 
-{% include certifications.html class="inverted" %}
+{% include certifications.html %}
 
 {% include contact.html class="inverted" %}

@@ -1,13 +1,15 @@
 ---
 lang-ref: yin-services
 layout: page
-title: "Médiation et Expertise"
+title: >-
+    Médiation et Expertise
 header:
-    title: 'CDM'
-    subtitle: "Dépasser les Incidents"
+    title: CDM
+    subtitle: >-
+        Dépasser les Incidents
     style:
-        class: 'inverted'
-        image: '/assets/images/content/yin/station-ep.webp'
+        class: inverted
+        image: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include services_yin.html class="inverted" %}

@@ -1,17 +1,19 @@
 ---
 lang-ref: yin-about
 layout: page
-title: "The Compagny"
+title: >-
+    The Compagny
 header:
-    title: 'CDM'
-    subtitle: "Outgrowing Incidents"
+    title: CDM
+    subtitle: >-
+        Outgrowing Incidents
     style:
-        class: 'inverted'
-        image: '/assets/images/content/yin/station-ep.webp'
+        class: inverted
+        image: /assets/images/content/yin/station-ep.webp
 ---
 
-{% include profile.html parent="yin" %}
+{% include profile.html parent="yin" class="inverted" %}
 
-{% include certifications.html class="inverted" %}
+{% include certifications.html %}
 
 {% include contact.html class="inverted" %}

@@ -1,13 +1,15 @@
 ---
 lang-ref: yin-services
 layout: page
-title: "Expert Assessment and Mediating"
+title: >-
+    Expert Assessment and Mediating
 header:
-    title: 'CDM'
-    subtitle: "Outgrowing Incidents"
+    title: CDM
+    subtitle: >-
+        Outgrowing Incidents
     style:
-        class: 'inverted'
-        image: '/assets/images/content/yin/station-ep.webp'
+        class: inverted
+        image: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include services_yin.html class="inverted" %}

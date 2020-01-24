@@ -1,13 +1,15 @@
 ---
 lang-ref: yang-blog
 layout: page
-title: "Actualités"
+title: >-
+    Actualités
 header:
-    title: "CDM"
-    subtitle: "Accompagner de la Décision à l'Exploitation"
+    title: CDM
+    subtitle: >-
+        Accompagner de la Décision à l'Exploitation
     style:
-        class:
-        image: '/assets/images/content/yin/station-ep.webp'
+        class: inverted
+        image: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include thread.html %}
