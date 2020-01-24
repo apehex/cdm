@@ -1,25 +1,30 @@
 ---
-lang-ref: 'yang-home'
+lang-ref: yang-home
 layout: home
-title: 'Consulting Agency'
+title: >-
+    Consulting Agency
 description: >-
     J'accompagne les entreprises de la réflexion stratégique à l'exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d'exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.
 header:
-    title: 'CDM'
-    subtitle: 'Supporting Companies from Decision to Operations'
+    title: CDM
+    subtitle: >-
+        Supporting Companies from Decision to Operations
     style:
-        class: 'inverted'
-        image: '/assets/images/content/yin/station-ep.webp'
+        class: inverted
+        image: /assets/images/content/yin/station-ep.webp
 banner:
-    title: 'Consulting'
+    title: >-
+        Consulting
     subtitle: ' '
     description: ' '
     button:
-        url: '#contact'
-        label: 'Ask for Advice'
+        url: >-
+            #contact
+        label: >-
+            Ask for Advice
     style:
-        class: 'inverted'
-        image: '/assets/images/content/yin/station-ep.webp'
+        class: inverted
+        image: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include context_yang.html %}

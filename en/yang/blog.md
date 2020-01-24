@@ -1,13 +1,15 @@
 ---
 lang-ref: yang-blog
 layout: page
-title: Recent Activity
+title: >-
+    Recent Activity
 header:
-    title: 'CDM'
-    subtitle: 'Supporting Companies from Decision to Operations'
+    title: CDM
+    subtitle: >-
+        Supporting Companies from Decision to Operations
     style:
-        class: 'inverted'
-        image: '/assets/images/content/yin/station-ep.webp'
+        class: inverted
+        image: assets/images/content/yin/station-ep.webp
 ---
 
 {% include thread.html %}
