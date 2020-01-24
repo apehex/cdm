@@ -1,11 +1,10 @@
-{% assign kpis=site.data.kpis %}
-
+{%- assign kpis=site.data.kpis %}
 <section id="kpi"  class="{{ include.class | default: nil }}">
     <header class="major">
         {% if page.lang=="en" %}
         <h2>CDM'S KPI</h2>
         {% elsif page.lang=="fr" %}
-        <h2>CDM en Chiffres</h2>
+        <h2>CDM EN CHIFFRES</h2>
         {% endif %}
     </header>
     <div class="facts row">
