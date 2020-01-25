@@ -12,8 +12,8 @@ header:
         image: /assets/images/content/yin/station-ep.webp
 ---
 
-{% include profile.html parent="yang" class="inverted" %}
+{% include about/yang/profile.html class="inverted" %}
 
-{% include certifications.html %}
+{% include about/certifications.html %}
 
 {% include contact.html class="inverted" %}

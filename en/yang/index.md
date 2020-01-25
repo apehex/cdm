@@ -27,12 +27,12 @@ banner:
         image: /assets/images/content/yin/station-ep.webp
 ---
 
-{% include context_yang.html %}
+{% include situation/yang/cta.html %}
 
-{% include targets_yang.html class="inverted" %}
+{% include situation/yang/targets.html class="inverted" %}
 
-{% include kpi.html%}
+{% include about/kpi.html%}
 
-{% include clients.html class="inverted" %}
+{% include about/clients.html class="inverted" %}
 
 {% include contact.html class="inverted" %}

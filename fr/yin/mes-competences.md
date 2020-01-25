@@ -12,8 +12,10 @@ header:
         image: /assets/images/content/yin/station-ep.webp
 ---
 
-{% include expertise_yin.html %}
+{% include expertise/yin/hvac.html %}
 
-{% include achievements.html %}
+{% include expertise/yin/industrial-processes.html class="inverted" %}
+
+{% include about/achievements.html tag="expert-assessment" %}
 
 {% include contact.html class="inverted" %}

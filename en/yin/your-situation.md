@@ -12,8 +12,14 @@ header:
         image: /assets/images/content/yin/station-ep.webp
 ---
 
-{% include services_yin.html class="inverted" %}
+{% include situation/yin/under-performance.html %}
 
-{% include achievements.html tag="expert-assessment" %}
+{% include situation/yin/equipment-failure.html class="inverted" %}
+
+{% include situation/yin/disorder.html %}
+
+{% include situation/yin/litigation.html class="inverted" %}
+
+{% include about/achievements.html tag="expert-assessment" %}
 
 {% include contact.html class="inverted" %}

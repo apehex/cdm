@@ -1,0 +1,14 @@
+<section {% if page.lang=="en" %}id="industrial-processes"{% elsif page.lang=="fr" %}id="procedes-industriels"{% endif %}  class="{{ include.class | default: nil }}">
+    <header class="major">
+        <h2>{% if page.lang=="en" %}INDUSTRIAL PROCESSES{% elsif page.lang=="fr" %}Procédés Industriels{% endif %}</h2>
+    </header>
+    <div class="features row">
+        <article class="col-4 col-6-medium col-12-small">
+            <span class="icon solid fa-thermometer-half"></span>
+            <div class="content">
+                <h3>Sureté de Fonctionnement</h3>
+                Décrire les liens de causalité entre les désordres constatés et les faits
+            </div>
+        </article>
+    </div>
+</section>

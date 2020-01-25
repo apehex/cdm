@@ -1,10 +1,6 @@
 <section id='{% if page.lang=="en" %}achievements{% elsif page.lang=="fr" %}realisations-clefs{% endif %}' class="{{ include.class | default: nil }}">
     <header class="major">
-        {% if page.lang=="en" %}
-        <h2>ACHIEVEMENTS</h2>
-        {% elsif page.lang=="fr" %}
-        <h2>R&Eacute;ALISATIONS CLEFS</h2>
-        {% endif %}
+        <h2>{% if page.lang=="en" %}ACHIEVEMENTS{% elsif page.lang=="fr" %}R&Eacute;ALISATIONS CLEFS{% endif %}</h2>
     </header>
     <div class="box alt">
         <div class="row gtr-50 gtr-uniform">
