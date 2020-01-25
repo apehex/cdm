@@ -1,8 +1,10 @@
 ---
 layout: privacy-policy
 lang-ref: privacy-policy
-title: Privacy Policy
-description: We do not log or share personal information about our visitors.
+title: >-
+    Privacy Policy
+description: >-
+    We do not log or share personal information about our visitors.
 header:
     title: CDM
     subtitle: Privacy Policy

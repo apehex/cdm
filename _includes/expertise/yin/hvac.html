@@ -1,10 +1,6 @@
 <section {% if page.lang=="en" %}id="hvac-engineering"{% elsif page.lang=="fr" %}id="genie-climatique"{% endif %}  class="{{ include.class | default: nil }}">
     <header class="major">
-        {% if page.lang=="en" %}
-        <h2>HVAC ENGINEERING</h2>
-        {% elsif page.lang=="fr" %}
-        <h2>Génie Climatique et ENR</h2>
-        {% endif %}
+        <h2>{% if page.lang=="en" %}HVAC ENGINEERING{% elsif page.lang=="fr" %}Génie Climatique et ENR{% endif %}</h2>
     </header>
     <div class="features row">
         <article class="col-4 col-6-medium col-12-small">
@@ -35,25 +31,6 @@
             <span class="icon solid fa-recycle"></span>
             <div class="content">
                 <h3>Station de Traitement de l'Eau Potable</h3>
-            </div>
-        </article>
-    </div>
-</section>
-
-<section {% if page.lang=="en" %}id="industrial-processes"{% elsif page.lang=="fr" %}id="procedes-industriels"{% endif %}  class="{{ include.class | default: nil }}">
-    <header class="major">
-        {% if page.lang=="en" %}
-        <h2>INDUSTRIAL PROCESSES</h2>
-        {% elsif page.lang=="fr" %}
-        <h2>Procédés Industriels</h2>
-        {% endif %}
-    </header>
-    <div class="features row">
-        <article class="col-4 col-6-medium col-12-small">
-            <span class="icon solid fa-thermometer-half"></span>
-            <div class="content">
-                <h3>Sureté de Fonctionnement</h3>
-                Décrire les liens de causalité entre les désordres constatés et les faits
             </div>
         </article>
     </div>

@@ -1,14 +1,10 @@
 {%- assign kpis=site.data.kpis %}
 <section id="kpi"  class="{{ include.class | default: nil }}">
     <header class="major">
-        {% if page.lang=="en" %}
-        <h2>CDM'S KPI</h2>
-        {% elsif page.lang=="fr" %}
-        <h2>CDM EN CHIFFRES</h2>
-        {% endif %}
+        <h2>{% if page.lang=="en" %}CDM'S KPI{% elsif page.lang=="fr" %}CDM EN CHIFFRES{% endif %}</h2>
     </header>
     <div class="facts row">
-        {% for kpi in kpis %}
+        {%- for kpi in kpis %}
         <article class="col-2 col-4-medium col-12-small">
             <div class="fact-intro on"><p>{{ kpi[page.lang].intro }}</p></div>
             <div class="fact on"><h3>{{ kpi[page.lang].fact }}</h3></div>
@@ -19,6 +15,6 @@
             <div class="fact-outro off"><p>{{ kpi[page.lang].outro }}</p></div>
             <span class="icon {{ kpi[page.lang].icon }} off"></span>
         </article>
-        {% endfor %}
+        {%- endfor %}
     </div>
 </section>
