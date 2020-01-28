@@ -1,32 +1,19 @@
 <section id="{% if page.lang=='en' %}expert-assessment{% elsif page.lang=='fr' %}expertise{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>EXPERT ASSESSMENT</h2>
-    </header>
-    <p>Formaliser le bien-fondé d'une réclamation ou d'un litige, évaluer l'opportunité de poursuivre, trouver les options de solution amiable.</p>
-    <p>Défendre votre point de vue, mettre en lumière les désordres, argumenter et chiffrer votre réclamation, combattre les arguments adverses.</p>
-    <ul>
-        <li>Identifier les causes de défaillance et y apporter des solutions</li>
-        <li>Formaliser le bien-fondé d’une réclamation ou d’un litige</li>
-        <li>Evaluer l’opportunité de poursuivre</li>
-        <li>Trouver les options de solution amiable</li>
-    </ul>
-</section>
-
-<section id="mes-competences" class="{{ include.class | default: nil }}">
-    <header class="major">
-        <h2>Mes Compétences</h2>
+        <h2>{% if page.lang=="en" %}EXPERT ASSESSMENT{% elsif page.lang=="fr" %}EXPERTISE{% endif %}</h2>
     </header>
     <div class="row">
         <div class="col-6 col-12-small">
-            <h2 style="position: relative; top: 30%;">Participation aux réunions d’expertise<br>Argumentaires techniques en demande ou en défense<br>Réponse technique aux dires adverses<br>Evaluation des travaux de reprise envisagés</h2>
+            <div class="box">
+                <p>Formaliser le bien-fondé d'une réclamation ou d'un litige.</p>
+            </div>
         </div>
         <div class="col-6 col-12-small">
             <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Rapport de constat</a></li>
-                <li><a href="#" class="button fit icon solid">Diagnostic fonctionnel</a></li>
-                <li><a href="#" class="button fit icon solid">Spécification de besoin</a></li>
-                <li><a href="#" class="button fit icon solid">Elaboration de solutions partagées</a></li>
-                <li><a href="#" class="button primary fit icon solid">Participation aux réunions d'expertise</a></li>
+                <li><a href="#" class="button fit icon solid">&Eacute;valuer le préjudice subi</a></li>
+                <li><a href="#" class="button fit icon solid">&Eacute;tablir des preuves</a></li>
+                <li><a href="#" class="button fit icon solid">Décrire les liens de causalité</a></li>
+                <li><a href="#" class="button fit icon solid">&Eacute;laboration de Cahier des Charge</a></li>
             </ul>
         </div>
     </div>
