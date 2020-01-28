@@ -5,7 +5,7 @@
     <div class="box alt">
         <div class="row gtr-50 gtr-uniform">
         {% for achievement in site.achievements %}
-        {% if achievement.tags contains include.tag %}
+        {% if achievement.tags contains include.tag and forloop.index <= 4%}
             <div class="col-3">
                 <article>
                     <a href="{{ achievement.url | absolute_url }}" class="image">
