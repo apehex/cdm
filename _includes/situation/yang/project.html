@@ -1,15 +1,19 @@
 <section id="{% if page.lang=='en' %}project{% elsif page.lang=='fr' %}projet{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}STRATEGY{% elsif page.lang=="fr" %}STRAT&Eacute;GIE{% endif %}</h2>
+        <h2>{% if page.lang=="en" %}PROJECT{% elsif page.lang=="fr" %}PROJET{% endif %}</h2>
     </header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-    <article>
-        <span class="icon solid fa-chess"></span>
-        <div class="content">
-            <h3>Réflexion Stratégique</h3>
-            <p>Avant-Projet Sommaire<br/>
-            Evaluation technico-économique et prise de décision<br/>
-            Consultation de prestataires</p>
+    <div class="row">
+        <div class="col-6 col-12-small">
+            <div class="box">
+                <p>?</p>
+            </div>
         </div>
-    </article>
+        <div class="col-6 col-12-small">
+            <ul class="actions stacked">
+                <li><a href="#" class="button fit icon solid">Avant-Projet Sommaire</a></li>
+                <li><a href="#" class="button fit icon solid">Evaluation technico-économique</a></li>
+                <li><a href="#" class="button fit icon solid">Consultation de prestataires</a></li>
+            </ul>
+        </div>
+    </div>
 </section>
