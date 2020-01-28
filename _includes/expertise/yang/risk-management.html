@@ -1,6 +1,6 @@
-<section id="deployment-support" class="{{ include.class | default: nil }}">
+<section id="{% if page.lang=='en' %}risk-management{% elsif page.lang=='fr' %}gestion-des-risques{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}RISKS MANAGEMENT{% elsif page.lang=="fr" %}GESTION DES RISQUES{% endif %}</h2>
+        <h2>{% if page.lang=="en" %}RISK MANAGEMENT{% elsif page.lang=="fr" %}GESTION DES RISQUES{% endif %}</h2>
     </header>
     <p>Cartographier, réduire et gérer les risques d’une activité, d’un projet ou d’une entreprise et élaborer un plan de continuité d’activité</p>
     <ul>

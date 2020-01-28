@@ -1,4 +1,4 @@
-<section id="formal-notice">
+<section id="{% if page.lang=='en' %}formal-notice{% elsif page.lang=='fr' %}mise-en-demeure{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}FORMAL NOTICE{% elsif page.lang=="fr" %}MISE EN DEMEURE{% endif %}</h2>
     </header>

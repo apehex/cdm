@@ -1,4 +1,4 @@
-<section id="out-of-court-agreement" class="{{ include.class | default: nil }}">
+<section id="{% if page.lang=='en' %}out-of-court-agreement{% elsif page.lang=='fr' %}resolution-amiable{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>OUT-OF-COURT AGREEMENT</h2>
     </header>

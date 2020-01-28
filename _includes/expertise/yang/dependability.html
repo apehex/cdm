@@ -1,4 +1,4 @@
-<section id="deployment-support" class="{{ include.class | default: nil }}">
+<section id="{% if page.lang=='en' %}dependability{% elsif page.lang=='fr' %}surete-de-fonctionnement{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}DEPENDABILITY{% elsif page.lang=="fr" %}S&Ucirc;RET&Eacute; DE FONCTIONNEMENT{% endif %}</h2>
     </header>

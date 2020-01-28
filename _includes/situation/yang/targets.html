@@ -1,4 +1,4 @@
-<section id="targets" class="{{ include.class | default: nil }}">
+<section id="{% if page.lang=='en' %}targets{% elsif page.lang=='fr' %}cibles{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         {%- if page.lang=="en" -%}
         <h2>YOU ARE</h2>

@@ -1,4 +1,4 @@
-<section id="contractin-authority" class="{{ include.class | default: nil }}">
+<section id="{% if page.lang=='en' %}contracting-authority{% elsif page.lang=='fr' %}maitrise-ouvrage-moa{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}CONTRACTING AUTHORITY{% elsif page.lang=="fr" %}AMOA{% endif %}</h2>
     </header>

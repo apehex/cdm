@@ -16,7 +16,7 @@ header:
 
 {% include expertise/yang/dependability.html %}
 
-{% include expertise/yang/risks-management.html class="inverted" %}
+{% include expertise/yang/risk-management.html class="inverted" %}
 
 {% include expertise/yang/maintenance.html %}
 
