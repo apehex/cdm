@@ -84,17 +84,28 @@ yin:
     - title: Your Situation
       url: /en/yin/your-situation/
       menu:
+        - title: Under Performance
+          url: /en/yin/your-situation/#under-performance
+        - title: Equipment Failure
+          url: /en/yin/your-situation/#equipment-failure
+        - title: Disorder
+          url: /en/yin/your-situation/#disorder
+        - title: Litigation
+          url: /en/yin/your-situation/#litigation
+    - title: My Services
+      url: /en/yin/my-services/
+      menu:
         - title: Expert Assessment
-          url: /en/yin/your-situation/#expert-assessment
+          url: /en/yin/my-services/#expert-assessment
         - title: Mitigation
-          url: /en/yin/your-situation/#mitigation
+          url: /en/yin/my-services/#mitigation
         - title: Palliative Solutions
-          url: /en/yin/your-situation/#palliative-solutions
+          url: /en/yin/my-services/#palliative-solutions
     - title: My Expertise
       url: /en/yin/my-expertise/
       menu:
         - title: HVAC Engineering
-          url: /en/yin/my-expertise#hvac-engineering
+          url: /en/yin/my-expertise/#hvac-engineering
         - title: Industrial Processes
           url: /en/yin/my-expertise/#industrial-processes
     - title: About
@@ -107,14 +118,14 @@ yin:
     - title: Votre Situation
       url: /fr/yin/votre-situation/
       menu:
-        - title: Expertise Officieuse
-          url: /fr/yin/votre-situation/#expertise-officieuse
-        - title: Expertise Amiable
-          url: /fr/yin/votre-situation/#expertise-amiable
-        - title: Médiation
-          url: /fr/yin/votre-situation/#mediation
-        - title: Solutions Palliative
-          url: /fr/yin/votre-situation/#solutions-palliatives
+        - title: Sous Performance
+          url: /fr/yin/votre-situation/#sous-performance
+        - title: Panne
+          url: /fr/yin/votre-situation/#panne
+        - title: Désordre
+          url: /fr/yin/votre-situation/#desordre
+        - title: Action En Justice
+          url: /fr/yin/votre-situation/#action-en-justice
     - title: Mes Compétences
       url: /fr/yin/mes-competences/
       menu:
