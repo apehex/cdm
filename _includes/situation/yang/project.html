@@ -1,4 +1,4 @@
-<section id="strategy">
+<section id="{% if page.lang=='en' %}project{% elsif page.lang=='fr' %}projet{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}STRATEGY{% elsif page.lang=="fr" %}STRAT&Eacute;GIE{% endif %}</h2>
     </header>

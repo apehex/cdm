@@ -1,4 +1,4 @@
-<section id="equipment-failure">
+<section id="{% if page.lang=='en' %}equipment-failure{% elsif page.lang=='fr' %}panne{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}EQUIPMENT FAILURE{% elsif page.lang=="fr" %}CASSE{% endif %}</h2>
     </header>

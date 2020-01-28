@@ -12,7 +12,7 @@ header:
         image: /assets/images/content/yin/station-ep.webp
 ---
 
-{% include situation/yang/strategy.html %}
+{% include situation/yang/project.html %}
 
 {% include situation/yang/reception.html class="inverted" %}
 

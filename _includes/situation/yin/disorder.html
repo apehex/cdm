@@ -1,4 +1,4 @@
-<section id="disorder">
+<section id="{% if page.lang=='en' %}disorder{% elsif page.lang=='fr' %}desordre{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}DISORDER{% elsif page.lang=="fr" %}D&Eacute;SORDRE{% endif %}</h2>
     </header>

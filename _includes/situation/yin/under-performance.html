@@ -1,4 +1,4 @@
-<section id="strategy">
+<section id="{% if page.lang=='en' %}under-performance{% elsif page.lang=='fr' %}sous-performance{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}UNDER PERFORMANCE{% elsif page.lang=="fr" %}SOUS PERFORMANCE{% endif %}</h2>
     </header>

@@ -1,4 +1,4 @@
-<section id="deployment-support" class="{{ include.class | default: nil }}">
+<section id="{% if page.lang=='en' %}efficiency{% elsif page.lang=='fr' %}efficience{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}EFFICIENCY{% elsif page.lang=="fr" %}EFFICIENCE{% endif %}</h2>
     </header>

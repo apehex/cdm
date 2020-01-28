@@ -1,4 +1,4 @@
-<section id="complaint">
+<section id="{% if page.lang=='en' %}complaint{% elsif page.lang=='fr' %}reclamation{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}COMPLAINT{% elsif page.lang=="fr" %}R&Eacute;CLAMATION{% endif %}</h2>
     </header>

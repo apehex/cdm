@@ -1,4 +1,4 @@
-<section id="observation">
+<section id="{% if page.lang=='en' %}observation{% elsif page.lang=='fr' %}constat{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}OBSERVATION{% elsif page.lang=="fr" %}CONSTAT{% endif %}</h2>
     </header>
