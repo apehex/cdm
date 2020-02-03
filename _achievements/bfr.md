@@ -2,10 +2,18 @@
 image:
     placeholder: /assets/images/placeholder/clients/bfr_icon.webp
     content: /assets/images/content/clients/bfr_icon.webp
-title: "Réorganisation SAV"
-summary: >-
-    Productivité service restaurée (+25%) conforme à la croissance des ressources mobilisées.
-tags: [consulting, efficiency]
+title:
+    en: >-
+        Réorganisation SAV
+    fr: >-
+        Réorganisation SAV
+summary:
+    en: >-
+        Productivité service restaurée (+25%) conforme à la croissance des ressources mobilisées.
+    fr: >-
+        Productivité service restaurée (+25%) conforme à la croissance des ressources mobilisées.
+site: yang
+page:
 ---
 
 <blockquote>Division par 300 du taux de non-qualité produits</blockquote>

@@ -22,6 +22,6 @@ header:
 
 {% include expertise/yang/contracting-authority.html class="inverted" %}
 
-{% include about/achievements.html tag="consulting" %}
+{% include about/achievements.html site="yang" %}
 
 {% include contact.html class="inverted" %}

@@ -3,14 +3,17 @@ image:
     placeholder: /assets/images/placeholder/clients/mmp_icon.webp
     content: /assets/images/content/clients/mmp_icon.webp
 title:
-    en: 
+    en: >-
+        Restructuration industrielle
     fr: >-
         Restructuration industrielle
 summary:
-    en: 
+    en: >-
+        Croissance du CA malgré la coactivité d’un chantier impactant 30% de la surface usine.
     fr: >-
         Croissance du CA malgré la coactivité d’un chantier impactant 30% de la surface usine.
-tags: [consulting, project-support]
+site: yang
+page:
 ---
 
 <ul>

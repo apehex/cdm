@@ -20,6 +20,6 @@ header:
 
 {% include situation/yang/operation.html class="inverted" %}
 
-{% include about/achievements.html tag="consulting" %}
+{% include about/achievements.html site="yang" %}
 
 {% include contact.html class="inverted" %}

@@ -3,14 +3,17 @@ image:
     placeholder: /assets/images/placeholder/clients/mmp_icon.webp
     content: /assets/images/content/clients/mmp_icon.webp
 title:
-    en: 
+    en: >-
+        Réduction de 30% des coûts directs de maintenance
     fr: >-
         Réduction de 30% des coûts directs de maintenance
 summary:
-    en: 
+    en: >-
+        Réduction downtime de 6,52% à 2,54% tout en augmentant le temps d’ouverture de 6 machines de 25 000h à 32 000h et en réduisant les coûts directs de maintenance de 30%.
     fr: >-
         Réduction downtime de 6,52% à 2,54% tout en augmentant le temps d’ouverture de 6 machines de 25 000h à 32 000h et en réduisant les coûts directs de maintenance de 30%.
-tags: [consulting, maintenance]
+site: yang
+page:
 ---
 
 <ul>
