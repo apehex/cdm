@@ -1,4 +1,4 @@
-<section {% if page.lang=="en" %}id="industrial-processes"{% elsif page.lang=="fr" %}id="procedes-industriels"{% endif %}  class="{{ include.class | default: nil }}">
+<section id="{% if page.lang=='en' %}industrial-processes{% elsif page.lang=='fr' %}procedes-industriels{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}INDUSTRIAL PROCESSES{% elsif page.lang=="fr" %}Procédés Industriels{% endif %}</h2>
     </header>
@@ -13,7 +13,7 @@
         <article class="col-4 col-6-medium col-12-small">
             <span class="icon solid fa-box-open"></span>
             <div class="content">
-                <h3>Transformation des Mataux</h3>
+                <h3>Transformation des Métaux</h3>
                 <p>?</p>
             </div>
         </article>
