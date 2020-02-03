@@ -3,14 +3,17 @@ image:
     placeholder: /assets/images/placeholder/clients/aed_icon.webp
     content: /assets/images/content/clients/aed_icon.webp
 title:
-    en: 
+    en: >-
+        &Eacute;vitement incendie électrique imminent générateur 600kW
     fr: >-
         &Eacute;vitement incendie électrique imminent générateur 600kW
 summary:
-    en: 
+    en: >-
+        Suppression d’un risque d’incendie électrique sur usine de méthanisation par expertise et obligation faite au fournisseur de reprendre à sa charge les désordres (30k€).
     fr: >-
         Suppression d’un risque d’incendie électrique sur usine de méthanisation par expertise et obligation faite au fournisseur de reprendre à sa charge les désordres (30k€).
-tags: [consulting, risk-management]
+site: yang
+page:
 ---
 <ul>
     <li>mise en évidence de risques élevés dans l'installation d'un méthaniseur</li>

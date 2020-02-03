@@ -20,6 +20,6 @@ header:
 
 {% include situation/yin/litigation.html class="inverted" %}
 
-{% include about/achievements.html tag="expert-assessment" %}
+{% include about/achievements.html site="yin" %}
 
 {% include contact.html class="inverted" %}
