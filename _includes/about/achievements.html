@@ -1,11 +1,12 @@
+{%- assign displayed_count = 0 -%}
 <section id="{% if page.lang=='en' %}achievements{% elsif page.lang=='fr' %}realisations-clefs{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{% if page.lang=="en" %}ACHIEVEMENTS{% elsif page.lang=="fr" %}R&Eacute;ALISATIONS CLEFS{% endif %}</h2>
     </header>
     <div class="box alt">
         <div class="row gtr-50 gtr-uniform">
-        {% for achievement in site.achievements %}
-        {% if achievement.tags contains include.tag and forloop.index <= 4%}
+        {%- for achievement in site.achievements -%}
+        {%- if achievement.tags contains include.tag and displayed_count < 4 -%}
             <div class="col-3">
                 <article>
                     <a href="{{ achievement.url | absolute_url }}" class="image">
@@ -19,8 +20,9 @@
                     </ul>
                 </article>
             </div>
-        {% endif %}
-        {% endfor %}
+        {%- assign displayed_count = displayed_count | plus: 1 -%}
+        {%- endif -%}
+        {%- endfor -%}
         </div>
     </div>
 </section>
