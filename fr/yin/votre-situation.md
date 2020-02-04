@@ -1,5 +1,5 @@
 ---
-lang-ref: yin-services
+lang-ref: yin-situation
 layout: page
 title: >-
     Médiation et Expertise

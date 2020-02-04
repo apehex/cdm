@@ -2,21 +2,22 @@
 lang-ref: yang-home
 layout: home
 title: >-
-    Cabinet de Conseil
+    Ingénierie et Expertise Indépendantes
 description: >-
     J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.
 header:
     title: CDM
     subtitle: >-
-        Accompagner de la Décision à l'Exploitation
+        Ingénierie et Expertise Indépendantes
     style:
         class: inverted
         image: /assets/images/content/yin/station-ep.webp
 banner:
     title: >-
-        Mes Activités<br />de Conseil
+        Conseil
     subtitle: " "
-    description: " "
+    description: >-
+        J’accompagne de la réflexion stratégique à l’exploitation des moyens.
     button:
         url: >-
             #contact

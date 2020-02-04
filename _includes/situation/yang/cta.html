@@ -1,10 +1,10 @@
 <section id="cta" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>WHAT STAGE IS YOUR PROJECT ON ?</h2>
+        <h2>{% if page.lang=="en" %}WHAT STAGE IS YOUR PROJECT ON?{% elsif page.lang=="fr" %}O&Ugrave; EN EST VOTRE PROJET{% endif %}</h2>
     </header>
     <div class="facts row">
         <article class="col-2 col-4-medium col-12-small">
-            <div class="fact-intro on"><p>Strategy</p></div>
+            <div class="fact-intro on"><p>{% if page.lang=="en" %}Strategy{% elsif page.lang=="fr" %}Réflexion Stratégique{% endif %}</p></div>
             <div class="fact on"><h3>?</h3></div>
             <div class="fact-outro on"><p>&nbsp;</p></div>
             <span class="icon solid fa-chess on"></span>
@@ -14,7 +14,7 @@
             <span class="icon solid fa-project-diagram off"></span>
         </article>
         <article class="col-2 col-4-medium col-12-small">
-            <div class="fact-intro on"><p>Deployment</p></div>
+            <div class="fact-intro on"><p>{% if page.lang=="en" %}Deployment{% elsif page.lang=="fr" %}Déploiement{% endif %}</p></div>
             <div class="fact on"><h3>?</h3></div>
             <div class="fact-outro on"><p>&nbsp;</p></div>
             <span class="icon solid fa-plane on"></span>
@@ -24,7 +24,7 @@
             <span class="icon solid fa-plane-arrival off"></span>
         </article>
         <article class="col-2 col-4-medium col-12-small">
-            <div class="fact-intro on"><p>Reception</p></div>
+            <div class="fact-intro on"><p>{% if page.lang=="en" %}Reception{% elsif page.lang=="fr" %}Réception{% endif %}</p></div>
             <div class="fact on"><h3>?</h3></div>
             <div class="fact-outro on"><p>&nbsp;</p></div>
             <span class="icon solid fa-box-open on"></span>
@@ -34,7 +34,7 @@
             <span class="icon solid fa-cubes off"></span>
         </article>
         <article class="col-2 col-4-medium col-12-small">
-            <div class="fact-intro on"><p>Operation</p></div>
+            <div class="fact-intro on"><p>{% if page.lang=="en" %}Operation{% elsif page.lang=="fr" %}Exploitation{% endif %}</p></div>
             <div class="fact on"><h3>?</h3></div>
             <div class="fact-outro on"><p>&nbsp;</p></div>
             <span class="icon solid fa-play on"></span>
