@@ -2,21 +2,21 @@
 lang-ref: yang-home
 layout: home
 title: >-
-    Consulting Agency
+    Independant Engineering and Expertise
 description: >-
     J'accompagne les entreprises de la réflexion stratégique à l'exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d'exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.
 header:
     title: CDM
     subtitle: >-
-        Supporting Companies from Decision to Operations
+        Independant Engineering and Expertise
     style:
         class: inverted
         image: /assets/images/content/yin/station-ep.webp
 banner:
-    title: >-
-        Consulting
-    subtitle: ' '
-    description: ' '
+    title: " "
+    subtitle: >-
+        I support companies from decision to operations
+    description: " "
     button:
         url: >-
             #contact
