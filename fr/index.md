@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: home
 lang-ref: landing-page
 title: >-
     Ingénierie et Expertise Indépendantes
