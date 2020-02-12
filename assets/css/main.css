@@ -532,6 +532,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 .features article .ieam { background-image: url("images/ieam.svg"); }
 
+.features article .ifag { background-image: url("images/ifag.svg"); }
+
 .features article .ifg { background-image: url("images/ifg.svg"); }
 
 .features article .marine { background-image: url("images/marine.svg"); }
