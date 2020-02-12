@@ -21,8 +21,8 @@ yang:
     - title: Your Situation
       url: /en/yang/your-situation/
       menu:
-        - title: Project
-          url: /en/yang/your-situation/#project
+        - title: Development
+          url: /en/yang/your-situation/#development
         - title: Deployment
           url: /en/yang/your-situation/#deployment
         - title: Reception
@@ -52,8 +52,8 @@ yang:
     - title: Votre Situation
       url: /fr/yang/votre-situation/
       menu:
-        - title: Projet
-          url: /fr/yang/votre-situation/#projet
+        - title: "&Eacute;laboration"
+          url: /fr/yang/votre-situation/#elaboration
         - title: Déploiement
           url: /fr/yang/votre-situation/#deploiement
         - title: Réception
