@@ -108,6 +108,14 @@ yin:
           url: /en/yin/my-expertise/#hvac-engineering
         - title: Industrial Processes
           url: /en/yin/my-expertise/#industrial-processes
+        - title: Performance
+          url: /en/yin/my-expertise/#performance
+        - title: Solving Equipment Failures
+          url: /en/yin/my-expertise/#solving-failures
+        - title: Solving Disorder
+          url: /en/yin/my-expertise/#solving-disorders
+        - title: Expert-assessment
+          url: /en/yin/my-expertise/#expert-assessment
     - title: About
       url: /en/yin/about/
     - title: Blog
@@ -120,8 +128,8 @@ yin:
       menu:
         - title: Sous Performance
           url: /fr/yin/votre-situation/#sous-performance
-        - title: Panne
-          url: /fr/yin/votre-situation/#panne
+        - title: Défaillance
+          url: /fr/yin/votre-situation/#defaillance
         - title: Désordre
           url: /fr/yin/votre-situation/#desordre
         - title: Action En Justice
@@ -133,6 +141,14 @@ yin:
           url: /fr/yin/mes-competences/#genie-climatique
         - title: Procédés Industriels
           url: /fr/yin/mes-competences/#procedes-industriels
+        - title: Performance Technico-Economique
+          url: /fr/yin/mes-competences/#performance
+        - title: Résolution de Défaillances
+          url: /fr/yin/mes-competences/#resolution-des-defaillances
+        - title: Résolution des Désordres
+          url: /fr/yin/mes-competences/#resolution-des-desordres
+        - title: Expertise
+          url: /fr/yin/mes-competences/#expertise
     - title: A Propos
       url: /fr/yin/a-propos/
     - title: Blog

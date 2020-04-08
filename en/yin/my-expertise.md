@@ -16,6 +16,14 @@ header:
 
 {% include expertise/yin/industrial-processes.html class="inverted" %}
 
+{% include expertise/yin/performance.html %}
+
+{% include expertise/yin/disorder.html class="inverted" %}
+
+{% include expertise/yin/failure.html %}
+
+{% include expertise/yin/litigation.html class="inverted" %}
+
 {% include about/achievements.html site="yin" %}
 
 {% include contact.html class="inverted" %}
