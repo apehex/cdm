@@ -9,9 +9,8 @@
             <div class="col-3">
                 <article>
                     <a href="{{ achievement.url | absolute_url }}" class="image">
-                        <img class="lazy-loading" src="{{ achievement.image.placeholder | absolute_url }}" data-src="{{ achievement.image.content | absolute_url }}" alt="" width="200" height="200" />
+                        <h3>{{ achievement.title[page.lang] }}</h3>
                     </a>
-                    <h3>{{ achievement.title[page.lang] }}</h3>
                     <p>{{ achievement.summary[page.lang] }}</p>
                     <!-- {{ achievement.content }} -->
                     <ul class="actions">
