@@ -1,10 +1,10 @@
 <section id="cta"  class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>HAVING A PROBLEM ?</h2>
+        <h2>{% if page.lang=="en" %}HAVING A PROBLEM?{% elsif page.lang=="fr" %}DES DIFFICULT&Eacute;S ?{% endif %}</h2>
     </header>
     <div class="facts row">
         <article class="col-2 col-4-medium col-12-small">
-            <div class="fact-intro on"><p>Under Performance</p></div>
+            <div class="fact-intro on"><p>{% if page.lang=="en" %}Under Performance{% elsif page.lang=="fr" %}Sous Performance{% endif %}</p></div>
             <div class="fact on"><h3>?</h3></div>
             <div class="fact-outro on"><p>&nbsp;</p></div>
             <span class="icon solid fa-chart-area on"></span>
@@ -14,7 +14,7 @@
             <span class="icon solid fa-search-dollar off"></span>
         </article>
         <article class="col-2 col-4-medium col-12-small">
-            <div class="fact-intro on"><p>Equipment Failure</p></div>
+            <div class="fact-intro on"><p>{% if page.lang=="en" %}Equipment Failure{% elsif page.lang=="fr" %}Défaillance{% endif %}</p></div>
             <div class="fact on"><h3>?</h3></div>
             <div class="fact-outro on"><p>&nbsp;</p></div>
             <span class="icon solid fa-car-crash on"></span>
@@ -24,7 +24,7 @@
             <span class="icon solid fa-money-bill-alt off"></span>
         </article>
         <article class="col-2 col-4-medium col-12-small">
-            <div class="fact-intro on"><p>Disorder</p></div>
+            <div class="fact-intro on"><p>{% if page.lang=="en" %}Disorder{% elsif page.lang=="fr" %}Désordre{% endif %}</p></div>
             <div class="fact on"><h3>?</h3></div>
             <div class="fact-outro on"><p>&nbsp;</p></div>
             <span class="icon solid fa-exclamation-triangle on"></span>
@@ -34,7 +34,7 @@
             <span class="icon solid fa-route off"></span>
         </article>
         <article class="col-2 col-4-medium col-12-small">
-            <div class="fact-intro on"><p>Litigation</p></div>
+            <div class="fact-intro on"><p>{% if page.lang=="en" %}Litigation{% elsif page.lang=="fr" %}Litige{% endif %}</p></div>
             <div class="fact on"><h3>?</h3></div>
             <div class="fact-outro on"><p>&nbsp;</p></div>
             <span class="icon solid fa-gavel on"></span>
