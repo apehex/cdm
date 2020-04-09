@@ -31,8 +31,8 @@ banner:
 
 {% include situation/yang/targets.html class="inverted" %}
 
-{% include about/kpi.html%}
+{% include about/kpi.html %}
 
-{% include about/clients.html class="inverted" %}
+{% include about/clients.html %}
 
 {% include contact.html class="inverted" %}
