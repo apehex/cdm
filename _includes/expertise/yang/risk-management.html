@@ -5,16 +5,61 @@
     <div class="row">
         <div class="col-6 col-12-small">
             <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Identifier et cartographier les risques matériels et immatériels</a></li>
-                <li><a href="#" class="button fit icon solid">Répondre aux incidents</a></li>
-                <li><a href="#" class="button fit icon solid">Gérer les risques résiduels</a></li>
-                <li><a href="#" class="button fit icon solid">Mettre en œuvre des stratégies de défense en profondeur</a></li>
-                <li><a href="#" class="button fit icon solid">Développer des méthodes structurées de maîtrise des risques</a></li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Identifying and mapping risks
+                        {% elsif page.lang=="fr" %}
+                        Identifier et cartographier les risques matériels et immatériels
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Responding to incidents
+                        {% elsif page.lang=="fr" %}
+                        Répondre aux incidents
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Manage residual risks
+                        {% elsif page.lang=="fr" %}
+                        Gérer les risques résiduels
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Implement defense in depth
+                        {% elsif page.lang=="fr" %}
+                        Mettre en œuvre des stratégies de défense en profondeur
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Design of tools and systems
+                        {% elsif page.lang=="fr" %}
+                        Développer des méthodes structurées de maîtrise des risques
+                        {% endif %}
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="col-6 col-12-small">
             <div class="box">
-                <p>Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA</p>
+                <p>
+                    {% if page.lang=="en" %}
+                    Business continuity planning
+                    {% elsif page.lang=="fr" %}
+                    Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA</p>
+                    {% endif %}
             </div>
         </div>
     </div>

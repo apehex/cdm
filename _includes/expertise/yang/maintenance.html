@@ -5,18 +5,78 @@
     <div class="row">
         <div class="col-6 col-12-small">
             <div class="box">
+                {% if page.lang=="en" %}
+                <p>Turn maintenance into a lever for profitability</p>
+                {% elsif page.lang=="fr" %}
                 <p>Développer la fonction en tant que levier de rentabilité de l’entreprise</p>
+                {% endif %}
             </div>
         </div>
         <div class="col-6 col-12-small">
             <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Définition d’une stratégie et d’une politique de maintenance</a></li>
-                <li><a href="#" class="button fit icon solid">Audit de maturité et performance de la fonction Maintenance</a></li>
-                <li><a href="#" class="button fit icon solid">Analyse et résolution de défaillances</a></li>
-                <li><a href="#" class="button fit icon solid">Amélioration de la disponibilité des moyens</a></li>
-                <li><a href="#" class="button fit icon solid">Réduction des coûts directs et indirects</a></li>
-                <li><a href="#" class="button fit icon solid">Optimisation préventif / correctif</a></li>
-    			<li><a href="#" class="button fit icon solid">Optimisation technico économique de la fonction maintenance</a></li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Definition of maintenance strategy and policy
+                        {% elsif page.lang=="fr" %}
+                        Définition d’une stratégie et d’une politique de maintenance
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Performance audit of the maintenance unit
+                        {% elsif page.lang=="fr" %}
+                        Audit de maturité et performance de la fonction maintenance
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Solving equipment failures
+                        {% elsif page.lang=="fr" %}
+                        Analyse et résolution de défaillances
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Improving the disponibility of the means of production
+                        {% elsif page.lang=="fr" %}
+                        Amélioration de la disponibilité des moyens
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Lessening the overall costs, direct and indirect
+                        {% elsif page.lang=="fr" %}
+                        Réduction des coûts directs et indirects
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Optimisation of preventative maintenance
+                        {% elsif page.lang=="fr" %}
+                        Optimisation préventif / correctif
+                        {% endif %}
+                    </a>
+                </li>
+    			<li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Optimisation of maintenance operations
+                        {% elsif page.lang=="fr" %}
+                        Optimisation technico économique de la fonction maintenance
+                        {% endif %}
+                    </a>
+                </li>
             </ul>
         </div>
     </div>

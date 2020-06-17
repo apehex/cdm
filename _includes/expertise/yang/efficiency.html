@@ -5,16 +5,53 @@
     <div class="row">
         <div class="col-6 col-12-small">
             <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Diagnostic stratégique d'organisations</a></li>
-                <li><a href="#" class="button fit icon solid">Balanced Scored Card d'activité</a></li>
-                <li><a href="#" class="button fit icon solid">Audit de maturité et de performance</a></li>
-                <li><a href="#" class="button fit icon solid">Amélioration de processus et de procédés,</a></li>
-                <li><a href="#" class="button fit icon solid">Amélioration de procédés</a></li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Audit of the firm strategy
+                        {% elsif page.lang=="fr" %}
+                        Diagnostic stratégique d'organisations
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Balanced Scorecard for strategic management
+                        {% elsif page.lang=="fr" %}
+                        Tableau de bord prospectif
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Maturity and performance audit
+                        {% elsif page.lang=="fr" %}
+                        Audit de maturité et de performance
+                        {% endif %}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="button fit icon solid">
+                        {% if page.lang=="en" %}
+                        Improving operations and processes
+                        {% elsif page.lang=="fr" %}
+                        Amélioration de processus et de procédés
+                        {% endif %}
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="col-6 col-12-small">
             <div class="box">
-                <p>Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet</p>
+                <p>
+                    {% if page.lang=="en" %}
+                    Predicting and improving the performance of a firm, unit or project
+                    {% elsif page.lang=="fr" %}
+                    Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet
+                    {% endif %}
+                </p>
             </div>
         </div>
     </div>
