@@ -1,8 +1,8 @@
-<section id="{% if page.lang=='en' %}profile{% elsif page.lang=='fr' %}profil{% endif %}" class="{{ include.class }}">
+<section id="{% if page.lang=='en' %}profile{% elsif page.lang=='fr' %}profil{% endif %}" class="{{ include.class }}" style="height: 600px;">
+    <span class="image right"><img class="lazy-loading" src="{{ 'assets/images/placeholder/hero/portrait.webp' | absolute_url }}" data-src="{{ 'assets/images/content/hero/portrait.webp' | absolute_url }}" alt="" /></span>
     <header class="major">
         <h2>{% if page.lang=="en" %}ABOUT ME{% elsif page.lang=="fr" %}&Agrave; PROPOS{% endif %}</h2>
     </header>
-    <span class="image right"><img class="lazy-loading" src="{{ 'assets/images/placeholder/hero/portrait.webp' | absolute_url }}" data-src="{{ 'assets/images/content/hero/portrait.webp' | absolute_url }}" alt="" /></span>
     <p><strong>Ingénieur conseil</strong>, je suis spécialisé en <strong>Gestion des Risques</strong> et <strong>Efficience Industrielle</strong> ; par ailleurs, je suis <strong>Expert Indépendant</strong>.</p>
     <p>J’ai donc <strong>deux activités complémentaires</strong> : le Conseil et l’Expertise.</p>
     <p>L’Expertise <strong>concerne tous les acteurs</strong> (PME, Tertiaire, Administration, Collectivités Territoriales, Particuliers) et selon le type de ceux-ci, des sujets associés, par exemple : défaillances, bris de machine, litiges…</p>
