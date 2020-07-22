@@ -3,22 +3,11 @@
     <header class="major">
         <h2>{% if page.lang=="en" %}ACHIEVEMENTS{% elsif page.lang=="fr" %}R&Eacute;ALISATIONS CLEFS{% endif %}</h2>
     </header>
-    <div class="box alt">
-        <div class="row gtr-50 gtr-uniform">
-        {%- for achievement in articles -%}
-            <div class="col-3">
-                <article>
-                    <a href="{{ achievement.url | absolute_url }}" class="image">
-                        <h3>{{ achievement.title[page.lang] }}</h3>
-                    </a>
-                    <p>{{ achievement.summary[page.lang] }}</p>
-                    <!-- {{ achievement.content }} -->
-                    <ul class="actions">
-                        <li><a href="#" class="button">{% if page.lang=="en" %}More{% elsif page.lang=="fr" %}Plus{% endif %}</a></li>
-                    </ul>
-                </article>
-            </div>
-        {%- endfor -%}
-        </div>
+    <div class="posts">
+    {%- for achievement in articles -%}
+    	{%- assign title=achievement.title[page.lang] -%}
+    	{%- assign content=achievement.summary[page.lang] -%}
+        {% include post.html title=title content=content %}
+    {%- endfor -%}
     </div>
 </section>
