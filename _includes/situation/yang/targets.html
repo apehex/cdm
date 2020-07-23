@@ -6,50 +6,72 @@
         <h2>VOUS &Ecirc;TES</h2>
         {%- endif -%}
     </header>
-    <div class="features">
-        <article>
-            <span class="icon solid fa-industry"></span>
-            <div class="content">
-                {%- if page.lang=="en" -%}
-                <h3>A Manufacturer</h3>
-                <p><ul>
-                    <li>Cardboard Processing</li>
-                    <li>Plastics Processing</li>
-                    <li>Metal Processing</li>
-                    <li>HVAC</li>
-                </ul></p>
-                {%- elsif page.lang=="fr" -%}
-                <h3>Un Industriel</h3>
-                <p><ul>
-                    <li>Génie Thermique</li>
-                    <li>Transformation des Métaux</li>
-                    <li>Transformation des Plastiques</li>
-                    <li>Transformation des Cartons</li>
-                </ul></p>
-                {%- endif -%}
-            </div>
-        </article>
-        <article>
-            <span class="icon solid fa-suitcase"></span>
-            <div class="content">
-                {%- if page.lang=="en" -%}
-                <h3>A Service</h3>
-                <p><ul>
-                    <li>General Management</li>
-                    <li>Engineering</li>
-                    <li>Maintenance</li>
-                    <li>After-Sales</li>
-                </ul></p>
-                {%- elsif page.lang=="fr" -%}
-                <h3>Un Service</h3>
-                <p><ul>
-                    <li>Direction Générale</li>
-                    <li>Ingénierie & Travaux</li>
-                    <li>Maintenance </li>
-                    <li>SAV</li>
-                </ul></p>
-                {%- endif -%}
-            </div>
-        </article>
+    <div class="features row gtr-100">
+        <div class="col-4 col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-industry"></span>
+                <div class="content">
+                    {%- if page.lang=="en" -%}
+                    <h3>A Manufacturer</h3>
+                    <p><ul>
+                        <li>Cardboard Processing</li>
+                        <li>Plastics Processing</li>
+                        <li>Metal Processing</li>
+                        <li>HVAC</li>
+                    </ul></p>
+                    {%- elsif page.lang=="fr" -%}
+                    <h3>Un Industriel</h3>
+                    <p><ul>
+                        <li>Génie Thermique</li>
+                        <li>Transformation des :
+                            <ul>
+                                <li>Métaux</li>
+                                <li>Plastiques</li>
+                                <li>Cartons</li>
+                            </ul>
+                        </li>
+                    </ul></p>
+                    {%- endif -%}
+                </div>
+            </article>
+        </div>
+        <div class="col-4 col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-suitcase"></span>
+                <div class="content">
+                    {%- if page.lang=="en" -%}
+                    <h3>A Service</h3>
+                    <p><ul>
+                        <li>General Management</li>
+                        <li>Engineering</li>
+                        <li>Maintenance</li>
+                        <li>After-Sales</li>
+                    </ul></p>
+                    {%- elsif page.lang=="fr" -%}
+                    <h3>Un Service</h3>
+                    <p><ul>
+                        <li>Direction Générale</li>
+                        <li>Ingénierie & Travaux</li>
+                        <li>Maintenance </li>
+                        <li>SAV</li>
+                    </ul></p>
+                    {%- endif -%}
+                </div>
+            </article>
+        </div>
+        <div class="col-4 col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-exclamation"></span>
+                <div class="content">
+                    {%- if page.lang=="en" -%}
+                    <h3>Having a Problem!</h3>
+                    <p></p>
+                    {%- elsif page.lang=="fr" -%}
+                    <h3>En Difficulté !</h3>
+                    <p></p>
+                    {%- endif -%}
+                </div>
+            </article>
+        </div>
     </div>
 </section>
