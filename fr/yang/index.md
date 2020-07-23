@@ -32,7 +32,9 @@ banner:
 
 {% include situation/yang/targets.html class="inverted" %}
 
-{% include about/kpi.html%}
+{% include expertise/yang/cta.html %}
+
+{% include about/kpi.html class="inverted" %}
 
 {% include about/clients.html %}
 
