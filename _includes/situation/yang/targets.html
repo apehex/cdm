@@ -7,17 +7,21 @@
         {%- endif -%}
     </header>
     <div class="features row gtr-100">
-        <div class="col-4 col-12-small">
+        <a href="#" class="icon col-4 col-12-small">
             <article style="width: 100%;">
                 <span class="icon solid fa-industry"></span>
                 <div class="content">
                     {%- if page.lang=="en" -%}
                     <h3>A Manufacturer</h3>
                     <p><ul>
-                        <li>Cardboard Processing</li>
-                        <li>Plastics Processing</li>
-                        <li>Metal Processing</li>
                         <li>HVAC</li>
+                        <li>Processing of:
+                            <ul>
+                                <li>Cardboard Processing</li>
+                                <li>Plastics Processing</li>
+                                <li>Metal Processing</li>
+                            </ul>
+                        </li>
                     </ul></p>
                     {%- elsif page.lang=="fr" -%}
                     <h3>Un Industriel</h3>
@@ -34,8 +38,8 @@
                     {%- endif -%}
                 </div>
             </article>
-        </div>
-        <div class="col-4 col-12-small">
+        </a>
+        <a href="#" class="icon col-4 col-12-small">
             <article style="width: 100%;">
                 <span class="icon solid fa-suitcase"></span>
                 <div class="content">
@@ -58,8 +62,8 @@
                     {%- endif -%}
                 </div>
             </article>
-        </div>
-        <div class="col-4 col-12-small">
+        </a>
+        <a href="#contact" class="scrolly icon col-4 col-12-small">
             <article style="width: 100%;">
                 <span class="icon solid fa-exclamation"></span>
                 <div class="content">
@@ -72,6 +76,6 @@
                     {%- endif -%}
                 </div>
             </article>
-        </div>
+        </a>
     </div>
 </section>
