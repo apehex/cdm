@@ -1,0 +1,88 @@
+<section id="{% if page.lang=='en' %}expertise{% elsif page.lang=='fr' %}competences{% endif %}" class="{{ include.class | default: nil }}">
+    <header class="major">
+        {%- if page.lang=="en" -%}
+        <h2>CAN I HELP?</h2>
+        {%- elsif page.lang=="fr" -%}
+        <h2>PUIS-JE VOUS AIDER ?</h2>
+        {%- endif -%}
+    </header>
+    {%- if page.lang=="en" -%}
+    <div class="features row gtr-100">
+        <a href="{{ 'en/yin/my-expertise#maintenance' | absolute_url }}" class="icon col-3 col-6-medium col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-tools"></span>
+                <div class="content">
+                    <h3>Maintenance</h3>
+                    <p></p>
+                </div>
+            </article>
+        </a>
+        <a href="{{ 'en/yin/my-expertise#expert-assessment' | absolute_url }}" class="icon col-3 col-6-medium col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-search"></span>
+                <div class="content">
+                    <h3>Private Expert Assessment</h3>
+                    <p></p>
+                </div>
+            </article>
+        </a>
+        <a href="{{ 'en/yin/my-expertise#expert-assessment' | absolute_url }}" class="icon col-3 col-6-medium col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-balance-scale"></span>
+                <div class="content">
+                    <h3>Out-of-court Expert Assessment</h3>
+                    <p></p>
+                </div>
+            </article>
+        </a>
+        <a href="{{ 'en/yin/my-expertise#expert-assessment' | absolute_url }}" class="icon col-3 col-6-medium col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-gavel"></span>
+                <div class="content">
+                    <h3>Suppport in a Legal Expert Assessment</h3>
+                    <p></p>
+                </div>
+            </article>
+        </a>
+    </div>
+    {%- elsif page.lang=="fr" -%}
+    <div class="features row gtr-100">
+        <a href="{{ 'fr/yin/mes-competences#performance' | absolute_url }}" class="icon col-3 col-6-medium col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-tools"></span>
+                <div class="content">
+                    <h3>Maintenance</h3>
+                    <p></p>
+                </div>
+            </article>
+        </a>
+        <a href="{{ 'fr/yin/mes-competences#expertise' | absolute_url }}" class="icon col-3 col-6-medium col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-search"></span>
+                <div class="content">
+                    <h3>Expertise Officieuse</h3>
+                    <p></p>
+                </div>
+            </article>
+        </a>
+        <a href="{{ 'fr/yin/mes-competences#expertise' | absolute_url }}" class="icon col-3 col-6-medium col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-balance-scale"></span>
+                <div class="content">
+                    <h3>Expertise Amiable</h3>
+                    <p></p>
+                </div>
+            </article>
+        </a>
+        <a href="{{ 'fr/yin/mes-competences#expertise' | absolute_url }}" class="icon col-3 col-6-medium col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-gavel"></span>
+                <div class="content">
+                    <h3>Assistance Expertise Judiciaire</h3>
+                    <p></p>
+                </div>
+            </article>
+        </a>
+    </div>
+    {%- endif -%}
+</section>
