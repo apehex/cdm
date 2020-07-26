@@ -1,0 +1,39 @@
+assessing-damage:
+  en:
+    id: assessing-damage
+    title: ASSESSING DAMAGE
+    orientation: vertical
+    headers-width: 30
+    tabs:
+      - id: contractual-analysis
+        title: Contractual Analysis
+        content: >-
+          Règles de l’art et normes applicables au cas d’espèce.
+      - id: damage-assessment
+        title: Damage Assessment
+        content: >-
+          Caractérisation de la nature et de l’importance du désordre.
+      - id: palliative-solutions
+        title: Solutions Palliatives
+        content: >-
+          Détermination des causes et identification de solutions palliatives et conservatoires.
+  fr:
+    id: evaluer-les-degats
+    title: >-
+      MAT&Eacute;RIALIT&Eacute; DES D&Eacute;SORDRES
+    orientation: vertical
+    headers-width: 30
+    tabs:
+      - id: analyse-contractuelle
+        title: Analyse Contractuelle
+        content: >-
+          Règles de l’art et normes applicables au cas d’espèce.
+      - id: evaluation-des-ecarts
+        title: >-
+          &Eacute;valuation des &Eacute;carts
+        content: >-
+          Caractérisation de la nature et de l’importance du désordre.
+      - id: solutions-palliatives
+        title: Solutions Palliatives
+        content: >-
+          Détermination des causes et identification de solutions palliatives et conservatoires.
