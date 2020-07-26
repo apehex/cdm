@@ -31,7 +31,9 @@ banner:
 
 {% include situation/yin/targets.html class="inverted" %}
 
-{% include about/kpi.html %}
+{% include expertise/yin/cta.html %}
+
+{% include about/kpi.html class="inverted" %}
 
 {% include about/clients.html %}
 
