@@ -1,59 +1,94 @@
 <section id="{% if page.lang=='en' %}targets{% elsif page.lang=='fr' %}cibles{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         {%- if page.lang=="en" -%}
-        <h2>YOU ARE</h2>
+        <h2>WITH</h2>
         {%- elsif page.lang=="fr" -%}
-        <h2>VOUS &Ecirc;TES</h2>
+        <h2>AVEC</h2>
         {%- endif -%}
     </header>
-    <div class="features">
-        <article>
-            <span class="icon solid fa-industry"></span>
-            <div class="content">
-                {%- if page.lang=="en" -%}
-                <h3>A Firm</h3>
-                <p></p>
-                {%- elsif page.lang=="fr" -%}
-                <h3>Une Entreprise</h3>
-                <p></p>
-                {%- endif -%}
-            </div>
-        </article>
-        <article>
-            <span class="icon solid fa-building"></span>
-            <div class="content">
-                {%- if page.lang=="en" -%}
-                <h3>A Joint Owernship</h3>
-                <p></p>
-                {%- elsif page.lang=="fr" -%}
-                <h3>Une Copropriété</h3>
-                <p></p>
-                {%- endif -%}
-            </div>
-        </article>
-        <article>
-            <span class="icon solid fa-user-injured"></span>
-            <div class="content">
-                {%- if page.lang=="en" -%}
-                <h3>A Private Individual</h3>
-                <p></p>
-                {%- elsif page.lang=="fr" -%}
-                <h3>Un Particulier</h3>
-                <p></p>
-                {%- endif -%}
-            </div>
-        </article>
-        <article>
-            <span class="icon solid fa-exclamation"></span>
-            <div class="content">
-                {%- if page.lang=="en" -%}
-                <h3>Having a Problem!</h3>
-                <p></p>
-                {%- elsif page.lang=="fr" -%}
-                <h3>En Difficulté !</h3>
-                <p></p>
-                {%- endif -%}
-            </div>
-        </article>
+    <div class="features row gtr-100">
+        {%- if page.lang=="en" -%}
+        <a href="en/yin/my-expertise#hvac-engineering" class="icon col-4 col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-thermometer-half"></span>
+                <div class="content">
+                    <h3>HVAC Engineering</h3>
+                    <p><ul>
+                        <li>Insulation</li>
+                    </ul></p>
+                </div>
+            </article>
+        </a>
+        <a href="en/yin/my-expertise#renewable-energies" class="icon col-4 col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-recycle"></span>
+                <div class="content">
+                    <h3>Renewable<br>Energies</h3>
+                    <p><ul>
+                        <li>Pompes à Chaleur</li>
+                        <li>Photovoltaïque</li>
+                        <li>Géothermie</li>
+                        <li>Méthanisation</li>
+                    </ul></p>
+                </div>
+            </article>
+        </a>
+        <a href="en/yin/my-expertise#industrial-processes" class="icon col-4 col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-industry"></span>
+                <div class="content">
+                    <h3>Industrial<br>Processes</h3>
+                    <p>
+                        <ul>Processing of:
+                            <li>Cardboard</li>
+                            <li>Plastics</li>
+                            <li>Metal</li>
+                        </ul>
+                    </p>
+                </div>
+            </article>
+        </a>
+        {%- elsif page.lang=="fr" -%}
+        <a href="en/yin/my-expertise#hvac-engineering" class="icon col-4 col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-thermometer-half"></span>
+                <div class="content">
+                    <h3>Génie Climatique<br>et Thermique</h3>
+                    <p><ul>
+                        <li>Isolation</li>
+                    </ul></p>
+                </div>
+            </article>
+        </a>
+        <a href="en/yin/my-expertise#renewable-energies" class="icon col-4 col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-recycle"></span>
+                <div class="content">
+                    <h3>&Eacute;nergies<br>Renouvelables</h3>
+                    <p><ul>
+                        <li>Pompes à Chaleur</li>
+                        <li>Photovoltaïque</li>
+                        <li>Géothermie</li>
+                        <li>Méthanisation</li>
+                    </ul></p>
+                </div>
+            </article>
+        </a>
+        <a href="en/yin/my-expertise#industrial-processes" class="icon col-4 col-12-small">
+            <article style="width: 100%;">
+                <span class="icon solid fa-industry"></span>
+                <div class="content">
+                    <h3>Procédés<br>Industriels</h3>
+                    <p>
+                        <ul>Transformation des:
+                            <li>Cartons</li>
+                            <li>Plastiques</li>
+                            <li>Métaux</li>
+                        </ul>
+                    </p>
+                </div>
+            </article>
+        </a>
+        {%- endif -%}
     </div>
 </section>
