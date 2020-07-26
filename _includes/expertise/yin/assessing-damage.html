@@ -1,19 +1,8 @@
-<section id="{% if page.lang=='en' %}solving-disorders{% elsif page.lang=='fr' %}resolution-des-desordres{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.expertise.["assessing-damage"][page.lang] -%}
+
+<section id="{% if page.lang=='en' %}assessing-damage{% elsif page.lang=='fr' %}materialite-des-desordres{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}SOLVING DISORDERS{% elsif page.lang=="fr" %}R&Eacute;SOLUTION DES D&Eacute;SORDRES{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Analyse contractuelle, règles de l’art et normes applicables au cas d’espèce</a></li>
-                <li><a href="#" class="button fit icon solid">Identification des écarts et caractérisation de la nature et de l’importance du désordre</a></li>
-                <li><a href="#" class="button fit icon solid">Détermination des causes et identification de solutions palliatives et conservatoires</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-12-small">
-            <div class="box">
-                <p>Sauvegarder les intérêts et fonder la réclamation</p>
-            </div>
-        </div>
-    </div>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width tabs=data.tabs %}
 </section>
