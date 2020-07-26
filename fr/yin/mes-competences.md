@@ -18,7 +18,7 @@ header:
 
 {% include expertise/yin/performance.html %}
 
-{% include expertise/yin/disorder.html class="inverted" %}
+{% include expertise/yin/assessing-damage.html class="inverted" %}
 
 {% include expertise/yin/failure.html %}
 
