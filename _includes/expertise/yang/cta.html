@@ -1,3 +1,4 @@
+{%- assign efficiency-id = site.data.expertise["efficiency"][page.lang].id -%}
 <section id="{% if page.lang=='en' %}expertise{% elsif page.lang=='fr' %}competences{% endif %}" class="{{ include.class | default: nil }}">
     <header class="major">
         {%- if page.lang=="en" -%}

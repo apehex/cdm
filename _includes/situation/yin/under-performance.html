@@ -1,20 +1,8 @@
-<section id="{% if page.lang=='en' %}under-performance{% elsif page.lang=='fr' %}sous-performance{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.situation["under-performance"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}UNDER PERFORMANCE{% elsif page.lang=="fr" %}SOUS PERFORMANCE{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small" style="height:100%;">
-            <div class="box">
-                <p>Restaurer vos marges, productivité et rentabilité</p>
-            </div>
-        </div>
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Impact technico-économique</a></li>
-                <li><a href="#" class="button fit icon solid">Qunatification des écarts aux standards</a></li>
-                <li><a href="#" class="button fit icon solid">Identification des causes</a></li>
-                <li><a href="#" class="button fit icon solid">Recherche d’améliorations</a></li>
-            </ul>
-        </div>
-    </div>
+    <blockquote>{{ data.quote }}</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>

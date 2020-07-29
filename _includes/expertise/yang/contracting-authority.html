@@ -1,24 +1,8 @@
-<section id="{% if page.lang=='en' %}contracting-authority{% elsif page.lang=='fr' %}maitrise-ouvrage-moa{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.expertise["contracting-authority"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}CONTRACTING AUTHORITY{% elsif page.lang=="fr" %}AMOA{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Définir les besoins et exigences du projet</a></li>
-                <li><a href="#" class="button fit icon solid">Décliner les besoins en objectifs</a></li>
-                <li><a href="#" class="button fit icon solid">&Eacute;laborer les cahiers des charges</a></li>
-                <li><a href="#" class="button fit icon solid">Assistance dans le choix de prestataires</a></li>
-                <li><a href="#" class="button fit icon solid">Structurer le projet</a></li>
-                <li><a href="#" class="button fit icon solid">Planifier le projet</a></li>
-                <li><a href="#" class="button fit icon solid">Identifier et traiter les risques BQCDS</a></li>
-                <li><a href="#" class="button fit icon solid">&Eacute;laborer des protocoles</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-12-small">
-            <div class="box">
-                <p>Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet</p>
-            </div>
-        </div>
-    </div>
+    <blockquote>{{ data.quote }}</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>

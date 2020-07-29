@@ -1,20 +1,8 @@
-<section id="{% if page.lang=='en' %}litigation{% elsif page.lang=='fr' %}action-en-justice{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.situation["litigation"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}LITIGATION{% elsif page.lang=="fr" %}ACTION EN JUSTICE{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Intérêt et possibilité d’agir ?</a></li>
-                <li><a href="#" class="button fit icon solid">Quelle est la réalité et matérialité du litige ?</a></li>
-                <li><a href="#" class="button fit icon solid">Quelles sont les causes et à qui sont-elles imputables ?</a></li>
-                <li><a href="#" class="button fit icon solid">Une solution amiable est-elle envisageable ?</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-12-small">
-            <div class="box">
-                <p>Obtenir réparation amiable ou judiciaire de votre dommage</p>
-            </div>
-        </div>
-    </div>
+    <blockquote>{{ data.quote }}</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>

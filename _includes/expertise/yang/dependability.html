@@ -1,55 +1,8 @@
-<section id="{% if page.lang=='en' %}dependability{% elsif page.lang=='fr' %}surete-de-fonctionnement{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.expertise["dependability"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}DEPENDABILITY{% elsif page.lang=="fr" %}S&Ucirc;RET&Eacute; DE FONCTIONNEMENT{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small">
-            <div class="box">
-                <p>
-                        {% if page.lang=="en" %}
-                        {% elsif page.lang=="fr" %}
-                        {% endif %}
-                    Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installation selon les axes FMDS et LCC
-                </p>
-            </div>
-        </div>
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li>
-                    <a href="#" class="button fit icon solid">
-                        {% if page.lang=="en" %}
-                        {% elsif page.lang=="fr" %}
-                        &Eacute;tudes de fiabilité, maintenabilité et risques
-                        {% endif %}
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="button fit icon solid">
-                        {% if page.lang=="en" %}
-                        Improving the disponibility of the means of production
-                        {% elsif page.lang=="fr" %}
-                        Amélioration de la disponibilité des systèmes
-                        {% endif %}
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="button fit icon solid">
-                        {% if page.lang=="en" %}
-                        Solving equipment failures
-                        {% elsif page.lang=="fr" %}
-                        Résolutions des défaillances
-                        {% endif %}
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="button fit icon solid">
-                        {% if page.lang=="en" %}
-                        {% elsif page.lang=="fr" %}
-                        Traitement des causes premières
-                        {% endif %}
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <blockquote>{{ data.quote }}</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>
