@@ -1,19 +1,8 @@
-<section id="{% if page.lang=='en' %}operation{% elsif page.lang=='fr' %}exploitation{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.situation["operation"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}OPERATION{% elsif page.lang=="fr" %}EXPLOITATION{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Constat de dérive de performances</a></li>
-                <li><a href="#" class="button fit icon solid">Productivité ou efficience insuffisantes</a></li>
-                <li><a href="#" class="button fit icon solid">Dysfonctionnements</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-12-small">
-            <div class="box">
-                <p>Maintenir, rétablir ou améliorer les performances initiales</p>
-            </div>
-        </div>
-    </div>
+    <blockquote>{{ data.quote }}</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>

@@ -1,18 +1,8 @@
-<section id="{% if page.lang=='en' %}formal-notice{% elsif page.lang=='fr' %}mise-en-demeure{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.situation["formal-notice"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}FORMAL NOTICE{% elsif page.lang=="fr" %}MISE EN DEMEURE{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small">
-            <div class="box">
-                <p>Restée sans effet et vous voulez évaluer l'opportunité de poursuivre.</p>
-            </div>
-        </div>
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">?</a></li>
-                <li><a href="#" class="button fit icon solid">?</a></li>
-            </ul>
-        </div>
-    </div>
+    <blockquote>{{ data.quote }}</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>

@@ -1,20 +1,8 @@
-<section id="{% if page.lang=='en' %}deployment{% elsif page.lang=='fr' %}deploiement{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.situation["deployment"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}DEPLOYMENT{% elsif page.lang=="fr" %}D&Eacute;PLOIEMENT{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Lancement du projet</a></li>
-                <li><a href="#" class="button fit icon solid">Gestion du projet</a></li>
-                <li><a href="#" class="button fit icon solid">Fabrication, acquisition des équipements</a></li>
-                <li><a href="#" class="button fit icon solid">Installation des équipements</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-12-small">
-            <div class="box">
-                <p>&Ecirc;tre aidé dans la mise en œuvre des décisions</p>
-            </div>
-        </div>
-    </div>
+    <blockquote>{{ data.quote }}</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>

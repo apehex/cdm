@@ -1,58 +1,8 @@
-<section id="{% if page.lang=='en' %}efficiency{% elsif page.lang=='fr' %}efficience{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.expertise["efficiency"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}EFFICIENCY{% elsif page.lang=="fr" %}EFFICIENCE{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li>
-                    <a href="#" class="button fit icon solid">
-                        {% if page.lang=="en" %}
-                        Audit of the firm strategy
-                        {% elsif page.lang=="fr" %}
-                        Diagnostic stratégique d'organisations
-                        {% endif %}
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="button fit icon solid">
-                        {% if page.lang=="en" %}
-                        Balanced Scorecard for strategic management
-                        {% elsif page.lang=="fr" %}
-                        Tableau de bord prospectif
-                        {% endif %}
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="button fit icon solid">
-                        {% if page.lang=="en" %}
-                        Maturity and performance audit
-                        {% elsif page.lang=="fr" %}
-                        Audit de maturité et de performance
-                        {% endif %}
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="button fit icon solid">
-                        {% if page.lang=="en" %}
-                        Improving operations and processes
-                        {% elsif page.lang=="fr" %}
-                        Amélioration de processus et de procédés
-                        {% endif %}
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-6 col-12-small">
-            <div class="box">
-                <p>
-                    {% if page.lang=="en" %}
-                    Predicting and improving the performance of a firm, unit or project
-                    {% elsif page.lang=="fr" %}
-                    Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet
-                    {% endif %}
-                </p>
-            </div>
-        </div>
-    </div>
+    <blockquote>{{ data.quote }}</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>

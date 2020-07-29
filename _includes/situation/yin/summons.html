@@ -1,18 +1,8 @@
-<section id="{% if page.lang=='en' %}summons{% elsif page.lang=='fr' %}assignation{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.situation["summons"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}SUMMONS{% elsif page.lang=="fr" %}ASSIGNATION{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small">
-            <div class="box">
-                <p>Vous avez besoin d'une assistance technique pour défendre vos intérêts.</p>
-            </div>
-        </div>
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">?</a></li>
-                <li><a href="#" class="button fit icon solid">?</a></li>
-            </ul>
-        </div>
-    </div>
+    <blockquote>{{ data.quote }}</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>

@@ -1,8 +1,8 @@
-{%- assign data = site.data.expertise.["assessing-damage"][page.lang] -%}
-
-<section id="{% if page.lang=='en' %}assessing-damage{% elsif page.lang=='fr' %}materialite-des-desordres{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.expertise["assessing-damage"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{{ data.title }}</h2>
     </header>
-    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width tabs=data.tabs %}
+	<blockquote>Sauvegarder les intérêts et fonder la réclamation</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>

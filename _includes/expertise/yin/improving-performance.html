@@ -1,8 +1,8 @@
-{%- assign data = site.data.expertise["risk-management"][page.lang] -%}
+{%- assign data = site.data.expertise["improving-performance"][page.lang] -%}
 <section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{{ data.title }}</h2>
     </header>
-    <blockquote>{{ data.quote }}</blockquote>
+    <blockquote>Quantifier les performances et les processus de création de valeur</blockquote>
     {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>

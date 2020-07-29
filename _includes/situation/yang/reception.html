@@ -1,19 +1,8 @@
-<section id="reception" class="{{ include.class | default: nil }}">
+{%- assign data = site.data.situation["reception"][page.lang] -%}
+<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}RECEPTION{% elsif page.lang=="fr" %}R&Eacute;CEPTION{% endif %}</h2>
+        <h2>{{ data.title }}</h2>
     </header>
-    <div class="row">
-        <div class="col-6 col-12-small">
-            <div class="box">
-                <p>Vérifier l’adaptation aux besoins et la conformité à votre commande</p>
-            </div>
-        </div>
-        <div class="col-6 col-12-small">
-            <ul class="actions stacked">
-                <li><a href="#" class="button fit icon solid">Paramétrages, mise sous tension</a></li>
-                <li><a href="#" class="button fit icon solid">Essais de fonctionnement / endurance</a></li>
-                <li><a href="#" class="button fit icon solid fa-recycle">Parfait achèvement</a></li>
-            </ul>
-        </div>
-    </div>
+    <blockquote>{{ data.quote }}</blockquote>
+    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>
