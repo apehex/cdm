@@ -282,7 +282,7 @@ yin:
           content: >-
             ? (Quel est l’impact technique, financier et économique actuel et futur ?)
     fr:
-      id: equipment-failure
+      id: defaillance
       title: >-
         D&Eacute;FAILLANCE
       quote: >-
@@ -333,7 +333,7 @@ yin:
           content: >-
             ? (Quel moyen pour limiter l’impact et se donner le temps d’agir ?)
     fr:
-      id: disorder
+      id: desordre
       title: >-
         D&Eacute;SORDRE IDENTIFI&Eacute;
       quote: >-
@@ -389,7 +389,7 @@ yin:
           content: >-
             ? (Une solution amiable est-elle envisageable ?)
     fr:
-      id: litige
+      id: action-en-justice
       title: >-
         LITIGE
       quote: >-

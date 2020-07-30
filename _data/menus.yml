@@ -112,10 +112,10 @@ yin:
           url: /en/yin/my-expertise/#performance
         - title: Solving Equipment Failures
           url: /en/yin/my-expertise/#solving-failures
-        - title: Solving Disorders
-          url: /en/yin/my-expertise/#solving-disorders
+        - title: Assessing damage
+          url: /en/yin/my-expertise/#assessing-damage
         - title: Expert-assessment
-          url: /en/yin/my-expertise/#expert-assessment
+          url: /en/yin/my-expertise/#support-during-litigation
     - title: About
       url: /en/yin/about/
     - title: Blog
@@ -145,10 +145,11 @@ yin:
           url: /fr/yin/mes-competences/#performance
         - title: Résolution de Défaillances
           url: /fr/yin/mes-competences/#resolution-des-defaillances
-        - title: Résolution des Désordres
-          url: /fr/yin/mes-competences/#resolution-des-desordres
+        - title: >-
+            &Eacute;valuer les dégâts
+          url: /fr/yin/mes-competences/#evaluer-les-degats
         - title: Expertise
-          url: /fr/yin/mes-competences/#expertise
+          url: /fr/yin/mes-competences/#accompagnement-pendant-les-litiges
     - title: A Propos
       url: /fr/yin/a-propos/
     - title: Blog

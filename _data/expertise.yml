@@ -1,7 +1,7 @@
 yin:
   improving-performance:
     en:
-      id: improving-performance
+      id: performance
       title: >-
         PERFORMANCE
       quote: >-
@@ -26,7 +26,7 @@ yin:
           content: >-
             Accompagnement dans la mise en œuvre d’un plan d’action d’amélioration continue.
     fr:
-      id: ameliorer-la-performance
+      id: performance
       title: >-
         PERFORMANCE TECHNICO-&Eacute;CONOMIQUE
       quote: >-
@@ -177,7 +177,7 @@ yin:
           content: >-
             Assistance technique en phase judiciaire, apports soutenant la réclamation (causes, conséquences, imputabilité)
     fr:
-      id: accompagnement-contre-les-litiges
+      id: accompagnement-pendant-les-litiges
       title: >-
         ACCOMPAGNEMENT PENDANT LES LITIGES
       quote:
