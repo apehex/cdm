@@ -18,9 +18,9 @@ header:
 
 {% include expertise/yin/improving-performance.html %}
 
-{% include expertise/yin/assessing-damage.html class="inverted" %}
+{% include expertise/yin/solving-failures.html class="inverted" %}
 
-{% include expertise/yin/solving-failures.html %}
+{% include expertise/yin/assessing-damage.html %}
 
 {% include expertise/yin/support-during-litigation.html class="inverted" %}
 
