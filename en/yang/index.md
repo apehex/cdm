@@ -27,11 +27,11 @@ banner:
         image: /assets/images/content/yin/station-ep.webp
 ---
 
-{% include situation/yang/cta.html %}
+{% include home/yang/situation.html %}
 
-{% include situation/yang/targets.html class="inverted" %}
+{% include home/yang/targets.html class="inverted" %}
 
-{% include expertise/yang/cta.html %}
+{% include home/yang/expertise.html %}
 
 {% include about/kpi.html class="inverted" %}
 
