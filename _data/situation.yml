@@ -1,418 +1,420 @@
-development:
-  en:
-    id: development
-    title: >-
-      DEVELOPMENT
-    quote: >-
-      ? (&Ecirc;tre aidé dans l’évaluation et l’organisation du projet)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: project-evaluation
-        title: >-
-          ?
-        content: >-
-          ? (Expression du besoin, évaluation de la faisabilité et de la rentabilité.)
-      - id: structuring-the-project
-        title: >-
-          ?
-        content: >-
-          ? (Structuration du projet.)
-      - id: choosing-the-right-service-providers
-        title: >-
-          ?
-        content: >-
-          ? (Identification et choix des prestataires internes et externes.)
-  fr:
-    id: elaboration
-    title: >-
-      &Eacute;LABORATION
-    quote: >-
-      &Ecirc;tre aidé dans l’évaluation et l’organisation du projet
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: evaluation-du-projet
-        title: >-
-          ?
-        content: >-
-          Expression du besoin, évaluation de la faisabilité et de la rentabilité.
-      - id: structuration-du-projet
-        title: >-
-          ?
-        content: >-
-          Structuration du projet.
-      - id: choisir-les-bons-prestataires
-        title: >-
-          ?
-        content: >-
-          Identification et choix des prestataires internes et externes.
-deployment:
-  en:
-    id: deployment
-    title: >-
-      DEPLOYMENT
-    quote: >-
-      ? (&Ecirc;tre aidé dans la mise en œuvre des décisions)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: organization
-        title: >-
-          ? (Organisation)
-        content: >-
-          ? (Qui fait quoi, qui sont les contributeurs.)
-      - id: launch
-        title: >-
-          ?
-        content: >-
-          ? (Lancement et gestion du projet.)
-      - id: equipment-acquisition
-        title: >-
-          ?
-        content: >-
-          ? (Fabrication, acquisition, installation des équipements.)
-  fr:
-    id: deploiement
-    title: >-
-      D&Eacute;PLOIEMENT
-    quote: >-
-      &Ecirc;tre aidé dans la mise en œuvre des décisions)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: organization
-        title: >-
-          ?
-        content: >-
-          Qui fait quoi, qui sont les contributeurs.
-      - id: launch
-        title: >-
-          ?
-        content: >-
-          Lancement et gestion du projet.
-      - id: equipment-acquisition
-        title: >-
-          ?
-        content: >-
-          Fabrication, acquisition, installation des équipements.
-reception:
-  en:
-    id: reception
-    title: >-
-      RECEPTION
-    quote: >-
-      ? (Vérifier l’adaptation aux besoins et la conformité à votre commande)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: setup
-        title: >-
-          ?
-        content: >-
-          ? (Paramétrages, mise sous tension)
-      - id: testing
-        title: >-
-          ?
-        content: >-
-          ? (Essais de bon fonctionnement et / ou d’endurance.)
-      - id: perfect-completion
-        title: >-
-          ?
-        content: >-
-          ? (Parfait achèvement.)
-  fr:
-    id: reception
-    title: >-
-      R&Eacute;CEPTION
-    quote: >-
-      Vérifier l’adaptation aux besoins et la conformité à votre commande)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: parametrage
-        title: >-
-          ?
-        content: >-
-          Paramétrages, mise sous tension
-      - id: essais
-        title: >-
-          ?
-        content: >-
-          Essais de bon fonctionnement et / ou d’endurance.
-      - id: parfait-achevement
-        title: >-
-          ?
-        content: >-
-          Parfait achèvement.
-operation:
-  en:
-    id: operation
-    title: >-
-      OPERATION
-    quote: >-
-      ? (Maintenir, rétablir ou améliorer les performances initiales)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: performance-drift
-        title: >-
-          ?
-        content: >-
-          ? (Constat de dérive de performances.)
-      - id: failures
-        title: >-
-          ?
-        content: >-
-          ? (Dysfonctionnement chronique ou aléatoire / fugitif.)
-      - id: necessity
-        title: >-
-          ?
-        content: >-
-          ? (Nécessité d’améliorer la productivité ou l’efficience.)
-  fr:
-    id: exploitation
-    title: >-
-      EXPLOITATION
-    quote: >-
-      Maintenir, rétablir ou améliorer les performances initiales
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: performance-drift
-        title: >-
-          ?
-        content: >-
-          Constat de dérive de performances.
-      - id: failures
-        title: >-
-          ?
-        content: >-
-          Dysfonctionnement chronique ou aléatoire / fugitif.
-      - id: necessity
-        title: >-
-          ?
-        content: >-
-          Nécessité d’améliorer la productivité ou l’efficience.
-under-performance:
-  en:
-    id: under-performance
-    title: >-
-      UNDER PERFORMANCE
-    quote: >-
-      ? (Restaurer vos marges, productivité et rentabilité)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: performance-drift
-        title: >-
-          ?
-        content: >-
-          ? (Quantification de la dérive et impact technico-économique.)
-      - id: meeting-standards
-        title: >-
-          ?
-        content: >-
-          ? (Identification des écarts aux standards.)
-      - id: finding-why
-        title: >-
-          ?
-        content: >-
-          ? (Identification des causes et recherche d’améliorations.)
-  fr:
-    id: sous-performance
-    title: >-
-      SOUS PERFORMANCE
-    quote: >-
-      Restaurer vos marges, productivité et rentabilité
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: derive-de-performance
-        title: >-
-          ?
-        content: >-
-          Quantification de la dérive et impact technico-économique.
-      - id: appliquer-les-normes
-        title: >-
-          ?
-        content: >-
-          Identification des écarts aux standards.
-      - id: expliquer-la-derive
-        title: >-
-          ?
-        content: >-
-          Identification des causes et recherche d’améliorations.
-equipment-failure:
-  en:
-    id: equipment-failure
-    title: >-
-      EQUIPMENT FAILURE
-    quote: >-
-      ? (résoudre durablement des défaillances ponctuelles et critiques ou chroniques)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: degraded-operations
-        title: >-
-          ?
-        content: >-
-          ? (Système à l’arrêt ou en mode dégradé.)
-      - id: finding-why
-        title: >-
-          ?
-        content: >-
-          ? (Recherche des causes premières et de solutions.)
-      - id: impact
-        title: >-
-          ?
-        content: >-
-          ? (Quel est l’impact technique, financier et économique actuel et futur ?)
-  fr:
-    id: equipment-failure
-    title: >-
-      D&Eacute;FAILLANCE
-    quote: >-
-      Résoudre durablement des défaillances ponctuelles et critiques ou chroniques
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: arret
-        title: >-
-          ?
-        content: >-
-          Système à l’arrêt ou en mode dégradé.
-      - id: causes
-        title: >-
-          ?
-        content: >-
-          Recherche des causes premières et de solutions.
-      - id: impact
-        title: >-
-          ?
-        content: >-
-          Quel est l’impact technique, financier et économique actuel et futur ?
-disorder:
-  en:
-    id: disorder
-    title: >-
-      DISORDER
-    quote: >-
-      ? (Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: qualifying
-        title: >-
-          ?
-        content: >-
-          ? (Comment caractériser le désordre ?)
-      - id: impact
-        title: >-
-          ?
-        content: >-
-          ? (Quel est l’impact technico-économique de la situation ?)
-      - id: mitigating
-        title: >-
-          ?
-        content: >-
-          ? (Quel moyen pour limiter l’impact et se donner le temps d’agir ?)
-  fr:
-    id: disorder
-    title: >-
-      D&Eacute;SORDRE IDENTIFI&Eacute;
-    quote: >-
-      Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: qualifying
-        title: >-
-          ?
-        content: >-
-          Comment caractériser le désordre ?
-      - id: impact
-        title: >-
-          ?
-        content: >-
-          Quel est l’impact technico-économique de la situation ?
-      - id: mitigating
-        title: >-
-          ?
-        content: >-
-          Quel moyen pour limiter l’impact et se donner le temps d’agir ?
-litigation:
-  en:
-    id: litigation
-    title: >-
-      LITIGATION
-    quote: >-
-      ? (Obtenir réparation amiable ou judiciaire de votre dommage)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: worth
-        title: >-
-          ?
-        content: >-
-          ? (Intérêt et possibilité d’agir ?)
-      - id: assessing-damages
-        title: >-
-          ?
-        content: >-
-          ? (Quelle est la réalité et matérialité du litige, quels éléments tangibles ?)
-      - id: responsibilities
-        title: >-
-          ?
-        content: >-
-          ? (Quelles sont les causes et à qui sont-elles imputables ?)
-      - id: out-of-court
-        title: >-
-          ?
-        content: >-
-          ? (Une solution amiable est-elle envisageable ?)
-  fr:
-    id: litige
-    title: >-
-      LITIGE
-    quote: >-
-      Obtenir réparation amiable ou judiciaire de votre dommage)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: interet
-        title: >-
-          ?
-        content: >-
-          Intérêt et possibilité d’agir ?
-      - id: evaluer-les-dommages
-        title: >-
-          ?
-        content: >-
-          Quelle est la réalité et matérialité du litige, quels éléments tangibles ?
-      - id: responsabilites
-        title: >-
-          ?
-        content: >-
-          Quelles sont les causes et à qui sont-elles imputables ?
-      - id: reglement-amiable
-        title: >-
-          ?
-        content: >-
-          Une solution amiable est-elle envisageable ?
+yang:
+  development:
+    en:
+      id: development
+      title: >-
+        DEVELOPMENT
+      quote: >-
+        ? (&Ecirc;tre aidé dans l’évaluation et l’organisation du projet)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: project-evaluation
+          title: >-
+            ?
+          content: >-
+            ? (Expression du besoin, évaluation de la faisabilité et de la rentabilité.)
+        - id: structuring-the-project
+          title: >-
+            ?
+          content: >-
+            ? (Structuration du projet.)
+        - id: choosing-the-right-service-providers
+          title: >-
+            ?
+          content: >-
+            ? (Identification et choix des prestataires internes et externes.)
+    fr:
+      id: elaboration
+      title: >-
+        &Eacute;LABORATION
+      quote: >-
+        &Ecirc;tre aidé dans l’évaluation et l’organisation du projet
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: evaluation-du-projet
+          title: >-
+            ?
+          content: >-
+            Expression du besoin, évaluation de la faisabilité et de la rentabilité.
+        - id: structuration-du-projet
+          title: >-
+            ?
+          content: >-
+            Structuration du projet.
+        - id: choisir-les-bons-prestataires
+          title: >-
+            ?
+          content: >-
+            Identification et choix des prestataires internes et externes.
+  deployment:
+    en:
+      id: deployment
+      title: >-
+        DEPLOYMENT
+      quote: >-
+        ? (&Ecirc;tre aidé dans la mise en œuvre des décisions)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: organization
+          title: >-
+            ? (Organisation)
+          content: >-
+            ? (Qui fait quoi, qui sont les contributeurs.)
+        - id: launch
+          title: >-
+            ?
+          content: >-
+            ? (Lancement et gestion du projet.)
+        - id: equipment-acquisition
+          title: >-
+            ?
+          content: >-
+            ? (Fabrication, acquisition, installation des équipements.)
+    fr:
+      id: deploiement
+      title: >-
+        D&Eacute;PLOIEMENT
+      quote: >-
+        &Ecirc;tre aidé dans la mise en œuvre des décisions)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: organization
+          title: >-
+            ?
+          content: >-
+            Qui fait quoi, qui sont les contributeurs.
+        - id: launch
+          title: >-
+            ?
+          content: >-
+            Lancement et gestion du projet.
+        - id: equipment-acquisition
+          title: >-
+            ?
+          content: >-
+            Fabrication, acquisition, installation des équipements.
+  reception:
+    en:
+      id: reception
+      title: >-
+        RECEPTION
+      quote: >-
+        ? (Vérifier l’adaptation aux besoins et la conformité à votre commande)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: setup
+          title: >-
+            ?
+          content: >-
+            ? (Paramétrages, mise sous tension)
+        - id: testing
+          title: >-
+            ?
+          content: >-
+            ? (Essais de bon fonctionnement et / ou d’endurance.)
+        - id: perfect-completion
+          title: >-
+            ?
+          content: >-
+            ? (Parfait achèvement.)
+    fr:
+      id: reception
+      title: >-
+        R&Eacute;CEPTION
+      quote: >-
+        Vérifier l’adaptation aux besoins et la conformité à votre commande)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: parametrage
+          title: >-
+            ?
+          content: >-
+            Paramétrages, mise sous tension
+        - id: essais
+          title: >-
+            ?
+          content: >-
+            Essais de bon fonctionnement et / ou d’endurance.
+        - id: parfait-achevement
+          title: >-
+            ?
+          content: >-
+            Parfait achèvement.
+  operation:
+    en:
+      id: operation
+      title: >-
+        OPERATION
+      quote: >-
+        ? (Maintenir, rétablir ou améliorer les performances initiales)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: performance-drift
+          title: >-
+            ?
+          content: >-
+            ? (Constat de dérive de performances.)
+        - id: failures
+          title: >-
+            ?
+          content: >-
+            ? (Dysfonctionnement chronique ou aléatoire / fugitif.)
+        - id: necessity
+          title: >-
+            ?
+          content: >-
+            ? (Nécessité d’améliorer la productivité ou l’efficience.)
+    fr:
+      id: exploitation
+      title: >-
+        EXPLOITATION
+      quote: >-
+        Maintenir, rétablir ou améliorer les performances initiales
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: performance-drift
+          title: >-
+            ?
+          content: >-
+            Constat de dérive de performances.
+        - id: failures
+          title: >-
+            ?
+          content: >-
+            Dysfonctionnement chronique ou aléatoire / fugitif.
+        - id: necessity
+          title: >-
+            ?
+          content: >-
+            Nécessité d’améliorer la productivité ou l’efficience.
+yin:
+  under-performance:
+    en:
+      id: under-performance
+      title: >-
+        UNDER PERFORMANCE
+      quote: >-
+        ? (Restaurer vos marges, productivité et rentabilité)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: performance-drift
+          title: >-
+            ?
+          content: >-
+            ? (Quantification de la dérive et impact technico-économique.)
+        - id: meeting-standards
+          title: >-
+            ?
+          content: >-
+            ? (Identification des écarts aux standards.)
+        - id: finding-why
+          title: >-
+            ?
+          content: >-
+            ? (Identification des causes et recherche d’améliorations.)
+    fr:
+      id: sous-performance
+      title: >-
+        SOUS PERFORMANCE
+      quote: >-
+        Restaurer vos marges, productivité et rentabilité
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: derive-de-performance
+          title: >-
+            ?
+          content: >-
+            Quantification de la dérive et impact technico-économique.
+        - id: appliquer-les-normes
+          title: >-
+            ?
+          content: >-
+            Identification des écarts aux standards.
+        - id: expliquer-la-derive
+          title: >-
+            ?
+          content: >-
+            Identification des causes et recherche d’améliorations.
+  equipment-failure:
+    en:
+      id: equipment-failure
+      title: >-
+        EQUIPMENT FAILURE
+      quote: >-
+        ? (résoudre durablement des défaillances ponctuelles et critiques ou chroniques)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: degraded-operations
+          title: >-
+            ?
+          content: >-
+            ? (Système à l’arrêt ou en mode dégradé.)
+        - id: finding-why
+          title: >-
+            ?
+          content: >-
+            ? (Recherche des causes premières et de solutions.)
+        - id: impact
+          title: >-
+            ?
+          content: >-
+            ? (Quel est l’impact technique, financier et économique actuel et futur ?)
+    fr:
+      id: equipment-failure
+      title: >-
+        D&Eacute;FAILLANCE
+      quote: >-
+        Résoudre durablement des défaillances ponctuelles et critiques ou chroniques
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: arret
+          title: >-
+            ?
+          content: >-
+            Système à l’arrêt ou en mode dégradé.
+        - id: causes
+          title: >-
+            ?
+          content: >-
+            Recherche des causes premières et de solutions.
+        - id: impact
+          title: >-
+            ?
+          content: >-
+            Quel est l’impact technique, financier et économique actuel et futur ?
+  disorder:
+    en:
+      id: disorder
+      title: >-
+        DISORDER
+      quote: >-
+        ? (Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: qualifying
+          title: >-
+            ?
+          content: >-
+            ? (Comment caractériser le désordre ?)
+        - id: impact
+          title: >-
+            ?
+          content: >-
+            ? (Quel est l’impact technico-économique de la situation ?)
+        - id: mitigating
+          title: >-
+            ?
+          content: >-
+            ? (Quel moyen pour limiter l’impact et se donner le temps d’agir ?)
+    fr:
+      id: disorder
+      title: >-
+        D&Eacute;SORDRE IDENTIFI&Eacute;
+      quote: >-
+        Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: qualifying
+          title: >-
+            ?
+          content: >-
+            Comment caractériser le désordre ?
+        - id: impact
+          title: >-
+            ?
+          content: >-
+            Quel est l’impact technico-économique de la situation ?
+        - id: mitigating
+          title: >-
+            ?
+          content: >-
+            Quel moyen pour limiter l’impact et se donner le temps d’agir ?
+  litigation:
+    en:
+      id: litigation
+      title: >-
+        LITIGATION
+      quote: >-
+        ? (Obtenir réparation amiable ou judiciaire de votre dommage)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: worth
+          title: >-
+            ?
+          content: >-
+            ? (Intérêt et possibilité d’agir ?)
+        - id: assessing-damages
+          title: >-
+            ?
+          content: >-
+            ? (Quelle est la réalité et matérialité du litige, quels éléments tangibles ?)
+        - id: responsibilities
+          title: >-
+            ?
+          content: >-
+            ? (Quelles sont les causes et à qui sont-elles imputables ?)
+        - id: out-of-court
+          title: >-
+            ?
+          content: >-
+            ? (Une solution amiable est-elle envisageable ?)
+    fr:
+      id: litige
+      title: >-
+        LITIGE
+      quote: >-
+        Obtenir réparation amiable ou judiciaire de votre dommage)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: interet
+          title: >-
+            ?
+          content: >-
+            Intérêt et possibilité d’agir ?
+        - id: evaluer-les-dommages
+          title: >-
+            ?
+          content: >-
+            Quelle est la réalité et matérialité du litige, quels éléments tangibles ?
+        - id: responsabilites
+          title: >-
+            ?
+          content: >-
+            Quelles sont les causes et à qui sont-elles imputables ?
+        - id: reglement-amiable
+          title: >-
+            ?
+          content: >-
+            Une solution amiable est-elle envisageable ?

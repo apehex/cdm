@@ -1,4 +1,4 @@
-{%- assign data = site.data.situation["reception"][page.lang] -%}
+{%- assign data = site.data.situation.yang.reception[page.lang] -%}
 <section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{{ data.title }}</h2>

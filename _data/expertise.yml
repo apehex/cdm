@@ -1,491 +1,509 @@
-improving-performance:
-  en:
-    id: improving-performance
-    title: >-
-      PERFORMANCE
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: specifications
-        title: >-
-          ? (Cahier des charges)
-        content: >-
-          &Eacute;laboration des performances initiales.<br>Critères dimensionnants.<br>Analyses TRS, TRG, TRE, LCC.
-      - id: performance-quantification
-        title: >-
-          ? (Quantification de la performance)
-        content: >-
-          Identification et quantification des causes:<ul><li>techniques</li><li>humaines</li><li>organisationnelles</li></ul>
-      - id: continuous-improvement
-        title: >-
-          ? (Amélioration continue)
-        content: >-
-          Accompagnement dans la mise en œuvre d’un plan d’action d’amélioration continue.
-  fr:
-    id: ameliorer-la-performance
-    title: >-
-      PERFORMANCE TECHNICO-&Eacute;CONOMIQUE
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: cahier-des-charges
-        title: >-
-          ? (Cahier des charges)
-        content: >-
-          &Eacute;laboration des performances initiales.<br>Critères dimensionnants.<br>Analyses TRS, TRG, TRE, LCC.
-      - id: performance-quantification
-        title: >-
-          ? (Quantification de la performance)
-        content: >-
-          Identification et quantification des causes:<ul><li>techniques</li><li>humaines</li><li>organisationnelles</li></ul>
-      - id: 
-        title: >-
-          ? (Amélioration continue)
-        content: >-
-          Accompagnement dans la mise en œuvre d’un plan d’action d’amélioration continue.performance:
-solving-failures:
-  en:
-    id: solving-failures
-    title: >-
-      SOLVING FAILURES
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: failure-analysis
-        title: >-
-          ? (Caractérisation de la défaillance)
-        content: >-
-          Caractérisation de la défaillance, de sa localisation et des effets.
-      - id: primary-causes
-        title: >-
-          ? (Détermination des cause premières)
-        content: >-
-          <ul><li>imputabilité des causes</li><li>plan d’action de résolution</li></ul>
-      - id: continuity-planning
-        title: >-
-          ? (Continuité d'activité)
-        content: >-
-          Préconisations de solutions palliatives puis d’optimisation technico-économique FMDS.
-  fr:
-    id: resolution-des-defaillances
-    title: >-
-      R&Eacute;SOLUTION DE D&Eacute;FAILLANCES
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: analyse-des-defaillances
-        title: >-
-          ? (Caractérisation de la défaillance)
-        content: >-
-          Caractérisation de la défaillance, de sa localisation et des effets.
-      - id: causes-premieres
-        title: >-
-          ? (Détermination des cause premières)
-        content: >-
-          <ul><li>imputabilité des causes</li><li>plan d’action de résolution</li></ul>
-      - id: continuite-d-activite
-        title: >-
-          ? (Continuité d'activité)
-        content: >-
-          Préconisations de solutions palliatives puis d’optimisation technico-économique FMDS.
-assessing-damage:
-  en:
-    id: assessing-damage
-    title: ASSESSING DAMAGE
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: contractual-analysis
-        title: >-
-          ? (Contractual Analysis)
-        content: >-
-          Règles de l’art et normes applicables au cas d’espèce.
-      - id: damage-assessment
-        title: >-
-          ? (Damage Assessment)
-        content: >-
-          Caractérisation de la nature et de l’importance du désordre.
-      - id: palliative-solutions
-        title: >-
-          ? (Solutions Palliatives)
-        content: >-
-          Détermination des causes et identification de solutions palliatives et conservatoires.
-  fr:
-    id: evaluer-les-degats
-    title: >-
-      MAT&Eacute;RIALIT&Eacute; DES D&Eacute;SORDRES
-    orientation: vertical
-    headers-width: 30
-    tabs:
-      - id: analyse-contractuelle
-        title: >-
-          ? (Analyse Contractuelle)
-        content: >-
-          Règles de l’art et normes applicables au cas d’espèce.
-      - id: evaluation-des-ecarts
-        title: >-
-          ? (&Eacute;valuation des &Eacute;carts)
-        content: >-
-          Caractérisation de la nature et de l’importance du désordre.
-      - id: solutions-palliatives
-        title: >-
-          ? (Solutions Palliatives)
-        content: >-
-          Détermination des causes et identification de solutions palliatives et conservatoires.
-support-during-litigation:
-  en:
-    id: support-during-litigation
-    title: >-
-      SUPPORT DURING LITIGATION
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: organizing-operations
-        title: >-
-          ? (Organizing the operations)
-        content: >-
-          Rapport d’expertise officieuse ou organisation d’opérations amiables et contradictoires
-      - id: evaluating-damages
-        title: >-
-          ?
-        content: >-
-          Chiffrage du dommage et des travaux de reprise des désordres
-      - id: defending-claims
-        title: >-
-          ? (Défendre vos intérêts)
-        content: >-
-          Assistance technique en phase judiciaire, apports soutenant la réclamation (causes, conséquences, imputabilité)
-  fr:
-    id: accompagnement-contre-les-litiges
-    title: >-
-      ACCOMPAGNEMENT PENDANT LES LITIGES
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: organizing-the-operations
-        title: >-
-          ?
-        content: >-
-          Rapport d’expertise officieuse ou organisation d’opérations amiables et contradictoires
-      - id: evaluating-damages
-        title: >-
-          ?
-        content: >-
-          Chiffrage du dommage et des travaux de reprise des désordres
-      - id: defending-claims
-        title: >-
-          ? (Défendre vos intérêts)
-        content: >-
-          Assistance technique en phase judiciaire, apports soutenant la réclamation (causes, conséquences, imputabilité)
-efficiency:
-  en:
-    id: efficiency
-    title: >-
-      EFFICIENCY
-    quote: >-
-      ? (Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: strategic-audit
-        title: >-
-          ? (Stategic audit)
-        content: >-
-          ? (Diagnostic stratégique d'organisations)
-      - id: balanced-scoredcard
-        title: >-
-          ? (Balanced scorecard)
-        content: >-
-          ? (Balanced Scorecard for strategic management)
-      - id: maturity-audit
-        title: >-
-          ? (Audit)
-        content: >-
-          ? (Maturity and performance audit)
-      - id: improving-processes
-        title: >-
-          ?
-        content: >-
-          ? (Amélioration de processus et de procédés, démarche BPM)
-  fr:
-    id: efficience
-    title: >-
-      EFFICIENCE
-    quote: >-
-      Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: strategic-audit
-        title: >-
-          ? (Diagnostic stratégique)
-        content: >-
-          Diagnostic stratégique d'organisations
-      - id: tableau-de-bord-propectif
-        title: >-
-          ?
-        content: >-
-          Tableau de bord prospectif
-      - id: audit-de-maturite
-        title: >-
-          ? (Audit)
-        content: >-
-          Audit de maturité et de performance.
-      - id: amelioration-de-procedes
-        title: >-
-          ?
-        content: >-
-          Amélioration de processus et de procédés, démarche BPM.
-dependability:
-  en:
-    id: dependability
-    title: >-
-      DEPENDABILITY
-    quote: >-
-      ? (Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installation selon les axes FMDS et LCC)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: maintenability-study
-        title: >-
-          ?
-        content: >-
-          ? (&Eacute;tudes de fiabilité, maintenabilité et risques)
-      - id: improving-disponibility
-        title: >-
-          ?
-        content: >-
-          ? (Amélioration de la disponibilité des systèmes)
-      - id: solving-failures
-        title: >-
-          ?
-        content: >-
-          ? (Résolutions des défaillances)
-      - id: identifying-the-causes
-        title: >-
-          ?
-        content: >-
-          ? (Traitement des causes premières des défaillances critiques)
-  fr:
-    id: surete-de-fonctionnement
-    title: >-
-      S&Ucirc;RET&Eacute; DE FONCTIONNEMENT
-    quote: >-
-      Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installation selon les axes FMDS et LCC
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: etude-de-maintenabilite
-        title: >-
-          ?
-        content: >-
-          &Eacute;tudes de fiabilité, maintenabilité et risques.
-      - id: augmenter-la-disponibilite
-        title: >-
-          ?
-        content: >-
-          Amélioration structurelle et organisationnelle de la disponibilité des systèmes.
-      - id: resolution-des-defaillances
-        title: >-
-          ?
-        content: >-
-          Résolutions des défaillances.
-      - id: identification-des-causes
-        title: >-
-          ?
-        content: >-
-          Traitement des causes premières des défaillances critiques.
-contracting-authority:
-  en:
-    id: contracting-authority
-    title: >-
-      CONTRACTING AUTHORITY
-    quote: >-
-      ? (Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: specifications
-        title: >-
-          ?
-        content: >-
-          ? (Définir les besoins et exigences du projet, les décliner en objectifs projet BQCDS)
-      - id: technical-specifications
-        title: >-
-          ?
-        content: >-
-          ? (&Eacute;laborer les spécifications techniques de besoins, Analyses Fonctionnelles et Organiques, protocoles de recette.)
-      - id: choosing-the-right-service-providers
-        title: >-
-          ?
-        content: >-
-          ? (Aide au choix des prestataires suite consultation d’entreprises.)
-      - id: organizing
-        title: >-
-          ?
-        content: >-
-          ? (Structurer et planifier le projet, en gérer les risques BQCDS.)
-  fr:
-    id: assistance-maitrise-d-ouvrage
-    title: >-
-      Assistance Maîtrise d'Ouvrage - AMOA
-    quote: >-
-      Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: cahier-des-charges
-        title: >-
-          ?
-        content: >-
-          Définir les besoins et exigences du projet, les décliner en objectifs projet BQCDS
-      - id: specifications-techniques
-        title: >-
-          ?
-        content: >-
-          &Eacute;laborer les spécifications techniques de besoins, Analyses Fonctionnelles et Organiques, protocoles de recette.
-      - id: choisir-les-bons-prestataires
-        title: >-
-          ?
-        content: >-
-          Aide au choix des prestataires suite consultation d’entreprises.
-      - id: structurer-le-projet
-        title: >-
-          ?
-        content: >-
-          Structurer et planifier le projet, en gérer les risques BQCDS.
-risk-management:
-  en:
-    id: risk-management
-    title: >-
-      RISK MANAGEMENT
-    quote: >-
-      ? (prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: spotting-risks
-        title: >-
-          ?
-        content: >-
-          ? (Identifier et cartographier les risques matériels et immatériels.)
-      - id: mitigating-risks
-        title: >-
-          ?
-        content: >-
-          ? (Traiter et gérer les risques.)
-      - id: defense-in-depth
-        title: >-
-          ?
-        content: >-
-          ? (Mettre en œuvre des stratégies de défense en profondeur.)
-      - id: research-and-development
-        title: >-
-          ?
-        content: >-
-          ? (Développer des méthodes structurées de maîtrise des micro ou méso risques (AMDEC, APR, ADD, ADC, …).)
-  fr:
-    id: gestion-des-risques
-    title: >-
-      GESTION DES RISQUES
-    quote: >-
-      Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: cartographier-les-risques
-        title: >-
-          ?
-        content: >-
-          Identifier et cartographier les risques matériels et immatériels.
-      - id: mitiger-les-risques
-        title: >-
-          ?
-        content: >-
-          Traiter et gérer les risques.
-      - id: defense-en-profondeur
-        title: >-
-          ?
-        content: >-
-          Mettre en œuvre des stratégies de défense en profondeur.
-      - id: recherche-et-developpement
-        title: >-
-          ?
-        content: >-
-          Développer des méthodes structurées de maîtrise des micro ou méso risques (AMDEC, APR, ADD, ADC, …).
-maintenance:
-  en:
-    id: maintenance
-    title: >-
-      MAINTENANCE
-    quote: >-
-      ? (Développer la fonction en tant que levier de rentabilité de l’entreprise)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: maintenance-policy
-        title: >-
-          ?
-        content: >-
-          ? (Définition de stratégies et de politiques de maintenance.)
-      - id: auditing-the-mainenance-unit
-        title: >-
-          ?
-        content: >-
-          ? (Audit de maturité et performance de la fonction Maintenance interne ou externe (SAV).)
-      - id: solving-failures
-        title: >-
-          ?
-        content: >-
-          ? (Analyse et résolution de défaillances complexes / aléatoires / fugitives / critiques.)
-      - id: lowering-costs
-        title: >-
-          ?
-        content: >-
-          ? (Réduction des coûts directs et indirects, optimisation préventif/correctif / stock rechanges)
-  fr:
-    id: maintenance
-    title: >-
-      MAINTENANCE
-    quote: >-
-      Développer la fonction en tant que levier de rentabilité de l’entreprise)
-    orientation: vertical
-    headers-width: 30
-    show-title: false
-    tabs:
-      - id: politique-de-maintenance
-        title: >-
-          ?
-        content: >-
-          Définition de stratégies et de politiques de maintenance.
-      - id: audit-de-la-fonction-maintenance
-        title: >-
-          ?
-        content: >-
-          Audit de maturité et performance de la fonction Maintenance interne ou externe (SAV).
-      - id: sresoudre-les-defaillances
-        title: >-
-          ?
-        content: >-
-          Analyse et résolution de défaillances complexes / aléatoires / fugitives / critiques.
-      - id: diminuer-les-couts
-        title: >-
-          ?
-        content: >-
-          Réduction des coûts directs et indirects, optimisation préventif/correctif / stock rechanges.
+yin:
+  improving-performance:
+    en:
+      id: improving-performance
+      title: >-
+        PERFORMANCE
+      quote: >-
+        ? (Quantifier les performances et les processus de création de valeur)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: specifications
+          title: >-
+            ? (Cahier des charges)
+          content: >-
+            &Eacute;laboration des performances initiales.<br>Critères dimensionnants.<br>Analyses TRS, TRG, TRE, LCC.
+        - id: performance-quantification
+          title: >-
+            ? (Quantification de la performance)
+          content: >-
+            Identification et quantification des causes:<ul><li>techniques</li><li>humaines</li><li>organisationnelles</li></ul>
+        - id: continuous-improvement
+          title: >-
+            ? (Amélioration continue)
+          content: >-
+            Accompagnement dans la mise en œuvre d’un plan d’action d’amélioration continue.
+    fr:
+      id: ameliorer-la-performance
+      title: >-
+        PERFORMANCE TECHNICO-&Eacute;CONOMIQUE
+      quote: >-
+        Quantifier les performances et les processus de création de valeur
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: cahier-des-charges
+          title: >-
+            ? (Cahier des charges)
+          content: >-
+            &Eacute;laboration des performances initiales.<br>Critères dimensionnants.<br>Analyses TRS, TRG, TRE, LCC.
+        - id: performance-quantification
+          title: >-
+            ? (Quantification de la performance)
+          content: >-
+            Identification et quantification des causes:<ul><li>techniques</li><li>humaines</li><li>organisationnelles</li></ul>
+        - id: 
+          title: >-
+            ? (Amélioration continue)
+          content: >-
+            Accompagnement dans la mise en œuvre d’un plan d’action d’amélioration continue.performance:
+  solving-failures:
+    en:
+      id: solving-failures
+      title: >-
+        SOLVING FAILURES
+      quote: >-
+        ? (Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: failure-analysis
+          title: >-
+            ? (Caractérisation de la défaillance)
+          content: >-
+            Caractérisation de la défaillance, de sa localisation et des effets.
+        - id: primary-causes
+          title: >-
+            ? (Détermination des cause premières)
+          content: >-
+            <ul><li>imputabilité des causes</li><li>plan d’action de résolution</li></ul>
+        - id: continuity-planning
+          title: >-
+            ? (Continuité d'activité)
+          content: >-
+            Préconisations de solutions palliatives puis d’optimisation technico-économique FMDS.
+    fr:
+      id: resolution-des-defaillances
+      title: >-
+        R&Eacute;SOLUTION DE D&Eacute;FAILLANCES
+      quote: >-
+        Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: analyse-des-defaillances
+          title: >-
+            ? (Caractérisation de la défaillance)
+          content: >-
+            Caractérisation de la défaillance, de sa localisation et des effets.
+        - id: causes-premieres
+          title: >-
+            ? (Détermination des cause premières)
+          content: >-
+            <ul><li>imputabilité des causes</li><li>plan d’action de résolution</li></ul>
+        - id: continuite-d-activite
+          title: >-
+            ? (Continuité d'activité)
+          content: >-
+            Préconisations de solutions palliatives puis d’optimisation technico-économique FMDS.
+  assessing-damage:
+    en:
+      id: assessing-damage
+      title: ASSESSING DAMAGE
+      quote: >-
+        ? (Sauvegarder les intérêts et fonder la réclamation)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: contractual-analysis
+          title: >-
+            ? (Contractual Analysis)
+          content: >-
+            Règles de l’art et normes applicables au cas d’espèce.
+        - id: damage-assessment
+          title: >-
+            ? (Damage Assessment)
+          content: >-
+            Caractérisation de la nature et de l’importance du désordre.
+        - id: palliative-solutions
+          title: >-
+            ? (Solutions Palliatives)
+          content: >-
+            Détermination des causes et identification de solutions palliatives et conservatoires.
+    fr:
+      id: evaluer-les-degats
+      title: >-
+        MAT&Eacute;RIALIT&Eacute; DES D&Eacute;SORDRES
+      quote: >-
+        Sauvegarder les intérêts et fonder la réclamation
+      orientation: vertical
+      headers-width: 30
+      tabs:
+        - id: analyse-contractuelle
+          title: >-
+            ? (Analyse Contractuelle)
+          content: >-
+            Règles de l’art et normes applicables au cas d’espèce.
+        - id: evaluation-des-ecarts
+          title: >-
+            ? (&Eacute;valuation des &Eacute;carts)
+          content: >-
+            Caractérisation de la nature et de l’importance du désordre.
+        - id: solutions-palliatives
+          title: >-
+            ? (Solutions Palliatives)
+          content: >-
+            Détermination des causes et identification de solutions palliatives et conservatoires.
+  support-during-litigation:
+    en:
+      id: support-during-litigation
+      title: >-
+        SUPPORT DURING LITIGATION
+      quote: >-
+        ? (Argumenter factuellement votre réclamation et vous donner les moyens de soutenir vos prétentions)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: organizing-operations
+          title: >-
+            ? (Organizing the operations)
+          content: >-
+            Rapport d’expertise officieuse ou organisation d’opérations amiables et contradictoires
+        - id: evaluating-damages
+          title: >-
+            ?
+          content: >-
+            Chiffrage du dommage et des travaux de reprise des désordres
+        - id: defending-claims
+          title: >-
+            ? (Défendre vos intérêts)
+          content: >-
+            Assistance technique en phase judiciaire, apports soutenant la réclamation (causes, conséquences, imputabilité)
+    fr:
+      id: accompagnement-contre-les-litiges
+      title: >-
+        ACCOMPAGNEMENT PENDANT LES LITIGES
+      quote:
+        Argumenter factuellement votre réclamation et vous donner les moyens de soutenir vos prétentions
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: organizing-the-operations
+          title: >-
+            ?
+          content: >-
+            Rapport d’expertise officieuse ou organisation d’opérations amiables et contradictoires
+        - id: evaluating-damages
+          title: >-
+            ?
+          content: >-
+            Chiffrage du dommage et des travaux de reprise des désordres
+        - id: defending-claims
+          title: >-
+            ? (Défendre vos intérêts)
+          content: >-
+            Assistance technique en phase judiciaire, apports soutenant la réclamation (causes, conséquences, imputabilité)
+yang:
+  efficiency:
+    en:
+      id: efficiency
+      title: >-
+        EFFICIENCY
+      quote: >-
+        ? (Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: strategic-audit
+          title: >-
+            ? (Stategic audit)
+          content: >-
+            ? (Diagnostic stratégique d'organisations)
+        - id: balanced-scoredcard
+          title: >-
+            ? (Balanced scorecard)
+          content: >-
+            ? (Balanced Scorecard for strategic management)
+        - id: maturity-audit
+          title: >-
+            ? (Audit)
+          content: >-
+            ? (Maturity and performance audit)
+        - id: improving-processes
+          title: >-
+            ?
+          content: >-
+            ? (Amélioration de processus et de procédés, démarche BPM)
+    fr:
+      id: efficience
+      title: >-
+        EFFICIENCE
+      quote: >-
+        Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: strategic-audit
+          title: >-
+            ? (Diagnostic stratégique)
+          content: >-
+            Diagnostic stratégique d'organisations
+        - id: tableau-de-bord-propectif
+          title: >-
+            ?
+          content: >-
+            Tableau de bord prospectif
+        - id: audit-de-maturite
+          title: >-
+            ? (Audit)
+          content: >-
+            Audit de maturité et de performance.
+        - id: amelioration-de-procedes
+          title: >-
+            ?
+          content: >-
+            Amélioration de processus et de procédés, démarche BPM.
+  dependability:
+    en:
+      id: dependability
+      title: >-
+        DEPENDABILITY
+      quote: >-
+        ? (Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installation selon les axes FMDS et LCC)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: maintenability-study
+          title: >-
+            ?
+          content: >-
+            ? (&Eacute;tudes de fiabilité, maintenabilité et risques)
+        - id: improving-disponibility
+          title: >-
+            ?
+          content: >-
+            ? (Amélioration de la disponibilité des systèmes)
+        - id: solving-failures
+          title: >-
+            ?
+          content: >-
+            ? (Résolutions des défaillances)
+        - id: identifying-the-causes
+          title: >-
+            ?
+          content: >-
+            ? (Traitement des causes premières des défaillances critiques)
+    fr:
+      id: surete-de-fonctionnement
+      title: >-
+        S&Ucirc;RET&Eacute; DE FONCTIONNEMENT
+      quote: >-
+        Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installation selon les axes FMDS et LCC
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: etude-de-maintenabilite
+          title: >-
+            ?
+          content: >-
+            &Eacute;tudes de fiabilité, maintenabilité et risques.
+        - id: augmenter-la-disponibilite
+          title: >-
+            ?
+          content: >-
+            Amélioration structurelle et organisationnelle de la disponibilité des systèmes.
+        - id: resolution-des-defaillances
+          title: >-
+            ?
+          content: >-
+            Résolutions des défaillances.
+        - id: identification-des-causes
+          title: >-
+            ?
+          content: >-
+            Traitement des causes premières des défaillances critiques.
+  contracting-authority:
+    en:
+      id: contracting-authority
+      title: >-
+        CONTRACTING AUTHORITY
+      quote: >-
+        ? (Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: specifications
+          title: >-
+            ?
+          content: >-
+            ? (Définir les besoins et exigences du projet, les décliner en objectifs projet BQCDS)
+        - id: technical-specifications
+          title: >-
+            ?
+          content: >-
+            ? (&Eacute;laborer les spécifications techniques de besoins, Analyses Fonctionnelles et Organiques, protocoles de recette.)
+        - id: choosing-the-right-service-providers
+          title: >-
+            ?
+          content: >-
+            ? (Aide au choix des prestataires suite consultation d’entreprises.)
+        - id: organizing
+          title: >-
+            ?
+          content: >-
+            ? (Structurer et planifier le projet, en gérer les risques BQCDS.)
+    fr:
+      id: assistance-maitrise-d-ouvrage
+      title: >-
+        Assistance Maîtrise d'Ouvrage - AMOA
+      quote: >-
+        Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: cahier-des-charges
+          title: >-
+            ?
+          content: >-
+            Définir les besoins et exigences du projet, les décliner en objectifs projet BQCDS
+        - id: specifications-techniques
+          title: >-
+            ?
+          content: >-
+            &Eacute;laborer les spécifications techniques de besoins, Analyses Fonctionnelles et Organiques, protocoles de recette.
+        - id: choisir-les-bons-prestataires
+          title: >-
+            ?
+          content: >-
+            Aide au choix des prestataires suite consultation d’entreprises.
+        - id: structurer-le-projet
+          title: >-
+            ?
+          content: >-
+            Structurer et planifier le projet, en gérer les risques BQCDS.
+  risk-management:
+    en:
+      id: risk-management
+      title: >-
+        RISK MANAGEMENT
+      quote: >-
+        ? (prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: spotting-risks
+          title: >-
+            ?
+          content: >-
+            ? (Identifier et cartographier les risques matériels et immatériels.)
+        - id: mitigating-risks
+          title: >-
+            ?
+          content: >-
+            ? (Traiter et gérer les risques.)
+        - id: defense-in-depth
+          title: >-
+            ?
+          content: >-
+            ? (Mettre en œuvre des stratégies de défense en profondeur.)
+        - id: research-and-development
+          title: >-
+            ?
+          content: >-
+            ? (Développer des méthodes structurées de maîtrise des micro ou méso risques (AMDEC, APR, ADD, ADC, …).)
+    fr:
+      id: gestion-des-risques
+      title: >-
+        GESTION DES RISQUES
+      quote: >-
+        Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: cartographier-les-risques
+          title: >-
+            ?
+          content: >-
+            Identifier et cartographier les risques matériels et immatériels.
+        - id: mitiger-les-risques
+          title: >-
+            ?
+          content: >-
+            Traiter et gérer les risques.
+        - id: defense-en-profondeur
+          title: >-
+            ?
+          content: >-
+            Mettre en œuvre des stratégies de défense en profondeur.
+        - id: recherche-et-developpement
+          title: >-
+            ?
+          content: >-
+            Développer des méthodes structurées de maîtrise des micro ou méso risques (AMDEC, APR, ADD, ADC, …).
+  maintenance:
+    en:
+      id: maintenance
+      title: >-
+        MAINTENANCE
+      quote: >-
+        ? (Développer la fonction en tant que levier de rentabilité de l’entreprise)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: maintenance-policy
+          title: >-
+            ?
+          content: >-
+            ? (Définition de stratégies et de politiques de maintenance.)
+        - id: auditing-the-mainenance-unit
+          title: >-
+            ?
+          content: >-
+            ? (Audit de maturité et performance de la fonction Maintenance interne ou externe (SAV).)
+        - id: lowering-costs
+          title: >-
+            ?
+          content: >-
+            ? (Réduction des coûts directs et indirects, optimisation préventif/correctif / stock rechanges)
+        - id: solving-failures
+          title: >-
+            ?
+          content: >-
+            ? (Analyse et résolution de défaillances complexes / aléatoires / fugitives / critiques.)
+    fr:
+      id: maintenance
+      title: >-
+        MAINTENANCE
+      quote: >-
+        Développer la fonction en tant que levier de rentabilité de l’entreprise)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: politique-de-maintenance
+          title: >-
+            ?
+          content: >-
+            Définition de stratégies et de politiques de maintenance.
+        - id: audit-de-la-fonction-maintenance
+          title: >-
+            ?
+          content: >-
+            Audit de maturité et performance de la fonction Maintenance interne ou externe (SAV).
+        - id: diminuer-les-couts
+          title: >-
+            ?
+          content: >-
+            Réduction des coûts directs et indirects, optimisation préventif/correctif / stock rechanges.
+        - id: resoudre-les-defaillances
+          title: >-
+            ?
+          content: >-
+            Analyse et résolution de défaillances complexes / aléatoires / fugitives / critiques.

@@ -1,8 +1,8 @@
-{%- assign data = site.data.expertise["assessing-damage"][page.lang] -%}
+{%- assign data = site.data.expertise.yin.assessing-damage[page.lang] -%}
 <section id="{{ data.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
         <h2>{{ data.title }}</h2>
     </header>
-	<blockquote>Sauvegarder les intérêts et fonder la réclamation</blockquote>
+	<blockquote>{{ data.quote }}</blockquote>
     {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
 </section>
