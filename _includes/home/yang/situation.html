@@ -1,21 +1,13 @@
-<section id="cta" class="{{ include.class | default: nil }}">
+{%- assign facts = site.data.home.yang.situation[page.lang] -%}
+<section id="{{ facts.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}WHAT STAGE IS YOUR PROJECT ON?{% elsif page.lang=="fr" %}O&Ugrave; EN EST VOTRE PROJET{% endif %}</h2>
+        <h2>{{ facts.title }}</h2>
     </header>
     <div class="facts row">
         {% if page.lang=="en" %}
-        <article class="col-2 col-4-medium col-12-small">
-            <a href='{{ "/en/yang/your-situation#strategy" | absolute_url }}'>
-                <div class="fact-intro on"><p>Strategy</p></div>
-                <div class="fact on"><h3>?</h3></div>
-                <div class="fact-outro on"><p>&nbsp;</p></div>
-                <span class="icon solid fa-chess on"></span>
-                <div class="fact-intro off"><p>Plan the</p></div>
-                <div class="fact off"><h3>ROUTE</h3></div>
-                <div class="fact-outro off"><p>to success</p></div>
-                <span class="icon solid fa-project-diagram off"></span>
-            </a>
-        </article>
+        {% for fact in facts.facts %}
+            {% include fact.html class="col-2 col-4-medium col-12-small" target_url=fact.target_url default=fact.default hover=fact.hover %}
+        {% endfor %}
         <article class="col-2 col-4-medium col-12-small">
             <a href='{{ "/en/yang/your-situation#deployment" | absolute_url }}'>
                 <div class="fact-intro on"><p>Deployment</p></div>

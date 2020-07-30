@@ -1,0 +1,57 @@
+yang:
+  situation:
+    en:
+      id: cta
+      title: >-
+        WHAT STAGE IS YOUR PROJECT ON?
+      facts:
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /en/yang/your-situation#development
+          default:
+            intro: >-
+              Development
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              fa-chess
+          hover:
+            intro: >-
+              ? (Plan the)
+            fact: >-
+              ? (ROUTE)
+            outro: >-
+              ? (to success)
+            icon: >-
+              fa-project-diagram
+    fr:
+      id: cta
+      title: >-
+        O&Ugrave; EN EST VOTRE PROJET ?
+      facts:
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /fr/yang/votre-situation#elaboration
+          default:
+            intro: >-
+              &Eacute;laboration
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              fa-chess
+          hover:
+            intro: >-
+              -
+            fact: >-
+              -
+            outro: >-
+              -
+            icon: >-
+              fa-project-diagram
+yin:
