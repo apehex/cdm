@@ -1,111 +1,11 @@
-{%- assign efficiency-id = site.data.expertise["efficiency"][page.lang].id -%}
-<section id="{% if page.lang=='en' %}expertise{% elsif page.lang=='fr' %}competences{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign targets = site.data.home.yang.expertise[page.lang] -%}
+<section id="{{ targets.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        {%- if page.lang=="en" -%}
-        <h2>LOOKING FOR</h2>
-        {%- elsif page.lang=="fr" -%}
-        <h2>EN RECHERCHE DE</h2>
-        {%- endif -%}
+        <h2>{{ targets.title }}</h2>
     </header>
-    {%- if page.lang=="en" -%}
     <div class="features row gtr-100">
-        <a href="{{ 'en/yang/my-expertise#efficiency' | absolute_url }}" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-bolt"></span>
-                <div class="content">
-                    <h3>Efficiency</h3>
-                    <p></p>
-                </div>
-            </article>
-        </a>
-        <a href="{{ 'en/yang/my-expertise#dependability' | absolute_url }}" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-clock"></span>
-                <div class="content">
-                    <h3>Dependability</h3>
-                    <p></p>
-                </div>
-            </article>
-        </a>
-        <a href="{{ 'en/yang/my-expertise#risk-management' | absolute_url }}" class="scrolly icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-umbrella"></span>
-                <div class="content">
-                    <h3>Risk Management</h3>
-                    <p></p>
-                </div>
-            </article>
-        </a>
+        {% for target in targets.features %}
+            {% include feature.html class=target.class target_url=target.target_url icon=target.icon title=target.title content=target.content %}
+        {% endfor %}
     </div>
-    <div class="features row gtr-100">
-        <a href="{{ 'en/yang/my-expertise#maintenance' | absolute_url }}" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-tools"></span>
-                <div class="content">
-                    <h3>Maintenance</h3>
-                    <p></p>
-                </div>
-            </article>
-        </a>
-        <a href="{{ 'en/yang/my-expertise#contracting-authority' | absolute_url }}" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-tasks"></span>
-                <div class="content">
-                    <h3>Contracting Authority</h3>
-                    <p></p>
-                </div>
-            </article>
-        </a>
-    </div>
-    {%- elsif page.lang=="fr" -%}
-    <div class="features row gtr-100">
-        <a href="{{ 'fr/yang/mes-competences#efficience' | absolute_url }}" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-bolt"></span>
-                <div class="content">
-                    <h3>Efficience</h3>
-                    <p></p>
-                </div>
-            </article>
-        </a>
-        <a href="{{ 'fr/yang/mes-competences#surete-de-fonctionnement' | absolute_url }}" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-clock"></span>
-                <div class="content">
-                    <h3>Sûreté de Fontionnement</h3>
-                    <p></p>
-                </div>
-            </article>
-        </a>
-        <a href="{{ 'fr/yang/mes-competences#gestion-des-risques' | absolute_url }}" class="scrolly icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-umbrella"></span>
-                <div class="content">
-                    <h3>Gestion des Risques</h3>
-                    <p></p>
-                </div>
-            </article>
-        </a>
-    </div>
-    <div class="features row gtr-100">
-        <a href="{{ 'fr/yang/mes-competences#maintenance' | absolute_url }}" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-tools"></span>
-                <div class="content">
-                    <h3>Maintenance</h3>
-                    <p></p>
-                </div>
-            </article>
-        </a>
-        <a href="{{ 'fr/yang/mes-competences#maitrise-ouvrage-moa' | absolute_url }}" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-tasks"></span>
-                <div class="content">
-                    <h3>Assistance Maîtrise d'Ouvrage</h3>
-                    <p></p>
-                </div>
-            </article>
-        </a>
-    </div>
-    {%- endif -%}
 </section>

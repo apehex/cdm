@@ -17,7 +17,7 @@ yang:
             outro: >-
               &nbsp;
             icon: >-
-              fa-chess
+              solid fa-chess
           hover:
             intro: >-
               ? (Plan the)
@@ -26,7 +26,73 @@ yang:
             outro: >-
               ? (to success)
             icon: >-
-              fa-project-diagram
+              solid fa-project-diagram
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /en/yang/your-situation#deployment
+          default:
+            intro: >-
+              Deployment
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-plane
+          hover:
+            intro: >-
+              ? (Land)
+            fact: >-
+              ? (SAFELY)
+            outro: >-
+              ? (on your feet)
+            icon: >-
+              solid fa-plane-arrival
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /en/yang/your-situation#reception
+          default:
+            intro: >-
+              Reception
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-box-open
+          hover:
+            intro: >-
+              ? (Integrate)
+            fact: >-
+              ? (SMOOTHLY)
+            outro: >-
+              ? (into your processes)
+            icon: >-
+              solid fa-cubes
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /en/yang/your-situation#operation
+          default:
+            intro: >-
+              Operation
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-play
+          hover:
+            intro: >-
+              ? (Improve the)
+            fact: >-
+              ? (ROI)
+            outro: >-
+              ? (of your units)
+            icon: >-
+              solid fa-level-up-alt
     fr:
       id: cta
       title: >-
@@ -44,14 +110,591 @@ yang:
             outro: >-
               &nbsp;
             icon: >-
-              fa-chess
+              solid fa-chess
           hover:
             intro: >-
-              -
+              ?
             fact: >-
-              -
+              ?
             outro: >-
-              -
+              ?
             icon: >-
-              fa-project-diagram
+              solid fa-project-diagram
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /fr/yang/votre-situation#deploiement
+          default:
+            intro: >-
+              Déploiement
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-plane
+          hover:
+            intro: >-
+              ?
+            fact: >-
+              ?
+            outro: >-
+              ?
+            icon: >-
+              solid fa-plane-arrival
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /fr/yang/votre-situation#reception
+          default:
+            intro: >-
+              Réception
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-box-open
+          hover:
+            intro: >-
+              ?
+            fact: >-
+              ?
+            outro: >-
+              ?
+            icon: >-
+              solid fa-cubes
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /fr/yang/your-situation#exploitation
+          default:
+            intro: >-
+              Exploitation
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-play
+          hover:
+            intro: >-
+              ?
+            fact: >-
+              ?
+            outro: >-
+              ?
+            icon: >-
+              solid fa-level-up-alt
+  targets:
+    en:
+      id: targets
+      title: >-
+        YOU ARE
+      features:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            /en/yang/my-expertise/
+          icon: >-
+            solid fa-industry
+          title: >-
+            A Manufacturer
+          content: >-
+            <ul><li>HVAC</li><li>Processing:<ul><li>Cardboard</li><li>Plastics</li><li>Metal</li></ul></li></ul>
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            /en/yang/my-expertise/
+          icon: >-
+            solid fa-suitcase
+          title: >-
+            A Service
+          content: >-
+            <ul><li>General Management</li><li>Engineering</li><li>Maintenance</li><li>After-Sales</li></ul>
+        - class: >-
+            scrolly col-4 col-12-small
+          target_url: >-
+            /en/yang/#contact
+          icon: >-
+            solid fa-exclamation
+          title: >-
+            Having a Problem!
+          content: 
+    fr:
+      id: cibles
+      title: >-
+        VOUS &Ecirc;TES
+      features:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            /fr/yang/mes-competences/
+          icon: >-
+            solid fa-industry
+          title: >-
+            A Manufacturer
+          content: >-
+            <ul><li>Génie thermique</li><li>Transformations des:<ul><li>Cartons</li><li>Plastiques</li><li>Métaux</li></ul></li></ul>
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            /fr/yang/mes-competences/
+          icon: >-
+            solid fa-suitcase
+          title: >-
+            Un Service
+          content: >-
+            <ul><li>Direction Générale</li><li>Ingénierie & Travaux</li><li>Maintenance</li><li>SAV</li></ul>
+        - class: >-
+            scrolly col-4 col-12-small
+          target_url: >-
+            /fr/yang/#contact
+          icon: >-
+            solid fa-exclamation
+          title: >-
+            En Difficulté !
+          content: 
+  expertise:
+    en:
+      id: expertise
+      title: >-
+        LOOKING FOR
+      features:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            en/yang/my-expertise#efficiency
+          icon: >-
+            solid fa-bolt
+          title: >-
+            Efficiency
+          content:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            en/yang/my-expertise#dependability
+          icon: >-
+            solid fa-clock
+          title: >-
+            Dependability
+          content:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            en/yang/my-expertise#risk-management
+          icon: >-
+            solid fa-umbrella
+          title: >-
+            Risk Management
+          content:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            en/yang/my-expertise#maintenance
+          icon: >-
+            solid fa-tools
+          title: >-
+            Maintenance
+          content:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            en/yang/my-expertise#contracting-authority
+          icon: >-
+            solid fa-tasks
+          title: >-
+            Contracting Authority
+          content:
+    fr:
+      id: competences
+      title: >-
+        EN RECHERCHE DE
+      features:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            fr/yang/mes-competences#efficience
+          icon: >-
+            solid fa-bolt
+          title: >-
+            Efficience
+          content:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            fr/yang/mes-competences#surete-de-fonctionnement
+          icon: >-
+            solid fa-clock
+          title: >-
+            Sûreté de Fonctionnement
+          content:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            fr/yang/mes-competences#gestion-des-risques
+          icon: >-
+            solid fa-umbrella
+          title: >-
+            Gestion des Risques
+          content:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            fr/yang/mes-competences#maintenance
+          icon: >-
+            solid fa-tools
+          title: >-
+            Maintenance
+          content:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            fr/yang/mes-competences#amoa
+          icon: >-
+            solid fa-tasks
+          title: >-
+            Assistance Maîtrise d'Ouvrage
+          content:
 yin:
+  situation:
+    en:
+      id: cta
+      title: >-
+        HAVING A PROBLEM?
+      facts:
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /en/yin/your-situation#under-performance
+          default:
+            intro: >-
+              Under Performance
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-chart-area
+          hover:
+            intro: >-
+              ? (Find out)
+            fact: >-
+              ? (WHY)
+            outro: >-
+              ? (you're losing money!)
+            icon: >-
+              solid fa-search-dollar
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /en/yin/your-situation#equipment-failure
+          default:
+            intro: >-
+              Equipment Failure
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-car-crash
+          hover:
+            intro: >-
+              ? (Get)
+            fact: >-
+              ? (BACK)
+            outro: >-
+              ? (your money!)
+            icon: >-
+              solid fa-money-bill
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /en/yin/your-situation#disorder
+          default:
+            intro: >-
+              Disorder
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-exclamation-triangle
+          hover:
+            intro: >-
+              ? (Go)
+            fact: >-
+              ? (THROUGH)
+            outro: >-
+              ? (the crisis!)
+            icon: >-
+              solid fa-route
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /en/yin/your-situation#litigation
+          default:
+            intro: >-
+              Litigation
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-gavel
+          hover:
+            intro: >-
+              ? (Have a)
+            fact: >-
+              ? (FAIR)
+            outro: >-
+              ? (trial!)
+            icon: >-
+              solid fa-balance-scale
+    fr:
+      id: cta
+      title: >-
+        DES DIFFICULT&Eacute;S ?
+      facts:
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /fr/yin/votre-situation#under-performance
+          default:
+            intro: >-
+              Under Performance
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-chart-area
+          hover:
+            intro: >-
+              ? (Find out)
+            fact: >-
+              ? (WHY)
+            outro: >-
+              ? (you're losing money!)
+            icon: >-
+              solid fa-search-dollar
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /fr/yin/your-situation#defaillance
+          default:
+            intro: >-
+              Défaillance
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-car-crash
+          hover:
+            intro: >-
+              ? (Get)
+            fact: >-
+              ? (BACK)
+            outro: >-
+              ? (your money!)
+            icon: >-
+              solid fa-money-bill
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /fr/yin/votre-situation#desordre
+          default:
+            intro: >-
+              Désordre
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-exclamation-triangle
+          hover:
+            intro: >-
+              ?
+            fact: >-
+              ?
+            outro: >-
+              ?
+            icon: >-
+              solid fa-route
+        - class: >-
+            col-2 col-4-medium col-12-small
+          target_url: >-
+            /fr/yin/votre-situation#litige
+          default:
+            intro: >-
+              Litige
+            fact: >-
+              ?
+            outro: >-
+              &nbsp;
+            icon: >-
+              solid fa-gavel
+          hover:
+            intro: >-
+              ?
+            fact: >-
+              ?
+            outro: >-
+              ?
+            icon: >-
+              solid fa-balance-scale
+  targets:
+    en:
+      id: targets
+      title: >-
+        WITH
+      features:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            en/yin/my-expertise
+          icon: >-
+            solid fa-thermometer-half
+          title: >-
+            ? (HVAC Engineering)
+          content: >-
+            <ul><li>? (Insulation)</li></ul>
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            en/yin/my-expertise
+          icon: >-
+            solid fa-recycle
+          title: >-
+            ? (Renewable Energies)
+          content: >-
+            <ul><li>? (Pompes à Chaleur)</li><li>? (Photovoltaïque)</li><li>? (Géothermie)</li><li>? (Méthanisation)</li></ul>
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            en/yin/my-expertise
+          icon: >-
+            solid fa-industry
+          title: >-
+            ? (Industrial Processes)
+          content: >-
+            <ul>Processing:<li>Cardboard</li><li>Plastics</li><li>Metal</li></ul>
+    fr:
+      id: cibles
+      title: >-
+        AVEC
+      features:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            fr/yin/mes-competences
+          icon: >-
+            solid fa-thermometer-half
+          title: >-
+            Génie Climatique<br>et Thermique
+          content: >-
+            <ul><li>Isolation</li></ul>
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            fr/yin/mes-competences
+          icon: >-
+            solid fa-recycle
+          title: >-
+            &Eacute;nergies<br>Renouvelables
+          content: >-
+            <ul><li>Pompes à Chaleur</li><li>Photovoltaïque</li><li>Géothermie</li><li>Méthanisation</li></ul>
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            fr/yin/mes-competences
+          icon: >-
+            solid fa-industry
+          title: >-
+            Procédés Industriels
+          content: >-
+            <ul>Qui transforment des:<li>Cartons</li><li>Plastiques</li><li>Métaux</li></ul>
+  expertise:
+    en:
+      id: expertise
+      title: >-
+        CAN I HELP?
+      features:
+        - class: >-
+            col-3 col-6-medium col-12-small
+          target_url: >-
+            en/yin/my-expertise#maintenance
+          icon: >-
+            solid fa-tools
+          title: >-
+            ? (Maintenance)
+          content:
+        - class: >-
+            col-3 col-6-medium col-12-small
+          target_url: >-
+            en/yin/my-expertise#expert-assessment
+          icon: >-
+            solid fa-search
+          title: >-
+            ? (Private Expert Assessment)
+          content:
+        - class: >-
+            col-3 col-6-medium col-12-small
+          target_url: >-
+            en/yin/my-expertise#expert-assessment
+          icon: >-
+            solid fa-balance-scale
+          title: >-
+            ? (Out-of-court Expert Assessment)
+          content:
+        - class: >-
+            col-3 col-6-medium col-12-small
+          target_url: >-
+            en/yin/my-expertise#expert-assessment
+          icon: >-
+            solid fa-gavel
+          title: >-
+            ? (Suppport in a Legal Expert Assessment)
+          content:
+    fr:
+      id: competences
+      title: >-
+        PUIS-JE VOUS AIDER ?
+      features:
+        - class: >-
+            col-3 col-6-medium col-12-small
+          target_url: >-
+            fr/yin/mes-competences#maintenance
+          icon: >-
+            solid fa-tools
+          title: >-
+            Maintenance
+          content:
+        - class: >-
+            col-3 col-6-medium col-12-small
+          target_url: >-
+            fr/yin/mes-competences#expertise
+          icon: >-
+            solid fa-search
+          title: >-
+            Expertise Officieuse
+          content:
+        - class: >-
+            col-3 col-6-medium col-12-small
+          target_url: >-
+            fr/yin/mes-competences#expertise
+          icon: >-
+            solid fa-balance-scale
+          title: >-
+            Expertise Amiable
+          content:
+        - class: >-
+            col-3 col-6-medium col-12-small
+          target_url: >-
+            fr/yin/mes-competences#expertise
+          icon: >-
+            solid fa-gavel
+          title: >-
+            Assistance Expertise Judiciaire
+          content:
