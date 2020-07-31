@@ -1,94 +1,11 @@
-<section id="{% if page.lang=='en' %}targets{% elsif page.lang=='fr' %}cibles{% endif %}" class="{{ include.class | default: nil }}">
+{%- assign targets = site.data.home.yin.targets[page.lang] -%}
+<section id="{{ targets.id }}" class="{{ include.class | default: nil }}">
     <header class="major">
-        {%- if page.lang=="en" -%}
-        <h2>WITH</h2>
-        {%- elsif page.lang=="fr" -%}
-        <h2>AVEC</h2>
-        {%- endif -%}
+        <h2>{{ targets.title }}</h2>
     </header>
     <div class="features row gtr-100">
-        {%- if page.lang=="en" -%}
-        <a href="en/yin/my-expertise#hvac-engineering" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-thermometer-half"></span>
-                <div class="content">
-                    <h3>HVAC Engineering</h3>
-                    <p><ul>
-                        <li>Insulation</li>
-                    </ul></p>
-                </div>
-            </article>
-        </a>
-        <a href="en/yin/my-expertise#renewable-energies" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-recycle"></span>
-                <div class="content">
-                    <h3>Renewable<br>Energies</h3>
-                    <p><ul>
-                        <li>Pompes à Chaleur</li>
-                        <li>Photovoltaïque</li>
-                        <li>Géothermie</li>
-                        <li>Méthanisation</li>
-                    </ul></p>
-                </div>
-            </article>
-        </a>
-        <a href="en/yin/my-expertise#industrial-processes" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-industry"></span>
-                <div class="content">
-                    <h3>Industrial<br>Processes</h3>
-                    <p>
-                        <ul>Processing of:
-                            <li>Cardboard</li>
-                            <li>Plastics</li>
-                            <li>Metal</li>
-                        </ul>
-                    </p>
-                </div>
-            </article>
-        </a>
-        {%- elsif page.lang=="fr" -%}
-        <a href="en/yin/my-expertise#hvac-engineering" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-thermometer-half"></span>
-                <div class="content">
-                    <h3>Génie Climatique<br>et Thermique</h3>
-                    <p><ul>
-                        <li>Isolation</li>
-                    </ul></p>
-                </div>
-            </article>
-        </a>
-        <a href="en/yin/my-expertise#renewable-energies" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-recycle"></span>
-                <div class="content">
-                    <h3>&Eacute;nergies<br>Renouvelables</h3>
-                    <p><ul>
-                        <li>Pompes à Chaleur</li>
-                        <li>Photovoltaïque</li>
-                        <li>Géothermie</li>
-                        <li>Méthanisation</li>
-                    </ul></p>
-                </div>
-            </article>
-        </a>
-        <a href="en/yin/my-expertise#industrial-processes" class="icon col-4 col-12-small">
-            <article style="width: 100%;">
-                <span class="icon solid fa-industry"></span>
-                <div class="content">
-                    <h3>Procédés<br>Industriels</h3>
-                    <p>
-                        <ul>Transformation des:
-                            <li>Cartons</li>
-                            <li>Plastiques</li>
-                            <li>Métaux</li>
-                        </ul>
-                    </p>
-                </div>
-            </article>
-        </a>
-        {%- endif -%}
+        {% for target in targets.features %}
+            {% include feature.html class=target.class target_url=target.target_url icon=target.icon title=target.title content=target.content %}
+        {% endfor %}
     </div>
 </section>
