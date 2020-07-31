@@ -647,7 +647,7 @@ input.disabled[type="submit"], input[type="submit"]:disabled, input.disabled[typ
 
 .horizontal-tabset > input[type="radio"] + label::after { content: ""; position: absolute; left: 15px; bottom: 10px; width: 22px; height: 4px; background: rgba(210, 215, 217, 0.75); }
 
-.horizontal-tabset .tab-panels .tab-panel { padding: 30px 0; border-top: 2px solid #6666ff; }
+.horizontal-tabset .tab-panels .tab-panel { padding: 30px 0 !important; border-top: 2px solid #6666ff; }
 
 /* Active style */
 .horizontal-tabset > label:hover, .horizontal-tabset > input[type="radio"]:focus + label { color: #6666ff; }
@@ -687,7 +687,7 @@ input.disabled[type="submit"], input[type="submit"]:disabled, input.disabled[typ
 
 .vertical-tabset input[type="radio"] + label::after { content: ""; position: absolute; left: 15px; bottom: 10px; width: 22px; height: 4px; background: rgba(210, 215, 217, 0.75); }
 
-.vertical-tabset .vertical-tab .tab-panel { position: absolute; top: 0; left: 40%; padding: 0 30px; margin: 0 0 0 -2px; border-left: 2px solid #6666ff; height: 100%; }
+.vertical-tabset .vertical-tab .tab-panel { position: absolute; top: 0; left: 40%; padding: 0 30px !important; margin: 0 0 0 -2px; border-left: 2px solid #6666ff; height: 100%; }
 
 /* Active */
 .vertical-tabset label:hover, .vertical-tabset input[type="radio"]:focus + label { color: #6666ff; }
