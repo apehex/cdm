@@ -101,7 +101,7 @@ theme: jekyll-theme-consulting
 
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://moodule.github.io/cdm" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://c-dm.fr" # the base hostname & protocol for your site, e.g. http://example.com
 author: apehex
 copyright:
   holder: 2018-2020 CDM
