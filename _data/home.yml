@@ -459,7 +459,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/yin/votre-situation#under-performance
+            /fr/yin/votre-situation#sous-performance
           default:
             intro: >-
               Under Performance
@@ -481,7 +481,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/yin/your-situation#defaillance
+            /fr/yin/votre-situation#defaillance
           default:
             intro: >-
               Défaillance
@@ -525,7 +525,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/yin/votre-situation#litige
+            /fr/yin/votre-situation#action-en-justice
           default:
             intro: >-
               Litige
