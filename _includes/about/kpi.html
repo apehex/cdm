@@ -1,20 +1,11 @@
-{%- assign kpis=site.data.kpis %}
-<section id="kpi"  class="{{ include.class | default: nil }}">
+{%- assign kpis=site.data.kpis[page.lang] %}
+<section id="{{ kpis.id }}"  class="{{ include.class | default: nil }}">
     <header class="major">
-        <h2>{% if page.lang=="en" %}CDM'S KPI{% elsif page.lang=="fr" %}CDM EN CHIFFRES{% endif %}</h2>
+        <h2>{{ kpis.title }}</h2>
     </header>
     <div class="facts row">
-        {%- for kpi in kpis %}
-        <article class="col-2 col-4-medium col-12-small">
-            <div class="fact-intro on"><p>{{ kpi[page.lang].intro }}</p></div>
-            <div class="fact on"><h3>{{ kpi[page.lang].fact }}</h3></div>
-            <div class="fact-outro on"><p>{{ kpi[page.lang].outro }}</p></div>
-            <span class="icon {{ kpi[page.lang].icon }} on"></span>
-            <div class="fact-intro off"><p>{{ kpi[page.lang].intro }}</p></div>
-            <div class="fact off"><h3>{{ kpi[page.lang].fact }}</h3></div>
-            <div class="fact-outro off"><p>{{ kpi[page.lang].outro }}</p></div>
-            <span class="icon {{ kpi[page.lang].icon }} off"></span>
-        </article>
-        {%- endfor %}
+        {% for kpi in kpis.facts %}
+            {% include fact.html class="col-2 col-4-medium col-12-small" target_url=kpi.target_url default=kpi.default hover=kpi.default %}
+        {% endfor %}
     </div>
 </section>
