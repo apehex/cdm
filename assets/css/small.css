@@ -35,5 +35,3 @@
 
 /* Banner */
 @media screen and (orientation: portrait) and (max-width: 480px) { #banner .image { max-height: 35vh; } }
-
-/*# sourceMappingURL=small.css.map */

@@ -898,5 +898,3 @@ body.is-preload #sidebar { display: none; }
 .inverted #menu > ul > li:first-child, .inverted #results > ul > li:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
 
 .inverted #menu > ul > li.current::before, .inverted #menu > ul > li:hover::before, .inverted #results > ul > li.current::before, .inverted #results > ul > li:hover::before { border-left: 6px solid #ffffff; }
-
-/*# sourceMappingURL=main.css.map */
