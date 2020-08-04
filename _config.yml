@@ -98,6 +98,8 @@ defaults:
 permalink: pretty
 markdown: kramdown
 theme: jekyll-theme-consulting
+sass:
+  sourcemap: never
 
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
