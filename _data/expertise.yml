@@ -245,24 +245,24 @@ yang:
       tabs:
         - id: strategic-audit
           title: >-
-            ? (Diagnostic stratégique)
+            Diagnostic stratégique
           content: >-
-            Diagnostic stratégique d'organisations
+            <p>Consiste à formaliser essentiellement l’environnement de l’entreprise, les univers de l’offre, de la demande, de la concurrence, les forces et faiblesses de l’organisation.</p><p>Le résultat de l’intervention est la <strong>préconisation de stratégies atteignables</strong> fonction des choix des dirigeants.</p><p>Cette démarche permet de passer d’un désir, d’un vœux pieu, à la mise en œuvre effective d’une stratégie.</p>
         - id: tableau-de-bord-propectif
           title: >-
-            ?
+            Tableau de bord
           content: >-
-            Tableau de bord prospectif
+            <p><strong>Outil de pilotage de l’efficience</strong> court, moyen et long terme, cette approche combine et corrèle les visions client / finance / performance interne et capacité de développement de l’organisation. Cette action met en lumière <strong>l’évolutivité, l’adaptabilité et la pérennité de l’organisation fonction de la stratégie conduite</strong></p><p>Elle contribue fortement au <strong>partage de la vision des dirigeants de l’entreprise</strong> en déclinant les objectifs stratégiques en objectifs opérationnels que peuvent s’approprier chaque partie prenante de l’organisation</p>
         - id: audit-de-maturite
           title: >-
-            ? (Audit)
+            Audit
           content: >-
-            Audit de maturité et de performance.
+            <p>Ces études visent à évaluer la maturité et l’efficacité d’une organisation, en regard des objectifs qui lui sont assignés. L’approche intègre la variable temporelle généralement oubliée dans ce type de démarche.</p><p>L’objectif central est la <strong>définition d’un plan d’action d’amélioration de la performance de l’entreprise</strong> focalisée sur la temporalité de l’activité.</p>
         - id: amelioration-de-procedes
           title: >-
-            ?
+            Processus management
           content: >-
-            Amélioration de processus et de procédés, démarche BPM.
+            <p>Structuration des processus par une approche BPM et une analyse multi-dimensionnelle de type Critical To Quality pour proter un regard critique sur <strong>l’adéquation entre création de valeur et les activités développées pour répondre aux exigences du client</strong>.</p><p>Il s’agit d’une analyse forces / faiblesses de la qualité de <strong>réponse efficiente aux attentes client</strong>.</p>
   dependability:
     en:
       id: dependability
@@ -306,24 +306,24 @@ yang:
       tabs:
         - id: etude-de-maintenabilite
           title: >-
-            ?
+            &Eacute;tudes FMDS
           content: >-
-            &Eacute;tudes de fiabilité, maintenabilité et risques.
+            <p>Les études de fiabilité visent à <strong>réduire les occurrences d’événements dommageables</strong> pour l’organisation. L’analyse peut se faire en phase de conception (fiabilité prévisionnelle) ou en phase d’exploitation (fiabilité opérationnelle). L’emploi d’outils dédiés, comme la méthode de Weibull combinée à des outils statistiques, autorise une identification du comportement d’un système sur la base d’un historique réduit d’événements.</p><p>Les études de maintenabilité visent à <strong>réduire l’impact technico-économique</strong> des événements dommageables, ceux que l’on ne peut éviter.</p><p>Ces études contribuent à la <strong>maîtrise et prévisibilité du comportement des systèmes</strong> en exploitation.</p>
         - id: augmenter-la-disponibilite
           title: >-
-            ?
+            Disponibilité système
           content: >-
-            Amélioration structurelle et organisationnelle de la disponibilité des systèmes.
+            <p>La disponibilité découle de ces deux premiers critères. L’analyse de cette dimension a essentiellement pour but de prioriser l’action fonction de contraintes internes ou externes en restant focalisé sur le temps net productif du système.</p><p>Les solutions mises en œuvre supposent une boucle de rétroaction en termes de gestion notamment de la dimension sécurité.</p><p><strong>5% de disponibilité augmente d’au moins 25% la rentabilité opérationnelle</strong>.</p>
         - id: resolution-des-defaillances
           title: >-
-            ?
+            Résolution défaillance
           content: >-
-            Résolutions des défaillances.
+            <p>Grâce à des méthodes d’analyse éprouvées et transposées de domaines connexes (comme les analyses SADT, SART) il est possible de <strong>résoudre rapidement des problématiques de défaillances aléatoires, fugitives, critiques ou chroniques et restaurer ses marges</strong>.</p><p>Il s’agit donc de <strong>supprimer les causes, atténuer les effets des événements redoutés inévitables</strong>.</p>
         - id: identification-des-causes
           title: >-
-            ?
+            Causes premières
           content: >-
-            Traitement des causes premières des défaillances critiques.
+            <p>L’analyse et la détermination des causes premières, au nombre de huit, garantit une <strong>amélioration significative de la sureté de fonctionnement des systèmes</strong>. La démarche évite la confusion trop commune entre localisation de la défaillance (ex : un moteur grillé) et cause de la défaillance (ex : mauvaise maintenance ou encore défaut matière).</p><p><strong>La pertinence du plan d’action dépend de la justesse de l’analyse des causes</strong>. Dans le premier cas de l’exemple ci-avant (mauvaise maintenance) le plan d’action comprendra la formation du personnel ou l’acquisition d’outils spécifiques requis. Dans le second, le plan d’action se concentrera sur les spécifications d’achat et la qualification des pièces de rechange intégrées au stock.</p><p>La connaissance des huit modes de défaillance possibles <strong>permet l’exhaustivité de l’analyse</strong>, et donc la résolution et l’anticipation de toute dérive sur le système.</p>
   contracting-authority:
     en:
       id: contracting-authority
