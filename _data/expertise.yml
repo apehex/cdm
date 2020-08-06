@@ -437,7 +437,7 @@ yang:
           title: >-
             Risk Management
           content: >-
-            <p>Approche conforme à la norme ISO 31000, générant la <strong>confiance dans la gestion des risques</strong>.</p><p>Définition des modalités et élaboration de plan de continuité d’activité.</p>
+            <p>Approche conforme à la norme <a href="https://www.iso.org/fr/iso-31000-risk-management.html">ISO 31000</a>, générant la <strong>confiance dans la gestion des risques</strong>.</p><p>Définition des modalités et élaboration de plan de continuité d’activité.</p>
         - id: cartographier-les-risques
           title: >-
             Cartographie
