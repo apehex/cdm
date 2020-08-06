@@ -29,7 +29,7 @@
 <meta property="og:url" content="http://c-dm.fr/fr/yang/mes-competences/" />
 <meta property="og:site_name" content="CDM" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://c-dm.fr/fr/yang/mes-competences/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://c-dm.fr/assets/images/logo.png"},"name":"apehex"},"headline":"Efficience, Maintenance, Sûreté de Fonctionnement et Gestion des Risques","author":{"@type":"Person","name":"apehex"},"@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"Efficience, Maintenance, Sûreté de Fonctionnement et Gestion des Risques","url":"http://c-dm.fr/fr/yang/mes-competences/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://c-dm.fr/assets/images/logo.png"},"name":"apehex"},"author":{"@type":"Person","name":"apehex"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -212,9 +212,9 @@
     </header>
     <div class="posts"><article><h3>Réorganisation SAV</h3>
     <p>Productivité service restaurée (+25%) conforme à la croissance des ressources mobilisées.</p></article><article><h3>Réduction de 30% des coûts directs de maintenance</h3>
-    <p>Réduction downtime de 6,52% à 2,54% tout en augmentant le temps d’ouverture de 6 machines de 25 000h à 32 000h et en réduisant les coûts directs de maintenance de 30%.</p></article><article><h3>Innovation sur un Procédé Industriel</h3>
-    <p>Marge directe de 14% portée à 33% sur CA de 21M€, ROI &lt; 3 mois.</p></article><article><h3>Restructuration industrielle</h3>
-    <p>Croissance du CA malgré la coactivité d’un chantier impactant 30% de la surface usine.</p></article></div>
+    <p>Réduction downtime de 6,52% à 2,54% tout en augmentant le temps d’ouverture de 6 machines de 25 000h à 32 000h et en réduisant les coûts directs de maintenance de 30%.</p></article><article><h3>Maîtrise du risque ATEX production de mousse de PE expansée au butane</h3>
+    <p>Aucun sinistre malgré des départs de feu hebdomadaires liés au process butane.</p></article><article><h3>Benning Conversion d'Energie</h3>
+    <p>Respect des 192 contraintes d'un projet soumis aux hautes exigences du nucléaire.</p></article></div>
 </section>
 
 <section id="contact" class="inverted" style="">
@@ -253,7 +253,7 @@
         </div>
         <div class="col-6 col-12-medium col-12-small col-12-xsmall">
             <ul class="contact">
-                <li class="icon solid fa-envelope"><a href="mailto:contact@c-dm.fr">contact@c-dm.fr</a></li>
+                <li class="icon solid fa-envelope"><a href="mailto:david.mougeolle@gmail.com">david.mougeolle@gmail.com</a></li>
                 <li class="icon solid fa-phone"><a href="tel:(33) 633-695-568">(33) 633-695-568</a></li>
                 <li class="icon solid fa-home">27 rue de la Laye<br />
                 89110, Laduz-Valravillon</li>
@@ -325,7 +325,7 @@
             token: grecaptcha.getResponse(recaptchaWidget)
         };
         
-        fetch("http://c-dm.fr/contact", {
+        fetch("http://c-dm.fr/contact.php", {
             method: 'POST',
             mode: 'same-origin',
             headers: {'Content-Type': 'application/json',},
@@ -341,7 +341,7 @@
     
     var onRecaptchaLoadCallback = function() {
         recaptchaWidget = grecaptcha.render("recaptcha-checkbox", {
-            'sitekey' : '6Lf4dsgUAAAAAI-pFjd8tRxfdY2yF5mOoyC9OUUB',
+            'sitekey' : '6Ld2ZLsZAAAAAGdQkEYtUWZXMlH9RKUOdbu0IP7n',
             'theme' : 'dark',
             'size' : 'compact',
             'callback' : processContactRequest

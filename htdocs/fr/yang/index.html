@@ -31,7 +31,7 @@
 <meta property="og:url" content="http://c-dm.fr/fr/yang/" />
 <meta property="og:site_name" content="CDM" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://c-dm.fr/fr/yang/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://c-dm.fr/assets/images/logo.png"},"name":"apehex"},"headline":"Ingénierie et Expertise Indépendantes","description":"J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.","author":{"@type":"Person","name":"apehex"},"@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"Ingénierie et Expertise Indépendantes","url":"http://c-dm.fr/fr/yang/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://c-dm.fr/assets/images/logo.png"},"name":"apehex"},"author":{"@type":"Person","name":"apehex"},"description":"J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -450,7 +450,7 @@
         </div>
         <div class="col-6 col-12-medium col-12-small col-12-xsmall">
             <ul class="contact">
-                <li class="icon solid fa-envelope"><a href="mailto:contact@c-dm.fr">contact@c-dm.fr</a></li>
+                <li class="icon solid fa-envelope"><a href="mailto:david.mougeolle@gmail.com">david.mougeolle@gmail.com</a></li>
                 <li class="icon solid fa-phone"><a href="tel:(33) 633-695-568">(33) 633-695-568</a></li>
                 <li class="icon solid fa-home">27 rue de la Laye<br />
                 89110, Laduz-Valravillon</li>
@@ -522,7 +522,7 @@
             token: grecaptcha.getResponse(recaptchaWidget)
         };
         
-        fetch("http://c-dm.fr/contact", {
+        fetch("http://c-dm.fr/contact.php", {
             method: 'POST',
             mode: 'same-origin',
             headers: {'Content-Type': 'application/json',},
@@ -538,7 +538,7 @@
     
     var onRecaptchaLoadCallback = function() {
         recaptchaWidget = grecaptcha.render("recaptcha-checkbox", {
-            'sitekey' : '6Lf4dsgUAAAAAI-pFjd8tRxfdY2yF5mOoyC9OUUB',
+            'sitekey' : '6Ld2ZLsZAAAAAGdQkEYtUWZXMlH9RKUOdbu0IP7n',
             'theme' : 'dark',
             'size' : 'compact',
             'callback' : processContactRequest

@@ -31,7 +31,7 @@
 <meta property="og:url" content="http://c-dm.fr/en/yin/blog/" />
 <meta property="og:site_name" content="CDM" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://c-dm.fr/en/yin/blog/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://c-dm.fr/assets/images/logo.png"},"name":"apehex"},"headline":"Recent Activity","description":"When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.","author":{"@type":"Person","name":"apehex"},"@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"Recent Activity","url":"http://c-dm.fr/en/yin/blog/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://c-dm.fr/assets/images/logo.png"},"name":"apehex"},"author":{"@type":"Person","name":"apehex"},"description":"When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -117,7 +117,7 @@
         </div>
         <div class="col-6 col-12-medium col-12-small col-12-xsmall">
             <ul class="contact">
-                <li class="icon solid fa-envelope"><a href="mailto:contact@c-dm.fr">contact@c-dm.fr</a></li>
+                <li class="icon solid fa-envelope"><a href="mailto:david.mougeolle@gmail.com">david.mougeolle@gmail.com</a></li>
                 <li class="icon solid fa-phone"><a href="tel:(33) 633-695-568">(33) 633-695-568</a></li>
                 <li class="icon solid fa-home">27 rue de la Laye<br />
                 89110, Laduz-Valravillon</li>
@@ -189,7 +189,7 @@
             token: grecaptcha.getResponse(recaptchaWidget)
         };
         
-        fetch("http://c-dm.fr/contact", {
+        fetch("http://c-dm.fr/contact.php", {
             method: 'POST',
             mode: 'same-origin',
             headers: {'Content-Type': 'application/json',},
@@ -205,7 +205,7 @@
     
     var onRecaptchaLoadCallback = function() {
         recaptchaWidget = grecaptcha.render("recaptcha-checkbox", {
-            'sitekey' : '6Lf4dsgUAAAAAI-pFjd8tRxfdY2yF5mOoyC9OUUB',
+            'sitekey' : '6Ld2ZLsZAAAAAGdQkEYtUWZXMlH9RKUOdbu0IP7n',
             'theme' : 'dark',
             'size' : 'compact',
             'callback' : processContactRequest
