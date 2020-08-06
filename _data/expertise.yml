@@ -262,7 +262,7 @@ yang:
           title: >-
             Processus management
           content: >-
-            <p>Structuration des processus par une approche BPM et une analyse multi-dimensionnelle de type Critical To Quality pour proter un regard critique sur <strong>l’adéquation entre création de valeur et les activités développées pour répondre aux exigences du client</strong>.</p><p>Il s’agit d’une analyse forces / faiblesses de la qualité de <strong>réponse efficiente aux attentes client</strong>.</p>
+            <p>Structuration des processus par une approche BPM et une analyse multi-dimensionnelle de type Critical To Quality pour porter un regard critique sur <strong>l’adéquation entre création de valeur et les activités développées pour répondre aux exigences du client</strong>.</p><p>Il s’agit d’une analyse forces / faiblesses de la qualité de <strong>réponse efficiente aux attentes client</strong>.</p>
   dependability:
     en:
       id: dependability
@@ -358,33 +358,40 @@ yang:
     fr:
       id: assistance-maitrise-d-ouvrage
       title: >-
-        Assistance Maîtrise d'Ouvrage - AMOA
+        Maîtrise d'Ouvrage
       quote: >-
         Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
-        - id: cahier-des-charges
+        - id: formalisation-des-besoins
           title: >-
-            ?
+            Formalisation des besoins
           content: >-
-            Définir les besoins et exigences du projet, les décliner en objectifs projet BQCDS
-        - id: specifications-techniques
+            <p>Exprimer son besoin est la première obligation d’un client s’il veut voir son fournisseur satisfaire ses exigences. D’ailleurs la revue des exigences client est un des volets de l’approche de certification qualité des organisations de type ISO 9000 notamment.</p><p>L’obligation de délivrance du fournisseur se trouvera immanquablement limitée aux besoins stipulés dans la relation commerciale. Dès lors ce <strong>point initial est primordial dans le bon déroulement de tout projet</strong>.</p>
+        - id: définition-des-objectifs
           title: >-
-            ?
+            Définition des objectifs
           content: >-
-            &Eacute;laborer les spécifications techniques de besoins, Analyses Fonctionnelles et Organiques, protocoles de recette.
-        - id: choisir-les-bons-prestataires
+            <p>Tout projet présente des objectifs de Business (finalité ultérieure du projet), Coût (quel est le budget alloué sur quel périmètre), Qualité (caractéristiques du bien ou du service attendu), Délai (deadline du projet, des jalons, chemin critique) et bien sûr sécurité (des activités liées au déploiement du projet mais également sécurité future de l’exploitation du bien ou du service créé).</p><p><strong>Ces objectifs BCQDS sont ainsi identifiés, partagés, suivis et atteints</strong>.</p>
+        - id: redaction-du-cahier-des-charges
           title: >-
-            ?
+            Rédaction du cahier des charges
           content: >-
-            Aide au choix des prestataires suite consultation d’entreprises.
-        - id: structurer-le-projet
+            <p><strong>La rédaction d’un cahier des charges</strong> ne s’improvise pas. Il doit mettre en lumière les enjeux et contraintes, le cadre du projet et ses attendus, les règles de l’art à respecter ou souhaitées. Sa forme et son contenu doivent clairement distinguer ce qui relève de la sous-traitance de la prestation de service externalisée, et <strong>définir le résultat attendu et non pas les moyens d’y parvenir</strong>.</p><p>La version la plus complète d’un Cahier des Charges doit <strong>régler l’organisation entre les parties</strong> dans toutes les phases de vie du projet, depuis la conception jusqu’à la mise en exploitation. Il doit en conséquence intégrer les notions de <strong>jalons, livrables, et protocole de recette des systèmes, et synchroniser les clauses techniques et commerciales</strong>.</p><p>Dans une approche plus légère, sur des projets simples et / ou de faible impact ou de faible enveloppe, la spécification technique de besoin reste indispensable. <strong>Un projet ne peut se satisfaire de relations commerciales basées sur la seule signature d’un devis, dès lors que l’on s’écarte d’un achat standard sur catalogue</strong>.</p>
+        - id: organisation-et-planification
           title: >-
-            ?
+            Organisation et planification
           content: >-
-            Structurer et planifier le projet, en gérer les risques BQCDS.
+            <p>Suivant la complexité du projet, du point de vue technique, nombre d’acteurs, contraintes réglementaires et / ou administratives, suivant son caractère unique et innovant, sa planification est indispensable et doit être plus ou moins détaillée.</p><p>15% des projets atteignent les objectifs initialement fixés, c’est dire si la préparation a une importance cruciale dans la maîtrise de son déroulé. <strong>C’est cette maîtrise et atteinte des objectifs qui est proposée</strong>.</p><p>L’analyse de risques doit faire partie intégrante de toute gestion de projet, analyse élaborée en regard des objectifs cité ci-avant.</p>
+        - id: essais-et-reception
+          title: >-
+            Essais et Réception
+          content: >-
+            <p>La meilleure façon de <strong>savoir si le bien ou le service délivré satisfait les exigences</strong> est de prévoir un protocole de réception.</p>
+            <p>Ce protocole se construit de proche en proche sur la base d’une conception dite en « V » ou chaque phase (Avant-Projet Sommaire, … Analyse Fonctionnelle Générale, …, Analyse Organique Détaillée, Implémentation) est un miroir d’un protocole de validation de l’étape. Le respect de chaque caractéristiques étapes par étapes garantit le <strong>résultat final démontrable par essais de recette</strong>.</p>
+            <p>Cette démarche appliquée à chaque phase d’un projet constitue la <strong>validation des jalons</strong>, et représente le point de synchronisation technique / commercial. <strong>On ne paye que ce qui est surement atteint</strong> en termes d’avancement / résultat.</p>
   risk-management:
     en:
       id: risk-management
@@ -426,26 +433,26 @@ yang:
       headers-width: 30
       show-title: false
       tabs:
+        - id: gestion-des-risques
+          title: >-
+            Risk Management
+          content: >-
+            <p>Approche conforme à la norme ISO 31000, générant la <strong>confiance dans la gestion des risques</strong>.</p><p>Définition des modalités et élaboration de plan de continuité d’activité.</p>
         - id: cartographier-les-risques
           title: >-
-            ?
+            Cartographie
           content: >-
-            Identifier et cartographier les risques matériels et immatériels.
+            <p>L’identification des risques, tant matériels qu’immatériels, repose sur une analyse intégrant les ressources consommées, l’activité développée, les résultats produits, les moyens mis en œuvre ainsi que les modalités de contrôle du système. <strong>Connaître ses risques</strong> est le préalable au traitement de ceux-ci.</p>
         - id: mitiger-les-risques
           title: >-
-            ?
+            &Eacute;valuation et Réduction
           content: >-
-            Traiter et gérer les risques.
-        - id: defense-en-profondeur
-          title: >-
-            ?
-          content: >-
-            Mettre en œuvre des stratégies de défense en profondeur.
+            <p>L’évaluation des risques repose sur l’élaboration d’échelles pertinentes et non ambigües concernant la vraisemblance des événements, l’exposition des enjeux, la détectabilité des dérives et initiation du risque, la gravité multidimensionnelle (technique, économique, financière, sécurité, environnementale). Cette approche permet <strong>de traiter tous les risques, même ceux dont les causes ou les mécanismes de développement sont inconnus</strong>.</p><p>La réduction des risques repose sur un plan d’action toujours corrélé à la vraisemblance, l’exposition, la détectabilité, la gravité vs dimension majorante, plan d’action reposant sur une stratégie de défense en profondeur. <strong>Cette méthode</strong> évite d’assimiler la réduction du risque au nombre d’actions décidées mais <strong>apporte une réponse pertinente, vérifiable, mesurable de la maîtrise des risques</strong>.</p><p>Le plan d’action est de plus confronté au résultat d’imputabilité technique, humaine, organisationnelle ou externe de la cause du risque et <strong>induit le plan d’action requis</strong>.</p>
         - id: recherche-et-developpement
           title: >-
-            ?
+            Méthodes d'analyse
           content: >-
-            Développer des méthodes structurées de maîtrise des micro ou méso risques (AMDEC, APR, ADD, ADC, …).
+            Les méthodes déployées sont du type :<ul><li>AMDEC</li><li>APR</li><li>ADC</li><li>SADT</li><li>HAZOP</li><li>HACCP</li></ul>
   maintenance:
     en:
       id: maintenance
@@ -482,28 +489,23 @@ yang:
       title: >-
         MAINTENANCE
       quote: >-
-        Développer la fonction en tant que levier de rentabilité de l’entreprise)
+        Développer la fonction en tant que levier de rentabilité de l’entreprise
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
-        - id: politique-de-maintenance
+        - id: optimisation-technico-economique
           title: >-
-            ?
+            Optimisation technico-économique
           content: >-
-            Définition de stratégies et de politiques de maintenance.
-        - id: audit-de-la-fonction-maintenance
+            <p>L’optimisation entre préventif et correctif se fonde sur cinq critères principaux, dont le taux d’engagement des équipements et les contraintes liées au secteur d’activité. Au final, il s’agit d’élaborer un compromis statistique entre coûts directs et coûts indirects des défaillances.</p><p><strong>La démarche d’optimisation conduit inévitablement à une disponibilité supérieure pour un coût direct plus faible. Typiquement passer de 85 à 98% de disponibilité, réduire les coûts de 30%</strong>.</p>
+        - id: reduction-des-couts
           title: >-
-            ?
+            Réduction des coûts directs et indirects
           content: >-
-            Audit de maturité et performance de la fonction Maintenance interne ou externe (SAV).
-        - id: diminuer-les-couts
+            <p>Le pilier de cette approche est la qualité du diagnostic soit de défaillance, soit de dérive dans une démarche de maintenance conditionnelle. Le pendant pour la maîtrise et la réduction des coûts indirects est majoritairement affaire d’organisation.</p><p>Cette analyse se traduit par des modalités d’organisation apportant une <strong>confiance accrue dans la relation de la maintenance à son client principal qu’est l’exploitant des systèmes</strong> (typiquement la production) en <strong>s’engageant sur des résultats</strong>.</p>
+        - id: strategie-et-politique
           title: >-
-            ?
+            Stratégie et politique
           content: >-
-            Réduction des coûts directs et indirects, optimisation préventif/correctif / stock rechanges.
-        - id: resoudre-les-defaillances
-          title: >-
-            ?
-          content: >-
-            Analyse et résolution de défaillances complexes / aléatoires / fugitives / critiques.
+            <p>Globalement la stratégie de la maintenance est la déclinaison des objectifs stratégiques de l’entreprise en objectifs opérationnels de cette fonction, en termes de budget, de coûts indirects, de disponibilité et productivité des systèmes, etc. Il s’agit donc de savoir où l’on souhaite aller en termes de résultats et d’allouer les ressources requises pour leur atteinte.</p><p>La politique de maintenance établit elle un consensus entre des objectifs contradictoires avec ceux des autres fonctions de l’entreprise, et la politique définit qui fait quoi (sous-traitance ou non, correctif pur sur certains systèmes, etc.).</p><p>Ces deux dimensions formalisées sont des préalables à la <strong>performance industrielle et une relation apaisée entre production et maintenance</strong>.</p>
