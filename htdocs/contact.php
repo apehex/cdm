@@ -41,7 +41,7 @@ function has_required_data($request) {
             !empty($request['name'])
             && !empty($request['email'])
             && !empty($request['message'])
-            && !empty($request['token']))   
+            && !empty($request['token']))
     );
 }
 
