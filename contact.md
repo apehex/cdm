@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: contact
 permalink: /contact.php
+subject: Demande de contact
 ---
-{% include contact_server_script.php subject="Demande de contact" %}
