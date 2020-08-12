@@ -8,7 +8,7 @@ state: Yonne
 zip_code: 89110
 country: France
 phone: (33) 633-695-568
-email: contact@c-dm.fr
+email: contact@c-dm.com
 
 # Social settings
 github:
@@ -30,8 +30,8 @@ privacy_policy:
 
 # Recaptcha in forms
 recaptcha:
-  sitekey: 6LfMnsgUAAAAAHVZt3lPn_Y5siUXGOBaTQ3cRoZ0
-  secretkey: 6LfMnsgUAAAAAAkLz37gvsJ2lpELPfi9WhS04HoT
+  sitekey: 6Ld2ZLsZAAAAAGdQkEYtUWZXMlH9RKUOdbu0IP7n
+  secretkey: 6Ld2ZLsZAAAAAKfLK2V_rA5ZiUVvCSGzG8uDP-eZ
 
 # Collections
 collections:
@@ -104,7 +104,7 @@ sass:
 
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://moodule.github.io/cdm" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://c-dm.com" # the base hostname & protocol for your site, e.g. http://example.com
 author: apehex
 copyright:
   holder: 2018-2020 CDM
