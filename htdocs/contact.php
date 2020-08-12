@@ -22,10 +22,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $ip = $_SERVER['REMOTE_ADDR'];
         }
 
-        if is_recaptcha_valid($token) {
+        if (is_recaptcha_valid($token)) {
             send_mail($name, $email, $message);
         } else {
-            send_mail($name, $email, "Got a fishy request from ".$ip)
+            send_mail($name, $email, "Got a fishy request from ".$ip);
         }
     }
 }
@@ -41,7 +41,7 @@ function has_required_data($request) {
             !empty($request['name'])
             && !empty($request['email'])
             && !empty($request['message'])
-            && !empty($request['token']))
+            && !empty($request['token']))   
     );
 }
 
