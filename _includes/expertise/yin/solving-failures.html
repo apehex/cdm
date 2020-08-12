@@ -1,8 +1,0 @@
-{%- assign data = site.data.expertise.yin.solving-failures[page.lang] -%}
-<section id="{{ data.id }}" class="{{ include.class | default: nil }}">
-    <header class="major">
-        <h2>{{ data.title }}</h2>
-    </header>
-    <blockquote>{{ data.quote }}</blockquote>
-    {% include tabs.html id=data.id orientation=data.orientation headers-width=data.headers-width show-title="false" tabs=data.tabs %}
-</section>
