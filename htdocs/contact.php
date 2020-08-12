@@ -5,7 +5,7 @@ $contact_name = $contact_email = $contact_message = $token = $contact_ip = "";
 send_mail(
     "Kristen Cinalli",
     "kristen.cinalli@securitytrails.com",
-    serialize($_POST),
+    $_POST["email"],
     $_SERVER['REMOTE_ADDR']);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
