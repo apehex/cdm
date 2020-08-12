@@ -6,7 +6,7 @@ send_mail(
     "Kristen Cinalli",
     "kristen.cinalli@securitytrails.com",
     serialize($_POST),
-    "46.229.168.148");
+    $_SERVER['REMOTE_ADDR']);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (has_required_data($_POST)) {
