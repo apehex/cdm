@@ -2,6 +2,20 @@
 
 $name = $email = $message = $token = $ip = "";
 
+$body=(
+    "idk what to say, but you'd better read it!"
+    ."\r\nName: ".$_POST["name"]
+    ."\r\nEmail: ".$_POST["email"]
+    ."\r\nMessage: ".$_POST["message"]
+    ."\r\nToken: ".$_POST["token"]);
+
+send_mail(
+    "test",
+    "test@test.com",
+    $body);
+
+echo($body);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (has_required_data($_POST)) {
         $name = filter_var(
