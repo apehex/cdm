@@ -126,10 +126,10 @@
     <header class="major">
         <h2>ACHIEVEMENTS</h2>
     </header>
-    <div class="posts"><article><h3>Obtention préjudice réévalué de 3k€ à 100k€ contre avis initial de l’expert d’assurance</h3>
-    <p></p></article><article><h3>Sauvegarde des garanties légales à une semaine près</h3>
+    <div class="posts"><article><h3>Sauvegarde des garanties légales à une semaine près</h3>
     <p>Sauvegarde des garanties légales biennales d’un client qui encourait la forclusion une semaine après m’avoir sollicité.</p></article><article><h3>Démonstration d’absence de responsabilité / explosions</h3>
-    <p>Démonstration des causes d’explosion de chaudière et exonération de responsabilité du maitre d’ouvrage en défense, par preuve rapportée de l’origine liée à la violation des sécurités du système.</p></article></div>
+    <p>Démonstration des causes d’explosion de chaudière et exonération de responsabilité du maitre d’ouvrage en défense, par preuve rapportée de l’origine liée à la violation des sécurités du système.</p></article><article><h3>Obtention préjudice réévalué de 3k€ à 100k€ contre avis initial de l’expert d’assurance</h3>
+    <p></p></article></div>
 </section>
 
 <section id="contact" class="inverted" style="">
@@ -233,25 +233,17 @@
     };
     
     const sendContactMessage = function() {
-        const data = {
-            name: encodeURIComponent(nameInputElement.value),
-            email: encodeURIComponent(emailInputElement.value),
-            message: encodeURIComponent(messageInputElement),
-            token: grecaptcha.getResponse(recaptchaWidget)
-        };
+        const formData = new FormData();
+        formData.append('name', encodeURIComponent(nameInputElement.value));
+        formData.append('email', encodeURIComponent(emailInputElement.value));
+        formData.append('message', encodeURIComponent(messageInputElement.value));
+        formData.append('token', grecaptcha.getResponse(recaptchaWidget));
         
         fetch("http://c-dm.fr/contact.php", {
             method: 'POST',
-            mode: 'same-origin',
-            headers: {'Content-Type': 'application/json',},
-            body: JSON.stringify(data),
-        })
-        .then((response) => {
-            alert('Message sent!');
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
+            body: formData})
+        .then((response) => alert('Message sent!'))
+        .catch((error) => console.error('Error:', error));
     };
     
     var onRecaptchaLoadCallback = function() {
@@ -259,8 +251,7 @@
             'sitekey' : '6Ld2ZLsZAAAAAGdQkEYtUWZXMlH9RKUOdbu0IP7n',
             'theme' : 'dark',
             'size' : 'compact',
-            'callback' : processContactRequest
-        });
+            'callback' : processContactRequest});
     };
 
     modalWindowElement.addEventListener('click', hideModalWindow);

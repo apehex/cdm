@@ -504,25 +504,17 @@
     };
     
     const sendContactMessage = function() {
-        const data = {
-            name: encodeURIComponent(nameInputElement.value),
-            email: encodeURIComponent(emailInputElement.value),
-            message: encodeURIComponent(messageInputElement),
-            token: grecaptcha.getResponse(recaptchaWidget)
-        };
+        const formData = new FormData();
+        formData.append('name', encodeURIComponent(nameInputElement.value));
+        formData.append('email', encodeURIComponent(emailInputElement.value));
+        formData.append('message', encodeURIComponent(messageInputElement.value));
+        formData.append('token', grecaptcha.getResponse(recaptchaWidget));
         
         fetch("http://c-dm.fr/contact.php", {
             method: 'POST',
-            mode: 'same-origin',
-            headers: {'Content-Type': 'application/json',},
-            body: JSON.stringify(data),
-        })
-        .then((response) => {
-            alert('Message sent!');
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
+            body: formData})
+        .then((response) => alert('Message sent!'))
+        .catch((error) => console.error('Error:', error));
     };
     
     var onRecaptchaLoadCallback = function() {
@@ -530,8 +522,7 @@
             'sitekey' : '6Ld2ZLsZAAAAAGdQkEYtUWZXMlH9RKUOdbu0IP7n',
             'theme' : 'dark',
             'size' : 'compact',
-            'callback' : processContactRequest
-        });
+            'callback' : processContactRequest});
     };
 
     modalWindowElement.addEventListener('click', hideModalWindow);

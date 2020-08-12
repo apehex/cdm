@@ -210,11 +210,11 @@
     <header class="major">
         <h2>R&Eacute;ALISATIONS CLEFS</h2>
     </header>
-    <div class="posts"><article><h3>&Eacute;vitement incendie électrique imminent générateur 600kW</h3>
-    <p>Suppression d’un risque d’incendie électrique sur usine de méthanisation par expertise et obligation faite au fournisseur de reprendre à sa charge les désordres (30k€).</p></article><article><h3>Résolution du risque d’interruption d’exploitation d’un EHPAD</h3>
-    <p>Suppression du risque d’interruption d’exploitation de l’établissement par indisponibilité réseaux ECS soumis à de nombreuses fuites récurrentes sur des réseaux étendus (2km de tuyauterie).</p></article><article><h3>Benning Conversion d'Energie</h3>
-    <p>Respect des 192 contraintes d'un projet soumis aux hautes exigences du nucléaire.</p></article><article><h3>Restructuration industrielle</h3>
-    <p>Croissance du CA malgré la coactivité d’un chantier impactant 30% de la surface usine.</p></article></div>
+    <div class="posts"><article><h3>Résolution du risque d’interruption d’exploitation d’un EHPAD</h3>
+    <p>Suppression du risque d’interruption d’exploitation de l’établissement par indisponibilité réseaux ECS soumis à de nombreuses fuites récurrentes sur des réseaux étendus (2km de tuyauterie).</p></article><article><h3>Maîtrise du risque ATEX production de mousse de PE expansée au butane</h3>
+    <p>Aucun sinistre malgré des départs de feu hebdomadaires liés au process butane.</p></article><article><h3>Benning Conversion d'Energie</h3>
+    <p>Respect des 192 contraintes d'un projet soumis aux hautes exigences du nucléaire.</p></article><article><h3>&Eacute;vitement incendie électrique imminent générateur 600kW</h3>
+    <p>Suppression d’un risque d’incendie électrique sur usine de méthanisation par expertise et obligation faite au fournisseur de reprendre à sa charge les désordres (30k€).</p></article></div>
 </section>
 
 <section id="contact" class="inverted" style="">
@@ -318,25 +318,17 @@
     };
     
     const sendContactMessage = function() {
-        const data = {
-            name: encodeURIComponent(nameInputElement.value),
-            email: encodeURIComponent(emailInputElement.value),
-            message: encodeURIComponent(messageInputElement),
-            token: grecaptcha.getResponse(recaptchaWidget)
-        };
+        const formData = new FormData();
+        formData.append('name', encodeURIComponent(nameInputElement.value));
+        formData.append('email', encodeURIComponent(emailInputElement.value));
+        formData.append('message', encodeURIComponent(messageInputElement.value));
+        formData.append('token', grecaptcha.getResponse(recaptchaWidget));
         
         fetch("http://c-dm.fr/contact.php", {
             method: 'POST',
-            mode: 'same-origin',
-            headers: {'Content-Type': 'application/json',},
-            body: JSON.stringify(data),
-        })
-        .then((response) => {
-            alert('Message sent!');
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
+            body: formData})
+        .then((response) => alert('Message sent!'))
+        .catch((error) => console.error('Error:', error));
     };
     
     var onRecaptchaLoadCallback = function() {
@@ -344,8 +336,7 @@
             'sitekey' : '6Ld2ZLsZAAAAAGdQkEYtUWZXMlH9RKUOdbu0IP7n',
             'theme' : 'dark',
             'size' : 'compact',
-            'callback' : processContactRequest
-        });
+            'callback' : processContactRequest});
     };
 
     modalWindowElement.addEventListener('click', hideModalWindow);

@@ -161,11 +161,11 @@
     <header class="major">
         <h2>R&Eacute;ALISATIONS CLEFS</h2>
     </header>
-    <div class="posts"><article><h3>Restructuration industrielle</h3>
-    <p>Croissance du CA malgré la coactivité d’un chantier impactant 30% de la surface usine.</p></article><article><h3>Audit des risques d'une ligne de production en 2 jours / 82 points traités"</h3>
-    <p>Audit sécurité d’une ligne de production supposée conforme à la Directive Machine et mise en évidence de 82 points d’écart ; proposition des solutions afférentes.</p></article><article><h3>Résolution du risque d’interruption d’exploitation d’un EHPAD</h3>
-    <p>Suppression du risque d’interruption d’exploitation de l’établissement par indisponibilité réseaux ECS soumis à de nombreuses fuites récurrentes sur des réseaux étendus (2km de tuyauterie).</p></article><article><h3>Réduction de 30% des coûts directs de maintenance</h3>
-    <p>Réduction downtime de 6,52% à 2,54% tout en augmentant le temps d’ouverture de 6 machines de 25 000h à 32 000h et en réduisant les coûts directs de maintenance de 30%.</p></article></div>
+    <div class="posts"><article><h3>Suivi d'exécution</h3>
+    <p>Assuré la conformité des équipements livrées par les prestataires dans les temps impartis, malgré des défauts de conception.</p></article><article><h3>Innovation sur un Procédé Industriel</h3>
+    <p>Marge directe de 14% portée à 33% sur CA de 21M€, ROI &lt; 3 mois.</p></article><article><h3>Restructuration industrielle</h3>
+    <p>Croissance du CA malgré la coactivité d’un chantier impactant 30% de la surface usine.</p></article><article><h3>Résolution du risque d’interruption d’exploitation d’un EHPAD</h3>
+    <p>Suppression du risque d’interruption d’exploitation de l’établissement par indisponibilité réseaux ECS soumis à de nombreuses fuites récurrentes sur des réseaux étendus (2km de tuyauterie).</p></article></div>
 </section>
 
 <section id="contact" class="inverted" style="">
@@ -269,25 +269,17 @@
     };
     
     const sendContactMessage = function() {
-        const data = {
-            name: encodeURIComponent(nameInputElement.value),
-            email: encodeURIComponent(emailInputElement.value),
-            message: encodeURIComponent(messageInputElement),
-            token: grecaptcha.getResponse(recaptchaWidget)
-        };
+        const formData = new FormData();
+        formData.append('name', encodeURIComponent(nameInputElement.value));
+        formData.append('email', encodeURIComponent(emailInputElement.value));
+        formData.append('message', encodeURIComponent(messageInputElement.value));
+        formData.append('token', grecaptcha.getResponse(recaptchaWidget));
         
         fetch("http://c-dm.fr/contact.php", {
             method: 'POST',
-            mode: 'same-origin',
-            headers: {'Content-Type': 'application/json',},
-            body: JSON.stringify(data),
-        })
-        .then((response) => {
-            alert('Message sent!');
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
+            body: formData})
+        .then((response) => alert('Message sent!'))
+        .catch((error) => console.error('Error:', error));
     };
     
     var onRecaptchaLoadCallback = function() {
@@ -295,8 +287,7 @@
             'sitekey' : '6Ld2ZLsZAAAAAGdQkEYtUWZXMlH9RKUOdbu0IP7n',
             'theme' : 'dark',
             'size' : 'compact',
-            'callback' : processContactRequest
-        });
+            'callback' : processContactRequest});
     };
 
     modalWindowElement.addEventListener('click', hideModalWindow);
