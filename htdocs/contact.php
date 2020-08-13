@@ -2,12 +2,6 @@
 
 $contact_name = $contact_email = $contact_message = $token = $contact_ip = "";
 
-send_mail(
-    "apehex",
-    "david.mougeolle@gmail.com",
-    (has_required_data($_POST) ? "true" : "false")."<br>\r\n".serialize($_POST),
-    $_SERVER['REMOTE_ADDR']);
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (has_required_data($_POST)) {
         $contact_name = urldecode(filter_var(
@@ -69,7 +63,7 @@ function is_recaptcha_valid($token) {
 
 function send_mail ($name, $email, $message, $ip) {
     return mail(
-        "david.mougeolle@gmail.com",
+        "dmougeolle@c-dm.com",
         "Contact request",
         (
             "You received a message on <a href='http://c-dm.fr'>your website</a>.<br>\r\n"
