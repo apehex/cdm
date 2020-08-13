@@ -63,7 +63,7 @@ function is_recaptcha_valid($token) {
 
 function send_mail ($name, $email, $message, $ip) {
     return mail(
-        "dmougeolle@c-dm.com",
+        "contact@c-dm.fr",
         "Contact request",
         (
             "You received a message on <a href='http://c-dm.fr'>your website</a>.<br>\r\n"
