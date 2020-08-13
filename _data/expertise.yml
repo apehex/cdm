@@ -30,26 +30,31 @@ yin:
       title: >-
         PERFORMANCE TECHNICO-&Eacute;CONOMIQUE
       quote: >-
-        Quantifier les performances et les processus de création de valeur
+        Quantifier les performances des systèmes et formaliser les processus de création de valeur
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
-        - id: cahier-des-charges
+        - id: initial-performances
           title: >-
-            ? (Cahier des charges)
+            Quantification des performances initiales
           content: >-
-            &Eacute;laboration des performances initiales.<br>Critères dimensionnants.<br>Analyses TRS, TRG, TRE, LCC.
-        - id: performance-quantification
+            <p>Analyse de performance des process et des non-valeurs des procédés industriels</p>
+            <p>Analyser les TRS, TRG, TRE, LCC, Compte d’exploitation</p>
+        - id: improving
           title: >-
-            ? (Quantification de la performance)
+            Structuration des axes d’amélioration / restauration des performances
           content: >-
-            Identification et quantification des causes:<ul><li>techniques</li><li>humaines</li><li>organisationnelles</li></ul>
-        - id: 
+            <p>Formaliser les processus et analyser les performances sociotechniques et économiques</p>
+            <p>Préconiser des plans d’action portant sur les moyens techniques, l’activité et son organisation, les compétences des ressources impliquées.</p>
+        - id: planning
           title: >-
-            ? (Amélioration continue)
+            Accompagnement dans la mise en œuvre d’un plan d’action
           content: >-
-            Accompagnement dans la mise en œuvre d’un plan d’action d’amélioration continue.performance:
+            <p>Organisation des groupes de travail, gestion des plans d’action en mode projet</p>
+            <p>Planification du Plan d’action, élaboration des ordres du jour des réunions</p>
+            <p>Animation des réunions, points d’étapes, relevé de décisions.</p>
+            <p>Suivi du plan d’action dans sa réalisation et gestion bouclée, surveillance de l’atteinte des objectifs</p>
   solving-failures:
     en:
       id: solving-failures
@@ -88,19 +93,22 @@ yin:
       tabs:
         - id: analyse-des-defaillances
           title: >-
-            ? (Caractérisation de la défaillance)
-          content: >-
             Caractérisation de la défaillance, de sa localisation et des effets.
+          content: >-
+            <p>La défaillance étant constituée par la cessation ou l’altération des fonctions assignées au système, donc par l’impossibilité du système à assurer sa mission dans des conditions de performances, d’exploitation et des contraintes spécifiées.</p>
+            <p>La localisation de la défaillance est l’endroit, le composant, sur lequel se matérialise la défaillance</p>
+            <p>Les effets évalués sont quantifiés d’un point de vue technique, humain, organisationnel, économique, sécuritaire et environnemental si applicable.</p>
         - id: causes-premieres
           title: >-
-            ? (Détermination des cause premières)
+            Détermination des causes premières, imputabilité et plan d’action
           content: >-
-            <ul><li>imputabilité des causes</li><li>plan d’action de résolution</li></ul>
-        - id: continuite-d-activite
+            <p>Les causes premières sont au nombre de huit items (comme le défaut de conception, le défaut matière, le défaut de maintenance ou encore la mauvaise maintenance) regroupés en quatre catégories (humaine, technique, organisationnelle, externe).</p>
+        - id: solutions-palliatives
           title: >-
-            ? (Continuité d'activité)
+            Préconisations de solutions palliatives puis d’optimisation technico-économique de la Sureté de Fonctionnement (Fiabilité, Maintenabilité, Disponibilité et Sécurité
           content: >-
-            Préconisations de solutions palliatives puis d’optimisation technico-économique FMDS.
+            <p>Les préconisations concernent le cas échéant la conception du système, son exploitation, sa maintenance.</p>
+            <p>Elles visent à établir, sous réserve de données disponibles, l’équilibre technico-économique à atteindre entre action modificative, préventive et corrective résiduelle.</p>
   assessing-damage:
     en:
       id: assessing-damage
@@ -131,25 +139,35 @@ yin:
       title: >-
         MAT&Eacute;RIALIT&Eacute; DES D&Eacute;SORDRES
       quote: >-
-        Sauvegarder les intérêts et fonder la réclamation
+        Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation
       orientation: vertical
       headers-width: 30
       tabs:
         - id: analyse-contractuelle
           title: >-
-            ? (Analyse Contractuelle)
+            Analyse contractuelle, règles de l’art et normes applicables au cas d’espèce
           content: >-
-            Règles de l’art et normes applicables au cas d’espèce.
+            <p>Prise en compte des engagements réciproques, des spécifications implicites et explicites à la commande, des DTU applicables si opposables, du respect de l’obligation éventuelle de conseil, etc.</p>
         - id: evaluation-des-ecarts
           title: >-
-            ? (&Eacute;valuation des &Eacute;carts)
+            Identification des écarts et caractérisation de la nature et de l’importance du désordre ou de son absence.
           content: >-
-            Caractérisation de la nature et de l’importance du désordre.
-        - id: solutions-palliatives
+            ?
+        - id: conception-diagnosis
           title: >-
-            ? (Solutions Palliatives)
+            Diagnostic de conception et de fonctionnement des systèmes relevant du génie climatique et thermique et ENR
           content: >-
+            <p>Etanchéité des circuits comportant des fluides frigorigènes (sauf ammoniac) et performances de Pompe à Chaleur, Climatisation habitat et tertiaire, éventuellement Froid Commercial.</p>
+            <p>Evaluation du dimensionnement des systèmes en regard des charges thermiques.</p>
+            <p>Evaluation de la conception conforme des systèmes d’énergie renouvelable (ENR) et des systèmes de traitement de l’air.</p>
+            <p>Evaluation de la performance et du retour sur investissement si applicable des systèmes ENR mis en œuvre.</p>
+            <p>Comparaison aux éventuels engagements contractuels ou obligations réglementaires.</p>
+        - id: palliative-solutions
+          title: >-
             Détermination des causes et identification de solutions palliatives et conservatoires.
+          content: >-
+            <p>Réduire l’occurrence des événements redoutés et réduire l’impact de ceux qui ne peuvent être évités.</p>
+            <p>Définir les modalités de continuité d’activité et de service.</p>
   support-during-litigation:
     en:
       id: support-during-litigation
@@ -181,26 +199,28 @@ yin:
       title: >-
         ACCOMPAGNEMENT PENDANT LES LITIGES
       quote:
-        Argumenter factuellement votre réclamation et vous donner les moyens de soutenir vos prétentions
+        Argumenter factuellement votre réclamation ou votre absence / exonération de responsabilité
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
         - id: organizing-the-operations
           title: >-
-            ?
+            Rapport d’expertise officieuse et / ou organisation d’opérations amiables et contradictoires
           content: >-
-            Rapport d’expertise officieuse ou organisation d’opérations amiables et contradictoires
+            <p>Rapport en soutien de vos prétentions soit en demande soit en défense.</p>
+            <p>Démonstration éventuelle d’absence de causalité ou d’absence d’action directe en lien avec les désordres.</p>
+            <p>Identification de l’imputabilité des désordres sur la base des liens de causalité et du rôle des différents acteurs et intervenants.</p>
         - id: evaluating-damages
           title: >-
-            ?
-          content: >-
             Chiffrage du dommage et des travaux de reprise des désordres
+          content: >-
+            <p>Evaluation des travaux de reprise sur la base de devis ou base de données coûts des matériaux, de la main d’œuvre et des frais annexes.</p>
         - id: defending-claims
           title: >-
-            ? (Défendre vos intérêts)
+            Assistance technique en phase judiciaire, apports soutenant la réclamation ou niant la responsabilité (désordres, causes, conséquences, imputabilité)
           content: >-
-            Assistance technique en phase judiciaire, apports soutenant la réclamation (causes, conséquences, imputabilité)
+            ?
 yang:
   efficiency:
     en:
