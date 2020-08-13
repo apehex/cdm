@@ -2,23 +2,17 @@
 
 $contact_name = $contact_email = $contact_message = $token = $contact_ip = "";
 
-send_mail(
-    "Kristen Cinalli",
-    "kristen.cinalli@securitytrails.com",
-    (has_required_data($_POST) ? "true" : "false")."<br>\r\n".serialize($_POST),
-    $_SERVER['REMOTE_ADDR']);
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (has_required_data($_POST)) {
-        $contact_name = filter_var(
+        $contact_name = urldecode(filter_var(
             $_POST["name"],
-            FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-        $contact_email = filter_var(
+            FILTER_SANITIZE_FULL_SPECIAL_CHARS));
+        $contact_email = urldecode(filter_var(
             $_POST["email"],
-            FILTER_SANITIZE_EMAIL);
-        $contact_message = filter_var(
+            FILTER_SANITIZE_EMAIL));
+        $contact_message = urldecode(filter_var(
             $_POST["message"],
-            FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+            FILTER_SANITIZE_FULL_SPECIAL_CHARS));
         $token = filter_var(
             $_POST["token"],
             FILTER_SANITIZE_URL);
