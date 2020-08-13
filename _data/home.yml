@@ -233,7 +233,7 @@ yang:
           icon: >-
             solid fa-industry
           title: >-
-            A Manufacturer
+            Un Industriel
           content: >-
             <ul><li>Génie thermique</li><li>Transformations des:<ul><li>Cartons</li><li>Plastiques</li><li>Métaux</li></ul></li></ul>
         - class: >-

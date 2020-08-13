@@ -35,21 +35,31 @@ yang:
       headers-width: 30
       show-title: false
       tabs:
-        - id: evaluation-du-projet
+        - id: expression-du-besoin
           title: >-
-            ?
+            Expresssion du besoin
           content: >-
-            Expression du besoin, évaluation de la faisabilité et de la rentabilité.
+            <p>Vous souhaitez clarifier vos besoins, exprimer vos objectifs et décrire votre contexte.</p>
+            <p>Vous vous posez la question de savoir quelles informations communiquer pour exprimer votre besoin sans pour autant dévoiler des informations sensibles sur votre activité.</p>
+        - id: evaluation-de-la-faisabilite
+          title: >-
+            &Eacute;valuation de la faisabilité et rentabilité
+          content: >-
+            <p>Vous voulez évaluer la relation entre coût d’un projet et sa profitabilité en regard des caractéristiques d’un marché identifié et de celles de votre structure de coûts internes.</p>
+            <p>Vous voulez cerner les options technologiques fonction des contraintes et de l’environnement technico-économique du projet, incluant par exemple la maîtrise des procédés, les temps opératoires, la fiabilité prévisionnelle, etc.</p>
+            <p>Vous souhaitez savoir quelle sera la rentabilité du système projeté fonction des technologies choisies, du niveau d’automatisation en regard des ressources d’exploitation, etc. par une approche de coûts complets sur la durée de vie du système (Life Cycle Cost) intégrés dans un compte d’exploitation.</p>
+            <p>Vous avez besoin d’évaluer le budget prévisionnel incluant la gestion des risques du projet.</p>
         - id: structuration-du-projet
           title: >-
-            ?
+            Structuration du projet
           content: >-
-            Structuration du projet.
-        - id: choisir-les-bons-prestataires
+            <p>Vous souhaitez un fil conducteur de suivi et pilotage du projet pour en maîtriser ses risques en termes de business, coût, qualité, délai, sécurité.</p>
+            <p>Vous souhaitez évaluer le chemin critique (durée prévisionnelle incompressible), organiser les phases, étapes et jalons, définir comment réceptionner l’ensemble (vérifier que le système, bien ou service délivré est conforme à vos attentes).</p>
+        - id: choix-des-prestataires
           title: >-
-            ?
+            Identification et choix des prestataires internes ou externes
           content: >-
-            Identification et choix des prestataires internes et externes.
+            <p>Vous avez besoin de hiérarchiser les attentes techniques, économiques, humaines pour élaborer une grille de lecture des offres de fournitures, prestations et services liées à votre projet et fixer des règles décisionnelles claires.</p>
   deployment:
     en:
       id: deployment
@@ -81,26 +91,32 @@ yang:
       title: >-
         D&Eacute;PLOIEMENT
       quote: >-
-        &Ecirc;tre aidé dans la mise en œuvre des décisions)
+        &Ecirc;tre aidé dans la mise en œuvre des décisions
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
-        - id: organization
+        - id: definir-l-equipe
           title: >-
-            ?
+            Définir l'équipe projet
           content: >-
-            Qui fait quoi, qui sont les contributeurs.
-        - id: launch
+            <p>Vous voulez clarifier qui est contributeur, acteur, responsable des actions et quelles sont les compétences requises pour gérer votre projet</p>
+            <p>Vous voulez organiser les modalités de prise de décisions liées au suivi, modification, correction des écarts, validation des jalons de votre projet.</p>
+        - id: lancer-le-projet
           title: >-
-            ?
+            Lancer le projet
           content: >-
-            Lancement et gestion du projet.
-        - id: equipment-acquisition
+            <p>Vous avez besoin d’organiser une revue de lancement et de communication autour de l’équipe, des rôles, du planning, des objectifs.</p>
+        - id: gestion-du-projet
           title: >-
-            ?
+            Gestion du projet
           content: >-
-            Fabrication, acquisition, installation des équipements.
+            <p>Vous souhaitez un regard extérieur ou être assisté dans le suivi des coûts, délais, avancement, budget, écarts et correction.</p>
+        - id: equipements
+          title: >-
+            Fabrication, acquisition, installation des équipements
+          content: >-
+            <p>Vous souhaitez être assisté dans le suivi du chantier, l’état d’avancement de la fabrication des systèmes achetés, l’implantation ou la mise en service des équipements, les essais de recette.</p>
   reception:
     en:
       id: reception
@@ -132,26 +148,31 @@ yang:
       title: >-
         R&Eacute;CEPTION
       quote: >-
-        Vérifier l’adaptation aux besoins et la conformité à votre commande)
+        Vérifier l’adaptation aux besoins et la conformité à votre commande
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
-        - id: parametrage
+        - id: mise-en-service
           title: >-
-            ?
+            Paramétrage, mise en service
           content: >-
-            Paramétrages, mise sous tension
+            <p>Vous savez l’importance d’acquérir la connaissance initiale du système pour transfert de compétence ultérieur à vos équipes ou encore saisie et sauvegarde des configurations et paramétrages initiaux.</p>
+        - id: mise-en-exploitation
+          title: >-
+            Mise en exploitation et suivi
+          content: >-
+            <p>Vous voulez figez les bonnes pratiques, élaborer des procédures opératoires, un guide de conduite, un planning et gammes de maintenance préventive ou corrective.</p>
         - id: essais
           title: >-
-            ?
+            Essais de bon fonctionnement et / ou d’endurance
           content: >-
-            Essais de bon fonctionnement et / ou d’endurance.
-        - id: parfait-achevement
+            <p>Vous voulez que vos équipes s’approprient les nouveaux systèmes dès les phases d’essais, analyse et validation des résultats, ou élaborer un référentiel de bon fonctionnement à l’état neuf.</p>
+        - id: achevement
           title: >-
-            ?
+            Parfait achèvement
           content: >-
-            Parfait achèvement.
+            <p>Vous voulez structurer un suivi des écarts à la livraison et pilotage des plans d’action de résolution des écarts et / ou non conformités contractuelles des systèmes, biens ou services délivrés.</p>
   operation:
     en:
       id: operation
@@ -190,19 +211,24 @@ yang:
       tabs:
         - id: performance-drift
           title: >-
-            ?
+            Constat de dérive de performances
           content: >-
-            Constat de dérive de performances.
+            <p>Vous suspectez une dérive de performance et voulez quantifier et mesurer les écarts, ou établir un référentiel initial de bon fonctionnement.</p>
         - id: failures
           title: >-
-            ?
+            Dysfonctionnement chronique ou aléatoire / fugitif
           content: >-
-            Dysfonctionnement chronique ou aléatoire / fugitif.
-        - id: necessity
+            <p>Vous voulez Identifier l’origine et l’importance des dysfonctionnements, et trouver des solutions en termes d’occurrence ou d’impact.</p>
+        - id: need-of-productivity
           title: >-
-            ?
+            Nécessité d’améliorer la productivité
           content: >-
-            Nécessité d’améliorer la productivité ou l’efficience.
+            <p>Améliorer le temps d’ouverture, réduire les temps de changement de série, améliorer la maintenabilité, la fiabilité ou la disponibilité des équipements sont des objectifs de votre organisation.</p>
+        - id: need-of-efficiency
+          title: >-
+            Nécessité d’améliorer l'efficience
+          content: >-
+            <p>Vous recherchez des solutions d’amélioration du TRS (Taux de rendement synthétique), du TRG (Taux de rendement global), ou du TRE (Taux de rendement économique), nécessitant une lecture technique, humaine, organisationnelle, stratégique de votre environnement économique.</p>
 yin:
   under-performance:
     en:
@@ -242,19 +268,19 @@ yin:
       tabs:
         - id: derive-de-performance
           title: >-
-            ?
+            Quantification de la dérive et impact technico-économique
           content: >-
-            Quantification de la dérive et impact technico-économique.
+            <p>Vous suspectez une dérive et vous souhaitez savoir ce qu’elle vous coûte directement (manque de productivité, perte matière, surconsommation d’énergie, micro-défaillances, etc.) ou indirectement (sous activité, perte de chiffre d’affaire, pénalité de retard, coûts d’immobilisation, rebus etc.)</p>
         - id: appliquer-les-normes
           title: >-
-            ?
+            Identification des écarts aux standards
           content: >-
-            Identification des écarts aux standards.
+            <p>Vous avez besoin de calibrer vos procédures et modes opératoires pour connaître la capacité théorique ou les performances initiales de vos systèmes sociotechniques en exploitation et les comparez aux résultats atteints.</p>
         - id: expliquer-la-derive
           title: >-
-            ?
+            Identification des causes et recherche de solutions
           content: >-
-            Identification des causes et recherche d’améliorations.
+            <p>Vous avez besoin d’identifier les causes techniques, humaines ou organisationnelles de sous performance et définir un plan d’action correctif ou amélioratif.</p>
   equipment-failure:
     en:
       id: equipment-failure
@@ -293,19 +319,24 @@ yin:
       tabs:
         - id: arret
           title: >-
-            ?
+            Système à l’arrêt
           content: >-
-            Système à l’arrêt ou en mode dégradé.
+            <p>Vous ne parvenez pas à redémarrer votre équipement et n’avez pas de solution avec vos interlocuteurs habituels.</p>
         - id: causes
           title: >-
-            ?
+            Système en mode dégradé, résolution temporaire des effets
           content: >-
-            Recherche des causes premières et de solutions.
+            <p>Vous recherchez le moyen de restaurer en situation initiale (tel que construit) votre équipement ou fiabiliser un fonctionnement en mode dégradé jusque possibilité de réparation.</p>
+        - id: causes
+          title: >-
+            Recherche des causes premières et résolution de celles-ci
+          content: >-
+            <p>Vous voulez solutionner durablement des défaillances répétitives en résolvant les causes plutôt qu’en remédiant aux effets.</p>
         - id: impact
           title: >-
-            ?
+            Chiffrer l’impact technique, humain, financier et économique
           content: >-
-            Quel est l’impact technique, financier et économique actuel et futur ?
+            <p>Vous souhaitez chiffrer les coûts complets directs et indirects de vos défaillances pour les réduire en redéfinissant votre stratégie et votre politique de maintenance</p>
   disorder:
     en:
       id: disorder
@@ -344,19 +375,19 @@ yin:
       tabs:
         - id: qualifying
           title: >-
-            ?
+            Comment caractériser le désordre
           content: >-
-            Comment caractériser le désordre ?
+            <p>Le désordre est la manifestation du dommage, de l’atteinte à une caractéristique attendue et convenue du système délivré, et pour laquelle la responsabilité d’un acteur, qui se portait garant de l’absence de désordre, dans un temps imparti, est susceptible d’être recherchée. Il faut donc identifier l’écart aux attentes légitimes ou contractuelles, ou normatives, ou réglementaires, et définir qui devait garantir et pendant combien de temps l’absence d’une telle situation.</p>
         - id: impact
           title: >-
-            ?
+            Quel est l’impact technico-économique de la situation
           content: >-
-            Quel est l’impact technico-économique de la situation ?
+            <p>Vous avez besoin de chiffrer les conséquences en termes de délais, coûts directs et indirects, matériels et immatériels d’un désordre identifié.</p>
         - id: mitigating
           title: >-
-            ?
+            Quel moyen pour limiter l’impact et se donner le temps d’agir
           content: >-
-            Quel moyen pour limiter l’impact et se donner le temps d’agir ?
+            <p>Vous recherchez des solutions palliatives et/ou conservatoires pour minimiser l’impact ou empêcher l’aggravation dans le temps de la situation rencontrée.</p>
   litigation:
     en:
       id: litigation
@@ -393,28 +424,33 @@ yin:
       title: >-
         LITIGE
       quote: >-
-        Obtenir réparation amiable ou judiciaire de votre dommage)
+        Obtenir réparation amiable ou judiciaire de votre dommage
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
-        - id: interet
+        - id: interest
           title: >-
-            ?
-          content: >-
             Intérêt et possibilité d’agir ?
-        - id: evaluer-les-dommages
-          title: >-
-            ?
           content: >-
-            Quelle est la réalité et matérialité du litige, quels éléments tangibles ?
-        - id: responsabilites
+            <p>Vous souhaitez savoir si la situation technique identifiée permet et présente un intérêt à agir en mettant en cause votre fournisseur / partenaire dans la délivrance d’un bien ou d’un service technique en regard des engagements contractuels.</p>
+        - id: assessing-damages
           title: >-
-            ?
+            Quelle est la réalité et matérialité du litige ?
+          content: >-
+            <p>Vous avez besoin d’identifier de façon certaine les causes d’un désordre et d’établir un lien de causalité direct entre l’action ou l’inaction d’un tiers ou d’un contractant et le désordre identifié.</p>
+        - id: responsibilities
+          title: >-
+            Quelles sont les causes et à qui sont-elles imputables ?
           content: >-
             Quelles sont les causes et à qui sont-elles imputables ?
+        - id: facts
+          title: >-
+            Quels éléments tangibles de la réclamation ?
+          content: >-
+            <p>Vous avez besoin d’un constat argumenté et documenté photographiquement complété de mesures, relevés, essais, enregistrement du comportement du système incriminé.</p>
         - id: reglement-amiable
           title: >-
-            ?
-          content: >-
             Une solution amiable est-elle envisageable ?
+          content: >-
+            <p>Vous souhaitez être assisté dans la résolution amiable de votre litige en favorisant contradictoirement une conciliation avec les intervenants que vous mettez en cause.</p>
