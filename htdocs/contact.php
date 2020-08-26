@@ -67,10 +67,10 @@ function send_mail ($name, $email, $message, $ip) {
         "Contact request",
         (
             "You received a message on <a href='http://c-dm.fr'>your website</a>.<br>\r\n"
-            ."Ip: ".$ip."<br>\r\n"
-            ."Name: ".$name."<br>\r\n"
-            ."Email: ".$email."<br>\r\n"
-            ."Message: ".$message."<br>\r\n"),
+            ."Ip: ".$ip."<br><br>\r\n"
+            ."Name: ".$name."<br><br>\r\n"
+            ."Email: ".$email."<br><br>\r\n"
+            ."Message: ".$message."<br><br>\r\n"),
         (
             "From: ".$name
             ." <".$email.">\r\n"
