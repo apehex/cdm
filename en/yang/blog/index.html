@@ -29,7 +29,7 @@
 <meta property="og:url" content="https://moodule.github.io/cdm/en/yang/blog/" />
 <meta property="og:site_name" content="CDM" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Recent Activity","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://moodule.github.io/cdm/assets/images/logo.png"},"name":"apehex"},"url":"https://moodule.github.io/cdm/en/yang/blog/","author":{"@type":"Person","name":"apehex"},"@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"https://moodule.github.io/cdm/en/yang/blog/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://moodule.github.io/cdm/assets/images/logo.png"},"name":"apehex"},"headline":"Recent Activity","author":{"@type":"Person","name":"apehex"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -180,25 +180,17 @@
     };
     
     const sendContactMessage = function() {
-        const data = {
-            name: encodeURIComponent(nameInputElement.value),
-            email: encodeURIComponent(emailInputElement.value),
-            message: encodeURIComponent(messageInputElement),
-            token: grecaptcha.getResponse(recaptchaWidget)
-        };
+        const formData = new FormData();
+        formData.append('name', encodeURI(nameInputElement.value));
+        formData.append('email', encodeURI(emailInputElement.value));
+        formData.append('message', encodeURI(messageInputElement.value));
+        formData.append('token', grecaptcha.getResponse(recaptchaWidget));
         
         fetch("https://moodule.github.io/cdm/contact.php", {
             method: 'POST',
-            mode: 'same-origin',
-            headers: {'Content-Type': 'application/json',},
-            body: JSON.stringify(data),
-        })
-        .then((response) => {
-            alert('Message sent!');
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
+            body: formData})
+        .then((response) => alert('Message sent!'))
+        .catch((error) => console.error('Error:', error));
     };
     
     var onRecaptchaLoadCallback = function() {
@@ -206,8 +198,7 @@
             'sitekey' : '6Lf4dsgUAAAAAI-pFjd8tRxfdY2yF5mOoyC9OUUB',
             'theme' : 'dark',
             'size' : 'compact',
-            'callback' : processContactRequest
-        });
+            'callback' : processContactRequest});
     };
 
     modalWindowElement.addEventListener('click', hideModalWindow);

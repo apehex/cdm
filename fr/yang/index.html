@@ -31,7 +31,7 @@
 <meta property="og:url" content="https://moodule.github.io/cdm/fr/yang/" />
 <meta property="og:site_name" content="CDM" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Ingénierie et Expertise Indépendantes","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://moodule.github.io/cdm/assets/images/logo.png"},"name":"apehex"},"url":"https://moodule.github.io/cdm/fr/yang/","author":{"@type":"Person","name":"apehex"},"description":"J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"https://moodule.github.io/cdm/fr/yang/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://moodule.github.io/cdm/assets/images/logo.png"},"name":"apehex"},"headline":"Ingénierie et Expertise Indépendantes","author":{"@type":"Person","name":"apehex"},"description":"J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -184,7 +184,7 @@
     <article style="width: 100%;">
         <span class="icon solid fa-industry"></span>
         <div class="content">
-            <h3>A Manufacturer</h3>
+            <h3>Un Industriel</h3>
             <p><ul><li>Génie thermique</li><li>Transformations des:<ul><li>Cartons</li><li>Plastiques</li><li>Métaux</li></ul></li></ul></p>
         </div>
     </article>
@@ -515,25 +515,17 @@
     };
     
     const sendContactMessage = function() {
-        const data = {
-            name: encodeURIComponent(nameInputElement.value),
-            email: encodeURIComponent(emailInputElement.value),
-            message: encodeURIComponent(messageInputElement),
-            token: grecaptcha.getResponse(recaptchaWidget)
-        };
+        const formData = new FormData();
+        formData.append('name', encodeURI(nameInputElement.value));
+        formData.append('email', encodeURI(emailInputElement.value));
+        formData.append('message', encodeURI(messageInputElement.value));
+        formData.append('token', grecaptcha.getResponse(recaptchaWidget));
         
         fetch("https://moodule.github.io/cdm/contact.php", {
             method: 'POST',
-            mode: 'same-origin',
-            headers: {'Content-Type': 'application/json',},
-            body: JSON.stringify(data),
-        })
-        .then((response) => {
-            alert('Message sent!');
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
+            body: formData})
+        .then((response) => alert('Message sent!'))
+        .catch((error) => console.error('Error:', error));
     };
     
     var onRecaptchaLoadCallback = function() {
@@ -541,8 +533,7 @@
             'sitekey' : '6Lf4dsgUAAAAAI-pFjd8tRxfdY2yF5mOoyC9OUUB',
             'theme' : 'dark',
             'size' : 'compact',
-            'callback' : processContactRequest
-        });
+            'callback' : processContactRequest});
     };
 
     modalWindowElement.addEventListener('click', hideModalWindow);

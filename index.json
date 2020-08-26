@@ -1,8 +1,8 @@
 [{
-      "lang"           : "en",
-      "title"          : "The Compagny",
-      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
-      "url"            : "https://moodule.github.io/cdm/en/yin/about/",
+      "lang"           : "",
+      "title"          : "CDM",
+      "description"    : "",
+      "url"            : "https://moodule.github.io/cdm/showcase/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -14,9 +14,9 @@
       "date"           : ""
     } ,{
       "lang"           : "en",
-      "title"          : "Recent Activity",
+      "title"          : "The Compagny",
       "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
-      "url"            : "https://moodule.github.io/cdm/en/yin/blog/",
+      "url"            : "https://moodule.github.io/cdm/en/yin/about/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -24,6 +24,20 @@
       "title"          : "Recent Activity",
       "description"    : "",
       "url"            : "https://moodule.github.io/cdm/en/yang/blog/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Recent Activity",
+      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
+      "url"            : "https://moodule.github.io/cdm/en/yin/blog/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Independant Engineering and Expertise",
+      "description"    : "J&#39;accompagne les entreprises de la réflexion stratégique à l&#39;exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d&#39;exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.",
+      "url"            : "https://moodule.github.io/cdm/en/yang/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -36,22 +50,8 @@
     } ,{
       "lang"           : "en",
       "title"          : "Independant Engineering and Expertise",
-      "description"    : "J&#39;accompagne les entreprises de la réflexion stratégique à l&#39;exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d&#39;exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.",
-      "url"            : "https://moodule.github.io/cdm/en/yang/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "en",
-      "title"          : "Independant Engineering and Expertise",
       "description"    : "",
       "url"            : "https://moodule.github.io/cdm/en/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "en",
-      "title"          : "Expertise in HVAC Engineering and Industrial Processes",
-      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
-      "url"            : "https://moodule.github.io/cdm/en/yin/my-expertise/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -59,6 +59,13 @@
       "title"          : "Efficiency, Maintenance, Dependability and Risk Management",
       "description"    : "",
       "url"            : "https://moodule.github.io/cdm/en/yang/my-expertise/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Expertise in HVAC Engineering and Industrial Processes",
+      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
+      "url"            : "https://moodule.github.io/cdm/en/yin/my-expertise/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -77,23 +84,16 @@
       "date"           : ""
     } ,{
       "lang"           : "en",
-      "title"          : "Expert Assessment and Mediating",
-      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
-      "url"            : "https://moodule.github.io/cdm/en/yin/your-situation/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "en",
       "title"          : "Strategy and Project Support",
       "description"    : "",
       "url"            : "https://moodule.github.io/cdm/en/yang/your-situation/",
       "tags"           : "",
       "date"           : ""
     } ,{
-      "lang"           : "fr",
-      "title"          : "Le Cabinet",
-      "description"    : "",
-      "url"            : "https://moodule.github.io/cdm/fr/yin/a-propos/",
+      "lang"           : "en",
+      "title"          : "Expert Assessment and Mediating",
+      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
+      "url"            : "https://moodule.github.io/cdm/en/yin/your-situation/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -105,9 +105,9 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Recent Activity",
+      "title"          : "Le Cabinet",
       "description"    : "",
-      "url"            : "https://moodule.github.io/cdm/fr/yin/blog/",
+      "url"            : "https://moodule.github.io/cdm/fr/yin/a-propos/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -115,6 +115,20 @@
       "title"          : "Actualités",
       "description"    : "",
       "url"            : "https://moodule.github.io/cdm/fr/yang/blog/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Recent Activity",
+      "description"    : "",
+      "url"            : "https://moodule.github.io/cdm/fr/yin/blog/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Ingénierie et Expertise Indépendantes",
+      "description"    : "J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.",
+      "url"            : "https://moodule.github.io/cdm/fr/yang/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -127,22 +141,8 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Ingénierie et Expertise Indépendantes",
-      "description"    : "J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.",
-      "url"            : "https://moodule.github.io/cdm/fr/yang/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
-      "title"          : "Ingénierie et Expertise Indépendantes",
-      "description"    : "",
+      "description"    : "Todo",
       "url"            : "https://moodule.github.io/cdm/fr/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
-      "title"          : "Expertise ENR et Procédés Industriels",
-      "description"    : "",
-      "url"            : "https://moodule.github.io/cdm/fr/yin/mes-competences/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -150,6 +150,13 @@
       "title"          : "Efficience, Maintenance, Sûreté de Fonctionnement et Gestion des Risques",
       "description"    : "",
       "url"            : "https://moodule.github.io/cdm/fr/yang/mes-competences/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Expertise ENR et Procédés Industriels",
+      "description"    : "",
+      "url"            : "https://moodule.github.io/cdm/fr/yin/mes-competences/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -168,16 +175,16 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Médiation et Expertise",
+      "title"          : "Conseil en Stratégie et AMOA",
       "description"    : "",
-      "url"            : "https://moodule.github.io/cdm/fr/yin/votre-situation/",
+      "url"            : "https://moodule.github.io/cdm/fr/yang/votre-situation/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Conseil en Stratégie et AMOA",
+      "title"          : "Médiation et Expertise",
       "description"    : "",
-      "url"            : "https://moodule.github.io/cdm/fr/yang/votre-situation/",
+      "url"            : "https://moodule.github.io/cdm/fr/yin/votre-situation/",
       "tags"           : "",
       "date"           : ""
     } ,{
