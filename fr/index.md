@@ -51,8 +51,8 @@ description: >-
     }
 </style>
 <div class="links">
-    <a class="upper-left" href="{{ '/fr/yang' | absolute_path }}"></a>
-    <a class="lower-right" href="{{ '/fr/yin' | absolute_path }}"></a>
+    <a class="upper-left" href="{{ '/fr/yang' | absolute_url }}"></a>
+    <a class="lower-right" href="{{ '/fr/yin' | absolute_url }}"></a>
 </div>
 <div class="background" style="">
     {% include landing.svg %}
