@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://apehex.github.io/cdm/sitemap.xml
+Sitemap: https://apehex.github.io/sitemap.xml
