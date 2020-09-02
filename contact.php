@@ -66,7 +66,7 @@ function send_mail ($name, $email, $message, $ip) {
         "contact@c-dm.fr",
         "Contact request",
         (
-            "You received a message on <a href='https://moodule.github.io'>your website</a>.<br>\r\n"
+            "You received a message on <a href='https://moodule.github.io/cdm'>your website</a>.<br>\r\n"
             ."Ip: ".$ip."<br><br>\r\n"
             ."Name: ".$name."<br><br>\r\n"
             ."Email: ".$email."<br><br>\r\n"

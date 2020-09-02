@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moodule.github.io/sitemap.xml
+Sitemap: https://moodule.github.io/cdm/sitemap.xml
