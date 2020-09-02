@@ -571,6 +571,6 @@ yang:
           title: >-
             Stratégie et politique
           content: >-
-          <h3>Instaurer une collaboration efficiente</h3>
+            <h3>Instaurer une collaboration efficiente</h3>
             <p>Globalement la stratégie de la maintenance est la déclinaison des objectifs stratégiques de l’entreprise en objectifs opérationnels de cette fonction, en termes de budget, de coûts indirects, de disponibilité et productivité des systèmes, etc. Il s’agit donc de savoir où l’on souhaite aller en termes de résultats et d’allouer les ressources requises pour leur atteinte.</p>
             <p>La politique de maintenance établit elle un consensus entre des objectifs contradictoires avec ceux des autres fonctions de l’entreprise, et la politique définit qui fait quoi (sous-traitance ou non, correctif pur sur certains systèmes, etc.).</p><p>Ces deux dimensions formalisées sont des préalables à la <strong>performance industrielle et une relation apaisée entre production et maintenance</strong>.</p>
