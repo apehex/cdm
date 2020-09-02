@@ -39,18 +39,21 @@ yin:
           title: >-
             Quantification des performances initiales
           content: >-
+            <h3>Savoir où on est</h3>
             <p>Analyse de performance des process et des non-valeurs des procédés industriels</p>
             <p>Analyser les TRS, TRG, TRE, LCC, Compte d’exploitation</p>
         - id: improving
           title: >-
             Structuration des axes d’amélioration / restauration des performances
           content: >-
+            <h3>Savoir sur quoi agir</h3>
             <p>Formaliser les processus et analyser les performances sociotechniques et économiques</p>
             <p>Préconiser des plans d’action portant sur les moyens techniques, l’activité et son organisation, les compétences des ressources impliquées.</p>
         - id: planning
           title: >-
             Accompagnement dans la mise en œuvre d’un plan d’action
           content: >-
+            <h3>Améliorer la performance, dans les faits</h3>
             <p>Organisation des groupes de travail, gestion des plans d’action en mode projet</p>
             <p>Planification du Plan d’action, élaboration des ordres du jour des réunions</p>
             <p>Animation des réunions, points d’étapes, relevé de décisions.</p>
@@ -95,6 +98,7 @@ yin:
           title: >-
             Caractérisation de la défaillance, de sa localisation et des effets.
           content: >-
+            <h3>Circonscrire le problème</h3>
             <p>La défaillance étant constituée par la cessation ou l’altération des fonctions assignées au système, donc par l’impossibilité du système à assurer sa mission dans des conditions de performances, d’exploitation et des contraintes spécifiées.</p>
             <p>La localisation de la défaillance est l’endroit, le composant, sur lequel se matérialise la défaillance</p>
             <p>Les effets évalués sont quantifiés d’un point de vue technique, humain, organisationnel, économique, sécuritaire et environnemental si applicable.</p>
@@ -102,11 +106,13 @@ yin:
           title: >-
             Détermination des causes premières, imputabilité et plan d’action
           content: >-
+            <h3>&Eacute;radiquer le problème</h3>
             <p>Les causes premières sont au nombre de huit items (comme le défaut de conception, le défaut matière, le défaut de maintenance ou encore la mauvaise maintenance) regroupés en quatre catégories (humaine, technique, organisationnelle, externe).</p>
         - id: solutions-palliatives
           title: >-
             Préconisations de solutions palliatives puis d’optimisation technico-économique de la Sureté de Fonctionnement (Fiabilité, Maintenabilité, Disponibilité et Sécurité
           content: >-
+            <h3>Atténuer l'impact et restaurer l'état initial</h3>
             <p>Les préconisations concernent le cas échéant la conception du système, son exploitation, sa maintenance.</p>
             <p>Elles visent à établir, sous réserve de données disponibles, l’équilibre technico-économique à atteindre entre action modificative, préventive et corrective résiduelle.</p>
   assessing-damage:
@@ -147,16 +153,19 @@ yin:
           title: >-
             Analyse contractuelle, règles de l’art et normes applicables au cas d’espèce
           content: >-
+            <h3>Ce qui m'est dû</h3>
             <p>Prise en compte des engagements réciproques, des spécifications implicites et explicites à la commande, des DTU applicables si opposables, du respect de l’obligation éventuelle de conseil, etc.</p>
         - id: evaluation-des-ecarts
           title: >-
             Identification des écarts et caractérisation de la nature et de l’importance du désordre ou de son absence.
           content: >-
+            <h3>Mesure de l'insatisfaction</h3>
             ?
         - id: conception-diagnosis
           title: >-
             Diagnostic de conception et de fonctionnement des systèmes relevant du génie climatique et thermique et ENR
           content: >-
+            <h3>Ce qui devrait être</h3>
             <p>Etanchéité des circuits comportant des fluides frigorigènes (sauf ammoniac) et performances de Pompe à Chaleur, Climatisation habitat et tertiaire, éventuellement Froid Commercial.</p>
             <p>Evaluation du dimensionnement des systèmes en regard des charges thermiques.</p>
             <p>Evaluation de la conception conforme des systèmes d’énergie renouvelable (ENR) et des systèmes de traitement de l’air.</p>
@@ -166,6 +175,7 @@ yin:
           title: >-
             Détermination des causes et identification de solutions palliatives et conservatoires.
           content: >-
+            <h3>Circonscrire et atténuer les conséquences</h3>
             <p>Réduire l’occurrence des événements redoutés et réduire l’impact de ceux qui ne peuvent être évités.</p>
             <p>Définir les modalités de continuité d’activité et de service.</p>
   support-during-litigation:
@@ -208,6 +218,7 @@ yin:
           title: >-
             Rapport d’expertise officieuse et / ou organisation d’opérations amiables et contradictoires
           content: >-
+            <h3>&Eacute;tayer la réclamation</h3>
             <p>Rapport en soutien de vos prétentions soit en demande soit en défense.</p>
             <p>Démonstration éventuelle d’absence de causalité ou d’absence d’action directe en lien avec les désordres.</p>
             <p>Identification de l’imputabilité des désordres sur la base des liens de causalité et du rôle des différents acteurs et intervenants.</p>
@@ -215,11 +226,13 @@ yin:
           title: >-
             Chiffrage du dommage et des travaux de reprise des désordres
           content: >-
+            <h3>Quel est mon préjudice</h3>
             <p>Evaluation des travaux de reprise sur la base de devis ou base de données coûts des matériaux, de la main d’œuvre et des frais annexes.</p>
         - id: defending-claims
           title: >-
             Assistance technique en phase judiciaire, apports soutenant la réclamation ou niant la responsabilité (désordres, causes, conséquences, imputabilité)
           content: >-
+            <h3>&Ecirctre assisté</h3>
             ?
 yang:
   efficiency:
@@ -258,7 +271,8 @@ yang:
       title: >-
         EFFICIENCE
       quote: >-
-        Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet
+        Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet de l’étude macro à l’étude micro.
+        <br><br>Typiquement, la démarche complète conduit à un doublement d’activité à périmètre de ressources fixes constant.
       orientation: vertical
       headers-width: 30
       show-title: false
@@ -267,22 +281,33 @@ yang:
           title: >-
             Diagnostic stratégique
           content: >-
-            <p>Consiste à formaliser essentiellement l’environnement de l’entreprise, les univers de l’offre, de la demande, de la concurrence, les forces et faiblesses de l’organisation.</p><p>Le résultat de l’intervention est la <strong>préconisation de stratégies atteignables</strong> fonction des choix des dirigeants.</p><p>Cette démarche permet de passer d’un désir, d’un vœux pieu, à la mise en œuvre effective d’une stratégie.</p>
+            <h3> Définir une cible atteignable</h3>
+            <p>Consiste à formaliser essentiellement l’environnement de l’entreprise, les univers de l’offre, de la demande, de la concurrence, les forces et faiblesses de l’organisation.</p>
+            <p>Le résultat de l’intervention est la <strong>préconisation de stratégies atteignables</strong> fonction des choix des dirigeants. L’impact est le <strong>développement du CA et la pérennité de l’entreprise</strong>.</p>
+            <p>Indispensable à la définition de la trajectoire à suivre pour atteindre ses objectifs.</p>
         - id: tableau-de-bord-propectif
           title: >-
-            Tableau de bord
+            Tableau de bord BSC
           content: >-
-            <p><strong>Outil de pilotage de l’efficience</strong> court, moyen et long terme, cette approche combine et corrèle les visions client / finance / performance interne et capacité de développement de l’organisation. Cette action met en lumière <strong>l’évolutivité, l’adaptabilité et la pérennité de l’organisation fonction de la stratégie conduite</strong></p><p>Elle contribue fortement au <strong>partage de la vision des dirigeants de l’entreprise</strong> en déclinant les objectifs stratégiques en objectifs opérationnels que peuvent s’approprier chaque partie prenante de l’organisation</p>
+            <h3>Piloter sa pérennité</h3>
+            <p><strong>Outil de pilotage de l’efficience</strong> court, moyen et long terme, cette approche combine et corrèle les visions client / finance / performance interne et capacité de développement de l’organisation. Cette action met en lumière <strong>l’évolutivité, l’adaptabilité et la pérennité de l’organisation fonction de la stratégie fixée</strong></p>
+            <p>Elle contribue fortement au <strong>partage de la vision des dirigeants de l’entreprise</strong> en déclinant les objectifs stratégiques en objectifs opérationnels que peuvent s’approprier chaque partie prenante de l’organisation</p>
+            <p><strong>Il complète le Système de Pilotage de la Stratégie qui constituent à eux deux la carte dynamique GPS de l’environnement pertinent de l’entreprise</strong> : visualisation des difficultés à venir, chemin parcouru selon la trajectoire prédéfinie, objectif fixé et perspective d’atteinte ou correction requise.</p>
         - id: audit-de-maturite
           title: >-
             Audit
           content: >-
-            <p>Ces études visent à évaluer la maturité et l’efficacité d’une organisation, en regard des objectifs qui lui sont assignés. L’approche intègre la variable temporelle généralement oubliée dans ce type de démarche.</p><p>L’objectif central est la <strong>définition d’un plan d’action d’amélioration de la performance de l’entreprise</strong> focalisée sur la temporalité de l’activité.</p>
+            <h3>Savoir où ganger en performance</h3>
+            <p>Ces études visent à évaluer la maturité et l’efficience d’une organisation, en regard des objectifs qui lui sont assignés. L’approche intègre la variable temporelle généralement oubliée dans ce type de démarche.</p>
+            <p>L’objectif central est la <strong>définition d’un plan d’action d’amélioration de la performance de l’entreprise</strong> focalisée sur la temporalité de l’activité.</p>
+            <p>Cet outil permet de savoir où l’on gagne et où l’on perd de l’argent et pourquoi. Ce n’est pas la <strong>traduction</strong> d’un niveau d’organisation mais celle <strong>de la performance de l’organisation</strong>.</p>
         - id: amelioration-de-procedes
           title: >-
             Processus management
           content: >-
-            <p>Structuration des processus par une approche BPM et une analyse multi-dimensionnelle de type Critical To Quality pour porter un regard critique sur <strong>l’adéquation entre création de valeur et les activités développées pour répondre aux exigences du client</strong>.</p><p>Il s’agit d’une analyse forces / faiblesses de la qualité de <strong>réponse efficiente aux attentes client</strong>.</p>
+            <h3>Optimiser son efficience</h3>
+            <p>Structuration des processus par une approche BPM et une analyse multi-dimensionnelle de type Critical To Quality pour porter un regard critique sur <strong>l’adéquation entre création de valeur et les activités développées pour répondre aux exigences du client</strong>.</p>
+            <p>Il s’agit d’une analyse forces / faiblesses de la qualité de <strong>réponse efficiente aux attentes client</strong>.</p>
   dependability:
     en:
       id: dependability
@@ -328,21 +353,26 @@ yang:
           title: >-
             &Eacute;tudes FMDS
           content: >-
+            <h3>Maîtriser le comportement de ses équipements</h3>
             <p>Les études de fiabilité visent à <strong>réduire les occurrences d’événements dommageables</strong> pour l’organisation. L’analyse peut se faire en phase de conception (fiabilité prévisionnelle) ou en phase d’exploitation (fiabilité opérationnelle). L’emploi d’outils dédiés, comme la méthode de Weibull combinée à des outils statistiques, autorise une identification du comportement d’un système sur la base d’un historique réduit d’événements.</p><p>Les études de maintenabilité visent à <strong>réduire l’impact technico-économique</strong> des événements dommageables, ceux que l’on ne peut éviter.</p><p>Ces études contribuent à la <strong>maîtrise et prévisibilité du comportement des systèmes</strong> en exploitation.</p>
+            <p>Ces études permettent de <strong>garantir la cohérence et le respect du Plan Directeur de Production</strong> en regard d’un Plan Industriel et Commercial répondant à la stratégie fixée.</p>
         - id: augmenter-la-disponibilite
           title: >-
             Disponibilité système
           content: >-
+            <h3>Gagner en rentabilité</h3>
             <p>La disponibilité découle de ces deux premiers critères. L’analyse de cette dimension a essentiellement pour but de prioriser l’action fonction de contraintes internes ou externes en restant focalisé sur le temps net productif du système.</p><p>Les solutions mises en œuvre supposent une boucle de rétroaction en termes de gestion notamment de la dimension sécurité.</p><p><strong>5% de disponibilité augmente d’au moins 25% la rentabilité opérationnelle</strong>.</p>
         - id: resolution-des-defaillances
           title: >-
             Résolution défaillance
           content: >-
+            <h3>Retrouver une exploitation sereine</h3>
             <p>Grâce à des méthodes d’analyse éprouvées et transposées de domaines connexes (comme les analyses SADT, SART) il est possible de <strong>résoudre rapidement des problématiques de défaillances aléatoires, fugitives, critiques ou chroniques et restaurer ses marges</strong>.</p><p>Il s’agit donc de <strong>supprimer les causes, atténuer les effets des événements redoutés inévitables</strong>.</p>
         - id: identification-des-causes
           title: >-
             Causes premières
           content: >-
+            <h3>&Eacute;radiquer les incertitudes</h3>
             <p>L’analyse et la détermination des causes premières, au nombre de huit, garantit une <strong>amélioration significative de la sureté de fonctionnement des systèmes</strong>. La démarche évite la confusion trop commune entre localisation de la défaillance (ex : un moteur grillé) et cause de la défaillance (ex : mauvaise maintenance ou encore défaut matière).</p><p><strong>La pertinence du plan d’action dépend de la justesse de l’analyse des causes</strong>. Dans le premier cas de l’exemple ci-avant (mauvaise maintenance) le plan d’action comprendra la formation du personnel ou l’acquisition d’outils spécifiques requis. Dans le second, le plan d’action se concentrera sur les spécifications d’achat et la qualification des pièces de rechange intégrées au stock.</p><p>La connaissance des huit modes de défaillance possibles <strong>permet l’exhaustivité de l’analyse</strong>, et donc la résolution et l’anticipation de toute dérive sur le système.</p>
   contracting-authority:
     en:
@@ -389,26 +419,31 @@ yang:
           title: >-
             Formalisation des besoins
           content: >-
+            <h3>Définir la cible du projet</h3>
             <p>Exprimer son besoin est la première obligation d’un client s’il veut voir son fournisseur satisfaire ses exigences. D’ailleurs la revue des exigences client est un des volets de l’approche de certification qualité des organisations de type ISO 9000 notamment.</p><p>L’obligation de délivrance du fournisseur se trouvera immanquablement limitée aux besoins stipulés dans la relation commerciale. Dès lors ce <strong>point initial est primordial dans le bon déroulement de tout projet</strong>.</p>
         - id: définition-des-objectifs
           title: >-
             Définition des objectifs
           content: >-
+            <h3>Planifier le succès du projet</h3>
             <p>Tout projet présente des objectifs de Business (finalité ultérieure du projet), Coût (quel est le budget alloué sur quel périmètre), Qualité (caractéristiques du bien ou du service attendu), Délai (deadline du projet, des jalons, chemin critique) et bien sûr sécurité (des activités liées au déploiement du projet mais également sécurité future de l’exploitation du bien ou du service créé).</p><p><strong>Ces objectifs BCQDS sont ainsi identifiés, partagés, suivis et atteints</strong>.</p>
         - id: redaction-du-cahier-des-charges
           title: >-
             Rédaction du cahier des charges
           content: >-
+            <h3>&Eacute;tablir un dialogue constructif</h3>
             <p><strong>La rédaction d’un cahier des charges</strong> ne s’improvise pas. Il doit mettre en lumière les enjeux et contraintes, le cadre du projet et ses attendus, les règles de l’art à respecter ou souhaitées. Sa forme et son contenu doivent clairement distinguer ce qui relève de la sous-traitance de la prestation de service externalisée, et <strong>définir le résultat attendu et non pas les moyens d’y parvenir</strong>.</p><p>La version la plus complète d’un Cahier des Charges doit <strong>régler l’organisation entre les parties</strong> dans toutes les phases de vie du projet, depuis la conception jusqu’à la mise en exploitation. Il doit en conséquence intégrer les notions de <strong>jalons, livrables, et protocole de recette des systèmes, et synchroniser les clauses techniques et commerciales</strong>.</p><p>Dans une approche plus légère, sur des projets simples et / ou de faible impact ou de faible enveloppe, la spécification technique de besoin reste indispensable. <strong>Un projet ne peut se satisfaire de relations commerciales basées sur la seule signature d’un devis, dès lors que l’on s’écarte d’un achat standard sur catalogue</strong>.</p>
         - id: organisation-et-planification
           title: >-
             Organisation et planification
           content: >-
+            <h3>Planifier le succès du projet</h3>
             <p>Suivant la complexité du projet, du point de vue technique, nombre d’acteurs, contraintes réglementaires et / ou administratives, suivant son caractère unique et innovant, sa planification est indispensable et doit être plus ou moins détaillée.</p><p>15% des projets atteignent les objectifs initialement fixés, c’est dire si la préparation a une importance cruciale dans la maîtrise de son déroulé. <strong>C’est cette maîtrise et atteinte des objectifs qui est proposée</strong>.</p><p>L’analyse de risques doit faire partie intégrante de toute gestion de projet, analyse élaborée en regard des objectifs cité ci-avant.</p>
         - id: essais-et-reception
           title: >-
             Essais et Réception
           content: >-
+            <h3>Vérifier l'atteinte des objectifs</h3>
             <p>La meilleure façon de <strong>savoir si le bien ou le service délivré satisfait les exigences</strong> est de prévoir un protocole de réception.</p>
             <p>Ce protocole se construit de proche en proche sur la base d’une conception dite en « V » ou chaque phase (Avant-Projet Sommaire, … Analyse Fonctionnelle Générale, …, Analyse Organique Détaillée, Implémentation) est un miroir d’un protocole de validation de l’étape. Le respect de chaque caractéristiques étapes par étapes garantit le <strong>résultat final démontrable par essais de recette</strong>.</p>
             <p>Cette démarche appliquée à chaque phase d’un projet constitue la <strong>validation des jalons</strong>, et représente le point de synchronisation technique / commercial. <strong>On ne paye que ce qui est surement atteint</strong> en termes d’avancement / résultat.</p>
@@ -457,22 +492,26 @@ yang:
           title: >-
             Risk Management
           content: >-
+            <h3>Maîtriser ses risques</h3>
             <p>Approche conforme à la norme ISO 31000, générant la <strong>confiance dans la gestion des risques</strong>.</p><p>Définition des modalités et élaboration de plan de continuité d’activité.</p>
         - id: cartographier-les-risques
           title: >-
             Cartographie
           content: >-
+            <h3>Identifier ses risques</h3>
             <p>L’identification des risques, tant matériels qu’immatériels, repose sur une analyse intégrant les ressources consommées, l’activité développée, les résultats produits, les moyens mis en œuvre ainsi que les modalités de contrôle du système. <strong>Connaître ses risques</strong> est le préalable au traitement de ceux-ci.</p>
         - id: mitiger-les-risques
           title: >-
             &Eacute;valuation et Réduction
           content: >-
-            <p>L’évaluation des risques repose sur l’élaboration d’échelles pertinentes et non ambigües concernant la vraisemblance des événements, l’exposition des enjeux, la détectabilité des dérives et initiation du risque, la gravité multidimensionnelle (technique, économique, financière, sécurité, environnementale). Cette approche permet <strong>de traiter tous les risques, même ceux dont les causes ou les mécanismes de développement sont inconnus</strong>.</p><p>La réduction des risques repose sur un plan d’action toujours corrélé à la vraisemblance, l’exposition, la détectabilité, la gravité vs dimension majorante, plan d’action reposant sur une stratégie de défense en profondeur. <strong>Cette méthode</strong> évite d’assimiler la réduction du risque au nombre d’actions décidées mais <strong>apporte une réponse pertinente, vérifiable, mesurable de la maîtrise des risques</strong>.</p><p>Le plan d’action est de plus confronté au résultat d’imputabilité technique, humaine, organisationnelle ou externe de la cause du risque et <strong>induit le plan d’action requis</strong>.</p>
+            <h3>ROI de la gestion des risques</h3>
+            <p>L’évaluation des risques repose sur l’élaboration d’échelles pertinentes et non ambigües concernant la vraisemblance des événements, l’exposition des enjeux, la détectabilité des dérives et initiation du risque, la gravité multidimensionnelle (technique, économique, financière, sécurité, environnementale). Cette approche permet <strong>de traiter tous les risques, même ceux dont les causes ou les mécanismes de développement sont inconnus</strong>.</p><p>La réduction des risques repose sur un plan d’action toujours corrélé à la vraisemblance, l’exposition, la détectabilité, la gravité vs dimension majorante, plan d’action reposant sur une stratégie de défense en profondeur. <strong>Cette méthode</strong> évite d’assimiler la réduction du risque au nombre d’actions décidées mais <strong>apporte une réponse pertinente, vérifiable, mesurable de la maîtrise des risques</strong>.</p><p>Le plan d’action est de plus confronté au résultat d’imputabilité technique, humaine, organisationnelle ou externe de la cause du risque et <strong>garantissant la pertinence du plan</strong>.</p>
         - id: recherche-et-developpement
           title: >-
             Méthodes d'analyse
           content: >-
-            Les méthodes déployées sont du type :<ul><li>AMDEC</li><li>APR</li><li>ADC</li><li>SADT</li><li>HAZOP</li><li>HACCP</li></ul>
+            <h3>Réduire méthodiquement les incertitudes</h3>
+            <p>Les méthodes déployées sont du type :<ul><li>AMDEC</li><li>APR</li><li>ADC</li><li>SADT</li><li>HAZOP</li><li>HACCP</li></ul></p>
   maintenance:
     en:
       id: maintenance
@@ -518,14 +557,20 @@ yang:
           title: >-
             Optimisation technico-économique
           content: >-
-            <p>L’optimisation entre préventif et correctif se fonde sur cinq critères principaux, dont le taux d’engagement des équipements et les contraintes liées au secteur d’activité. Au final, il s’agit d’élaborer un compromis statistique entre coûts directs et coûts indirects des défaillances.</p><p><strong>La démarche d’optimisation conduit inévitablement à une disponibilité supérieure pour un coût direct plus faible. Typiquement passer de 85 à 98% de disponibilité, réduire les coûts de 30%</strong>.</p>
+            <h3>Excellence en maintenance</h3>
+            <p>L’optimisation entre préventif et correctif se fonde sur cinq critères principaux, dont le taux d’engagement des équipements et les contraintes liées au secteur d’activité. Finalement, il s’agit d’élaborer un compromis statistique entre coûts directs et coûts indirects des défaillances.</p>
+            <p><strong>La démarche d’optimisation conduit inévitablement à une disponibilité supérieure pour un coût direct plus faible. Typiquement passer de 85 à 98% de disponibilité, réduire les coûts directs de 30% tout en augmentant les temps d’ouverture des systèmes productifs de 30%</strong>.</p>
         - id: reduction-des-couts
           title: >-
             Réduction des coûts directs et indirects
           content: >-
-            <p>Le pilier de cette approche est la qualité du diagnostic soit de défaillance, soit de dérive dans une démarche de maintenance conditionnelle. Le pendant pour la maîtrise et la réduction des coûts indirects est majoritairement affaire d’organisation.</p><p>Cette analyse se traduit par des modalités d’organisation apportant une <strong>confiance accrue dans la relation de la maintenance à son client principal qu’est l’exploitant des systèmes</strong> (typiquement la production) en <strong>s’engageant sur des résultats</strong>.</p>
+            <h3>Réduire ses coûts à ressources constantes</h3>
+            <p>Le pilier de cette approche est la qualité du diagnostic soit de défaillance, soit de dérive dans une démarche de maintenance conditionnelle. Le pendant pour la maîtrise et la réduction des coûts indirects est majoritairement affaire d’organisation.</p>
+            <p>Cette analyse se traduit par des modalités d’organisation apportant une <strong>confiance accrue dans la relation de la maintenance à son client principal qu’est l’exploitant des systèmes</strong> (typiquement la production) en <strong>s’engageant sur des résultats</strong>.</p>
         - id: strategie-et-politique
           title: >-
             Stratégie et politique
           content: >-
-            <p>Globalement la stratégie de la maintenance est la déclinaison des objectifs stratégiques de l’entreprise en objectifs opérationnels de cette fonction, en termes de budget, de coûts indirects, de disponibilité et productivité des systèmes, etc. Il s’agit donc de savoir où l’on souhaite aller en termes de résultats et d’allouer les ressources requises pour leur atteinte.</p><p>La politique de maintenance établit elle un consensus entre des objectifs contradictoires avec ceux des autres fonctions de l’entreprise, et la politique définit qui fait quoi (sous-traitance ou non, correctif pur sur certains systèmes, etc.).</p><p>Ces deux dimensions formalisées sont des préalables à la <strong>performance industrielle et une relation apaisée entre production et maintenance</strong>.</p>
+          <h3>Instaurer une collaboration efficiente</h3>
+            <p>Globalement la stratégie de la maintenance est la déclinaison des objectifs stratégiques de l’entreprise en objectifs opérationnels de cette fonction, en termes de budget, de coûts indirects, de disponibilité et productivité des systèmes, etc. Il s’agit donc de savoir où l’on souhaite aller en termes de résultats et d’allouer les ressources requises pour leur atteinte.</p>
+            <p>La politique de maintenance établit elle un consensus entre des objectifs contradictoires avec ceux des autres fonctions de l’entreprise, et la politique définit qui fait quoi (sous-traitance ou non, correctif pur sur certains systèmes, etc.).</p><p>Ces deux dimensions formalisées sont des préalables à la <strong>performance industrielle et une relation apaisée entre production et maintenance</strong>.</p>
