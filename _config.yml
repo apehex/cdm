@@ -104,10 +104,10 @@ sass:
 
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://moodule.github.io/cdm" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
 author: apehex
 copyright:
-  holder: 2018-2020 CDM
+  holder: 2018-2021 CDM
   license: All rights reserved
 
 # Exclude from processing.
