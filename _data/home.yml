@@ -20,11 +20,11 @@ yang:
               solid fa-chess
           hover:
             intro: >-
-              ? (Plan the)
+              Plan the
             fact: >-
-              ? (ROUTE)
+              ROUTE
             outro: >-
-              ? (to success)
+              to success
             icon: >-
               solid fa-project-diagram
         - class: >-
@@ -42,11 +42,11 @@ yang:
               solid fa-plane
           hover:
             intro: >-
-              ? (Land)
+              Land
             fact: >-
-              ? (SAFELY)
+              SAFELY
             outro: >-
-              ? (on your feet)
+              on your feet
             icon: >-
               solid fa-plane-arrival
         - class: >-
@@ -64,11 +64,11 @@ yang:
               solid fa-box-open
           hover:
             intro: >-
-              ? (Integrate)
+              Integrate
             fact: >-
-              ? (SMOOTHLY)
+              SMOOTHLY
             outro: >-
-              ? (into your processes)
+              into your processes
             icon: >-
               solid fa-cubes
         - class: >-
@@ -86,11 +86,11 @@ yang:
               solid fa-play
           hover:
             intro: >-
-              ? (Improve the)
+              Improve the
             fact: >-
-              ? (ROI)
+              ROI
             outro: >-
-              ? (of your units)
+              of your units
             icon: >-
               solid fa-level-up-alt
     fr:
@@ -113,7 +113,7 @@ yang:
               solid fa-chess
           hover:
             intro: >-
-              ?
+              Organisez
             fact: >-
               ?
             outro: >-
@@ -135,11 +135,11 @@ yang:
               solid fa-plane
           hover:
             intro: >-
-              ?
+              Intégrez
             fact: >-
               ?
             outro: >-
-              ?
+              vos processus
             icon: >-
               solid fa-plane-arrival
         - class: >-
@@ -167,7 +167,7 @@ yang:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/yang/your-situation#exploitation
+            /fr/yang/votre-situation#exploitation
           default:
             intro: >-
               Exploitation
@@ -327,7 +327,7 @@ yang:
           icon: >-
             solid fa-clock
           title: >-
-            Sûreté de Fonctionnement
+            Sûreté<br>de Fonctionnement
           content:
         - class: >-
             col-4 col-12-small
@@ -350,7 +350,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/yang/mes-competences#amoa
+            fr/yang/mes-competences#assistance-maitrise-d-ouvrage
           icon: >-
             solid fa-tasks
           title: >-
@@ -378,11 +378,11 @@ yin:
               solid fa-chart-area
           hover:
             intro: >-
-              ? (Find out)
+              Find out
             fact: >-
-              ? (WHY)
+              WHY
             outro: >-
-              ? (you're losing money!)
+              you're losing money
             icon: >-
               solid fa-search-dollar
         - class: >-
@@ -400,11 +400,11 @@ yin:
               solid fa-car-crash
           hover:
             intro: >-
-              ? (Get)
+              Get
             fact: >-
-              ? (BACK)
+              BACK
             outro: >-
-              ? (your money!)
+              your money!
             icon: >-
               solid fa-money-bill
         - class: >-
@@ -422,11 +422,11 @@ yin:
               solid fa-exclamation-triangle
           hover:
             intro: >-
-              ? (Go)
+              Go
             fact: >-
-              ? (THROUGH)
+              THROUGH
             outro: >-
-              ? (the crisis!)
+              the crisis!
             icon: >-
               solid fa-route
         - class: >-
@@ -444,11 +444,11 @@ yin:
               solid fa-gavel
           hover:
             intro: >-
-              ? (Have a)
+              Have a
             fact: >-
-              ? (FAIR)
+              FAIR
             outro: >-
-              ? (trial!)
+              trial!
             icon: >-
               solid fa-balance-scale
     fr:
@@ -553,31 +553,31 @@ yin:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            en/yin/my-expertise
+            en/yin/about/#hvac-engineering
           icon: >-
             solid fa-thermometer-half
           title: >-
-            ? (HVAC Engineering)
+            HVAC Engineering
           content: >-
-            <ul><li>? (Insulation)</li></ul>
+            <ul><li>Insulation</li></ul>
         - class: >-
             col-4 col-12-small
           target_url: >-
-            en/yin/my-expertise
+            en/yin/about/#hvac-engineering
           icon: >-
             solid fa-recycle
           title: >-
-            ? (Renewable Energies)
+            Renewable Energies
           content: >-
-            <ul><li>? (Pompes à Chaleur)</li><li>? (Photovoltaïque)</li><li>? (Géothermie)</li><li>? (Méthanisation)</li></ul>
+            <ul><li>Pompes à Chaleur</li><li>Photovoltaïque</li><li>Géothermie</li><li>Méthanisation</li></ul>
         - class: >-
             col-4 col-12-small
           target_url: >-
-            en/yin/my-expertise
+            en/yin/about/#industrial-processes
           icon: >-
             solid fa-industry
           title: >-
-            ? (Industrial Processes)
+            Industrial Processes
           content: >-
             <ul>Processing:<li>Cardboard</li><li>Plastics</li><li>Metal</li></ul>
     fr:
@@ -588,7 +588,7 @@ yin:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/yin/mes-competences
+            fr/yin/mes-competences/#genie-climatique
           icon: >-
             solid fa-thermometer-half
           title: >-
@@ -598,7 +598,7 @@ yin:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/yin/mes-competences
+            fr/yin/mes-competences/#genie-climatique
           icon: >-
             solid fa-recycle
           title: >-
@@ -608,7 +608,7 @@ yin:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/yin/mes-competences
+            fr/yin/mes-competences/#procedes-industriels
           icon: >-
             solid fa-industry
           title: >-
@@ -628,7 +628,7 @@ yin:
           icon: >-
             solid fa-tools
           title: >-
-            ? (Maintenance)
+            Maintenance
           content:
         - class: >-
             col-3 col-6-medium col-12-small
@@ -637,7 +637,7 @@ yin:
           icon: >-
             solid fa-search
           title: >-
-            ? (Private Expert Assessment)
+            Private Expert Assessment
           content:
         - class: >-
             col-3 col-6-medium col-12-small
@@ -646,7 +646,7 @@ yin:
           icon: >-
             solid fa-balance-scale
           title: >-
-            ? (Out-of-court Expert Assessment)
+            Out-of-court Expert Assessment
           content:
         - class: >-
             col-3 col-6-medium col-12-small
@@ -655,7 +655,7 @@ yin:
           icon: >-
             solid fa-gavel
           title: >-
-            ? (Suppport in a Legal Expert Assessment)
+            Suppport in a Legal Expert Assessment
           content:
     fr:
       id: competences
@@ -665,7 +665,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            fr/yin/mes-competences#maintenance
+            fr/yin/mes-competences#performance
           icon: >-
             solid fa-tools
           title: >-
@@ -674,7 +674,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            fr/yin/mes-competences#expertise
+            fr/yin/mes-competences#resolution-des-defaillances
           icon: >-
             solid fa-search
           title: >-
@@ -683,7 +683,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            fr/yin/mes-competences#expertise
+            fr/yin/mes-competences#evaluer-les-degats
           icon: >-
             solid fa-balance-scale
           title: >-
@@ -692,7 +692,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            fr/yin/mes-competences#expertise
+            fr/yin/mes-competences#accompagnement-pendant-les-litiges
           icon: >-
             solid fa-gavel
           title: >-
