@@ -11,7 +11,9 @@ header:
         Outgrowing Incidents
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.webp
+        image: /assets/images/content/yin/station-ep.cut.webp
+        position: right
+        size: auto 48vh
 banner:
     title: >-
         Expert Assessment
@@ -24,7 +26,9 @@ banner:
             Ask for Advice
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.webp
+        image: /assets/images/content/yin/station-ep.cut.webp
+        position: right
+        size: auto 48vh
 ---
 
 {% include home/yin/situation.html %}
