@@ -72,7 +72,7 @@ yang:
         - title: Maintenance
           url: /fr/yang/mes-competences/#maintenance
         - title: Maîtrise d'Ouvrage
-          url: /fr/yang/mes-competences/#maitrise-ouvrage-moa
+          url: /fr/yang/mes-competences/#assistance-maitrise-d-ouvrage
     - title: A Propos
       url: /fr/yang/a-propos/
     - title: Blog
@@ -104,10 +104,6 @@ yin:
     - title: My Expertise
       url: /en/yin/my-expertise/
       menu:
-        - title: HVAC Engineering
-          url: /en/yin/my-expertise/#hvac-engineering
-        - title: Industrial Processes
-          url: /en/yin/my-expertise/#industrial-processes
         - title: Performance
           url: /en/yin/my-expertise/#performance
         - title: Solving Equipment Failures
@@ -118,6 +114,15 @@ yin:
           url: /en/yin/my-expertise/#support-during-litigation
     - title: About
       url: /en/yin/about/
+      menu:
+        - title: My Profile
+          url: /en/yin/about/#profile
+        - title: My Certifications
+          url: /en/yin/about/#certifications
+        - title: HVAC Engineering
+          url: /en/yin/about/#hvac-engineering
+        - title: Industrial Processes
+          url: /en/yin/about/#industrial-processes
     - title: Blog
       url: /en/yin/blog/
   fr:
