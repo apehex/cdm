@@ -7,9 +7,6 @@ header:
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
-        image: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include expertise/yang/efficiency.html class="inverted" %}

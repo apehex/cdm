@@ -9,12 +9,7 @@ header:
         Outgrowing Incidents
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.webp
 ---
-
-{% include expertise/yin/hvac.html %}
-
-{% include expertise/yin/industrial-processes.html class="inverted" %}
 
 {% include expertise/yin/improving-performance.html %}
 
