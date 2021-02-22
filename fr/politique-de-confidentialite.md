@@ -7,4 +7,6 @@ description: >-
 header:
     title: CDM
     subtitle: "Politique de Condifentialité"
+    style:
+        class: inverted
 ---

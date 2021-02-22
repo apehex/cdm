@@ -11,7 +11,8 @@ header:
         Ingénierie et Expertise Indépendantes
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.webp
+        image:
+            url: /assets/images/content/yin/station-ep.webp
 banner:
     title: >-
         Conseil
@@ -25,7 +26,8 @@ banner:
             Demandez Conseil
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.webp
+        image:
+            url: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include home/yang/situation.html %}

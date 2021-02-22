@@ -7,9 +7,6 @@ header:
     title: CDM
     subtitle: >-
         Accompagner de la Décision à l'Exploitation
-    style:
-        class: inverted
-        image: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include about/yang/profile.html class="inverted" %}

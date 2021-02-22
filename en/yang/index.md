@@ -11,9 +11,10 @@ header:
         Independant Engineering and Expertise
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.cut.border.webp
-        position: right
-        size: auto 48vh
+        image:
+            url: /assets/images/content/yin/station-ep.webp
+            position: right
+            size: auto 100vh
 banner:
     title: " "
     subtitle: >-
@@ -26,9 +27,10 @@ banner:
             Ask for Advice
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.cut.border.webp
-        position: right
-        size: auto 48vh
+        image:
+            url: /assets/images/content/yin/station-ep.webp
+            position: right
+            size: auto 100vh
 ---
 
 {% include home/yang/situation.html %}
