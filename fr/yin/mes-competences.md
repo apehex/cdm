@@ -9,7 +9,6 @@ header:
         Dépasser les Incidents
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.webp
 ---
 
 

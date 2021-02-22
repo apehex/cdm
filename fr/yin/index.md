@@ -11,7 +11,8 @@ header:
         Dépasser les Incidents
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.webp
+        image:
+            url: /assets/images/content/yin/station-ep.webp
 banner:
     title: >-
         Cabinet d'Expertise
@@ -24,7 +25,8 @@ banner:
             Demandez Conseil
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.webp
+        image:
+            url: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include home/yin/situation.html %}

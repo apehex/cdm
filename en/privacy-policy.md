@@ -8,4 +8,6 @@ description: >-
 header:
     title: CDM
     subtitle: Privacy Policy
+    style:
+        class: inverted
 ---

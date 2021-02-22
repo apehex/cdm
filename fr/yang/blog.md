@@ -9,7 +9,6 @@ header:
         Accompagner de la Décision à l'Exploitation
     style:
         class: inverted
-        image: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include thread.html %}
