@@ -13,8 +13,4 @@ header:
 
 {% include about/certifications.html %}
 
-{% include expertise/yin/hvac.html class="inverted" %}
-
-{% include expertise/yin/industrial-processes.html %}
-
 {% include contact.html class="inverted" %}

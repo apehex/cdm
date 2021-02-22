@@ -44,6 +44,11 @@ yang:
           url: /en/yang/my-expertise/#contracting-authority
     - title: About
       url: /en/yang/about/
+      menu:
+        - title: My Profile
+          url: /en/yang/about/#profile
+        - title: My Certifications
+          url: /en/yang/about/#certifications
     - title: Blog
       url: /en/yang/blog/
   fr:
@@ -75,6 +80,11 @@ yang:
           url: /fr/yang/mes-competences/#assistance-maitrise-d-ouvrage
     - title: A Propos
       url: /fr/yang/a-propos/
+      menu:
+        - title: Mon Parcours
+          url: /fr/yang/a-propos/#profil
+        - title: Mes Références
+          url: /fr/yang/a-propos/#references
     - title: Blog
       url: /fr/yang/blog/
 yin:
@@ -95,23 +105,31 @@ yin:
     - title: My Services
       url: /en/yin/my-services/
       menu:
-        - title: Expert Assessment
-          url: /en/yin/my-services/#expert-assessment
-        - title: Out-Of-Court Agreement
-          url: /en/yin/my-services/#out-of-court-agreement
+        - title: Improving Performance
+          url: /en/yin/my-services/#improving-performance
+        - title: Solving Equipment Failures
+          url: /en/yin/my-services/#solving-failures
+        - title: Assessing damage
+          url: /en/yin/my-services/#assessing-damage
+        - title: Support During Litigation
+          url: /en/yin/my-services/#support-during-litigation
         - title: Palliative Solutions
           url: /en/yin/my-services/#palliative-solutions
+        - title: Out-Of-Court Agreement
+          url: /en/yin/my-services/#out-of-court-agreement
     - title: My Expertise
       url: /en/yin/my-expertise/
       menu:
-        - title: Performance
-          url: /en/yin/my-expertise/#performance
-        - title: Solving Equipment Failures
-          url: /en/yin/my-expertise/#solving-failures
-        - title: Assessing damage
-          url: /en/yin/my-expertise/#assessing-damage
-        - title: Expert-assessment
-          url: /en/yin/my-expertise/#support-during-litigation
+        - title: Maintenance
+          url: /en/yin/my-expertise/#maintenance
+        - title: Mediation
+          url: /en/yin/my-expertise/#mediation
+        - title: Expert Assessment
+          url: /en/yin/my-expertise/#expert-assessment
+        - title: HVAC Engineering
+          url: /en/yin/my-expertise/#hvac-engineering
+        - title: Industrial Processes
+          url: /en/yin/my-expertise/#industrial-processes
     - title: About
       url: /en/yin/about/
       menu:
@@ -119,10 +137,6 @@ yin:
           url: /en/yin/about/#profile
         - title: My Certifications
           url: /en/yin/about/#certifications
-        - title: HVAC Engineering
-          url: /en/yin/about/#hvac-engineering
-        - title: Industrial Processes
-          url: /en/yin/about/#industrial-processes
     - title: Blog
       url: /en/yin/blog/
   fr:
@@ -142,12 +156,8 @@ yin:
     - title: Mes Compétences
       url: /fr/yin/mes-competences/
       menu:
-        - title: Génie Climatique
-          url: /fr/yin/mes-competences/#genie-climatique
-        - title: Procédés Industriels
-          url: /fr/yin/mes-competences/#procedes-industriels
         - title: Performance Technico-Economique
-          url: /fr/yin/mes-competences/#performance
+          url: /fr/yin/mes-competences/#ameliorer-la-performance
         - title: Résolution de Défaillances
           url: /fr/yin/mes-competences/#resolution-des-defaillances
         - title: >-
@@ -155,7 +165,16 @@ yin:
           url: /fr/yin/mes-competences/#evaluer-les-degats
         - title: Expertise
           url: /fr/yin/mes-competences/#accompagnement-pendant-les-litiges
+        - title: Génie Climatique
+          url: /fr/yin/mes-competences/#genie-climatique
+        - title: Procédés Industriels
+          url: /fr/yin/mes-competences/#procedes-industriels
     - title: A Propos
       url: /fr/yin/a-propos/
+      menu:
+        - title: Mon Parcours
+          url: /fr/yin/a-propos/#profil
+        - title: Mes Références
+          url: /fr/yin/a-propos/#references
     - title: Blog
       url: /fr/yin/blog/

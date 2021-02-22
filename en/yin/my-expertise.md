@@ -7,17 +7,17 @@ header:
     title: CDM
     subtitle: >-
         Outgrowing Incidents
-    style:
-        class: inverted
 ---
 
-{% include expertise/yin/improving-performance.html %}
+{% include expertise/yin/maintenance.html class="inverted" %}
 
-{% include expertise/yin/solving-failures.html class="inverted" %}
+{% include expertise/yin/mediation.html %}
 
-{% include expertise/yin/assessing-damage.html %}
+{% include expertise/yin/expert-assessment.html class="inverted" %}
 
-{% include expertise/yin/support-during-litigation.html class="inverted" %}
+{% include expertise/yin/hvac.html %}
+
+{% include expertise/yin/industrial-processes.html class="inverted" %}
 
 {% include about/achievements.html site="yin" %}
 
