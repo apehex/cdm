@@ -6,7 +6,7 @@ default:
     - title: Disorder Management
       url: /en/yin/
     - title: Blog
-      url: /en/yang/blog/
+      url: /en/blog/
   fr:
     - title: Conseil
       url: /fr/yang/
@@ -50,7 +50,7 @@ yang:
         - title: My Certifications
           url: /en/yang/about/#certifications
     - title: Blog
-      url: /en/yang/blog/
+      url: /en/blog/
   fr:
     - title: Accueil
       url: /fr/yang/
@@ -86,7 +86,7 @@ yang:
         - title: Mes Références
           url: /fr/yang/a-propos/#references
     - title: Blog
-      url: /fr/yang/blog/
+      url: /fr/blog/
 yin:
   en:
     - title: Home
@@ -138,7 +138,7 @@ yin:
         - title: My Certifications
           url: /en/yin/about/#certifications
     - title: Blog
-      url: /en/yin/blog/
+      url: /en/blog/
   fr:
     - title: Accueil
       url: /fr/yin/
@@ -177,4 +177,4 @@ yin:
         - title: Mes Références
           url: /fr/yin/a-propos/#references
     - title: Blog
-      url: /fr/yin/blog/
+      url: /fr/blog/

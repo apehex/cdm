@@ -1,12 +1,12 @@
 ---
-lang-ref: yang-blog
+lang-ref: blog
 layout: page
 title: >-
     Actualités
 header:
     title: CDM
     subtitle: >-
-        Accompagner de la Décision à l'Exploitation
+        Ingénierie et Expertise Indépendantes
     style:
         class: inverted
 ---
