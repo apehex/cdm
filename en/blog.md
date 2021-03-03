@@ -1,12 +1,12 @@
 ---
-lang-ref: yin-blog
+lang-ref: blog
 layout: page
 title: >-
     Recent Activity
 header:
     title: CDM
     subtitle: >-
-        Outgrowing Incidents
+        Independant Engineering and Expertise
     style:
         class: inverted
 ---
