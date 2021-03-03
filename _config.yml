@@ -12,8 +12,8 @@ email: contact@c-dm.fr
 
 # Social settings
 github:
-  url: https://github.com/moodule
-  label: "@moodule"
+  url: https://github.com/apehex
+  label: "@apehex"
 linkedin:
   url: https://fr.linkedin.com/in/denis-mougeolle-05843858
   label: "@cdm"
@@ -105,7 +105,7 @@ sass:
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
-author: apehex
+author: Apehex
 copyright:
   holder: 2018-2021 CDM
   license: All rights reserved
