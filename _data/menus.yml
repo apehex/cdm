@@ -22,26 +22,26 @@ yang:
       url: /en/yang/your-situation/
       menu:
         - title: Development
-          url: /en/yang/your-situation/#development
+          url: /en/yang/your-situation/development
         - title: Deployment
-          url: /en/yang/your-situation/#deployment
+          url: /en/yang/your-situation/deployment
         - title: Reception
-          url: /en/yang/your-situation/#reception
+          url: /en/yang/your-situation/reception
         - title: Operation
-          url: /en/yang/your-situation/#operation
+          url: /en/yang/your-situation/operation
     - title: My Expertise
       url: /en/yang/my-expertise/
       menu:
         - title: Efficiency
-          url: /en/yang/my-expertise/#efficiency
+          url: /en/yang/my-expertise/efficiency
         - title: Dependability
-          url: /en/yang/my-expertise/#dependability
+          url: /en/yang/my-expertise/dependability
         - title: Risk Management
-          url: /en/yang/my-expertise/#risk-management
+          url: /en/yang/my-expertise/risk-management
         - title: Maintenance
-          url: /en/yang/my-expertise/#maintenance
+          url: /en/yang/my-expertise/maintenance
         - title: Contracting Authority
-          url: /en/yang/my-expertise/#contracting-authority
+          url: /en/yang/my-expertise/contracting-authority
     - title: About
       url: /en/yang/about/
       menu:
@@ -95,41 +95,41 @@ yin:
       url: /en/yin/your-situation/
       menu:
         - title: Under Performance
-          url: /en/yin/your-situation/#under-performance
+          url: /en/yin/your-situation/under-performance
         - title: Equipment Failure
-          url: /en/yin/your-situation/#equipment-failure
+          url: /en/yin/your-situation/equipment-failure
         - title: Disorder
-          url: /en/yin/your-situation/#disorder
+          url: /en/yin/your-situation/disorder
         - title: Litigation
-          url: /en/yin/your-situation/#litigation
+          url: /en/yin/your-situation/litigation
     - title: My Services
       url: /en/yin/my-services/
       menu:
         - title: Improving Performance
-          url: /en/yin/my-services/#improving-performance
+          url: /en/yin/my-services/improving-performance
         - title: Solving Equipment Failures
-          url: /en/yin/my-services/#solving-failures
+          url: /en/yin/my-services/solving-failures
         - title: Assessing damage
-          url: /en/yin/my-services/#assessing-damage
+          url: /en/yin/my-services/assessing-damage
         - title: Support During Litigation
-          url: /en/yin/my-services/#support-during-litigation
+          url: /en/yin/my-services/support-during-litigation
         - title: Palliative Solutions
-          url: /en/yin/my-services/#palliative-solutions
+          url: /en/yin/my-services/palliative-solutions
         - title: Out-Of-Court Agreement
-          url: /en/yin/my-services/#out-of-court-agreement
+          url: /en/yin/my-services/out-of-court-agreement
     - title: My Expertise
       url: /en/yin/my-expertise/
       menu:
         - title: Maintenance
-          url: /en/yin/my-expertise/#maintenance
+          url: /en/yin/my-expertise/maintenance
         - title: Mediation
-          url: /en/yin/my-expertise/#mediation
+          url: /en/yin/my-expertise/mediation
         - title: Expert Assessment
-          url: /en/yin/my-expertise/#expert-assessment
+          url: /en/yin/my-expertise/expert-assessment
         - title: HVAC Engineering
-          url: /en/yin/my-expertise/#hvac-engineering
+          url: /en/yin/my-expertise/hvac-engineering
         - title: Industrial Processes
-          url: /en/yin/my-expertise/#industrial-processes
+          url: /en/yin/my-expertise/industrial-processes
     - title: About
       url: /en/yin/about/
       menu:
