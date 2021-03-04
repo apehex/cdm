@@ -121,7 +121,7 @@ yin:
             <p>Planification du Plan d’action, élaboration des ordres du jour des réunions</p>
             <p>Animation des réunions, points d’étapes, relevé de décisions.</p>
             <p>Suivi du plan d’action dans sa réalisation et gestion bouclée, surveillance de l’atteinte des objectifs</p>
-  out-of-court-agreement:
+  striking-agreement-out-of-court:
     en:
       id: out-of-court-agreement
       title: >-
@@ -172,7 +172,7 @@ yin:
             Suivre l’exécution du plan d’action
           content: >-
             ?
-  palliative-solutions:
+  finding-palliative-solutions:
     en:
       id: palliative-solutions
       title: >-
@@ -280,7 +280,7 @@ yin:
             <h3>Atténuer l'impact et restaurer l'état initial</h3>
             <p>Les préconisations concernent le cas échéant la conception du système, son exploitation, sa maintenance.</p>
             <p>Elles visent à établir, sous réserve de données disponibles, l’équilibre technico-économique à atteindre entre action modificative, préventive et corrective résiduelle.</p>
-  support-during-litigation:
+  supporting-during-litigation:
     en:
       id: support-during-litigation
       title: >-
