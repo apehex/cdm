@@ -1,16 +1,33 @@
 <svg class="text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" preserveAspectRatio="xMaxYMax meet" x="60%" y="60%" width="30%" height="30%">
+  {%- if page.lang == "fr" -%}
   <a href="{{ 'fr/yin/' | absolute_url }}">
+  {%- elsif page.lang == "en" -%}
+  <a href="{{ 'en/yin/' | absolute_url }}">
+  {%- endif -%}
     <g class="title" fill="#fff">
+      {%- if page.lang == "fr" -%}
       <text style="line-height:1.25" x="24.945" y="245.536" font-size="48" font-family="sans-serif" stroke-width=".265">
         <tspan x="24.945" y="245.536">Expertise</tspan>
       </text>
+      {%- elsif page.lang=="en" -%}
+      <text style="line-height:1.25" x="24.945" y="245.536" font-size="48" font-family="sans-serif" stroke-width=".265">
+        <tspan x="24.945" y="245.536">Expertise</tspan>
+      </text>
+      {%- endif -%}
       <path style="display: none;" d="M248 160h8v96h-8z"/>
     </g>
     <g class="subtitle" fill="#fff">
+      {%- if page.lang == "fr" -%}
       <text style="line-height:1.25;-inkscape-font-specification:sans-serif" x="224.216" y="123.203" font-size="18" font-family="sans-serif" letter-spacing="0">
         <tspan x="224.216" y="123.203" style="text-align:end" text-anchor="end">Dépasser</tspan>
         <tspan x="224.216" y="145.703" style="text-align:end" text-anchor="end">les incidents</tspan>
       </text>
+      {%- elsif page.lang == "en" -%}
+      <text style="line-height:1.25;-inkscape-font-specification:sans-serif" x="224.738" y="123.212" font-size="18" font-family="sans-serif" letter-spacing="0">
+        <tspan x="224.738" y="123.212" style="text-align:end" text-anchor="end">Outgrowing</tspan>
+        <tspan x="224.738" y="145.712" style="text-align:end" text-anchor="end">incidents</tspan>
+      </text>
+      {%- endif  -%}
       <path d="M248 96h8v64h-8z"/>
     </g>
   </a>

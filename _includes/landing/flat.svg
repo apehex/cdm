@@ -1,10 +1,10 @@
 <svg id="yin-yang" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" preserveAspectRatio="none">
   <g class="yin-yang" id="top">
     <path class="background" d="M512 .5C416.094.5 320.187 64.373 256.25 256 192.312 447.626 96.406 511.5.5 511.5V.5z" fill="#04d" stroke="#fff" stroke-width="1.0"/>
-    {% include landing/top.fr.svg %}
+    {% include landing/top.svg %}
   </g>
   <g class="yin-yang" id="bottom">
     <path class="background" d="M0 511.5c95.906 0 191.813-63.874 255.75-255.5C319.688 64.374 415.594.5 511.5.5v511z" fill="#123456" stroke="#fff" stroke-width="1.0"/>
-    {% include landing/bottom.fr.svg %}
+    {% include landing/bottom.svg %}
   </g>
 </svg>

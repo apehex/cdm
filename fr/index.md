@@ -3,10 +3,8 @@ layout: landing
 lang-ref: landing-page
 title: >-
     Ingénierie et Expertise Indépendantes
-subtitle: >-
-    Une Approche Holistique Des Affaires
 description: >-
-    Todo
+    Une Approche Holistique Des Affaires
 ---
 <style type="text/css">
     .vector {
