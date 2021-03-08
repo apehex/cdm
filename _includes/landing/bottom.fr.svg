@@ -1,0 +1,17 @@
+<svg class="text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 96" preserveAspectRatio="xMaxYMax meet" x="60%" y="60%" width="30%" height="30%">
+  <a href="{{ 'fr/yin/' | absolute_url }}">
+    <g class="title" fill="#fff">
+      <text style="line-height:1.25" x="7.296" y="80.176" font-size="32" font-family="sans-serif" stroke-width=".265">
+          <tspan x="7.296" y="80.176">Expertise</tspan>
+      </text>
+      <path style="display: none;" d="M148 48h8v48h-8z"/>
+    </g>
+    <g class="subtitle" fill="#fff">
+      <text style="line-height:1.25" x="140.192" y="19.736" font-size="16" font-family="sans-serif">
+          <tspan x="140.192" y="19.736" style="text-align:end" text-anchor="end">Dépasser</tspan>
+          <tspan x="140.192" y="39.736" style="text-align:end" text-anchor="end">les incidents</tspan>
+      </text>
+      <path d="M148 0h8v48h-8z"/>
+    </g>
+  </a>
+</svg>
