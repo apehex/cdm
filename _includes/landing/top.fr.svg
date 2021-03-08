@@ -1,18 +1,18 @@
-<svg class="text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 112" preserveAspectRatio="xMinYMin meet" x="10%" y="10%" width="30%" height="30%">
+<svg class="text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" preserveAspectRatio="xMinYMin meet" x="10%" y="10%" width="30%" height="30%">
   <a href="{{ 'fr/yang/' | absolute_url }}">
     <g class="title" fill="#fff">
-      <text style="line-height:1.25" x="14.464" y="35.488" font-size="32" font-family="sans-serif" stroke-width=".265">
-          <tspan x="14.464" y="35.488">Conseil</tspan>
+      <text style="line-height:1.25" x="29.696" y="35.568" font-size="48" font-family="sans-serif" stroke-width=".265">
+        <tspan x="29.696" y="35.568">Conseil</tspan>
       </text>
-      <path style="display: none;" d="M0 0h8v48H0z"/>
+      <path style="display: none;" d="M0 0h8v96H0z"/>
     </g>
     <g class="subtitle" fill="#fff">
-      <text style="line-height:1.25" x="15.728" y="64.088" font-size="16" font-family="sans-serif">
-          <tspan x="15.728" y="64.088">Accompagner</tspan>
-          <tspan x="15.728" y="84.088">de la réflexion stratégique</tspan>
-          <tspan x="15.728" y="104.088">à l&apos;exploitation des moyens</tspan>
+      <text style="line-height:1.25;-inkscape-font-specification:sans-serif" x="31.694" y="126.099" font-size="18" font-family="sans-serif" letter-spacing="0">
+        <tspan x="31.694" y="126.099">Accompagner</tspan>
+        <tspan x="31.694" y="148.599">de la réflexion stratégique</tspan>
+        <tspan x="31.694" y="171.099">à l&apos;exploitation des moyens</tspan>
       </text>
-      <path d="M0 48h8v64H0z"/>
+      <path d="M0 96h8v96H0z"/>
     </g>
   </a>
 </svg>
