@@ -19,6 +19,10 @@ description: >-
         display: flex;
         flex-direction: column;
     }
+    svg#yin-yang {
+        width: 100%;
+        height: 100%;
+    }
     svg .background {
         fill: #123456;
         stroke: #ffffff;
@@ -28,7 +32,7 @@ description: >-
         fill: #ffffff;
         transition: 0.3s;
     }
-    svg .description {
+    svg .subtitle {
         fill: #ffffff;
         opacity: 0.0;
         transition: 0.6s;
@@ -39,10 +43,10 @@ description: >-
     svg .yin-yang:hover .title {
         fill: #ffdd44;
     }
-    svg .yin-yang:hover .description {
+    svg .yin-yang:hover .subtitle {
         opacity: 1.0;
     }
 </style>
 <div class="vector" style="">
-    {% include flat.svg %}
+    {% include landing/flat.svg %}
 </div>
