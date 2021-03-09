@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moodule.github.io/cdm/sitemap.xml
+Sitemap: https://apehex.github.io/cdm/sitemap.xml
