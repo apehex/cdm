@@ -4,11 +4,10 @@ layout: page
 title: >-
     Expertise in HVAC Engineering and Industrial Processes
 header:
+    class: inverted
     title: CDM
     subtitle: >-
         Outgrowing Incidents
-    style:
-        class: inverted
 ---
 
 {% include services/yin/improving-performance.html %}

@@ -5,14 +5,14 @@ title: >-
     Cabinet d'Expertise
 description: >-
     J’accompagne les entreprises, syndics de copropriété, syndicats de copropriétaires, particuliers, de l’identification du désordre jusqu’à la solution interne ou externe (amiable / judiciaire) dans le cas où la responsabilité d’un tiers pourrait être recherchée.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Dépasser les Incidents
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
 banner:
     title: >-
         Cabinet d'Expertise
@@ -23,10 +23,6 @@ banner:
             #contact
         label: >-
             Demandez Conseil
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
 ---
 
 {% include home/yin/situation.html %}

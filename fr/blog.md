@@ -4,11 +4,10 @@ layout: page
 title: >-
     Actualités
 header:
+    class: inverted
     title: CDM
     subtitle: >-
         Ingénierie et Expertise Indépendantes
-    style:
-        class: inverted
 ---
 
 {% include thread.html %}
