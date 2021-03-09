@@ -26,11 +26,6 @@
 
 @media screen and (max-width: 480px) { .posts { margin: 0 0 2em 0; width: 100%; } .posts article { margin: 0 0 4.5em 0; width: 100%; } .posts article:before { display: none; } .posts article:after { width: 100%; } .posts article:last-child { margin-bottom: 0; } .posts article:last-child:after { display: none; } }
 
-/* Main */
-@media screen and (max-width: 736px) { #main > .inner section { padding: 1em 1em 1em 4em; } }
-
-#main > .inner #header { padding: 2em 4em 1em 4em; margin: 0; }
-
 #header .subtitle { display: none; }
 
 /* Banner */
