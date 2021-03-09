@@ -5,16 +5,14 @@ title: >-
     Expert Assessment
 description: >-
     J'accompagne les entreprises, syndics de copropriété, syndicats de copropriétaires, particuliers, de l'identification du désordre jusqu'à la solution interne ou externe (amiable / judiciaire) dans le cas où la responsabilité d'un tiers pourrait être recherchée.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Outgrowing Incidents
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: >-
         Expert Assessment
@@ -25,12 +23,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {% include home/yin/situation.html %}

@@ -4,11 +4,10 @@ layout: page
 title: >-
     Conseil en Stratégie et AMOA
 header:
+    class: inverted
     title: CDM
     subtitle: >-
         Accompagner de la Décision à l'Exploitation
-    style:
-        class: inverted
 ---
 
 {% include situation/yang/development.html %}

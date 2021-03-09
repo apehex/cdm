@@ -6,8 +6,7 @@ title: >-
 description: >-
     We do not log or share personal information about our visitors.
 header:
+    class: inverted
     title: CDM
     subtitle: Privacy Policy
-    style:
-        class: inverted
 ---

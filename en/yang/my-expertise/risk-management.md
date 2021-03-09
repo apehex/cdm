@@ -5,16 +5,14 @@ title: >-
     Risk Management
 description: >-
     Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: Risk Management
     subtitle: >-
@@ -25,12 +23,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {%- assign data = site.data.expertise.yang.risk-management["fr"] -%}

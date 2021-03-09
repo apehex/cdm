@@ -4,11 +4,10 @@ layout: page
 title: >-
     Médiation et Expertise
 header:
+    class: inverted
     title: CDM
     subtitle: >-
         Dépasser les Incidents
-    style:
-        class: inverted
 ---
 
 {% include situation/yin/under-performance.html %}

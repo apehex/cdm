@@ -5,16 +5,14 @@ title: >-
     Solving Failures
 description: >-
     Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: >-
         Solving Failures
@@ -26,12 +24,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {%- assign data = site.data.services.yin.solving-failures["fr"] -%}

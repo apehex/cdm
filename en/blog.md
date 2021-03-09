@@ -4,11 +4,10 @@ layout: page
 title: >-
     Recent Activity
 header:
+    class: inverted
     title: CDM
     subtitle: >-
         Independant Engineering and Expertise
-    style:
-        class: inverted
 ---
 
 {% include thread.html %}

@@ -4,11 +4,10 @@ layout: page
 title: >-
     Strategy and Project Support
 header:
+    class: inverted
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
 ---
 
 {% include situation/yang/development.html %}

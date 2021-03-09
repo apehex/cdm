@@ -6,16 +6,14 @@ title: >-
 description: >-
     Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet de l’étude macro à l’étude micro.
     Typiquement, la démarche complète conduit à un doublement d’activité à périmètre de ressources fixes constant.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: Efficiency
     subtitle: >-
@@ -27,12 +25,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {%- assign data = site.data.expertise.yang.efficiency["fr"] -%}

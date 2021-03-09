@@ -5,16 +5,14 @@ title: >-
     Equipment Failure
 description: >-
     Résoudre durablement des défaillances ponctuelles et critiques ou chroniques.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: >-
         Equipment Failure
@@ -26,12 +24,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {%- assign data = site.data.situation.yin.equipment-failure["fr"] -%}

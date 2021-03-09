@@ -4,11 +4,10 @@ layout: page
 title: >-
     Expertise ENR et Procédés Industriels
 header:
+    class: inverted
     title: CDM
     subtitle: >-
         Dépasser les Incidents
-    style:
-        class: inverted
 ---
 
 

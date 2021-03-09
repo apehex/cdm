@@ -4,11 +4,10 @@ layout: page
 title: >-
     Expert Assessment and Mediating
 header:
+    class: inverted
     title: CDM
     subtitle: >-
         Outgrowing Incidents
-    style:
-        class: inverted
 ---
 
 {% include situation/yin/under-performance.html %}

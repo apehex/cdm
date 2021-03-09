@@ -5,16 +5,14 @@ title: >-
     Maintenance
 description: >-
     Développer la fonction en tant que levier de rentabilité de l’entreprise.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: Maintenance
     subtitle: >-
@@ -25,12 +23,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {%- assign data = site.data.expertise.yang.maintenance["fr"] -%}

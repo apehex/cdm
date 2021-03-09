@@ -5,16 +5,14 @@ title: >-
     Improving Performance
 description: >-
     Quantifier les performances des systèmes et formaliser les processus de création de valeur.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: Improving Performance
     subtitle: >-
@@ -25,12 +23,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {%- assign data = site.data.services.yin.improving-performance["fr"] -%}

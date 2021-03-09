@@ -5,16 +5,14 @@ title: >-
     Independant Engineering and Expertise
 description: >-
     J'accompagne les entreprises de la réflexion stratégique à l'exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d'exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Independant Engineering and Expertise
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: " "
     subtitle: >-
@@ -25,12 +23,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yin/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {% include home/yang/situation.html %}
