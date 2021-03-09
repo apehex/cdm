@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>http://c-dm.fr/showcase/</loc><xhtml:link rel="alternate" hreflang="" href="http://c-dm.fr/showcase/" /><changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://c-dm.fr/en/yang/about/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/about/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yang/a-propos/" /><changefreq>weekly</changefreq>
   </url><url>
     <loc>http://c-dm.fr/en/yin/about/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/about/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yin/a-propos/" /><changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://c-dm.fr/en/yang/blog/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/blog/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yang/blog/" /><changefreq>weekly</changefreq>
+    <loc>http://c-dm.fr/en/yin/my-services/assessing-damage/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-services/assessing-damage/" /><changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://c-dm.fr/en/yin/blog/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/blog/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yin/blog/" /><changefreq>weekly</changefreq>
+    <loc>http://c-dm.fr/en/blog/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/blog/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/blog/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yang/my-expertise/contracting-authority/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/my-expertise/contracting-authority/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yang/my-expertise/dependability/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/my-expertise/dependability/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yang/your-situation/deployment/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/your-situation/deployment/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yang/your-situation/development/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/your-situation/development/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/your-situation/disorder/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/your-situation/disorder/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yang/my-expertise/efficiency/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/my-expertise/efficiency/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/your-situation/equipment-failure/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/your-situation/equipment-failure/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/my-expertise/expert-assessment/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-expertise/expert-assessment/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/my-services/finding-palliative-solutions/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-services/finding-palliative-solutions/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/my-services/improving-performance/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-services/improving-performance/" /><changefreq>weekly</changefreq>
   </url><url>
     <loc>http://c-dm.fr/en/yang/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yang/" /><changefreq>weekly</changefreq>
   </url><url>
@@ -16,13 +34,35 @@
   </url><url>
     <loc>http://c-dm.fr/en/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/" /><xhtml:link rel="alternate" hreflang="x-default" href="http://c-dm.fr/" /><changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://c-dm.fr/en/yin/your-situation/litigation/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/your-situation/litigation/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yang/my-expertise/maintenance/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/my-expertise/maintenance/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/my-expertise/maintenance/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-expertise/maintenance/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/my-expertise/mediation/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-expertise/mediation/" /><changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://c-dm.fr/en/yang/my-expertise/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/my-expertise/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yang/mes-competences/" /><changefreq>weekly</changefreq>
   </url><url>
     <loc>http://c-dm.fr/en/yin/my-expertise/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-expertise/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yin/mes-competences/" /><changefreq>weekly</changefreq>
   </url><url>
     <loc>http://c-dm.fr/en/yin/my-services/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-services/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yin/mes-services/" /><changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://c-dm.fr/en/yang/your-situation/operation/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/your-situation/operation/" /><changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://c-dm.fr/en/privacy-policy/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/privacy-policy/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/politique-de-confidentialite/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yang/your-situation/reception/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/your-situation/reception/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yang/my-expertise/risk-management/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/my-expertise/risk-management/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/my-services/solving-failures/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-services/solving-failures/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/my-services/striking-agreement-out-of-court/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-services/striking-agreement-out-of-court/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/my-services/supporting-during-litigation/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/my-services/supporting-during-litigation/" /><changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://c-dm.fr/en/yin/your-situation/under-performance/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/your-situation/under-performance/" /><changefreq>weekly</changefreq>
   </url><url>
     <loc>http://c-dm.fr/en/yang/your-situation/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/your-situation/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yang/votre-situation/" /><changefreq>weekly</changefreq>
   </url><url>
@@ -32,9 +72,7 @@
   </url><url>
     <loc>http://c-dm.fr/fr/yin/a-propos/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/about/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yin/a-propos/" /><changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://c-dm.fr/fr/yang/blog/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/blog/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yang/blog/" /><changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://c-dm.fr/fr/yin/blog/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yin/blog/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yin/blog/" /><changefreq>weekly</changefreq>
+    <loc>http://c-dm.fr/fr/blog/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/blog/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/blog/" /><changefreq>weekly</changefreq>
   </url><url>
     <loc>http://c-dm.fr/fr/yang/</loc><xhtml:link rel="alternate" hreflang="en" href="http://c-dm.fr/en/yang/" /><xhtml:link rel="alternate" hreflang="fr" href="http://c-dm.fr/fr/yang/" /><changefreq>weekly</changefreq>
   </url><url>

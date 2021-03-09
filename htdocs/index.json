@@ -1,8 +1,8 @@
 [{
       "lang"           : "",
-      "title"          : "CDM",
+      "title"          : "Error 404",
       "description"    : "",
-      "url"            : "http://c-dm.fr/showcase/",
+      "url"            : "http://c-dm.fr/404.html",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -21,16 +21,86 @@
       "date"           : ""
     } ,{
       "lang"           : "en",
-      "title"          : "Recent Activity",
-      "description"    : "",
-      "url"            : "http://c-dm.fr/en/yang/blog/",
+      "title"          : "Assessing Damage",
+      "description"    : "Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation.",
+      "url"            : "http://c-dm.fr/en/yin/my-services/assessing-damage/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Recent Activity",
-      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
-      "url"            : "http://c-dm.fr/en/yin/blog/",
+      "description"    : "",
+      "url"            : "http://c-dm.fr/en/blog/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Contracting Authority",
+      "description"    : "Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet.",
+      "url"            : "http://c-dm.fr/en/yang/my-expertise/contracting-authority/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Dependability",
+      "description"    : "Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installations, selon les axes FMDS et LCC.",
+      "url"            : "http://c-dm.fr/en/yang/my-expertise/dependability/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Deployment",
+      "description"    : "&amp;Ecirc;tre aidé dans la mise en œuvre des décisions.",
+      "url"            : "http://c-dm.fr/en/yang/your-situation/deployment/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Development",
+      "description"    : "&amp;Ecirc;tre aidé dans l’évaluation et l’organisation du projet.",
+      "url"            : "http://c-dm.fr/en/yang/your-situation/development/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Disorder",
+      "description"    : "Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation.",
+      "url"            : "http://c-dm.fr/en/yin/your-situation/disorder/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Efficiency",
+      "description"    : "Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet de l’étude macro à l’étude micro. Typiquement, la démarche complète conduit à un doublement d’activité à périmètre de ressources fixes constant.",
+      "url"            : "http://c-dm.fr/en/yang/my-expertise/efficiency/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Equipment Failure",
+      "description"    : "Résoudre durablement des défaillances ponctuelles et critiques ou chroniques.",
+      "url"            : "http://c-dm.fr/en/yin/your-situation/equipment-failure/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Expert Assessment",
+      "description"    : "?",
+      "url"            : "http://c-dm.fr/en/yin/my-expertise/expert-assessment/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Finding Palliative Solutions",
+      "description"    : "Accompagner dans la négociation",
+      "url"            : "http://c-dm.fr/en/yin/my-services/finding-palliative-solutions/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Improving Performance",
+      "description"    : "Quantifier les performances des systèmes et formaliser les processus de création de valeur.",
+      "url"            : "http://c-dm.fr/en/yin/my-services/improving-performance/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -50,8 +120,36 @@
     } ,{
       "lang"           : "en",
       "title"          : "Independant Engineering and Expertise",
-      "description"    : "",
+      "description"    : "A Holistic Take On Business",
       "url"            : "http://c-dm.fr/en/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Litigation",
+      "description"    : "Obtenir réparation amiable ou judiciaire de votre dommage.",
+      "url"            : "http://c-dm.fr/en/yin/your-situation/litigation/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Maintenance",
+      "description"    : "Développer la fonction en tant que levier de rentabilité de l’entreprise.",
+      "url"            : "http://c-dm.fr/en/yang/my-expertise/maintenance/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Maintenance",
+      "description"    : "?",
+      "url"            : "http://c-dm.fr/en/yin/my-expertise/maintenance/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Mediation",
+      "description"    : "?",
+      "url"            : "http://c-dm.fr/en/yin/my-expertise/mediation/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -77,9 +175,58 @@
       "date"           : ""
     } ,{
       "lang"           : "en",
+      "title"          : "Operation",
+      "description"    : "Maintenir, rétablir ou améliorer les performances initiales.",
+      "url"            : "http://c-dm.fr/en/yang/your-situation/operation/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
       "title"          : "Privacy Policy",
       "description"    : "We do not log or share personal information about our visitors.",
       "url"            : "http://c-dm.fr/en/privacy-policy/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Reception",
+      "description"    : "Vérifier l’adaptation aux besoins et la conformité à votre commande.",
+      "url"            : "http://c-dm.fr/en/yang/your-situation/reception/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Risk Management",
+      "description"    : "Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA.",
+      "url"            : "http://c-dm.fr/en/yang/my-expertise/risk-management/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Solving Failures",
+      "description"    : "Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur.",
+      "url"            : "http://c-dm.fr/en/yin/my-services/solving-failures/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Striking Agreement Out-of-court",
+      "description"    : "Accompagner dans la négociation",
+      "url"            : "http://c-dm.fr/en/yin/my-services/striking-agreement-out-of-court/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Supporting During Litigation",
+      "description"    : "Argumenter factuellement votre réclamation ou votre absence / exonération de responsabilité.",
+      "url"            : "http://c-dm.fr/en/yin/my-services/supporting-during-litigation/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Under Performance",
+      "description"    : "Restaurer vos marges, productivité et rentabilité.",
+      "url"            : "http://c-dm.fr/en/yin/your-situation/under-performance/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -114,14 +261,7 @@
       "lang"           : "fr",
       "title"          : "Actualités",
       "description"    : "",
-      "url"            : "http://c-dm.fr/fr/yang/blog/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
-      "title"          : "Recent Activity",
-      "description"    : "",
-      "url"            : "http://c-dm.fr/fr/yin/blog/",
+      "url"            : "http://c-dm.fr/fr/blog/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -141,7 +281,7 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Ingénierie et Expertise Indépendantes",
-      "description"    : "Todo",
+      "description"    : "Une Approche Holistique Des Affaires",
       "url"            : "http://c-dm.fr/fr/",
       "tags"           : "",
       "date"           : ""
@@ -185,13 +325,6 @@
       "title"          : "Médiation et Expertise",
       "description"    : "",
       "url"            : "http://c-dm.fr/fr/yin/votre-situation/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "x-default",
-      "title"          : "CDM",
-      "description"    : "",
-      "url"            : "http://c-dm.fr/404/",
       "tags"           : "",
       "date"           : ""
     } ,{
