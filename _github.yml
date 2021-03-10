@@ -62,14 +62,14 @@ defaults:
       lang: "en"
   -
     scope:
-      path: "en/yang"
+      path: "en/consulting"
     values:
       menu: "yang"
       title: "Consulting"
       subtitle: "Supporting Companies from Decision to Operations"
   -
     scope:
-      path: "en/yin"
+      path: "en/expert-assessment"
     values:
       menu: "yin"
       title: "Expert Assessment"
@@ -82,14 +82,14 @@ defaults:
       lang: "fr"
   -
     scope:
-      path: "fr/yang"
+      path: "fr/conseil"
     values:
       menu: "yang"
       title: "Conseil"
       subtitle: "Accompagner de la Décision à l'Exploitation"
   -
     scope:
-      path: "fr/yin"
+      path: "fr/expertise"
     values:
       menu: "yin"
       title: "Expertise"

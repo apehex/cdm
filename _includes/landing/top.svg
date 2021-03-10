@@ -1,8 +1,8 @@
 <svg class="text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" preserveAspectRatio="xMinYMin meet" x="10%" y="10%" width="30%" height="30%">
   {%- if page.lang == "fr" -%}
-  <a href="{{ 'fr/yang/' | absolute_url }}">
+  <a href="{{ 'fr/conseil/' | absolute_url }}">
   {%- elsif page.lang == "en" -%}
-  <a href="{{ 'en/yang/' | absolute_url }}">
+  <a href="{{ 'en/consulting/' | absolute_url }}">
   {%- endif -%}
     <g class="title" fill="#fff">
       {%- if page.lang == "fr" -%}

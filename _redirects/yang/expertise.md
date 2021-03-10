@@ -1,4 +1,4 @@
 ---
-forward_url: /fr/yang/expertise
+forward_url: /fr/conseil/expertise
 lang-ref: yang-expertise
 ---

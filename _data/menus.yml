@@ -2,179 +2,179 @@
 default:
   en:
     - title: Consulting
-      url: /en/yang/
+      url: /en/consulting/
     - title: Disorder Management
-      url: /en/yin/
+      url: /en/expert-assessment/
     - title: Blog
       url: /en/blog/
   fr:
     - title: Conseil
-      url: /fr/yang/
+      url: /fr/conseil/
     - title: Expertise Légale
-      url: /fr/yin/
+      url: /fr/expertise/
     - title: Blog
       url: /fr/blog/
 yang:
   en:
     - title: Home
-      url: /en/yang/
+      url: /en/consulting/
     - title: Your Situation
-      url: /en/yang/your-situation/
+      url: /en/consulting/your-situation/
       menu:
         - title: Development
-          url: /en/yang/your-situation/development
+          url: /en/consulting/your-situation/development
         - title: Deployment
-          url: /en/yang/your-situation/deployment
+          url: /en/consulting/your-situation/deployment
         - title: Reception
-          url: /en/yang/your-situation/reception
+          url: /en/consulting/your-situation/reception
         - title: Operation
-          url: /en/yang/your-situation/operation
+          url: /en/consulting/your-situation/operation
     - title: My Expertise
-      url: /en/yang/my-expertise/
+      url: /en/consulting/my-expertise/
       menu:
         - title: Efficiency
-          url: /en/yang/my-expertise/efficiency
+          url: /en/consulting/my-expertise/efficiency
         - title: Dependability
-          url: /en/yang/my-expertise/dependability
+          url: /en/consulting/my-expertise/dependability
         - title: Risk Management
-          url: /en/yang/my-expertise/risk-management
+          url: /en/consulting/my-expertise/risk-management
         - title: Maintenance
-          url: /en/yang/my-expertise/maintenance
+          url: /en/consulting/my-expertise/maintenance
         - title: Contracting Authority
-          url: /en/yang/my-expertise/contracting-authority
+          url: /en/consulting/my-expertise/contracting-authority
     - title: About
-      url: /en/yang/about/
+      url: /en/consulting/about/
       menu:
         - title: My Profile
-          url: /en/yang/about/#profile
+          url: /en/consulting/about/#profile
         - title: My Certifications
-          url: /en/yang/about/#certifications
+          url: /en/consulting/about/#certifications
     - title: Blog
       url: /en/blog/
   fr:
     - title: Accueil
-      url: /fr/yang/
+      url: /fr/conseil/
     - title: Votre Situation
-      url: /fr/yang/votre-situation/
+      url: /fr/conseil/votre-situation/
       menu:
         - title: "&Eacute;laboration"
-          url: /fr/yang/votre-situation/#elaboration
+          url: /fr/conseil/votre-situation/#elaboration
         - title: Déploiement
-          url: /fr/yang/votre-situation/#deploiement
+          url: /fr/conseil/votre-situation/#deploiement
         - title: Réception
-          url: /fr/yang/votre-situation/#reception
+          url: /fr/conseil/votre-situation/#reception
         - title: Exploitation
-          url: /fr/yang/votre-situation/#exploitation
+          url: /fr/conseil/votre-situation/#exploitation
     - title: Mes Compétences
-      url: /fr/yang/mes-competences/
+      url: /fr/conseil/mes-competences/
       menu:
         - title: Efficience
-          url: /fr/yang/mes-competences/#efficience
+          url: /fr/conseil/mes-competences/#efficience
         - title: Sûreté de Fontionnement
-          url: /fr/yang/mes-competences/#surete-de-fonctionnement
+          url: /fr/conseil/mes-competences/#surete-de-fonctionnement
         - title: Gestion des Risques
-          url: /fr/yang/mes-competences/#gestion-des-risques
+          url: /fr/conseil/mes-competences/#gestion-des-risques
         - title: Maintenance
-          url: /fr/yang/mes-competences/#maintenance
+          url: /fr/conseil/mes-competences/#maintenance
         - title: Maîtrise d'Ouvrage
-          url: /fr/yang/mes-competences/#assistance-maitrise-d-ouvrage
+          url: /fr/conseil/mes-competences/#assistance-maitrise-d-ouvrage
     - title: A Propos
-      url: /fr/yang/a-propos/
+      url: /fr/conseil/a-propos/
       menu:
         - title: Mon Parcours
-          url: /fr/yang/a-propos/#profil
+          url: /fr/conseil/a-propos/#profil
         - title: Mes Références
-          url: /fr/yang/a-propos/#references
+          url: /fr/conseil/a-propos/#references
     - title: Blog
       url: /fr/blog/
 yin:
   en:
     - title: Home
-      url: /en/yin/
+      url: /en/expert-assessment/
     - title: Your Situation
-      url: /en/yin/your-situation/
+      url: /en/expert-assessment/your-situation/
       menu:
         - title: Under Performance
-          url: /en/yin/your-situation/under-performance
+          url: /en/expert-assessment/your-situation/under-performance
         - title: Equipment Failure
-          url: /en/yin/your-situation/equipment-failure
+          url: /en/expert-assessment/your-situation/equipment-failure
         - title: Disorder
-          url: /en/yin/your-situation/disorder
+          url: /en/expert-assessment/your-situation/disorder
         - title: Litigation
-          url: /en/yin/your-situation/litigation
+          url: /en/expert-assessment/your-situation/litigation
     - title: My Services
-      url: /en/yin/my-services/
+      url: /en/expert-assessment/my-services/
       menu:
         - title: Improving Performance
-          url: /en/yin/my-services/improving-performance
+          url: /en/expert-assessment/my-services/improving-performance
         - title: Solving Equipment Failures
-          url: /en/yin/my-services/solving-failures
+          url: /en/expert-assessment/my-services/solving-failures
         - title: Assessing damage
-          url: /en/yin/my-services/assessing-damage
+          url: /en/expert-assessment/my-services/assessing-damage
         - title: Supporting During Litigation
-          url: /en/yin/my-services/supporting-during-litigation
+          url: /en/expert-assessment/my-services/supporting-during-litigation
         - title: Palliative Solutions
-          url: /en/yin/my-services/finding-palliative-solutions
+          url: /en/expert-assessment/my-services/finding-palliative-solutions
         - title: Out-Of-Court Agreement
-          url: /en/yin/my-services/striking-agreement-out-of-court
+          url: /en/expert-assessment/my-services/striking-agreement-out-of-court
     - title: My Expertise
-      url: /en/yin/my-expertise/
+      url: /en/expert-assessment/my-expertise/
       menu:
         - title: Maintenance
-          url: /en/yin/my-expertise/maintenance
+          url: /en/expert-assessment/my-expertise/maintenance
         - title: Mediation
-          url: /en/yin/my-expertise/mediation
+          url: /en/expert-assessment/my-expertise/mediation
         - title: Expert Assessment
-          url: /en/yin/my-expertise/expert-assessment
+          url: /en/expert-assessment/my-expertise/expert-assessment
         - title: HVAC Engineering
-          url: /en/yin/my-expertise/hvac-engineering
+          url: /en/expert-assessment/my-expertise/hvac-engineering
         - title: Industrial Processes
-          url: /en/yin/my-expertise/industrial-processes
+          url: /en/expert-assessment/my-expertise/industrial-processes
     - title: About
-      url: /en/yin/about/
+      url: /en/expert-assessment/about/
       menu:
         - title: My Profile
-          url: /en/yin/about/#profile
+          url: /en/expert-assessment/about/#profile
         - title: My Certifications
-          url: /en/yin/about/#certifications
+          url: /en/expert-assessment/about/#certifications
     - title: Blog
       url: /en/blog/
   fr:
     - title: Accueil
-      url: /fr/yin/
+      url: /fr/expertise/
     - title: Votre Situation
-      url: /fr/yin/votre-situation/
+      url: /fr/expertise/votre-situation/
       menu:
         - title: Sous Performance
-          url: /fr/yin/votre-situation/#sous-performance
+          url: /fr/expertise/votre-situation/#sous-performance
         - title: Défaillance
-          url: /fr/yin/votre-situation/#defaillance
+          url: /fr/expertise/votre-situation/#defaillance
         - title: Désordre
-          url: /fr/yin/votre-situation/#desordre
+          url: /fr/expertise/votre-situation/#desordre
         - title: Action En Justice
-          url: /fr/yin/votre-situation/#action-en-justice
+          url: /fr/expertise/votre-situation/#action-en-justice
     - title: Mes Compétences
-      url: /fr/yin/mes-competences/
+      url: /fr/expertise/mes-competences/
       menu:
         - title: Performance Technico-Economique
-          url: /fr/yin/mes-competences/#ameliorer-la-performance
+          url: /fr/expertise/mes-competences/#ameliorer-la-performance
         - title: Résolution de Défaillances
-          url: /fr/yin/mes-competences/#resolution-des-defaillances
+          url: /fr/expertise/mes-competences/#resolution-des-defaillances
         - title: >-
             &Eacute;valuer les dégâts
-          url: /fr/yin/mes-competences/#evaluer-les-degats
+          url: /fr/expertise/mes-competences/#evaluer-les-degats
         - title: Expertise
-          url: /fr/yin/mes-competences/#accompagnement-pendant-les-litiges
+          url: /fr/expertise/mes-competences/#accompagnement-pendant-les-litiges
         - title: Génie Climatique
-          url: /fr/yin/mes-competences/#genie-climatique
+          url: /fr/expertise/mes-competences/#genie-climatique
         - title: Procédés Industriels
-          url: /fr/yin/mes-competences/#procedes-industriels
+          url: /fr/expertise/mes-competences/#procedes-industriels
     - title: A Propos
-      url: /fr/yin/a-propos/
+      url: /fr/expertise/a-propos/
       menu:
         - title: Mon Parcours
-          url: /fr/yin/a-propos/#profil
+          url: /fr/expertise/a-propos/#profil
         - title: Mes Références
-          url: /fr/yin/a-propos/#references
+          url: /fr/expertise/a-propos/#references
     - title: Blog
       url: /fr/blog/

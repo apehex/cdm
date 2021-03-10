@@ -1,4 +1,4 @@
 ---
-forward_url: /fr/yang/blog
+forward_url: /fr/conseil/blog
 lang-ref: yang-blog
 ---
