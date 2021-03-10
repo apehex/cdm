@@ -1,4 +1,4 @@
 ---
-forward_url: /fr/yin/expertise
+forward_url: /fr/expertise/expertise
 lang-ref: yin-expertise
 ---

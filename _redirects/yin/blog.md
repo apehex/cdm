@@ -1,4 +1,4 @@
 ---
-forward_url: /fr/yin/blog
+forward_url: /fr/expertise/blog
 lang-ref: yin-blog
 ---

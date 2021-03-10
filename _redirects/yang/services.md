@@ -1,4 +1,4 @@
 ---
-forward_url: /fr/yang/services
+forward_url: /fr/conseil/services
 lang-ref: yang-services
 ---
