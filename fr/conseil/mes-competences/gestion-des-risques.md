@@ -1,10 +1,10 @@
 ---
-lang-ref: yin-services-finding-palliative-solutions
+lang-ref: yang-expertise-risk-management
 layout: home
 title: >-
-    Finding Palliative Solutions
+    Gestion des Risques
 description: >-
-    Accompagner dans la négociation
+    Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA.
 background:
     class: inverted
     image:
@@ -12,21 +12,20 @@ background:
 header:
     title: CDM
     subtitle: >-
-        Outgrowing incidents
+        Accompagner de la Décision à l'Exploitation
 banner:
-    title: >-
-        Finding Palliative Solutions
+    title: Gestion des Risques
     subtitle: >-
-        Accompagner dans la négociation
+        Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA
     description: " "
     button:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.finding-palliative-solutions["fr"] -%}
+{%- assign data = site.data.expertise.yang.risk-management["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

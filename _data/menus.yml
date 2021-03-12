@@ -58,26 +58,26 @@ yang:
       url: /fr/conseil/votre-situation/
       menu:
         - title: "&Eacute;laboration"
-          url: /fr/conseil/votre-situation/#elaboration
+          url: /fr/conseil/votre-situation/elaboration
         - title: Déploiement
-          url: /fr/conseil/votre-situation/#deploiement
+          url: /fr/conseil/votre-situation/deploiement
         - title: Réception
-          url: /fr/conseil/votre-situation/#reception
+          url: /fr/conseil/votre-situation/reception
         - title: Exploitation
-          url: /fr/conseil/votre-situation/#exploitation
+          url: /fr/conseil/votre-situation/exploitation
     - title: Mes Compétences
       url: /fr/conseil/mes-competences/
       menu:
         - title: Efficience
-          url: /fr/conseil/mes-competences/#efficience
+          url: /fr/conseil/mes-competences/efficience
         - title: Sûreté de Fontionnement
-          url: /fr/conseil/mes-competences/#surete-de-fonctionnement
+          url: /fr/conseil/mes-competences/surete-de-fonctionnement
         - title: Gestion des Risques
-          url: /fr/conseil/mes-competences/#gestion-des-risques
+          url: /fr/conseil/mes-competences/gestion-des-risques
         - title: Maintenance
-          url: /fr/conseil/mes-competences/#maintenance
+          url: /fr/conseil/mes-competences/maintenance
         - title: Maîtrise d'Ouvrage
-          url: /fr/conseil/mes-competences/#assistance-maitrise-d-ouvrage
+          url: /fr/conseil/mes-competences/assistance-maitrise-d-ouvrage
     - title: A Propos
       url: /fr/conseil/a-propos/
       menu:
@@ -146,29 +146,29 @@ yin:
       url: /fr/expertise/votre-situation/
       menu:
         - title: Sous Performance
-          url: /fr/expertise/votre-situation/#sous-performance
+          url: /fr/expertise/votre-situation/sous-performance
         - title: Défaillance
-          url: /fr/expertise/votre-situation/#defaillance
+          url: /fr/expertise/votre-situation/defaillance
         - title: Désordre
-          url: /fr/expertise/votre-situation/#desordre
+          url: /fr/expertise/votre-situation/desordre
         - title: Action En Justice
-          url: /fr/expertise/votre-situation/#action-en-justice
+          url: /fr/expertise/votre-situation/action-en-justice
     - title: Mes Compétences
       url: /fr/expertise/mes-competences/
       menu:
         - title: Performance Technico-Economique
-          url: /fr/expertise/mes-competences/#ameliorer-la-performance
+          url: /fr/expertise/mes-competences/ameliorer-la-performance
         - title: Résolution de Défaillances
-          url: /fr/expertise/mes-competences/#resolution-des-defaillances
+          url: /fr/expertise/mes-competences/resolution-des-defaillances
         - title: >-
             &Eacute;valuer les dégâts
-          url: /fr/expertise/mes-competences/#evaluer-les-degats
+          url: /fr/expertise/mes-competences/evaluer-les-degats
         - title: Expertise
-          url: /fr/expertise/mes-competences/#accompagnement-pendant-les-litiges
+          url: /fr/expertise/mes-competences/accompagnement-pendant-les-litiges
         - title: Génie Climatique
-          url: /fr/expertise/mes-competences/#genie-climatique
+          url: /fr/expertise/mes-competences/genie-climatique
         - title: Procédés Industriels
-          url: /fr/expertise/mes-competences/#procedes-industriels
+          url: /fr/expertise/mes-competences/procedes-industriels
     - title: A Propos
       url: /fr/expertise/a-propos/
       menu:

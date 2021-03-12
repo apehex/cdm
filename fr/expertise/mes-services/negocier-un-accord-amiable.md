@@ -1,8 +1,8 @@
 ---
-lang-ref: yin-services-finding-palliative-solutions
+lang-ref: yin-services-striking-agreement-out-of-court
 layout: home
 title: >-
-    Finding Palliative Solutions
+    Accords Amiables
 description: >-
     Accompagner dans la négociation
 background:
@@ -12,10 +12,10 @@ background:
 header:
     title: CDM
     subtitle: >-
-        Outgrowing incidents
+        Dépasser les incidents
 banner:
     title: >-
-        Finding Palliative Solutions
+        Accords Amiables
     subtitle: >-
         Accompagner dans la négociation
     description: " "
@@ -23,10 +23,10 @@ banner:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.finding-palliative-solutions["fr"] -%}
+{%- assign data = site.data.services.yin.striking-agreement-out-of-court["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

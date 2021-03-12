@@ -8,7 +8,7 @@ yang:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /en/consulting/your-situation#development
+            /en/consulting/your-situation/development
           default:
             intro: >-
               Development
@@ -30,7 +30,7 @@ yang:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /en/consulting/your-situation#deployment
+            /en/consulting/your-situation/deployment
           default:
             intro: >-
               Deployment
@@ -52,7 +52,7 @@ yang:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /en/consulting/your-situation#reception
+            /en/consulting/your-situation/reception
           default:
             intro: >-
               Reception
@@ -74,7 +74,7 @@ yang:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /en/consulting/your-situation#operation
+            /en/consulting/your-situation/operation
           default:
             intro: >-
               Operation
@@ -101,7 +101,7 @@ yang:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/conseil/votre-situation#elaboration
+            /fr/conseil/votre-situation/elaboration
           default:
             intro: >-
               &Eacute;laboration
@@ -123,7 +123,7 @@ yang:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/conseil/votre-situation#deploiement
+            /fr/conseil/votre-situation/deploiement
           default:
             intro: >-
               Déploiement
@@ -145,7 +145,7 @@ yang:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/conseil/votre-situation#reception
+            /fr/conseil/votre-situation/reception
           default:
             intro: >-
               Réception
@@ -167,7 +167,7 @@ yang:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/conseil/votre-situation#exploitation
+            /fr/conseil/votre-situation/exploitation
           default:
             intro: >-
               Exploitation
@@ -264,7 +264,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            en/consulting/my-expertise#efficiency
+            en/consulting/my-expertise/efficiency
           icon: >-
             solid fa-bolt
           title: >-
@@ -273,7 +273,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            en/consulting/my-expertise#dependability
+            en/consulting/my-expertise/dependability
           icon: >-
             solid fa-clock
           title: >-
@@ -282,7 +282,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            en/consulting/my-expertise#risk-management
+            en/consulting/my-expertise/risk-management
           icon: >-
             solid fa-umbrella
           title: >-
@@ -291,7 +291,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            en/consulting/my-expertise#maintenance
+            en/consulting/my-expertise/maintenance
           icon: >-
             solid fa-tools
           title: >-
@@ -300,7 +300,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            en/consulting/my-expertise#contracting-authority
+            en/consulting/my-expertise/contracting-authority
           icon: >-
             solid fa-tasks
           title: >-
@@ -314,7 +314,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/conseil/mes-competences#efficience
+            fr/conseil/mes-competences/efficience
           icon: >-
             solid fa-bolt
           title: >-
@@ -323,7 +323,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/conseil/mes-competences#surete-de-fonctionnement
+            fr/conseil/mes-competences/surete-de-fonctionnement
           icon: >-
             solid fa-clock
           title: >-
@@ -332,7 +332,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/conseil/mes-competences#gestion-des-risques
+            fr/conseil/mes-competences/gestion-des-risques
           icon: >-
             solid fa-umbrella
           title: >-
@@ -341,7 +341,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/conseil/mes-competences#maintenance
+            fr/conseil/mes-competences/maintenance
           icon: >-
             solid fa-tools
           title: >-
@@ -350,7 +350,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/conseil/mes-competences#assistance-maitrise-d-ouvrage
+            fr/conseil/mes-competences/assistance-maitrise-d-ouvrage
           icon: >-
             solid fa-tasks
           title: >-
@@ -366,7 +366,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /en/expert-assessment/your-situation#under-performance
+            /en/expert-assessment/your-situation/under-performance
           default:
             intro: >-
               Under Performance
@@ -388,7 +388,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /en/expert-assessment/your-situation#equipment-failure
+            /en/expert-assessment/your-situation/equipment-failure
           default:
             intro: >-
               Equipment Failure
@@ -410,7 +410,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /en/expert-assessment/your-situation#disorder
+            /en/expert-assessment/your-situation/disorder
           default:
             intro: >-
               Disorder
@@ -432,7 +432,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /en/expert-assessment/your-situation#litigation
+            /en/expert-assessment/your-situation/litigation
           default:
             intro: >-
               Litigation
@@ -459,7 +459,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/expertise/votre-situation#sous-performance
+            /fr/expertise/votre-situation/sous-performance
           default:
             intro: >-
               Under Performance
@@ -481,7 +481,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/expertise/votre-situation#defaillance
+            /fr/expertise/votre-situation/defaillance
           default:
             intro: >-
               Défaillance
@@ -503,7 +503,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/expertise/votre-situation#desordre
+            /fr/expertise/votre-situation/desordre
           default:
             intro: >-
               Désordre
@@ -525,7 +525,7 @@ yin:
         - class: >-
             col-2 col-4-medium col-12-small
           target_url: >-
-            /fr/expertise/votre-situation#action-en-justice
+            /fr/expertise/votre-situation/action-en-justice
           default:
             intro: >-
               Litige
@@ -588,7 +588,7 @@ yin:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/expertise/mes-competences/#genie-climatique
+            fr/expertise/mes-competences/genie-climatique
           icon: >-
             solid fa-thermometer-half
           title: >-
@@ -598,7 +598,7 @@ yin:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/expertise/mes-competences/#genie-climatique
+            fr/expertise/mes-competences/genie-climatique
           icon: >-
             solid fa-recycle
           title: >-
@@ -608,7 +608,7 @@ yin:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            fr/expertise/mes-competences/#procedes-industriels
+            fr/expertise/mes-competences/procedes-industriels
           icon: >-
             solid fa-industry
           title: >-
@@ -624,7 +624,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            en/expert-assessment/my-expertise#maintenance
+            en/expert-assessment/my-expertise/maintenance
           icon: >-
             solid fa-tools
           title: >-
@@ -633,7 +633,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            en/expert-assessment/my-expertise#expert-assessment
+            en/expert-assessment/my-expertise/expert-assessment
           icon: >-
             solid fa-search
           title: >-
@@ -642,7 +642,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            en/expert-assessment/my-expertise#expert-assessment
+            en/expert-assessment/my-expertise/expert-assessment
           icon: >-
             solid fa-balance-scale
           title: >-
@@ -651,7 +651,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            en/expert-assessment/my-expertise#expert-assessment
+            en/expert-assessment/my-expertise/expert-assessment
           icon: >-
             solid fa-gavel
           title: >-
@@ -665,7 +665,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            fr/expertise/mes-competences#performance
+            fr/expertise/mes-competences/performance
           icon: >-
             solid fa-tools
           title: >-
@@ -674,7 +674,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            fr/expertise/mes-competences#resolution-des-defaillances
+            fr/expertise/mes-competences/resolution-des-defaillances
           icon: >-
             solid fa-search
           title: >-
@@ -683,7 +683,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            fr/expertise/mes-competences#evaluer-les-degats
+            fr/expertise/mes-competences/evaluer-les-degats
           icon: >-
             solid fa-balance-scale
           title: >-
@@ -692,7 +692,7 @@ yin:
         - class: >-
             col-3 col-6-medium col-12-small
           target_url: >-
-            fr/expertise/mes-competences#accompagnement-pendant-les-litiges
+            fr/expertise/mes-competences/accompagnement-pendant-les-litiges
           icon: >-
             solid fa-gavel
           title: >-
