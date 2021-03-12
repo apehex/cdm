@@ -14,7 +14,8 @@ header:
     subtitle: >-
         Independant Engineering and Expertise
 banner:
-    title: " "
+    title: >-
+        Consulting
     subtitle: >-
         I support companies from decision to operations
     description: " "

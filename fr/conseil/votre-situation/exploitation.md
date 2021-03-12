@@ -8,7 +8,7 @@ description: >-
 background:
     class: inverted
     image:
-        url: /assets/images/content/yang/station-ep.webp
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
