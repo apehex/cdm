@@ -9,21 +9,21 @@
       "lang"           : "en",
       "title"          : "Independant Engineering and Expertise",
       "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/en/yang/about/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/about/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "The Compagny",
       "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/about/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/about/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Assessing Damage",
       "description"    : "Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-services/assessing-damage/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-services/assessing-damage/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -37,84 +37,84 @@
       "lang"           : "en",
       "title"          : "Contracting Authority",
       "description"    : "Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet.",
-      "url"            : "https://apehex.github.io/cdm/en/yang/my-expertise/contracting-authority/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-expertise/contracting-authority/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Dependability",
       "description"    : "Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installations, selon les axes FMDS et LCC.",
-      "url"            : "https://apehex.github.io/cdm/en/yang/my-expertise/dependability/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-expertise/dependability/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Deployment",
       "description"    : "&amp;Ecirc;tre aidé dans la mise en œuvre des décisions.",
-      "url"            : "https://apehex.github.io/cdm/en/yang/your-situation/deployment/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/your-situation/deployment/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Development",
       "description"    : "&amp;Ecirc;tre aidé dans l’évaluation et l’organisation du projet.",
-      "url"            : "https://apehex.github.io/cdm/en/yang/your-situation/development/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/your-situation/development/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Disorder",
       "description"    : "Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/your-situation/disorder/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/your-situation/disorder/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Efficiency",
       "description"    : "Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet de l’étude macro à l’étude micro. Typiquement, la démarche complète conduit à un doublement d’activité à périmètre de ressources fixes constant.",
-      "url"            : "https://apehex.github.io/cdm/en/yang/my-expertise/efficiency/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-expertise/efficiency/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Equipment Failure",
       "description"    : "Résoudre durablement des défaillances ponctuelles et critiques ou chroniques.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/your-situation/equipment-failure/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/your-situation/equipment-failure/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Expert Assessment",
       "description"    : "?",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-expertise/expert-assessment/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-expertise/expert-assessment/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Finding Palliative Solutions",
       "description"    : "Accompagner dans la négociation",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-services/finding-palliative-solutions/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-services/finding-palliative-solutions/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Improving Performance",
       "description"    : "Quantifier les performances des systèmes et formaliser les processus de création de valeur.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-services/improving-performance/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-services/improving-performance/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Independant Engineering and Expertise",
       "description"    : "J&#39;accompagne les entreprises de la réflexion stratégique à l&#39;exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d&#39;exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.",
-      "url"            : "https://apehex.github.io/cdm/en/yang/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Expert Assessment",
       "description"    : "J&#39;accompagne les entreprises, syndics de copropriété, syndicats de copropriétaires, particuliers, de l&#39;identification du désordre jusqu&#39;à la solution interne ou externe (amiable / judiciaire) dans le cas où la responsabilité d&#39;un tiers pourrait être recherchée.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -128,56 +128,35 @@
       "lang"           : "en",
       "title"          : "Litigation",
       "description"    : "Obtenir réparation amiable ou judiciaire de votre dommage.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/your-situation/litigation/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/your-situation/litigation/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Maintenance",
       "description"    : "Développer la fonction en tant que levier de rentabilité de l’entreprise.",
-      "url"            : "https://apehex.github.io/cdm/en/yang/my-expertise/maintenance/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-expertise/maintenance/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Maintenance",
       "description"    : "?",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-expertise/maintenance/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-expertise/maintenance/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Mediation",
       "description"    : "?",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-expertise/mediation/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "en",
-      "title"          : "Efficiency, Maintenance, Dependability and Risk Management",
-      "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/en/yang/my-expertise/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "en",
-      "title"          : "Expertise in HVAC Engineering and Industrial Processes",
-      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-expertise/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "en",
-      "title"          : "Expertise in HVAC Engineering and Industrial Processes",
-      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-services/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-expertise/mediation/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Operation",
       "description"    : "Maintenir, rétablir ou améliorer les performances initiales.",
-      "url"            : "https://apehex.github.io/cdm/en/yang/your-situation/operation/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/your-situation/operation/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -191,70 +170,77 @@
       "lang"           : "en",
       "title"          : "Reception",
       "description"    : "Vérifier l’adaptation aux besoins et la conformité à votre commande.",
-      "url"            : "https://apehex.github.io/cdm/en/yang/your-situation/reception/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/your-situation/reception/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Risk Management",
       "description"    : "Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA.",
-      "url"            : "https://apehex.github.io/cdm/en/yang/my-expertise/risk-management/",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-expertise/risk-management/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Solving Failures",
       "description"    : "Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-services/solving-failures/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-services/solving-failures/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Striking Agreement Out-of-court",
       "description"    : "Accompagner dans la négociation",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-services/striking-agreement-out-of-court/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-services/striking-agreement-out-of-court/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Supporting During Litigation",
       "description"    : "Argumenter factuellement votre réclamation ou votre absence / exonération de responsabilité.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/my-services/supporting-during-litigation/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-services/supporting-during-litigation/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "en",
       "title"          : "Under Performance",
       "description"    : "Restaurer vos marges, productivité et rentabilité.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/your-situation/under-performance/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "en",
-      "title"          : "Strategy and Project Support",
-      "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/en/yang/your-situation/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "en",
-      "title"          : "Expert Assessment and Mediating",
-      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
-      "url"            : "https://apehex.github.io/cdm/en/yin/your-situation/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
-      "title"          : "Ingénierie et Expertise Indépendantes",
-      "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/fr/yang/a-propos/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/your-situation/under-performance/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
       "title"          : "Le Cabinet",
       "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/fr/yin/a-propos/",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/a-propos/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Ingénierie et Expertise Indépendantes",
+      "description"    : "",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/a-propos/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Accompagner durant un Litige",
+      "description"    : "Argumenter factuellement votre réclamation ou votre absence / exonération de responsabilité.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/accompagner-durant-un-litige/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Améliorer les Performances",
+      "description"    : "Quantifier les performances des systèmes et formaliser les processus de création de valeur.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/ameliorer-les-performances/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Maîtrise d&#39;Ouvrage",
+      "description"    : "Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet.",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/assistance-maitrise-d-ouvrage/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -266,16 +252,79 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Ingénierie et Expertise Indépendantes",
-      "description"    : "J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.",
-      "url"            : "https://apehex.github.io/cdm/fr/yang/",
+      "title"          : "Défaillances",
+      "description"    : "Résoudre durablement des défaillances ponctuelles et critiques ou chroniques.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/defaillance/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Déploiement",
+      "description"    : "&amp;Ecirc;tre aidé dans la mise en œuvre des décisions.",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/votre-situation/deploiement/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Désordres",
+      "description"    : "Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/desordre/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Efficience",
+      "description"    : "Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet de l’étude macro à l’étude micro. Typiquement, la démarche complète conduit à un doublement d’activité à périmètre de ressources fixes constant.",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/efficience/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "&amp;Eacute;laboration",
+      "description"    : "&amp;Ecirc;tre aidé dans l’évaluation et l’organisation du projet.",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/votre-situation/elaboration/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "&amp;Eacute;valuer les Dégâts",
+      "description"    : "Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/evaluer-les-degats/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Expertise",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/expertise/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Exploitation",
+      "description"    : "Maintenir, rétablir ou améliorer les performances initiales.",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/votre-situation/exploitation/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Gestion des Risques",
+      "description"    : "Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA.",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/gestion-des-risques/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
       "title"          : "Cabinet d&#39;Expertise",
       "description"    : "J’accompagne les entreprises, syndics de copropriété, syndicats de copropriétaires, particuliers, de l’identification du désordre jusqu’à la solution interne ou externe (amiable / judiciaire) dans le cas où la responsabilité d’un tiers pourrait être recherchée.",
-      "url"            : "https://apehex.github.io/cdm/fr/yin/",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Ingénierie et Expertise Indépendantes",
+      "description"    : "J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -287,23 +336,37 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Efficience, Maintenance, Sûreté de Fonctionnement et Gestion des Risques",
-      "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/fr/yang/mes-competences/",
+      "title"          : "Litiges",
+      "description"    : "Obtenir réparation amiable ou judiciaire de votre dommage.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/litige/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Expertise ENR et Procédés Industriels",
-      "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/fr/yin/mes-competences/",
+      "title"          : "Maintenance",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/maintenance/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Expertise ENR et Procédés Industriels",
-      "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/fr/yin/mes-services/",
+      "title"          : "Maintenance",
+      "description"    : "Développer la fonction en tant que levier de rentabilité de l’entreprise.",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/maintenance/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Médiation",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/mediation/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Accords Amiables",
+      "description"    : "Accompagner dans la négociation",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/negocier-un-accord-amiable/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -315,16 +378,121 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Conseil en Stratégie et AMOA",
-      "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/fr/yang/votre-situation/",
+      "title"          : "Réception",
+      "description"    : "Vérifier l’adaptation aux besoins et la conformité à votre commande.",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/votre-situation/reception/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Médiation et Expertise",
+      "title"          : "Résoudre les Défaillances",
+      "description"    : "Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/resoudre-les-defaillances/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Sous Performance",
+      "description"    : "Restaurer vos marges, productivité et rentabilité.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/sous-performance/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Sûreté de Fonctionnement",
+      "description"    : "Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installations, selon les axes FMDS et LCC.",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/surete-de-fonctionnement/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Solutions Palliatives",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/trouver-des-solutions-palliatives/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Expertise",
       "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/fr/yin/votre-situation/",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Expertise",
+      "description"    : "",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Expertise",
+      "description"    : "",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Conseil",
+      "description"    : "",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Conseil",
+      "description"    : "",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-services/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Conseil",
+      "description"    : "",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/votre-situation/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Consulting",
+      "description"    : "",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-expertise/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Consulting",
+      "description"    : "",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-services/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Consulting",
+      "description"    : "",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/your-situation/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Expert Assessment",
+      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-expertise/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Expert Assessment",
+      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-services/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "x-default",
+      "title"          : "Expert Assessment",
+      "description"    : "When it comes down to it, I assess the primary causes of incidents and make sure you grow from it.",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/your-situation/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -340,12 +508,12 @@
       "description"    : "",
       "url"            : "https://apehex.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/",
       "tags"           : "",
-      "date"           : "2019-02-08 13:33:42 +0100"
+      "date"           : "2019-02-08 12:33:42 +0000"
     } ,{
       "lang"           : "fr",
       "title"          : "Bienvenue !",
       "description"    : "",
       "url"            : "https://apehex.github.io/cdm/fr/jekyll/update/2019/02/08/bienvenue/",
       "tags"           : "",
-      "date"           : "2019-02-08 13:33:42 +0100"
+      "date"           : "2019-02-08 12:33:42 +0000"
     } ]
