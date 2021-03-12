@@ -5,16 +5,14 @@ title: >-
     Development
 description: >-
     &Ecirc;tre aidé dans l’évaluation et l’organisation du projet.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yang/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: >-
         Development
@@ -26,12 +24,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yang/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {%- assign data = site.data.situation.yang.development["fr"] -%}

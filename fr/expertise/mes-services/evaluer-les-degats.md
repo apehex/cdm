@@ -1,10 +1,10 @@
 ---
-lang-ref: yin-services-finding-palliative-solutions
+lang-ref: yin-services-assessing-damage
 layout: home
 title: >-
-    Finding Palliative Solutions
+    &Eacute;valuer les Dégâts
 description: >-
-    Accompagner dans la négociation
+    Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation.
 background:
     class: inverted
     image:
@@ -12,21 +12,21 @@ background:
 header:
     title: CDM
     subtitle: >-
-        Outgrowing incidents
+        Dépasser les incidents
 banner:
     title: >-
-        Finding Palliative Solutions
+        &Eacute;valuer les Dégâts
     subtitle: >-
-        Accompagner dans la négociation
+        Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation
     description: " "
     button:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.finding-palliative-solutions["fr"] -%}
+{%- assign data = site.data.services.yin.assessing-damage["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

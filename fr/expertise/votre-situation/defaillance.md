@@ -1,10 +1,10 @@
 ---
-lang-ref: yin-services-finding-palliative-solutions
+lang-ref: yin-situation-equipment-failure
 layout: home
 title: >-
-    Finding Palliative Solutions
+    Défaillances
 description: >-
-    Accompagner dans la négociation
+    Résoudre durablement des défaillances ponctuelles et critiques ou chroniques.
 background:
     class: inverted
     image:
@@ -12,21 +12,21 @@ background:
 header:
     title: CDM
     subtitle: >-
-        Outgrowing incidents
+        Dépasser les incidents
 banner:
     title: >-
-        Finding Palliative Solutions
+        Défaillances
     subtitle: >-
-        Accompagner dans la négociation
+        Résoudre durablement des défaillances ponctuelles et critiques ou chroniques
     description: " "
     button:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.finding-palliative-solutions["fr"] -%}
+{%- assign data = site.data.situation.yin.equipment-failure["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

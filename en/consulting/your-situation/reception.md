@@ -5,16 +5,14 @@ title: >-
     Reception
 description: >-
     Vérifier l’adaptation aux besoins et la conformité à votre commande.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yang/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: >-
         Reception
@@ -26,12 +24,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yang/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {%- assign data = site.data.situation.yang.reception["fr"] -%}

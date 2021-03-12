@@ -1,10 +1,10 @@
 ---
-lang-ref: yin-services-finding-palliative-solutions
+lang-ref: yang-expertise-contracting-authority
 layout: home
 title: >-
-    Finding Palliative Solutions
+    Maîtrise d'Ouvrage
 description: >-
-    Accompagner dans la négociation
+    Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet.
 background:
     class: inverted
     image:
@@ -12,21 +12,20 @@ background:
 header:
     title: CDM
     subtitle: >-
-        Outgrowing incidents
+        Accompagner de la Décision à l'Exploitation
 banner:
-    title: >-
-        Finding Palliative Solutions
+    title: Maîtrise d'Ouvrage
     subtitle: >-
-        Accompagner dans la négociation
+        Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet
     description: " "
     button:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.finding-palliative-solutions["fr"] -%}
+{%- assign data = site.data.expertise.yang.contracting-authority["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

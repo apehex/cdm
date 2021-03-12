@@ -1,10 +1,10 @@
 ---
-lang-ref: yin-services-finding-palliative-solutions
+lang-ref: yang-expertise-dependability
 layout: home
 title: >-
-    Finding Palliative Solutions
+    Sûreté de Fonctionnement
 description: >-
-    Accompagner dans la négociation
+    Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installations, selon les axes FMDS et LCC.
 background:
     class: inverted
     image:
@@ -12,21 +12,21 @@ background:
 header:
     title: CDM
     subtitle: >-
-        Outgrowing incidents
+        Accompagner de la Décision à l'Exploitation
 banner:
-    title: >-
-        Finding Palliative Solutions
+    title: Sûreté de Fonctionnement
     subtitle: >-
-        Accompagner dans la négociation
-    description: " "
+        Maîtriser le comportement prévisionnel ou opérationnel
+    description: >-
+        D’équipements et d’installations, selon les axes FMDS et LCC
     button:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.finding-palliative-solutions["fr"] -%}
+{%- assign data = site.data.expertise.yang.dependability["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

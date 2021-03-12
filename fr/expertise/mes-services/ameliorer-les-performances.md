@@ -1,10 +1,10 @@
 ---
-lang-ref: yin-services-finding-palliative-solutions
+lang-ref: yin-services-improving-performance
 layout: home
 title: >-
-    Finding Palliative Solutions
+    Améliorer les Performances
 description: >-
-    Accompagner dans la négociation
+    Quantifier les performances des systèmes et formaliser les processus de création de valeur.
 background:
     class: inverted
     image:
@@ -12,21 +12,21 @@ background:
 header:
     title: CDM
     subtitle: >-
-        Outgrowing incidents
+        Dépasser les incidents
 banner:
     title: >-
-        Finding Palliative Solutions
+        Améliorer les Performances
     subtitle: >-
-        Accompagner dans la négociation
+        Quantifier les performances des systèmes et formaliser les processus de création de valeur
     description: " "
     button:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.finding-palliative-solutions["fr"] -%}
+{%- assign data = site.data.services.yin.improving-performance["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

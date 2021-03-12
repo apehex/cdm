@@ -5,16 +5,14 @@ title: >-
     Operation
 description: >-
     Maintenir, rétablir ou améliorer les performances initiales.
+background:
+    class: inverted
+    image:
+        url: /assets/images/content/yin/station-ep.webp
 header:
     title: CDM
     subtitle: >-
         Supporting Companies from Decision to Operations
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yang/station-ep.webp
-            position: right
-            size: auto 100vh
 banner:
     title: >-
         Operation
@@ -26,12 +24,6 @@ banner:
             #contact
         label: >-
             Ask for Advice
-    style:
-        class: inverted
-        image:
-            url: /assets/images/content/yang/station-ep.webp
-            position: right
-            size: auto 100vh
 ---
 
 {%- assign data = site.data.situation.yang.operation["fr"] -%}

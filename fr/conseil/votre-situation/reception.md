@@ -1,32 +1,32 @@
 ---
-lang-ref: yin-services-finding-palliative-solutions
+lang-ref: yang-situation-reception
 layout: home
 title: >-
-    Finding Palliative Solutions
+    Réception
 description: >-
-    Accompagner dans la négociation
+    Vérifier l’adaptation aux besoins et la conformité à votre commande.
 background:
     class: inverted
     image:
-        url: /assets/images/content/yin/station-ep.webp
+        url: /assets/images/content/yang/station-ep.webp
 header:
     title: CDM
     subtitle: >-
-        Outgrowing incidents
+        Accompagner de la Décision à l'Exploitation
 banner:
     title: >-
-        Finding Palliative Solutions
+        Réception
     subtitle: >-
-        Accompagner dans la négociation
+        Vérifier l’adaptation aux besoins et la conformité à votre commande
     description: " "
     button:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.finding-palliative-solutions["fr"] -%}
+{%- assign data = site.data.situation.yang.reception["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>
