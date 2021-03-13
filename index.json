@@ -98,6 +98,20 @@
       "date"           : ""
     } ,{
       "lang"           : "en",
+      "title"          : "HVAC Engineering",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-expertise/hvac-engineering/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "HVAC Engineering",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-expertise/hvac-engineering/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
       "title"          : "Improving Performance",
       "description"    : "Quantifier les performances des systèmes et formaliser les processus de création de valeur.",
       "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-services/improving-performance/",
@@ -122,6 +136,20 @@
       "title"          : "Independant Engineering and Expertise",
       "description"    : "A Holistic Take On Business",
       "url"            : "https://apehex.github.io/cdm/en/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Industrial Processes",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-expertise/industrial-processes/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Industrial Processes",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-expertise/industrial-processes/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -182,6 +210,27 @@
       "date"           : ""
     } ,{
       "lang"           : "en",
+      "title"          : "Service 1",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-services/service-1/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Service 2",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-services/service-2/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
+      "title"          : "Service 3",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/en/consulting/my-services/service-3/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "en",
       "title"          : "Solving Failures",
       "description"    : "Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur.",
       "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-services/solving-failures/",
@@ -227,6 +276,13 @@
       "title"          : "Accompagner durant un Litige",
       "description"    : "Argumenter factuellement votre réclamation ou votre absence / exonération de responsabilité.",
       "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/accompagner-durant-un-litige/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Action en Justice",
+      "description"    : "Obtenir réparation amiable ou judiciaire de votre dommage.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/action-en-justice/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -287,6 +343,20 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
+      "title"          : "Génie Climatique et ENR",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/enr-genie-climatique/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Génie Climatique et ENR",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/enr-genie-climatique/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
       "title"          : "&amp;Eacute;valuer les Dégâts",
       "description"    : "Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation.",
       "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/evaluer-les-degats/",
@@ -336,13 +406,6 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Litiges",
-      "description"    : "Obtenir réparation amiable ou judiciaire de votre dommage.",
-      "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/litige/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
       "title"          : "Maintenance",
       "description"    : "?",
       "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/maintenance/",
@@ -378,6 +441,20 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
+      "title"          : "Procédés Industriels",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/procedes-industriels/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Procédés Industriel",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/procedes-industriels/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
       "title"          : "Réception",
       "description"    : "Vérifier l’adaptation aux besoins et la conformité à votre commande.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/votre-situation/reception/",
@@ -387,7 +464,28 @@
       "lang"           : "fr",
       "title"          : "Résoudre les Défaillances",
       "description"    : "Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur.",
-      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/resoudre-les-defaillances/",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/resoudre-des-defaillances/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Service 1",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-services/service-1/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Service 2",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-services/service-2/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Service 3",
+      "description"    : "?",
+      "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-services/service-3/",
       "tags"           : "",
       "date"           : ""
     } ,{
