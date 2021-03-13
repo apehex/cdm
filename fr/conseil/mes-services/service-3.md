@@ -1,10 +1,10 @@
 ---
-lang-ref: yin-situation-litigation
+lang-ref: yang-services-3
 layout: home
 title: >-
-    Litiges
+    Service 3
 description: >-
-    Obtenir réparation amiable ou judiciaire de votre dommage.
+    ?
 background:
     class: inverted
     image:
@@ -12,21 +12,21 @@ background:
 header:
     title: CDM
     subtitle: >-
-        Dépasser les incidents
+        Accompagner de la Décision à l'Exploitation
 banner:
-    title: >-
-        Litiges
+    title: Service 3
     subtitle: >-
-        Obtenir réparation amiable ou judiciaire de votre dommage
-    description: " "
+        ?
+    description: >-
+        ?
     button:
         url: >-
             #contact
         label: >-
-            Demandez Conseil
+            Ask for Advice
 ---
 
-{%- assign data = site.data.situation.yin.litigation["fr"] -%}
+{%- assign data = site.data.services.yang.service-3["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

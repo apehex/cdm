@@ -195,7 +195,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            /en/consulting/my-expertise/
+            /en/consulting/my-expertise/industrial-processes
           icon: >-
             solid fa-industry
           title: >-
@@ -205,7 +205,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            /en/consulting/my-expertise/
+            /en/consulting/your-situation/development
           icon: >-
             solid fa-suitcase
           title: >-
@@ -229,7 +229,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            /fr/conseil/mes-competences/
+            /fr/conseil/mes-competences/procedes-industriels
           icon: >-
             solid fa-industry
           title: >-
@@ -239,7 +239,7 @@ yang:
         - class: >-
             col-4 col-12-small
           target_url: >-
-            /fr/conseil/mes-competences/
+            /fr/conseil/votre-situation/elaboration
           icon: >-
             solid fa-suitcase
           title: >-
@@ -548,22 +548,22 @@ yin:
     en:
       id: targets
       title: >-
-        WITH
+        SECTOR
       features:
         - class: >-
-            col-4 col-12-small
+            col-4 col-12-medium col-12-small
           target_url: >-
-            en/expert-assessment/about/#hvac-engineering
+            en/expert-assessment/my-expertise/hvac-engineering
           icon: >-
             solid fa-thermometer-half
           title: >-
             HVAC Engineering
           content: >-
-            <ul><li>Insulation</li></ul>
+            <ul><li>Insulation</li><li>Heating</li><li>Cooling</li><li>Ventilation</li></ul>
         - class: >-
-            col-4 col-12-small
+            col-4 col-12-medium col-12-small
           target_url: >-
-            en/expert-assessment/about/#hvac-engineering
+            en/expert-assessment/my-expertise/hvac-engineering
           icon: >-
             solid fa-recycle
           title: >-
@@ -571,9 +571,9 @@ yin:
           content: >-
             <ul><li>Pompes à Chaleur</li><li>Photovoltaïque</li><li>Géothermie</li><li>Méthanisation</li></ul>
         - class: >-
-            col-4 col-12-small
+            col-4 col-12-medium col-12-small
           target_url: >-
-            en/expert-assessment/about/#industrial-processes
+            en/expert-assessment/my-expertise/industrial-processes
           icon: >-
             solid fa-industry
           title: >-
@@ -583,22 +583,22 @@ yin:
     fr:
       id: cibles
       title: >-
-        AVEC
+        SECTEUR
       features:
         - class: >-
-            col-4 col-12-small
+            col-4 col-12-medium col-12-small
           target_url: >-
-            fr/expertise/mes-competences/genie-climatique
+            fr/expertise/mes-competences/enr-genie-climatique
           icon: >-
             solid fa-thermometer-half
           title: >-
             Génie Climatique<br>et Thermique
           content: >-
-            <ul><li>Isolation</li></ul>
+            <ul><li>Isolation</li><li>Chauffage</li><li>Refroidissement</li><li>Ventilation</li></ul>
         - class: >-
-            col-4 col-12-small
+            col-4 col-12-medium col-12-small
           target_url: >-
-            fr/expertise/mes-competences/genie-climatique
+            fr/expertise/mes-competences/enr-genie-climatique
           icon: >-
             solid fa-recycle
           title: >-
@@ -606,7 +606,7 @@ yin:
           content: >-
             <ul><li>Pompes à Chaleur</li><li>Photovoltaïque</li><li>Géothermie</li><li>Méthanisation</li></ul>
         - class: >-
-            col-4 col-12-small
+            col-4 col-12-medium col-12-small
           target_url: >-
             fr/expertise/mes-competences/procedes-industriels
           icon: >-
@@ -622,40 +622,40 @@ yin:
         CAN I HELP?
       features:
         - class: >-
-            col-3 col-6-medium col-12-small
+            col-6 col-6-medium col-12-small
           target_url: >-
-            en/expert-assessment/my-expertise/maintenance
+            en/expert-assessment/my-services/improving-performances
           icon: >-
             solid fa-tools
           title: >-
-            Maintenance
+            Performances
           content:
         - class: >-
-            col-3 col-6-medium col-12-small
+            col-6 col-6-medium col-12-small
           target_url: >-
-            en/expert-assessment/my-expertise/expert-assessment
+            en/expert-assessment/my-services/solving-failures
           icon: >-
             solid fa-search
           title: >-
-            Private Expert Assessment
+            Solving Failures
           content:
         - class: >-
-            col-3 col-6-medium col-12-small
+            col-6 col-6-medium col-12-small
           target_url: >-
-            en/expert-assessment/my-expertise/expert-assessment
+            en/expert-assessment/my-services/assessing-damages
           icon: >-
             solid fa-balance-scale
           title: >-
-            Out-of-court Expert Assessment
+            Assessing Damage
           content:
         - class: >-
-            col-3 col-6-medium col-12-small
+            col-6 col-6-medium col-12-small
           target_url: >-
-            en/expert-assessment/my-expertise/expert-assessment
+            en/expert-assessment/my-services/striking-agreement-out-of-court
           icon: >-
             solid fa-gavel
           title: >-
-            Suppport in a Legal Expert Assessment
+            Out-of-court Agreement
           content:
     fr:
       id: competences
@@ -663,38 +663,38 @@ yin:
         PUIS-JE VOUS AIDER ?
       features:
         - class: >-
-            col-3 col-6-medium col-12-small
+            col-6 col-6-medium col-12-small
           target_url: >-
-            fr/expertise/mes-competences/performance
+            fr/expertise/mes-services/ameliorer-les-performances
           icon: >-
             solid fa-tools
           title: >-
-            Maintenance
+            Performances
           content:
         - class: >-
-            col-3 col-6-medium col-12-small
+            col-6 col-6-medium col-12-small
           target_url: >-
-            fr/expertise/mes-competences/resolution-des-defaillances
+            fr/expertise/mes-services/resolution-des-defaillances
           icon: >-
             solid fa-search
           title: >-
-            Expertise Officieuse
+            Résolution des Défaillances
           content:
         - class: >-
-            col-3 col-6-medium col-12-small
+            col-6 col-6-medium col-12-small
           target_url: >-
-            fr/expertise/mes-competences/evaluer-les-degats
+            fr/expertise/mes-services/evaluer-les-degats
           icon: >-
             solid fa-balance-scale
           title: >-
-            Expertise Amiable
+            &Eacute;valuer les Dégâts
           content:
         - class: >-
-            col-3 col-6-medium col-12-small
+            col-6 col-6-medium col-12-small
           target_url: >-
-            fr/expertise/mes-competences/accompagnement-pendant-les-litiges
+            fr/expertise/mes-services/negocier-un-accord-amiable
           icon: >-
             solid fa-gavel
           title: >-
-            Assistance Expertise Judiciaire
+            Accord Amiable
           content:

@@ -337,3 +337,156 @@ yin:
             <h3>&Ecirc;tre assisté</h3>
             ?
 yang:
+  service-1:
+    en:
+      id: service-1
+      title: >-
+        Service 1
+      quote: >-
+        ?
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: a
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: b
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: c
+          title: >-
+            ?
+          content: >-
+            ?
+    fr:
+      id: service-1
+      title: >-
+        Service 1
+      quote: >-
+        ?
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: a
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: b
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: c
+          title: >-
+            ?
+          content: >-
+            ?
+  service-2:
+    en:
+      id: service-2
+      title: >-
+        Service 2
+      quote: >-
+        ?
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: a
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: b
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: c
+          title: >-
+            ?
+          content: >-
+            ?
+    fr:
+      id: service-2
+      title: >-
+        Service 2
+      quote: >-
+        ?
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: a
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: b
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: c
+          title: >-
+            ?
+          content: >-
+            ?
+  service-3:
+    en:
+      id: service-3
+      title: >-
+        Service 3
+      quote: >-
+        ?
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: a
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: b
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: c
+          title: >-
+            ?
+          content: >-
+            ?
+    fr:
+      id: service-3
+      title: >-
+        Service 3
+      quote: >-
+        ?
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: a
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: b
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: c
+          title: >-
+            ?
+          content: >-
+            ?
