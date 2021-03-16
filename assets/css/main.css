@@ -886,7 +886,9 @@ section#banner.inverted { background-color: transparent !important; }
 
 #menu > ul > li::before, #results > ul > li::before { border-left: 6px solid transparent; content: ""; display: block; position: absolute; left: -1em; top: 0; height: 100%; }
 
-#menu > ul > li.current::before, #menu > ul > li:hover::before, #results > ul > li.current::before, #results > ul > li:hover::before { border-left: 6px solid #0044dd; }
+#menu > ul > li.current::before, #results > ul > li.current::before { border-left: 6px solid #0044dd; }
+
+#menu > ul > li:hover::before, #results > ul > li:hover::before { border-left: 6px solid #ffdd44; }
 
 /* Inverted */
 .inverted #menu ul, .inverted #results ul { color: #ffffff; }
@@ -905,4 +907,6 @@ section#banner.inverted { background-color: transparent !important; }
 
 .inverted #menu > ul > li:first-child, .inverted #results > ul > li:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
 
-.inverted #menu > ul > li.current::before, .inverted #menu > ul > li:hover::before, .inverted #results > ul > li.current::before, .inverted #results > ul > li:hover::before { border-left: 6px solid #ffffff; }
+.inverted #menu > ul > li.current::before, .inverted #results > ul > li.current::before { border-left: 6px solid #ffffff; }
+
+.inverted #menu > ul > li:hover::before, .inverted #results > ul > li:hover::before { border-left: 6px solid #ffdd44; }
