@@ -22,39 +22,39 @@ yang:
       url: /en/consulting/your-situation/
       menu:
         - title: Development
-          url: /en/consulting/your-situation/development
+          url: /en/consulting/your-situation/development/
         - title: Deployment
-          url: /en/consulting/your-situation/deployment
+          url: /en/consulting/your-situation/deployment/
         - title: Reception
-          url: /en/consulting/your-situation/reception
+          url: /en/consulting/your-situation/reception/
         - title: Operation
-          url: /en/consulting/your-situation/operation
+          url: /en/consulting/your-situation/operation/
     - title: My Services
       url: /en/consulting/my-services/
       menu:
         - title: Service 1
-          url: /en/consulting/my-services/service-1
+          url: /en/consulting/my-services/service-1/
         - title: Service 2
-          url: /en/consulting/my-services/service-2
+          url: /en/consulting/my-services/service-2/
         - title: Service 3
-          url: /en/consulting/my-services/service-3
+          url: /en/consulting/my-services/service-3/
     - title: My Expertise
       url: /en/consulting/my-expertise/
       menu:
         - title: Efficiency
-          url: /en/consulting/my-expertise/efficiency
+          url: /en/consulting/my-expertise/efficiency/
         - title: Dependability
-          url: /en/consulting/my-expertise/dependability
+          url: /en/consulting/my-expertise/dependability/
         - title: Risk Management
-          url: /en/consulting/my-expertise/risk-management
+          url: /en/consulting/my-expertise/risk-management/
         - title: Maintenance
-          url: /en/consulting/my-expertise/maintenance
+          url: /en/consulting/my-expertise/maintenance/
         - title: Contracting Authority
-          url: /en/consulting/my-expertise/contracting-authority
+          url: /en/consulting/my-expertise/contracting-authority/
         - title: Industrial Processes
-          url: /en/consulting/my-expertise/industrial-processes
+          url: /en/consulting/my-expertise/industrial-processes/
         - title: HVAC Engineering
-          url: /en/consulting/my-expertise/hvac-engineering
+          url: /en/consulting/my-expertise/hvac-engineering/
     - title: About
       url: /en/consulting/about/
       menu:
@@ -71,39 +71,39 @@ yang:
       url: /fr/conseil/votre-situation/
       menu:
         - title: "&Eacute;laboration"
-          url: /fr/conseil/votre-situation/elaboration
+          url: /fr/conseil/votre-situation/elaboration/
         - title: Déploiement
-          url: /fr/conseil/votre-situation/deploiement
+          url: /fr/conseil/votre-situation/deploiement/
         - title: Réception
-          url: /fr/conseil/votre-situation/reception
+          url: /fr/conseil/votre-situation/reception/
         - title: Exploitation
-          url: /fr/conseil/votre-situation/exploitation
+          url: /fr/conseil/votre-situation/exploitation/
     - title: Mes Services
       url: /fr/conseil/mes-services/
       menu:
         - title: Service 1
-          url: /fr/conseil/mes-services/service-1
+          url: /fr/conseil/mes-services/service-1/
         - title: Service 2
-          url: /fr/conseil/mes-services/service-2
+          url: /fr/conseil/mes-services/service-2/
         - title: Service 3
-          url: /fr/conseil/mes-services/service-3
+          url: /fr/conseil/mes-services/service-3/
     - title: Mes Compétences
       url: /fr/conseil/mes-competences/
       menu:
         - title: Efficience
-          url: /fr/conseil/mes-competences/efficience
+          url: /fr/conseil/mes-competences/efficience/
         - title: Sûreté de Fontionnement
-          url: /fr/conseil/mes-competences/surete-de-fonctionnement
+          url: /fr/conseil/mes-competences/surete-de-fonctionnement/
         - title: Gestion des Risques
-          url: /fr/conseil/mes-competences/gestion-des-risques
+          url: /fr/conseil/mes-competences/gestion-des-risques/
         - title: Maintenance
-          url: /fr/conseil/mes-competences/maintenance
+          url: /fr/conseil/mes-competences/maintenance/
         - title: Maîtrise d'Ouvrage
-          url: /fr/conseil/mes-competences/assistance-maitrise-d-ouvrage
+          url: /fr/conseil/mes-competences/assistance-maitrise-d-ouvrage/
         - title: Procédés Industriels
-          url: /fr/conseil/mes-competences/procedes-industriels
+          url: /fr/conseil/mes-competences/procedes-industriels/
         - title: Génie Climatique et ENR
-          url: /fr/conseil/mes-competences/enr-génie-climatique
+          url: /fr/conseil/mes-competences/enr-génie-climatique/
     - title: A Propos
       url: /fr/conseil/a-propos/
       menu:
@@ -121,41 +121,41 @@ yin:
       url: /en/expert-assessment/your-situation/
       menu:
         - title: Under Performance
-          url: /en/expert-assessment/your-situation/under-performance
+          url: /en/expert-assessment/your-situation/under-performance/
         - title: Equipment Failure
-          url: /en/expert-assessment/your-situation/equipment-failure
+          url: /en/expert-assessment/your-situation/equipment-failure/
         - title: Disorder
-          url: /en/expert-assessment/your-situation/disorder
+          url: /en/expert-assessment/your-situation/disorder/
         - title: Litigation
-          url: /en/expert-assessment/your-situation/litigation
+          url: /en/expert-assessment/your-situation/litigation/
     - title: My Services
       url: /en/expert-assessment/my-services/
       menu:
         - title: Improving Performance
-          url: /en/expert-assessment/my-services/improving-performance
+          url: /en/expert-assessment/my-services/improving-performance/
         - title: Solving Equipment Failures
-          url: /en/expert-assessment/my-services/solving-failures
+          url: /en/expert-assessment/my-services/solving-failures/
         - title: Assessing damage
-          url: /en/expert-assessment/my-services/assessing-damage
+          url: /en/expert-assessment/my-services/assessing-damage/
         - title: Supporting During Litigation
-          url: /en/expert-assessment/my-services/supporting-during-litigation
+          url: /en/expert-assessment/my-services/supporting-during-litigation/
         - title: Palliative Solutions
-          url: /en/expert-assessment/my-services/finding-palliative-solutions
+          url: /en/expert-assessment/my-services/finding-palliative-solutions/
         - title: Out-Of-Court Agreement
-          url: /en/expert-assessment/my-services/striking-agreement-out-of-court
+          url: /en/expert-assessment/my-services/striking-agreement-out-of-court/
     - title: My Expertise
       url: /en/expert-assessment/my-expertise/
       menu:
         - title: Maintenance
-          url: /en/expert-assessment/my-expertise/maintenance
+          url: /en/expert-assessment/my-expertise/maintenance/
         - title: Mediation
-          url: /en/expert-assessment/my-expertise/mediation
+          url: /en/expert-assessment/my-expertise/mediation/
         - title: Expert Assessment
-          url: /en/expert-assessment/my-expertise/expert-assessment
+          url: /en/expert-assessment/my-expertise/expert-assessment/
         - title: HVAC Engineering
-          url: /en/expert-assessment/my-expertise/hvac-engineering
+          url: /en/expert-assessment/my-expertise/hvac-engineering/
         - title: Industrial Processes
-          url: /en/expert-assessment/my-expertise/industrial-processes
+          url: /en/expert-assessment/my-expertise/industrial-processes/
     - title: About
       url: /en/expert-assessment/about/
       menu:
@@ -172,42 +172,42 @@ yin:
       url: /fr/expertise/votre-situation/
       menu:
         - title: Sous Performance
-          url: /fr/expertise/votre-situation/sous-performance
+          url: /fr/expertise/votre-situation/sous-performance/
         - title: Défaillance
-          url: /fr/expertise/votre-situation/defaillance
+          url: /fr/expertise/votre-situation/defaillance/
         - title: Désordre
-          url: /fr/expertise/votre-situation/desordre
+          url: /fr/expertise/votre-situation/desordre/
         - title: Action En Justice
-          url: /fr/expertise/votre-situation/action-en-justice
+          url: /fr/expertise/votre-situation/action-en-justice/
     - title: Mes services
       url: /fr/expertise/mes-services/
       menu:
         - title: Accord Amiable
-          url: /fr/expertise/mes-services/negocier-un-accord-amiable
+          url: /fr/expertise/mes-services/negocier-un-accord-amiable/
         - title: Performance Technico-Economique
-          url: /fr/expertise/mes-services/ameliorer-les-performances
+          url: /fr/expertise/mes-services/ameliorer-les-performances/
         - title: Résolution de Défaillances
-          url: /fr/expertise/mes-services/resoudre-des-defaillances
+          url: /fr/expertise/mes-services/resoudre-des-defaillances/
         - title: >-
             &Eacute;valuer les dégâts
-          url: /fr/expertise/mes-services/evaluer-les-degats
+          url: /fr/expertise/mes-services/evaluer-les-degats/
         - title: Soltions Palliatives
-          url: /fr/expertise/mes-services/trouver-des-solutions-palliatives
+          url: /fr/expertise/mes-services/trouver-des-solutions-palliatives/
         - title: Accompagner durant un Litige
-          url: /fr/expertise/mes-services/accompagner-durant-un-litige
+          url: /fr/expertise/mes-services/accompagner-durant-un-litige/
     - title: Mes Compétences
       url: /fr/expertise/mes-competences/
       menu:
         - title: Maintenance
-          url: /en/expertise/mes-competences/maintenance
+          url: /fr/expertise/mes-competences/maintenance/
         - title: Médiation
-          url: /en/expertise/mes-competences/mediation
+          url: /fr/expertise/mes-competences/mediation/
         - title: Expertise
-          url: /en/expertise/mes-competences/expertise
+          url: /fr/expertise/mes-competences/expertise/
         - title: Génie Climatique et ENR
-          url: /fr/expertise/mes-competences/enr-genie-climatique
+          url: /fr/expertise/mes-competences/enr-genie-climatique/
         - title: Procédés Industriels
-          url: /fr/expertise/mes-competences/procedes-industriels
+          url: /fr/expertise/mes-competences/procedes-industriels/
     - title: A Propos
       url: /fr/expertise/a-propos/
       menu:
