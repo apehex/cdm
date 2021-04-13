@@ -32,11 +32,11 @@ yang:
     - title: My Services
       url: /en/consulting/my-services/
       menu:
-        - title: Service 1
+        - title: Project Support
           url: /en/consulting/my-services/service-1/
-        - title: Service 2
+        - title: Dependability
           url: /en/consulting/my-services/service-2/
-        - title: Service 3
+        - title: Operation's Efficiency
           url: /en/consulting/my-services/service-3/
     - title: My Expertise
       url: /en/consulting/my-expertise/
@@ -81,12 +81,12 @@ yang:
     - title: Mes Services
       url: /fr/conseil/mes-services/
       menu:
-        - title: Service 1
-          url: /fr/conseil/mes-services/service-1/
-        - title: Service 2
-          url: /fr/conseil/mes-services/service-2/
-        - title: Service 3
-          url: /fr/conseil/mes-services/service-3/
+        - title: Assistance à Projet
+          url: /fr/conseil/mes-services/assistance-a-projet/
+        - title: Sûreté de Fonctionnement
+          url: /fr/conseil/mes-services/surete-de-fonctionnement/
+        - title: Efficience des Organisations
+          url: /fr/conseil/mes-services/efficience-des-organisations/
     - title: Mes Compétences
       url: /fr/conseil/mes-competences/
       menu:

@@ -1,5 +1,5 @@
 ---
-lang-ref: yang-services-2
+lang-ref: yang-services-dependability
 layout: home
 title: >-
     Service 2
@@ -26,7 +26,7 @@ banner:
             Ask for Advice
 ---
 
-{%- assign data = site.data.services.yang.service-2["fr"] -%}
+{%- assign data = site.data.services.yang.dependability["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

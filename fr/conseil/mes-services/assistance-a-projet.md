@@ -1,10 +1,10 @@
 ---
-lang-ref: yang-services-1
+lang-ref: yang-services-project-support
 layout: home
 title: >-
-    Service 1
+    Assistance à Projet
 description: >-
-    ?
+    Les questions qui se posent et auxquelles je pourrais répondre
 background:
     class: inverted
     image:
@@ -14,19 +14,18 @@ header:
     subtitle: >-
         Accompagner de la Décision à l'Exploitation
 banner:
-    title: Service 1
+    title: Assistance à Projet
     subtitle: >-
-        ?
-    description: >-
-        ?
+        Les questions qui se posent et auxquelles je pourrais répondre
+    description: " "
     button:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yang.service-1["fr"] -%}
+{%- assign data = site.data.services.yang.project-support["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>
