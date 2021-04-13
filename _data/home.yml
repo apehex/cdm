@@ -115,9 +115,9 @@ yang:
             intro: >-
               Organisez
             fact: >-
-              ?
+              Avec méthode
             outro: >-
-              ?
+              Pour faire partie des 15% des projets qui atteignent leurs objectifs
             icon: >-
               solid fa-project-diagram
         - class: >-
@@ -137,9 +137,9 @@ yang:
             intro: >-
               Intégrez
             fact: >-
-              ?
+              &Eacute;quipements et processus
             outro: >-
-              vos processus
+              Pour annuler le délais de montée en cadence
             icon: >-
               solid fa-plane-arrival
         - class: >-
@@ -157,11 +157,11 @@ yang:
               solid fa-box-open
           hover:
             intro: >-
-              ?
+              Vérifiez
             fact: >-
-              ?
+              Objectifs et respect des exigences
             outro: >-
-              ?
+              Ne payez que ce qui a été livré
             icon: >-
               solid fa-cubes
         - class: >-
@@ -179,11 +179,11 @@ yang:
               solid fa-play
           hover:
             intro: >-
-              ?
+              Développez
             fact: >-
-              ?
+              Performances et efficience
             outro: >-
-              ?
+              Pour garantir la rentabilité de votre business plan
             icon: >-
               solid fa-level-up-alt
   targets:
@@ -462,7 +462,7 @@ yin:
             /fr/expertise/votre-situation/sous-performance
           default:
             intro: >-
-              Under Performance
+              Sous Performance
             fact: >-
               ?
             outro: >-
@@ -471,11 +471,11 @@ yin:
               solid fa-chart-area
           hover:
             intro: >-
-              ? (Find out)
+              Quantifiez les
             fact: >-
-              ? (WHY)
+              &Eacute;carts aux standards
             outro: >-
-              ? (you're losing money!)
+              Pour atteindre la rentabilité escomptée
             icon: >-
               solid fa-search-dollar
         - class: >-
@@ -493,11 +493,11 @@ yin:
               solid fa-car-crash
           hover:
             intro: >-
-              ? (Get)
+              Restaurez un
             fact: >-
-              ? (BACK)
+              Fonctionnement pérenne
             outro: >-
-              ? (your money!)
+              En traitant les causes plutôt que les effets
             icon: >-
               solid fa-money-bill
         - class: >-
@@ -515,11 +515,11 @@ yin:
               solid fa-exclamation-triangle
           hover:
             intro: >-
-              ?
+              Formalisez
             fact: >-
-              ?
+              La matérialité de votre problème
             outro: >-
-              ?
+              Pour fonder une réclamation
             icon: >-
               solid fa-route
         - class: >-
@@ -537,11 +537,11 @@ yin:
               solid fa-gavel
           hover:
             intro: >-
-              ?
+              Solutionnez par une
             fact: >-
-              ?
+              Démarche amiable
             outro: >-
-              ?
+              Votre litige pour le transformer en bénéfice
             icon: >-
               solid fa-balance-scale
   targets:
@@ -594,7 +594,7 @@ yin:
           title: >-
             Génie Climatique<br>et Thermique
           content: >-
-            <ul><li>Isolation</li><li>Chauffage</li><li>Refroidissement</li><li>Ventilation</li></ul>
+            <ul><li>Isolation</li><li>Chaud</li><li>Froid</li><li>Traitement de l'air</li></ul>
         - class: >-
             col-4 col-12-medium col-12-small
           target_url: >-
@@ -604,7 +604,7 @@ yin:
           title: >-
             &Eacute;nergies<br>Renouvelables
           content: >-
-            <ul><li>Pompes à Chaleur</li><li>Photovoltaïque</li><li>Géothermie</li><li>Méthanisation</li></ul>
+            <ul><li>Pompes à Chaleur</li><li>Photovoltaïque</li><li>Géothermie</li><li>Solaire</li><li>Méthanisation</li></ul>
         - class: >-
             col-4 col-12-medium col-12-small
           target_url: >-
@@ -614,7 +614,7 @@ yin:
           title: >-
             Procédés Industriels
           content: >-
-            <ul>Qui transforment des:<li>Cartons</li><li>Plastiques</li><li>Métaux</li></ul>
+            <ul>Transformation :<li>Cartons</li><li>Plastiques</li><li>Métaux</li></ul>
   expertise:
     en:
       id: expertise
@@ -669,7 +669,7 @@ yin:
           icon: >-
             solid fa-tools
           title: >-
-            Performances
+            Restaurer les Performances
           content:
         - class: >-
             col-6 col-6-medium col-12-small
@@ -678,7 +678,7 @@ yin:
           icon: >-
             solid fa-search
           title: >-
-            Résolution des Défaillances
+            Résoudre les Défaillances
           content:
         - class: >-
             col-6 col-6-medium col-12-small
@@ -687,7 +687,7 @@ yin:
           icon: >-
             solid fa-balance-scale
           title: >-
-            &Eacute;valuer les Dégâts
+            &Eacute;valuer les Désordre et Préjudices
           content:
         - class: >-
             col-6 col-6-medium col-12-small
@@ -696,5 +696,5 @@ yin:
           icon: >-
             solid fa-gavel
           title: >-
-            Accord Amiable
+            Initier un accord amiable
           content:
