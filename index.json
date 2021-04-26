@@ -273,23 +273,9 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Accompagner durant un Litige",
-      "description"    : "Argumenter factuellement votre réclamation ou votre absence / exonération de responsabilité.",
-      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/accompagner-durant-un-litige/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
       "title"          : "Action en Justice",
       "description"    : "Obtenir réparation amiable ou judiciaire de votre dommage.",
       "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/action-en-justice/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
-      "title"          : "Améliorer les Performances",
-      "description"    : "Quantifier les performances des systèmes et formaliser les processus de création de valeur.",
-      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/ameliorer-les-performances/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -330,7 +316,7 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Désordres",
-      "description"    : "Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation.",
+      "description"    : "Identifier les causes et les imputabilités, sauver la situation.",
       "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/desordre/",
       "tags"           : "",
       "date"           : ""
@@ -373,7 +359,21 @@
       "lang"           : "fr",
       "title"          : "&amp;Eacute;valuer les Dégâts",
       "description"    : "Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation.",
-      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/evaluer-les-degats/",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/expert-de-partie-au-litige/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Expertise privée de litige",
+      "description"    : "Quantifier les performances des systèmes et formaliser les processus de création de valeur.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/expertise-privee-de-litige/",
+      "tags"           : "",
+      "date"           : ""
+    } ,{
+      "lang"           : "fr",
+      "title"          : "Expertise technique de défaillance",
+      "description"    : "Argumenter factuellement votre réclamation ou votre absence / exonération de responsabilité.",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/expertise-technique-de-defaillance/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -441,13 +441,6 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Accords Amiables",
-      "description"    : "Accompagner dans la négociation",
-      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/negocier-un-accord-amiable/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
       "title"          : "Politique de Confidentialité",
       "description"    : "Nous ne stockons pas d&#39;informations personnelles sur nos visiteurs.",
       "url"            : "https://apehex.github.io/cdm/fr/politique-de-confidentialite/",
@@ -476,13 +469,6 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Résoudre les Défaillances",
-      "description"    : "Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur.",
-      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/resoudre-des-defaillances/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
       "title"          : "Sous Performance",
       "description"    : "Restaurer vos marges, productivité et rentabilité.",
       "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/sous-performance/",
@@ -500,13 +486,6 @@
       "title"          : "Sûreté de Fonctionnement",
       "description"    : "Les questions qui se posent et auxquelles je pourrais répondre",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-services/surete-de-fonctionnement/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
-      "title"          : "Solutions Palliatives",
-      "description"    : "?",
-      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/trouver-des-solutions-palliatives/",
       "tags"           : "",
       "date"           : ""
     } ,{
