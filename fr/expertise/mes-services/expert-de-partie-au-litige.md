@@ -1,10 +1,10 @@
 ---
-lang-ref: yin-services-improving-performance
+lang-ref: yin-services-support-during-litigation
 layout: home
 title: >-
-    Améliorer les Performances
+    &Eacute;valuer les Dégâts
 description: >-
-    Quantifier les performances des systèmes et formaliser les processus de création de valeur.
+    Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation.
 background:
     class: inverted
     image:
@@ -15,9 +15,9 @@ header:
         Dépasser les incidents
 banner:
     title: >-
-        Améliorer les Performances
+        &Eacute;valuer les Dégâts
     subtitle: >-
-        Quantifier les performances des systèmes et formaliser les processus de création de valeur
+        Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation
     description: " "
     button:
         url: >-
@@ -26,7 +26,7 @@ banner:
             Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.improving-performance["fr"] -%}
+{%- assign data = site.data.services.yin.support-during-litigation["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

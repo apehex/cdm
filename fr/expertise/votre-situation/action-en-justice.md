@@ -17,7 +17,8 @@ banner:
     title: >-
         Action en Justice
     subtitle: >-
-        Obtenir réparation amiable ou judiciaire de votre dommage
+        Obtenir réparation amiable<br>
+        Ou judiciaire de votre dommage
     description: " "
     button:
         url: >-

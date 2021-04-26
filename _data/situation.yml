@@ -368,24 +368,24 @@ yin:
       title: >-
         D&Eacute;SORDRE IDENTIFI&Eacute;
       quote: >-
-        Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation
+        Identifier les causes et les imputabilités<br/>Sauver la situation
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
         - id: qualifying
           title: >-
-            Comment caractériser le désordre
+            Caractérisation des désordres
           content: >-
-            <p>Le désordre est la manifestation du dommage, de l’atteinte à une caractéristique attendue et convenue du système délivré, et pour laquelle la responsabilité d’un acteur, qui se portait garant de l’absence de désordre, dans un temps imparti, est susceptible d’être recherchée. Il faut donc identifier l’écart aux attentes légitimes ou contractuelles, ou normatives, ou réglementaires, et définir qui devait garantir et pendant combien de temps l’absence d’une telle situation.</p>
+            <p>Vous voulez mettre en évidence l’écart de comportement de votre système à vos attentes légitimes ou aux règles de l’art.</p>
         - id: impact
           title: >-
-            Quel est l’impact technico-économique de la situation
+            Impact technico-économique
           content: >-
             <p>Vous avez besoin de chiffrer les conséquences en termes de délais, coûts directs et indirects, matériels et immatériels d’un désordre identifié.</p>
         - id: mitigating
           title: >-
-            Quel moyen pour limiter l’impact et se donner le temps d’agir
+            Limitation de l’incidence des désordres
           content: >-
             <p>Vous recherchez des solutions palliatives et/ou conservatoires pour minimiser l’impact ou empêcher l’aggravation dans le temps de la situation rencontrée.</p>
   litigation:
@@ -424,7 +424,7 @@ yin:
       title: >-
         LITIGE
       quote: >-
-        Obtenir réparation amiable ou judiciaire de votre dommage
+        Obtenir réparation amiable<br>Ou judiciaire de votre dommage
       orientation: vertical
       headers-width: 30
       show-title: false
@@ -433,20 +433,20 @@ yin:
           title: >-
             Intérêt et possibilité d’agir ?
           content: >-
-            <p>Vous souhaitez savoir si la situation technique identifiée permet et présente un intérêt à agir en mettant en cause votre fournisseur / partenaire dans la délivrance d’un bien ou d’un service technique en regard des engagements contractuels.</p>
+            <p>Vous souhaitez savoir si la situation technique identifiée permet et présente un intérêt technico-économique à agir en regard des enjeux et des règles de l’art.</p>
         - id: assessing-damages
           title: >-
-            Quelle est la réalité et matérialité du litige ?
+            Réalité et matérialité du litige
           content: >-
-            <p>Vous avez besoin d’identifier de façon certaine les causes d’un désordre et d’établir un lien de causalité direct entre l’action ou l’inaction d’un tiers ou d’un contractant et le désordre identifié.</p>
+            <p>Vous avez besoin de démontrer l’existence de désordres fondant techniquement votre réclamation.</p>
         - id: responsibilities
           title: >-
-            Quelles sont les causes et à qui sont-elles imputables ?
+            Causes et imputabilité
           content: >-
-            Quelles sont les causes et à qui sont-elles imputables ?
+            Vous souhaitez identifier les causes des désordres pour déterminer à qui elles sont imputables.
         - id: facts
           title: >-
-            Quels éléments tangibles de la réclamation ?
+            &Eacute;léments tangibles de la réclamation
           content: >-
             <p>Vous avez besoin d’un constat argumenté et documenté photographiquement complété de mesures, relevés, essais, enregistrement du comportement du système incriminé.</p>
         - id: reglement-amiable

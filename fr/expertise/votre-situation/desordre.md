@@ -4,7 +4,7 @@ layout: home
 title: >-
     Désordres
 description: >-
-    Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation.
+    Identifier les causes et les imputabilités, sauver la situation.
 background:
     class: inverted
     image:
@@ -17,7 +17,8 @@ banner:
     title: >-
         Désordres
     subtitle: >-
-        Identifier les causes et les imputabilités, prendre des mesures conservatoires, sauver la situation
+        Identifier les causes et les imputabilités<br>
+        Pour sauver la situation
     description: " "
     button:
         url: >-
