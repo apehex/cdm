@@ -182,19 +182,12 @@ yin:
     - title: Mes services
       url: /fr/expertise/mes-services/
       menu:
-        - title: Accord Amiable
-          url: /fr/expertise/mes-services/negocier-un-accord-amiable/
-        - title: Performance Technico-Economique
-          url: /fr/expertise/mes-services/ameliorer-les-performances/
-        - title: Résolution de Défaillances
-          url: /fr/expertise/mes-services/resoudre-des-defaillances/
-        - title: >-
-            &Eacute;valuer les dégâts
-          url: /fr/expertise/mes-services/evaluer-les-degats/
-        - title: Soltions Palliatives
-          url: /fr/expertise/mes-services/trouver-des-solutions-palliatives/
-        - title: Accompagner durant un Litige
-          url: /fr/expertise/mes-services/accompagner-durant-un-litige/
+        - title: Expertise Technique de Défaillance
+          url: /fr/expertise/mes-services/expertise-technique-de-defaillance/
+        - title: Expertise Privée de Litige
+          url: /fr/expertise/mes-services/expertise-privee-de-litige/
+        - title: Expert de Partie au Litige
+          url: /fr/expertise/mes-services/expert-de-partie-au-litige/
     - title: Mes Compétences
       url: /fr/expertise/mes-competences/
       menu:

@@ -1,10 +1,10 @@
 ---
-lang-ref: yin-services-finding-palliative-solutions
+lang-ref: yin-services-rectifying-failures
 layout: home
 title: >-
-    Solutions Palliatives
+    Expertise technique de défaillance
 description: >-
-    ?
+    Argumenter factuellement votre réclamation ou votre absence / exonération de responsabilité.
 background:
     class: inverted
     image:
@@ -15,9 +15,11 @@ header:
         Dépasser les incidents
 banner:
     title: >-
-        Solutions Palliatives
+        Expertise technique<br>
+        de Défaillance
     subtitle: >-
-        ?
+        Les questions qui se posent,<br>
+        auxquelles je pourrais répondre
     description: " "
     button:
         url: >-
@@ -26,7 +28,7 @@ banner:
             Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.finding-palliative-solutions["fr"] -%}
+{%- assign data = site.data.services.yin.rectifying-failures["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>

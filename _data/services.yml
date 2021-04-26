@@ -1,4 +1,197 @@
 yin:
+  rectifying-failures:
+    en:
+      id: rectifying-failures
+      title: Rectifying Failures
+      quote: >-
+        ?
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: contractual-analysis
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: damage-assessment
+          title: >-
+            ?
+          content: >-
+            
+        - id: palliative-solutions
+          title: >-
+            ?
+          content: >-
+            ?
+    fr:
+      id: expertise-technique-de-defaillance
+      title: >-
+        Expertise Technique<br>de Défaillance
+      quote: >-
+        Les questions qui se posent et auxquelles je pourrais répondre
+      orientation: vertical
+      headers-width: 30
+      tabs:
+        - id: probleme
+          title: >-
+            Quel est le problème ?
+          content: >-
+            <ul><li>Il y a-t-il réellement défaillance ?</li>
+            <li>Comment se manifeste-t-elle, quels sont les modes de défaillance impliqués parmi les huit modes possibles ?</li>
+            <li>Quel devrait être le fonctionnement normal et en regard de quel référentiel ?</li>
+            <li>Quelles sont les caractéristiques de temps, d’ampleur et de cinétique de la défaillance ?</li>
+            <li>Quels en sont les effets et les coûts en termes techniques, économiques, business, sécurité, environnementaux ?</li></ul>
+        - id: origine
+          title: >-
+            Quel est l'origine de la défaillance ?
+          content: >-
+            <ul><li>Quelles sont les causes parmi les huit causes premières possibles ?</li>
+            <li>Quels sont les organes et composants impactés ?</li>
+            <li>Quels éléments permettent-ils d’avoir confiance dans le diagnostic ?</li>
+            <li>Quelles sont les occurrences de ce type de défaillance ?</li>
+            <li>Pourquoi le programme de maintenance préventive n’a pas permis d’éviter cette défaillance ?</li></ul>
+        - id: solutions
+          title: >-
+            Quelles solutions pertinentes ?
+          content: >-
+            <ul><li>Comment assurer la continuité d’activité ?</li>
+            <li>Comment réduire significativement les occurrences de ce type de défaillances ?</li>
+            <li>Comment réduire significativement la gravité des conséquences de ce type de défaillances ?</li>
+            <li>Comment résoudre les défaillances aléatoires et fugitives ?</li></ul>
+        - id: apres
+          title: >-
+            Et après ?
+          content: >-
+            <ul><li>Comment apporter un niveau de confiance qualifié à l’utilisateur, l’exploitant ?</li>
+            <li>Comment tirer profit de l’expérience de cette défaillance ? De l’ensemble des défaillances ?</li>
+            <li>Quelles défaillances mériteraient une analyse approfondie ?</li>
+            <li>Quels sont les axes prioritaires d’amélioration ? Les équipements, les acteurs ou l’organisation ?</li>
+            <li>Quelles conséquences tirer pour mes investissements futurs ?</li>
+            <li>L’enseignement de l’expérience est-il généralisable ?</li></ul>
+  private-expert-assessment:
+    en:
+      id: private-expert-assessment
+      title: Private Expert Assessment
+      quote: >-
+        ?
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: contractual-analysis
+          title: >-
+            ?
+          content: >-
+            ?
+        - id: damage-assessment
+          title: >-
+            ?
+          content: >-
+            
+        - id: palliative-solutions
+          title: >-
+            ?
+          content: >-
+            ?
+    fr:
+      id: expertise-privee-de-litige
+      title: >-
+        Expertise Privée de Litige
+      quote: >-
+        Les questions qui se posent et auxquelles je pourrais répondre
+      orientation: vertical
+      headers-width: 30
+      tabs:
+        - id: le-litige
+          title: >-
+            Quel est le litige ?
+          content: >-
+            <ul><li>Quel est dommage, quelle est l’atteinte à mes intérêts, mon patrimoine ?</li>
+            <li>Quels sont les désordres traduisant ce dommage ?</li>
+            <li>Les désordres sont-ils actuels et certains ?</li>
+            <li>Quel est le préjudice qui en découle ? matériel, immatériel, jouissance, moral ?</li>
+            <li>Comment peut-on chiffrer les différents préjudices ?</li>
+            <li>Les préjudices sont-ils évolutifs ?</li></ul>
+        - id: origine
+          title: >-
+            Quelle est l'origine du litige, à qui est-elle imputable ?
+          content: >-
+            <ul><li>Quelles sont les causes des désordres ?</li>
+            <li>Il y a-t-il des malfaçons, des non-façons, des non-conformités ?</li>
+            <li>Les non-conformités entraînent-elles des désordres ?</li>
+            <li>Existe-t-il un lien de causalité entre les différentes natures de désordre et les préjudices exposés ?</li>
+            <li>A qui sont imputables les désordres identifiés ?</li></ul>
+        - id: issues
+          title: >-
+            Quelles issues possibles ?
+          content: >-
+            <ul><li>Une issue amiable est-elle envisageable ? Expertise amiable ou officieuse ?</li>
+            <li>Est-il plus pertinent d’initier une réclamation en justice ?</li>
+            <li>Les deux démarches peuvent-elles se dérouler en parallèle ?</li>
+            <li>La voie amiable est-elle un préalable à l’action en justice ?</li>
+            <li>Combien de temps et à quel coût une issue amiable ? Qui paiera ?</li>
+            <li>Quelles sont les perspectives technico-économiques et humaines d’une action en justice ?</li></ul>
+        - id: voie-amiable
+          title: >-
+            La voie amiable ?
+          content: >-
+            <ul><li>Comment la mettre en œuvre ? Négociation, conciliation, ou médiation ?</li>
+            <li>Comment défendre mes intérêts techniques et économiques ?</li>
+            <li>Qui peut défendre mes intérêts ? Ai-je le choix de mon Assistant Technique ?</li>
+            <li>Quels acteurs pour la mise en place d’un protocole transactionnel ?</li>
+            <li>Quelles suites en cas d’échec de la voie amiable ?</li>
+            <li>Quelles suites en cas d’inexécution du protocole ?</li></ul>
+  support-during-litigation:
+    en:
+      id: support-during-litigation
+      title: >-
+        Support During Litigation
+      quote: >-
+        ? (Argumenter factuellement votre réclamation et vous donner les moyens de soutenir vos prétentions)
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: organizing-operations
+          title: >-
+            ? (Organizing the operations)
+          content: >-
+            Rapport d’expertise officieuse ou organisation d’opérations amiables et contradictoires
+        - id: evaluating-damages
+          title: >-
+            ?
+          content: >-
+            Chiffrage du dommage et des travaux de reprise des désordres
+        - id: defending-claims
+          title: >-
+            ? (Défendre vos intérêts)
+          content: >-
+            Assistance technique en phase judiciaire, apports soutenant la réclamation (causes, conséquences, imputabilité)
+    fr:
+      id: accompagnement-pendant-les-litiges
+      title: >-
+        Expert de Partie au Litige
+      quote:
+        Les questions qui se posent et auxquelles je pourrais répondre
+      orientation: vertical
+      headers-width: 30
+      show-title: false
+      tabs:
+        - id: role
+          title: >-
+            Quel est son rôle ?
+          content: >-
+            <ul><li>Puis-je me faire librement assister techniquement dans le cadre d’une procédure judiciaire ?</li>
+            <li>L’expert de partie est-il redondant avec l’expert désigné par le Tribunal ?</li>
+            <li>Pourquoi aurais-je besoin d’un expert privé ?</li>
+            <li>L’expert judiciaire va-t-il défendre mes intérêts si j’ai raison ?</li>
+            <li>Comment se déroule une expertise judiciaire dans le cadre d’un litige technique ?</li></ul>
+        - id: benefice
+          title: >-
+            Bénéfice apporté ?
+          content: >-
+            ?
   assessing-damage:
     en:
       id: assessing-damage
@@ -280,62 +473,6 @@ yin:
             <h3>Atténuer l'impact et restaurer l'état initial</h3>
             <p>Les préconisations concernent le cas échéant la conception du système, son exploitation, sa maintenance.</p>
             <p>Elles visent à établir, sous réserve de données disponibles, l’équilibre technico-économique à atteindre entre action modificative, préventive et corrective résiduelle.</p>
-  supporting-during-litigation:
-    en:
-      id: support-during-litigation
-      title: >-
-        SUPPORT DURING LITIGATION
-      quote: >-
-        ? (Argumenter factuellement votre réclamation et vous donner les moyens de soutenir vos prétentions)
-      orientation: vertical
-      headers-width: 30
-      show-title: false
-      tabs:
-        - id: organizing-operations
-          title: >-
-            ? (Organizing the operations)
-          content: >-
-            Rapport d’expertise officieuse ou organisation d’opérations amiables et contradictoires
-        - id: evaluating-damages
-          title: >-
-            ?
-          content: >-
-            Chiffrage du dommage et des travaux de reprise des désordres
-        - id: defending-claims
-          title: >-
-            ? (Défendre vos intérêts)
-          content: >-
-            Assistance technique en phase judiciaire, apports soutenant la réclamation (causes, conséquences, imputabilité)
-    fr:
-      id: accompagnement-pendant-les-litiges
-      title: >-
-        ACCOMPAGNEMENT PENDANT LES LITIGES
-      quote:
-        Argumenter factuellement votre réclamation ou votre absence / exonération de responsabilité
-      orientation: vertical
-      headers-width: 30
-      show-title: false
-      tabs:
-        - id: organizing-the-operations
-          title: >-
-            Rapport d’expertise officieuse et / ou organisation d’opérations amiables et contradictoires
-          content: >-
-            <h3>&Eacute;tayer la réclamation</h3>
-            <p>Rapport en soutien de vos prétentions soit en demande soit en défense.</p>
-            <p>Démonstration éventuelle d’absence de causalité ou d’absence d’action directe en lien avec les désordres.</p>
-            <p>Identification de l’imputabilité des désordres sur la base des liens de causalité et du rôle des différents acteurs et intervenants.</p>
-        - id: evaluating-damages
-          title: >-
-            Chiffrage du dommage et des travaux de reprise des désordres
-          content: >-
-            <h3>Quel est mon préjudice</h3>
-            <p>Evaluation des travaux de reprise sur la base de devis ou base de données coûts des matériaux, de la main d’œuvre et des frais annexes.</p>
-        - id: defending-claims
-          title: >-
-            Assistance technique en phase judiciaire, apports soutenant la réclamation ou niant la responsabilité (désordres, causes, conséquences, imputabilité)
-          content: >-
-            <h3>&Ecirc;tre assisté</h3>
-            ?
 yang:
   project-support:
     en:

@@ -1,10 +1,10 @@
 ---
-lang-ref: yin-services-solving-failures
+lang-ref: yin-services-private-expert-assessment
 layout: home
 title: >-
-    Résoudre les Défaillances
+    Expertise privée de litige
 description: >-
-    Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur.
+    Quantifier les performances des systèmes et formaliser les processus de création de valeur.
 background:
     class: inverted
     image:
@@ -15,9 +15,10 @@ header:
         Dépasser les incidents
 banner:
     title: >-
-        Résoudre les Défaillances
+        Expertise Privée de Litige
     subtitle: >-
-        Traiter les causes plutôt que les effets et déployer une stratégie de défense en profondeur
+        Les questions qui se posent,<br>
+        auxquelles je pourrais répondre
     description: " "
     button:
         url: >-
@@ -26,7 +27,7 @@ banner:
             Demandez Conseil
 ---
 
-{%- assign data = site.data.services.yin.solving-failures["fr"] -%}
+{%- assign data = site.data.services.yin.private-expert-assessment["fr"] -%}
 {%- for tab in data.tabs -%}
 {%- assign is-inverted = forloop.index | modulo: 2 -%}
 <section id="{{ tab.id }}" {% if is-inverted == 0 %}class="inverted"{% endif %}>
