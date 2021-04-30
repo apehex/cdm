@@ -148,8 +148,8 @@ yin:
       menu:
         - title: Maintenance
           url: /en/expert-assessment/my-expertise/maintenance/
-        - title: Mediation
-          url: /en/expert-assessment/my-expertise/mediation/
+        - title: Mediation and Conciliation
+          url: /en/expert-assessment/my-expertise/mediation-and-conciliation/
         - title: Expert Assessment
           url: /en/expert-assessment/my-expertise/expert-assessment/
         - title: HVAC Engineering
@@ -193,8 +193,8 @@ yin:
       menu:
         - title: Maintenance
           url: /fr/expertise/mes-competences/maintenance/
-        - title: Médiation
-          url: /fr/expertise/mes-competences/mediation/
+        - title: Médiation et Conciliation
+          url: /fr/expertise/mes-competences/mediation-et-conciliation/
         - title: Expertise
           url: /fr/expertise/mes-competences/expertise/
         - title: Génie Climatique et ENR

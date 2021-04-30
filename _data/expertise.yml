@@ -3,7 +3,7 @@ yin:
     en:
       id: expert-assessment
       title: >-
-        EXPERT ASSESSMENT
+        Expert Assessment
       quote: >-
         ?
       orientation: vertical
@@ -28,33 +28,33 @@ yin:
     fr:
       id: expertise
       title: >-
-        EXPERTISE
+        Expertise
       quote: >-
-        ?
+        Objectiver la situation
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
-        - id: a
+        - id: analyse
           title: >-
-            ?
+            Analyse du dossier
           content: >-
-            ?
-        - id: b
+            <p>Comprendre la nature et le fondement du non-respect des exigences et attentes initiales en regard des référentiels contractuel, réglementaire et règles de l’art du domaine concerné.</p>
+        - id: historique
           title: >-
-            ?
+            &Eacute;tablir l'historique de l'affaire
           content: >-
-            ?
-        - id: c
+            <p>Retracer la chronologie de l’affaire permet de savoir s’il est encore temps d’agir, et de mettre à jour les faits, les circonstances, les éventuelles fautes et les liens de causalité (notamment la cause précède toujours les effets).</p>
+        - id: audit
           title: >-
-            ?
+            Audit des systèmes
           content: >-
-            ?
+            <p>Investiguer in-situ et faire des essais et mesures physiques permet de rapporter la preuve et l’importance des écarts par rapport aux référentiels.</p>
   maintenance:
     en:
       id: maintenance
       title: >-
-        MAINTENANCE
+        Maintenance
       quote: >-
         ?
       orientation: vertical
@@ -79,33 +79,33 @@ yin:
     fr:
       id: maintenance
       title: >-
-        MAINTENANCE
+        Maintenance
       quote: >-
-        ?
+        Résoudre des situations de crise, dépassant vos capacités.  
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
-        - id: a
+        - id: localisation
           title: >-
-            ?
+            Localisation de la défaillance
           content: >-
-            ?
-        - id: b
+            <p>Grâce à des méthodes éprouvées, confirmer la réalité du dysfonctionnement et le localiser au niveau des systèmes, sous-systèmes, organes et composants.</p>
+        - id: causes
           title: >-
-            ?
+            Identification des causes
           content: >-
-            ?
-        - id: c
+            <p>Identifier les causes premières, parmi huit possibles, permet d’optimiser la réponse et de réduire les occurrences et/ou la gravité de tels incidents.</p>
+        - id: solutions-palliatives
           title: >-
-            ?
+            Solutions palliatives
           content: >-
-            ?
+            <p>Trouver une alternative pour poursuivre temporairement l’activité en se donnant le temps d’organiser une réparation pérenne.</p>
   mediation:
     en:
       id: mediation
       title: >-
-        MEDIATION
+        Mediation and Conciliation
       quote: >-
         ?
       orientation: vertical
@@ -130,28 +130,28 @@ yin:
     fr:
       id: mediation
       title: >-
-        M&Eacute;DIATION
+        Médiation et Conciliation
       quote: >-
-        ?
+        Résoudre par la voie amiable et conventionnelle un désaccord
       orientation: vertical
       headers-width: 30
       show-title: false
       tabs:
-        - id: a
+        - id: evaluer
           title: >-
-            ?
+            &Eacute;valuer la Situation
           content: >-
-            ?
-        - id: b
+            <p>Cerner les limites, les contours du désaccord et identifier les points durs et à contrario les marges de discussion et de concessions réciproques.</p>
+        - id: organiser
           title: >-
-            ?
+            Organiser les &Eacute;changes
           content: >-
-            ?
-        - id: c
+            <p>Faire se rencontrer les parties en terrain neutre et exprimer les points de vue pour nuancer les positions en assurant la traçabilité des échanges.</p>
+        - id: accord
           title: >-
-            ?
+            &Eacute;laboration d'un Accord
           content: >-
-            ?
+            <p>Acter les échanges et les concessions de part et d’autre pour permettre la finalisation d’un protocole avec l’appui rédactionnel d’un Conseil Juridique.</p>
 yang:
   efficiency:
     en:

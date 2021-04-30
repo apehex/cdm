@@ -4,7 +4,7 @@ layout: home
 title: >-
     Expertise
 description: >-
-    ?
+    Objectiver la situation
 background:
     class: inverted
     image:
@@ -16,9 +16,8 @@ header:
 banner:
     title: Expertise
     subtitle: >-
-        ?
-    description: >-
-        ?
+        Objectiver la situation
+    description: " "
     button:
         url: >-
             #contact
