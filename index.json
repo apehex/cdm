@@ -177,7 +177,7 @@
       "lang"           : "en",
       "title"          : "Mediation",
       "description"    : "?",
-      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-expertise/mediation/",
+      "url"            : "https://apehex.github.io/cdm/en/expert-assessment/my-expertise/mediation-and-conciliation/",
       "tags"           : "",
       "date"           : ""
     } ,{
@@ -357,7 +357,7 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "&amp;Eacute;valuer les Dégâts",
+      "title"          : "Expert de Partie au Litige",
       "description"    : "Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation.",
       "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-services/expert-de-partie-au-litige/",
       "tags"           : "",
@@ -379,7 +379,7 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Expertise",
-      "description"    : "?",
+      "description"    : "Objectiver la situation",
       "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/expertise/",
       "tags"           : "",
       "date"           : ""
@@ -428,15 +428,15 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Maintenance",
-      "description"    : "?",
+      "description"    : "Résoudre des situations de crise, dépassant vos capacités",
       "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/maintenance/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Médiation",
-      "description"    : "?",
-      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/mediation/",
+      "title"          : "Médiation et Conciliation",
+      "description"    : "Résoudre par la voie amiable et conventionnelle un désaccord",
+      "url"            : "https://apehex.github.io/cdm/fr/expertise/mes-competences/mediation-et-conciliation/",
       "tags"           : "",
       "date"           : ""
     } ,{
