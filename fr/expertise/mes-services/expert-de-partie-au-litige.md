@@ -2,7 +2,7 @@
 lang-ref: yin-services-support-during-litigation
 layout: home
 title: >-
-    &Eacute;valuer les Dégâts
+    Expert de Partie au Litige
 description: >-
     Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation.
 background:
@@ -15,9 +15,10 @@ header:
         Dépasser les incidents
 banner:
     title: >-
-        &Eacute;valuer les Dégâts
+        Expert de Partie au Litige
     subtitle: >-
-        Sauvegarder les intérêts en demande ou en défense et fonder ou combattre la réclamation
+        Les questions qui se posent,<br>
+        auxquelles je pourrais répondre
     description: " "
     button:
         url: >-

@@ -169,7 +169,7 @@ yin:
           content: >-
             Assistance technique en phase judiciaire, apports soutenant la réclamation (causes, conséquences, imputabilité)
     fr:
-      id: accompagnement-pendant-les-litiges
+      id: expert-de-partie
       title: >-
         Expert de Partie au Litige
       quote:
@@ -180,18 +180,37 @@ yin:
       tabs:
         - id: role
           title: >-
-            Quel est son rôle ?
+            Pourquoi un expert de partie ?
           content: >-
             <ul><li>Puis-je me faire librement assister techniquement dans le cadre d’une procédure judiciaire ?</li>
             <li>L’expert de partie est-il redondant avec l’expert désigné par le Tribunal ?</li>
             <li>Pourquoi aurais-je besoin d’un expert privé ?</li>
             <li>L’expert judiciaire va-t-il défendre mes intérêts si j’ai raison ?</li>
             <li>Comment se déroule une expertise judiciaire dans le cadre d’un litige technique ?</li></ul>
-        - id: benefice
+        - id: judiciaire
           title: >-
-            Bénéfice apporté ?
+            Expertise judiciaire ?
           content: >-
-            ?
+            <ul><li>Que signifie « débat contradictoire » ?</li>
+            <li>Quelle est la procédure, quelles sont les étapes ?</li>
+            <li>Comment faire valoir mes arguments techniques, quels éléments pertinents, quand les diffuser ?</li>
+            <li>Comment savoir si l’exposé de la partie adverse est fondé ?</li>
+            <li>Comment défendre mon point de vue et comment contrer les arguments adverses ?</li>
+            <li>Quelles sont les documents applicables, contractuels, réglementaires, DTU et règles de l’art sur le périmètre concerné ?</li>
+            <li>Quelles vérifications, essais, demandes de vérifications, de documents formuler pour défendre mes intérêts ?</li>
+            <li>Comment évaluer le préjudice en question, comment l’argumenter ou le contester selon le cas, en demande ou en défense ?</li></ul>
+        - id: apres
+          title: >-
+            Après le dépôt du rapport d'expertise judiciaire ?
+          content: >-
+            <ul><li>Si je ne suis pas d’accord avec les conclusions techniques ?</li>
+            <li>Si je ne suis pas d’accord avec les causes rapportées ?</li>
+            <li>Si je ne suis pas d’accord avec l’imputabilités des désordres ?</li>
+            <li>Si je ne suis pas d’accord avec les préjudices calculés ?</li>
+            <li>Il y a-t-il des éléments probants d’erreur, de manque, d’excès dans les conclusions du rapport ?</li>
+            <li>Les conclusions techniques sont-elles fondées, sont-elles contestables ?</li>
+            <li>Il y a-t-il un intérêt économique à contester les conclusions du rapport ?</li>
+            <li>A quelle durée et à quel coût la contestation est-elle envisageable et prévisible ?</li></ul>
   assessing-damage:
     en:
       id: assessing-damage

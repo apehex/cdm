@@ -2,9 +2,9 @@
 lang-ref: yin-expertise-mediation
 layout: home
 title: >-
-    Médiation
+    Médiation et Conciliation
 description: >-
-    ?
+    Résoudre par la voie amiable et conventionnelle un désaccord
 background:
     class: inverted
     image:
@@ -17,11 +17,10 @@ header:
         class: inverted
 banner:
     title: >-
-        Médiation
+        Médiation et Conciliation
     subtitle: >-
-        ?
-    description: >-
-        ?
+        Résoudre par la voie amiable et conventionnelle un désaccord
+    description: " "
     button:
         url: >-
             #contact
