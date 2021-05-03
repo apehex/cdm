@@ -4,7 +4,7 @@ layout: home
 title: >-
     Expertise
 description: >-
-    Objectiver la situation
+    Objectiver la situation technique
 background:
     class: inverted
     image:
@@ -16,7 +16,7 @@ header:
 banner:
     title: Expertise
     subtitle: >-
-        Objectiver la situation
+        Objectiver la situation technique
     description: " "
     button:
         url: >-
