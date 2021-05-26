@@ -115,3 +115,5 @@ copyright:
   license: All rights reserved
 
 # Exclude from processing.
+exclude:
+  - en/
