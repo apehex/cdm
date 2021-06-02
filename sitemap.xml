@@ -6,7 +6,7 @@
   </url><url>
     <loc>https://apehex.github.io/cdm/en/expert-assessment/my-services/assessing-damage/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/expert-assessment/my-services/assessing-damage/" /><changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://apehex.github.io/cdm/en/blog/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/blog/" /><xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/cdm/fr/blog/" /><changefreq>weekly</changefreq>
+    <loc>https://apehex.github.io/cdm/en/blog/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/blog/" /><changefreq>weekly</changefreq>
   </url><url>
     <loc>https://apehex.github.io/cdm/en/consulting/my-expertise/contracting-authority/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/consulting/my-expertise/contracting-authority/" /><xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/cdm/fr/conseil/mes-competences/assistance-maitrise-d-ouvrage/" /><changefreq>weekly</changefreq>
   </url><url>
@@ -81,8 +81,6 @@
     <loc>https://apehex.github.io/cdm/fr/conseil/mes-services/assistance-a-projet/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/consulting/my-services/service-1/" /><xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/cdm/fr/conseil/mes-services/assistance-a-projet/" /><changefreq>weekly</changefreq>
   </url><url>
     <loc>https://apehex.github.io/cdm/fr/conseil/mes-competences/assistance-maitrise-d-ouvrage/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/consulting/my-expertise/contracting-authority/" /><xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/cdm/fr/conseil/mes-competences/assistance-maitrise-d-ouvrage/" /><changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://apehex.github.io/cdm/fr/blog/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/blog/" /><xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/cdm/fr/blog/" /><changefreq>weekly</changefreq>
   </url><url>
     <loc>https://apehex.github.io/cdm/fr/expertise/votre-situation/defaillance/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/expert-assessment/your-situation/equipment-failure/" /><xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/cdm/fr/expertise/votre-situation/defaillance/" /><changefreq>weekly</changefreq>
   </url><url>
@@ -164,7 +162,5 @@
   </url><url>
     <loc>https://apehex.github.io/cdm/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/" /><xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/cdm/fr/" /><xhtml:link rel="alternate" hreflang="x-default" href="https://apehex.github.io/cdm/" /><changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://apehex.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/" /><xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/cdm/fr/jekyll/update/2019/02/08/bienvenue/" /><changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://apehex.github.io/cdm/fr/jekyll/update/2019/02/08/bienvenue/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/" /><xhtml:link rel="alternate" hreflang="fr" href="https://apehex.github.io/cdm/fr/jekyll/update/2019/02/08/bienvenue/" /><changefreq>weekly</changefreq>
+    <loc>https://apehex.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/</loc><xhtml:link rel="alternate" hreflang="en" href="https://apehex.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/" /><changefreq>weekly</changefreq>
   </url></urlset>

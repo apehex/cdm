@@ -294,13 +294,6 @@
       "date"           : ""
     } ,{
       "lang"           : "fr",
-      "title"          : "Actualités",
-      "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/fr/blog/",
-      "tags"           : "",
-      "date"           : ""
-    } ,{
-      "lang"           : "fr",
       "title"          : "Défaillances",
       "description"    : "Résoudre durablement des défaillances ponctuelles et critiques ou chroniques.",
       "url"            : "https://apehex.github.io/cdm/fr/expertise/votre-situation/defaillance/",
@@ -584,13 +577,6 @@
       "title"          : "Welcome to Jekyll!",
       "description"    : "",
       "url"            : "https://apehex.github.io/cdm/en/jekyll/update/2019/02/08/welcome-to-jekyll/",
-      "tags"           : "",
-      "date"           : "2019-02-08 13:33:42 +0100"
-    } ,{
-      "lang"           : "fr",
-      "title"          : "Bienvenue !",
-      "description"    : "",
-      "url"            : "https://apehex.github.io/cdm/fr/jekyll/update/2019/02/08/bienvenue/",
       "tags"           : "",
       "date"           : "2019-02-08 13:33:42 +0100"
     } ]
