@@ -5,15 +5,15 @@ default:
       url: /en/consulting/
     - title: Disorder Management
       url: /en/expert-assessment/
-    - title: Blog
-      url: /en/blog/
+    # - title: Blog
+    #   url: /en/blog/
   fr:
     - title: Conseil
       url: /fr/conseil/
     - title: Expertise Indépendante
       url: /fr/expertise/
-    - title: Blog
-      url: /fr/blog/
+    # - title: Blog
+    #   url: /fr/blog/
 yang:
   en:
     - title: Home
@@ -111,8 +111,8 @@ yang:
           url: /fr/conseil/a-propos/#profil
         - title: Mes Références
           url: /fr/conseil/a-propos/#references
-    - title: Blog
-      url: /fr/blog/
+    # - title: Blog
+    #   url: /fr/blog/
 yin:
   en:
     - title: Home
@@ -208,5 +208,5 @@ yin:
           url: /fr/expertise/a-propos/#profil
         - title: Mes Références
           url: /fr/expertise/a-propos/#references
-    - title: Blog
-      url: /fr/blog/
+    # - title: Blog
+    #   url: /fr/blog/
