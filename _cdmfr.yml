@@ -117,3 +117,5 @@ copyright:
 # Exclude from processing.
 exclude:
   - en/
+  - fr/blog.md
+  - fr/_posts
