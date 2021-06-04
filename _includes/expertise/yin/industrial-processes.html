@@ -2,34 +2,10 @@
     <header class="major">
         <h2>{% if page.lang=="en" %}INDUSTRIAL PROCESSES{% elsif page.lang=="fr" %}Procédés Industriels{% endif %}</h2>
     </header>
-    <div class="features row">
-        <article class="col-4 col-6-medium col-12-small">
-            <span class="icon solid fa-box-open"></span>
-            <div class="content">
-                <h3>Transformation des Cartons</h3>
-                <p>?</p>
-            </div>
-        </article>
-        <article class="col-4 col-6-medium col-12-small">
-            <span class="icon solid fa-box-open"></span>
-            <div class="content">
-                <h3>Transformation des Métaux</h3>
-                <p>?</p>
-            </div>
-        </article>
-        <article class="col-4 col-6-medium col-12-small">
-            <span class="icon solid fa-box-open"></span>
-            <div class="content">
-                <h3>Transformation des Plastiques</h3>
-                <p>?</p>
-            </div>
-        </article>
-        <article class="col-4 col-6-medium col-12-small">
-            <span class="icon solid fa-box-open"></span>
-            <div class="content">
-                <h3>Impression Offset</h3>
-                <p>?</p>
-            </div>
-        </article>
+    <div class="tileset row">
+        {% include tile.html class="col-3 col-6-medium col-12-small" icon="solid fa-box-open" title="Transformation des Cartons"%}
+        {% include tile.html class="col-3 col-6-medium col-12-small" icon="solid fa-magnet" title="Transformation des Métaux"%}
+        {% include tile.html class="col-3 col-6-medium col-12-small" icon="solid fa-wine-bottle" title="Transformation des Plastiques"%}
+        {% include tile.html class="col-3 col-6-medium col-12-small" icon="solid fa-print" title="Impression Offset"%}
     </div>
 </section>
