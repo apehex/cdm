@@ -338,7 +338,7 @@ yang:
           icon: >-
             solid fa-clock
           title: >-
-            Sûreté<br>de Fonctionnement
+            Sûreté de<br>Fonctionnement
           content:
         - class: >-
             col-4 col-12-small
