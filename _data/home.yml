@@ -254,7 +254,8 @@ yang:
             solid fa-exclamation
           title: >-
             En Difficulté !
-          content: 
+          content:
+            <h3>Contactez moi</h3><span class="icon solid fa-envelope"></span>
   expertise:
     en:
       id: expertise
@@ -306,6 +307,16 @@ yang:
           title: >-
             Contracting Authority
           content:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            en/consulting/#contact
+          icon: >-
+            solid fa-tasks
+          title: >-
+            A specific job
+          content:
+            <h3>Contact me</h3><span class="icon solid fa-envelope"></span>
     fr:
       id: competences
       title: >-
@@ -356,6 +367,16 @@ yang:
           title: >-
             Assistance Maîtrise d'Ouvrage
           content:
+        - class: >-
+            col-4 col-12-small
+          target_url: >-
+            fr/consulting/#contact
+          icon: >-
+            solid fa-tasks
+          title: >-
+            Compétences spécifiques
+          content:
+            <h3>Contactez moi</h3><span class="icon solid fa-envelope"></span>
 yin:
   situation:
     en:
