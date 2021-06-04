@@ -3,9 +3,9 @@
     <header class="major">
         <h2>{{ targets.title }}</h2>
     </header>
-    <div class="features row gtr-100">
+    <div class="tileset row gtr-100">
         {% for target in targets.features %}
-            {% include feature.html class=target.class target_url=target.target_url icon=target.icon title=target.title content=target.content %}
+            {% include tile.html class=target.class target_url=target.target_url icon=target.icon title=target.title content=target.content %}
         {% endfor %}
     </div>
 </section>
