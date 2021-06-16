@@ -281,14 +281,14 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Assistance à Projet",
-      "description"    : "Les questions qui se posent et auxquelles je pourrais répondre",
+      "description"    : "Définir et formaliser vos besoins, vos objectifs stratégiques et opérationnels, vos exigences par Cahier des Charges, tout en intégrant l’évolutivité future de votre projet vous apporte la maîtrise des axes BQCDS de ceux-ci.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-services/assistance-a-projet/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
       "title"          : "Maîtrise d&#39;Ouvrage",
-      "description"    : "Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet.",
+      "description"    : "Assistance à la maîtrise d’ouvrage pour le pilotage de projets d’équipement industriels depuis la conception jusqu’à la mise en service, incluant éventuellement la réalisation de bâtiments, infrastructures et réseaux.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/assistance-maitrise-d-ouvrage/",
       "tags"           : "",
       "date"           : ""
@@ -302,7 +302,7 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Déploiement",
-      "description"    : "&amp;Ecirc;tre aidé dans la mise en œuvre des décisions.",
+      "description"    : "Mettre en œuvre les décisions d’investissement requière l’utilisation des méthodes de management de projet pour en assurer le suivi, la maîtrise des modifications et la correction des éventuels écarts afin d’atteindre les objectifs du Cahier des Charges.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/votre-situation/deploiement/",
       "tags"           : "",
       "date"           : ""
@@ -316,21 +316,21 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Efficience des Organisations",
-      "description"    : "Les questions qui se posent et auxquelles je pourrais répondre",
+      "description"    : "Améliorer la performance court, moyen et long terme de votre organisation selon les axes humains, organisationnels et techniques, par une approche de management des processus (type BPM), et formaliser le tout par un tableau de bord (type BSC) vous guidera sur le chemin de la performance.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-services/efficience-des-organisations/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
       "title"          : "Efficience",
-      "description"    : "Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet de l’étude macro à l’étude micro. Typiquement, la démarche complète conduit à un doublement d’activité à périmètre de ressources fixes constant.",
+      "description"    : "Améliorer la performance court, moyen et long terme de votre organisation selon les axes humains, organisationnels et techniques, par une approche de management des processus BPM, et formaliser le tout par un tableau de bord de type BSC.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/efficience/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
       "title"          : "&amp;Eacute;laboration",
-      "description"    : "&amp;Ecirc;tre aidé dans l’évaluation et l’organisation du projet.",
+      "description"    : "Décliner sa stratégie en objectifs et moyens opérationnels. Quelle est la faisabilité et la rentabilité, comment organiser le suivi et le pilotage futur des objectifs Business, Qualité, Coûts, Délais et sécurité de vos projets d’investissement.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/votre-situation/elaboration/",
       "tags"           : "",
       "date"           : ""
@@ -379,14 +379,14 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Exploitation",
-      "description"    : "Maintenir, rétablir ou améliorer les performances initiales.",
+      "description"    : "Détecter, formaliser et corriger les dérives et dysfonctionnements, maitriser le comportement, faire évoluer les systèmes vers plus de performance et d’efficience, garantir ou restaurer la disponibilité.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/votre-situation/exploitation/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
       "title"          : "Gestion des Risques",
-      "description"    : "Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA.",
+      "description"    : "Identifier, évaluer, réduire et gérer les risques matériels et immatériels par une approche de type défense en profondeur et une vision duale unique stratégie / risques, c’est la sérénité d’exploitation retrouvée.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/gestion-des-risques/",
       "tags"           : "",
       "date"           : ""
@@ -456,7 +456,7 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Réception",
-      "description"    : "Vérifier l’adaptation aux besoins et la conformité à votre commande.",
+      "description"    : " Réceptionner partiellement, valider les jalons et réceptionner définitivement les livrables doit faire l’objet de protocoles dans une démarche de conception en « V » permettant de vérifier le respect de toutes les exigences du Cahier des Charges de départ ou amendé.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/votre-situation/reception/",
       "tags"           : "",
       "date"           : ""
@@ -470,14 +470,14 @@
     } ,{
       "lang"           : "fr",
       "title"          : "Sûreté de Fonctionnement",
-      "description"    : "Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installations, selon les axes FMDS et LCC.",
+      "description"    : "Prévoir ou améliorer le comportement de votre outil de production et de vos équipements, en termes de fiabilité, Maintenabilité, disponibilité et sécurité dans une vision de performance technico-économique. Levier de rentabilité, 5% de disponibilité induit 25% d’EBE supplémentaire.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-competences/surete-de-fonctionnement/",
       "tags"           : "",
       "date"           : ""
     } ,{
       "lang"           : "fr",
       "title"          : "Sûreté de Fonctionnement",
-      "description"    : "Les questions qui se posent et auxquelles je pourrais répondre",
+      "description"    : "Résoudre vos situations dysfonctionnelles lorsque vous avez épuisé vos ressources courantes sans succès, et maîtriser les risques de votre organisation ainsi que les axes FMDS de vos moyens, est ma valeur ajoutée à votre business intégrant optimisation de la politique de maintenance.",
       "url"            : "https://apehex.github.io/cdm/fr/conseil/mes-services/surete-de-fonctionnement/",
       "tags"           : "",
       "date"           : ""
