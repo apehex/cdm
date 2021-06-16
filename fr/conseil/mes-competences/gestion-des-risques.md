@@ -4,7 +4,7 @@ layout: home
 title: >-
     Gestion des Risques
 description: >-
-    Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA.
+    Identifier, évaluer, réduire et gérer les risques matériels et immatériels par une approche de type défense en profondeur et une vision duale unique stratégie / risques, c’est la sérénité d’exploitation retrouvée.
 background:
     class: inverted
     image:
@@ -16,7 +16,9 @@ header:
 banner:
     title: Gestion des Risques
     subtitle: >-
-        Prévoir, maîtriser et gérer les risques d’une organisation, d’une activité ou d’un projet et définir un plan de continuité d’activité PCA
+        Prévoir, maîtriser et gérer les risques<br>
+        d’une organisation, d’une activité ou d’un projet<br>
+        et définir un plan de continuité d’activité PCA
     description: " "
     button:
         url: >-

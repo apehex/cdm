@@ -4,7 +4,7 @@ layout: home
 title: >-
     Efficience des Organisations
 description: >-
-    Les questions qui se posent et auxquelles je pourrais répondre
+    Améliorer la performance court, moyen et long terme de votre organisation selon les axes humains, organisationnels et techniques, par une approche de management des processus (type BPM), et formaliser le tout par un tableau de bord (type BSC) vous guidera sur le chemin de la performance.
 background:
     class: inverted
     image:

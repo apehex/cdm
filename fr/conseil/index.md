@@ -4,7 +4,7 @@ layout: home
 title: >-
     Ingénierie et Expertise Indépendantes
 description: >-
-    J’accompagne les entreprises de la réflexion stratégique à l’exploitation des moyens. Analyse stratégique, définition de projet, structuration, gestion et pilotage, suivi d’exécution, gestion des risques, résolution de dysfonctionnements et de non-performances, amélioration continue.
+    Dans le cadre de la mise en œuvre de votre stratégie, vous cherchez à palier un manque de ressources humaines, un manque de compétences ou bien vous souhaitez un regard extérieur pour affiner vos projets d’investissement traduisant votre stratégie.
 background:
     class: inverted
     image:

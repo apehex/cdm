@@ -4,7 +4,8 @@ layout: home
 title: >-
     Sûreté de Fonctionnement
 description: >-
-    Maîtriser le comportement prévisionnel ou opérationnel d’équipements et d’installations, selon les axes FMDS et LCC.
+    Prévoir ou améliorer le comportement de votre outil de production et de vos équipements, en termes de fiabilité, Maintenabilité, disponibilité et sécurité dans une vision de performance technico-économique.
+    Levier de rentabilité, 5% de disponibilité induit 25% d’EBE supplémentaire.
 background:
     class: inverted
     image:

@@ -4,7 +4,7 @@ layout: home
 title: >-
     Maintenance
 description: >-
-    Développer la fonction en tant que levier de rentabilité de l’entreprise.
+    Maintenir, rétablir et développer vos performances technico-économique globale d’organisation, et résoudre les situations dysfonctionnelles lorsque vos ressources courantes internes et fournisseurs ont été épuisées sans succès.
 background:
     class: inverted
     image:

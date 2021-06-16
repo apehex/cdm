@@ -4,7 +4,7 @@ layout: home
 title: >-
     Procédés Industriel
 description: >-
-    ?
+    Compétences, pluridisciplinarité et vision globale dans les domaines de la transformation et traitement des matières plastique, métaux, carton, impression offset, CVC et énergie, production électronique, activités en environnement maritime et nucléaire.
 background:
     class: inverted
     image:
@@ -17,14 +17,16 @@ banner:
     title: >-
         Procédés Industriels
     subtitle: >-
-        ?
+        Diversité, complémentarité et<br>
+        cohérence de mes domaines de compétences,<br>
+        une vision à 360°
     description: >-
-        ?
+        Garantie d’une capacité à intégrer en temps réel vos problématiques par transposition des savoirs et savoir-faire.
     button:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez conseil
 ---
 
 {% include expertise/yin/industrial-processes.html %}

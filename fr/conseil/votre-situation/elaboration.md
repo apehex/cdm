@@ -4,7 +4,8 @@ layout: home
 title: >-
     &Eacute;laboration
 description: >-
-    &Ecirc;tre aidé dans l’évaluation et l’organisation du projet.
+     Décliner sa stratégie en objectifs et moyens opérationnels.
+     Quelle est la faisabilité et la rentabilité, comment organiser le suivi et le pilotage futur des objectifs Business, Qualité, Coûts, Délais et sécurité de vos projets d’investissement.
 background:
     class: inverted
     image:
