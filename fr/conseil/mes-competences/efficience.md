@@ -4,8 +4,7 @@ layout: home
 title: >-
     Efficience
 description: >-
-    Prévoir ou améliorer la performance court, moyen et long terme d’une entreprise, d’une activité, d’une fonction ou d’un projet de l’étude macro à l’étude micro.
-    Typiquement, la démarche complète conduit à un doublement d’activité à périmètre de ressources fixes constant.
+    Améliorer la performance court, moyen et long terme de votre organisation selon les axes humains, organisationnels et techniques, par une approche de management des processus BPM, et formaliser le tout par un tableau de bord de type BSC.
 background:
     class: inverted
     image:
@@ -17,9 +16,11 @@ header:
 banner:
     title: Efficience
     subtitle: >-
-        Prévoir ou améliorer la performance d’une entreprise, d’une activité, d’une fonction ou d’un projet.
+        Prévoir ou améliorer la performance d’une entreprise,<br>
+        d’une activité, d’une fonction ou d’un projet.
     description: >-
-        Typiquement, la démarche complète conduit à un doublement d’activité à périmètre de ressources fixes constant.
+        Typiquement, la démarche complète conduit à un<br>
+        doublement d’activité à périmètre de ressources fixes constant.
     button:
         url: >-
             #contact

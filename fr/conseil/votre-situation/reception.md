@@ -4,7 +4,7 @@ layout: home
 title: >-
     Réception
 description: >-
-    Vérifier l’adaptation aux besoins et la conformité à votre commande.
+     Réceptionner partiellement, valider les jalons et réceptionner définitivement les livrables doit faire l’objet de protocoles dans une démarche de conception en « V » permettant de vérifier le respect de toutes les exigences du Cahier des Charges de départ ou amendé.
 background:
     class: inverted
     image:

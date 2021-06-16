@@ -4,7 +4,7 @@ layout: home
 title: >-
     Sûreté de Fonctionnement
 description: >-
-    Les questions qui se posent et auxquelles je pourrais répondre
+    Résoudre vos situations dysfonctionnelles lorsque vous avez épuisé vos ressources courantes sans succès, et maîtriser les risques de votre organisation ainsi que les axes FMDS de vos moyens, est ma valeur ajoutée à votre business intégrant optimisation de la politique de maintenance.
 background:
     class: inverted
     image:

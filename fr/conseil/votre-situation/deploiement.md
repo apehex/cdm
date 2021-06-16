@@ -4,7 +4,7 @@ layout: home
 title: >-
     Déploiement
 description: >-
-    &Ecirc;tre aidé dans la mise en œuvre des décisions.
+    Mettre en œuvre les décisions d’investissement requière l’utilisation des méthodes de management de projet pour en assurer le suivi, la maîtrise des modifications et la correction des éventuels écarts afin d’atteindre les objectifs du Cahier des Charges.
 background:
     class: inverted
     image:

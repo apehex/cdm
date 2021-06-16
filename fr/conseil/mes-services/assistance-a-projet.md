@@ -4,7 +4,7 @@ layout: home
 title: >-
     Assistance à Projet
 description: >-
-    Les questions qui se posent et auxquelles je pourrais répondre
+    Définir et formaliser vos besoins, vos objectifs stratégiques et opérationnels, vos exigences par Cahier des Charges, tout en intégrant l’évolutivité future de votre projet vous apporte la maîtrise des axes BQCDS de ceux-ci.
 background:
     class: inverted
     image:

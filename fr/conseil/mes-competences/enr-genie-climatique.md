@@ -4,7 +4,7 @@ layout: home
 title: >-
     Génie Climatique et ENR
 description: >-
-    ?
+    PAC, Photovoltaïque, Méthanisation, Solaire Thermique, biomasse, géothermie : apporter l’efficience, la fiabilité et le retour sur investissement exigibles de 5 à 20 ans, au lieu de plus de 50 ans fréquemment constaté.
 background:
     class: inverted
     image:
@@ -17,14 +17,16 @@ banner:
     title: >-
         Génie Climatique et ENR
     subtitle: >-
-        ?
+        Assurer vous d’un retour sur investissement (ROI)<br>
+        de 5 à 20 ans selon le sujet.
     description: >-
-        ?
+        Promesse jamais tenue d’expérience par les acteurs traditionnels du marché<br>
+        (en général ROI atteint très supérieur à 40 ans).
     button:
         url: >-
             #contact
         label: >-
-            Ask for Advice
+            Demandez conseil
 ---
 
 {% include expertise/yin/hvac.html %}

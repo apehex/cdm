@@ -4,7 +4,7 @@ layout: home
 title: >-
     Maîtrise d'Ouvrage
 description: >-
-    Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet.
+    Assistance à la maîtrise d’ouvrage pour le pilotage de projets d’équipement industriels depuis la conception jusqu’à la mise en service, incluant éventuellement la réalisation de bâtiments, infrastructures et réseaux.
 background:
     class: inverted
     image:
@@ -16,7 +16,8 @@ header:
 banner:
     title: Maîtrise d'Ouvrage
     subtitle: >-
-        Organiser, Planifier les projets et Maîtriser les objectifs BQCDS d’un projet
+        Organiser, Planifier les projets et<br>
+        Maîtriser les objectifs BQCDS d’un projet
     description: " "
     button:
         url: >-
