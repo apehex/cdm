@@ -33,4 +33,4 @@ banner:
 
 {% include about/clients.html %}
 
-{% include contact.html class="inverted" %}
+{% include contact.html show_name=true show_email=false show_phone=true show_street_address=true class="inverted" %}
